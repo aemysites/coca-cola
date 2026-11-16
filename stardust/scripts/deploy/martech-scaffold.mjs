@@ -109,6 +109,8 @@ function configOf(contract) {
     productionHosts: contract.productionHosts || [],
     cmp: cmp && {
       enabled: !!cmp.enabled, src: cmp.src, attrs: cmp.attrs || {}, groups: cmp.groups || null, event: cmp.event || null,
+      // off the production hosts, e.g. OneTrust's `<id>-test` script, which saves consent on any domain
+      ...(cmp.testAttrs && Object.keys(cmp.testAttrs).length && { testAttrs: cmp.testAttrs }),
     },
     routes: routes.map(({ src, boot, category }) => ({ src, boot: boot || null, category: category || null })),
     ...(am && {
@@ -136,7 +138,7 @@ async function startWebSdk() {
 
 export function loadConsent() {
   if (!on) return;
-  if (CONFIG.cmp?.enabled) load(CONFIG.cmp.src, CONFIG.cmp.attrs);
+  if (CONFIG.cmp?.enabled) load(CONFIG.cmp.src, cmpAttrs);
   webSdk = startWebSdk();
 }
 
@@ -161,7 +163,9 @@ const params = new URLSearchParams(window.location.search);
 const production = CONFIG.productionHosts.includes(window.location.host);
 const on = production || params.get('martech') === 'on';
 const acceptAll = !production && params.get('consent') === 'accept';
-
+${config.cmp?.testAttrs ? `// off production, the CMP's test setup: the production one saves consent there only
+const cmpAttrs = production ? CONFIG.cmp.attrs : { ...CONFIG.cmp.attrs, ...CONFIG.cmp.testAttrs };
+` : 'const cmpAttrs = CONFIG.cmp?.attrs;\n'}
 function load(src, attrs = {}) {
   const script = document.createElement('script');
   script.src = src;
@@ -208,7 +212,7 @@ export function hasConsent() {
 
 ${config.aemMartech ? AM_CONSENT.slice(1) : `export function loadConsent() {
   if (!on || !CONFIG.cmp?.enabled) return;
-  load(CONFIG.cmp.src, CONFIG.cmp.attrs);
+  load(CONFIG.cmp.src, cmpAttrs);
 }
 
 export function loadAnalytics() {}

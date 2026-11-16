@@ -15,6 +15,9 @@
    "attrs": {
     "data-domain-script": "0c78f894-f494-492b-8b21-a0bf3c6bfdfd"
    },
+   "testAttrs": {
+    "data-domain-script": "0c78f894-f494-492b-8b21-a0bf3c6bfdfd-test"
+   },
    "groups": "OnetrustActiveGroups",
    "event": "OneTrustGroupsUpdated",
    "viaTagManager": false,

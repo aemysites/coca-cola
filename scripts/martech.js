@@ -11,6 +11,9 @@ const CONFIG = {
     },
     groups: 'OnetrustActiveGroups',
     event: 'OneTrustGroupsUpdated',
+    testAttrs: {
+      'data-domain-script': '0c78f894-f494-492b-8b21-a0bf3c6bfdfd-test',
+    },
   },
   routes: [
     {
@@ -25,6 +28,8 @@ const params = new URLSearchParams(window.location.search);
 const production = CONFIG.productionHosts.includes(window.location.host);
 const on = production || params.get('martech') === 'on';
 const acceptAll = !production && params.get('consent') === 'accept';
+// off production, the CMP's test setup: the production one saves consent there only
+const cmpAttrs = production ? CONFIG.cmp.attrs : { ...CONFIG.cmp.attrs, ...CONFIG.cmp.testAttrs };
 
 function load(src, attrs = {}) {
   const script = document.createElement('script');
@@ -72,7 +77,7 @@ export function hasConsent() {
 
 export function loadConsent() {
   if (!on || !CONFIG.cmp?.enabled) return;
-  load(CONFIG.cmp.src, CONFIG.cmp.attrs);
+  load(CONFIG.cmp.src, cmpAttrs);
 }
 
 export function loadAnalytics() {}

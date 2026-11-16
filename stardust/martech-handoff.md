@@ -5,6 +5,8 @@ Everything below is scaffolded **off**. To ship it, set `enabled: true` on `cons
 ## Consent
 
 - **CMP:** OneTrust · `data-domain-script` = `0c78f894-f494-492b-8b21-a0bf3c6bfdfd`
+- **Off production** (`*.aem.page`, `*.aem.live`, localhost) the page loads OneTrust's test script `0c78f894-f494-492b-8b21-a0bf3c6bfdfd-test` (`consent.cmp.testAttrs`). The production script is set up for `coca-cola.com` and writes its consent cookie for `.coca-cola.com`. Browsers drop that cookie on any other domain, so consent stays at Necessary only and GTM fires no analytics. `www.coca-cola.com` keeps the production script.
+- **Testing analytics:** use a market path, e.g. `/us/en?martech=on`. GTM picks the datastream, GA4 property and Floodlight IDs from the first path segment, so `/` sends no analytics (only Floodlight with `src=undefined`).
 - **Model `owner-decision`:** no evidence of consent gating inside the tag manager. Keep the source behaviour (route `category` null), or set a route `category` to a consent group id to load that tag manager only once the group is granted.
 - **Google Consent Mode:** consent-mode calls in `tags/www.googletagmanager.com-gtm-GTM-NBWPCZW.js`. Check it with the owner before gating a route on a category.
 - **Categories** (default rule set of 3 geo rule sets — the CMP applies them, nothing to port): `1` Necessary (always active) · `2` Analytics Cookies (inactive landingpage) · `4` Advertising  (inactive landingpage) · `3` Personalization  (inactive landingpage) · `5` Social Media Cookies (inactive landingpage)

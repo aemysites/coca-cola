@@ -277,6 +277,19 @@ await check('runtime: ?martech=on&consent=accept loads the CMP and every enabled
   assert.equal(b.win.dataLayer[0].event, 'gtm.js');
 });
 
+await check('runtime: consent.cmp.testAttrs replaces the CMP attrs off the production hosts only', async () => {
+  const data = contract();
+  data.consent.cmp.testAttrs = { 'data-domain-script': 'test-id-test' };
+  const root = site({ data });
+  assert.equal(run(root).status, 0);
+  const preview = await boot({ root, search: '?martech=on&consent=accept' });
+  assert.equal(preview.added[0].src, CMP);
+  assert.equal(preview.added[0].attrs['data-domain-script'], 'test-id-test');
+  const prod = await boot({ root, host: 'www.example.test', groups: ',C0001,' });
+  assert.equal(prod.added[0].attrs['data-domain-script'], 'test-id');
+  assert.match(run(root).stdout, /unchanged|CMP/, 're-running is stable');
+});
+
 await check('runtime: production — ungated route loads at once, the C0004 route waits for the CMP to grant it', async () => {
   const b = await boot({ host: 'www.example.test', groups: ',C0001,' });
   assert.deepEqual(b.srcs(), [CMP, LAUNCH]);

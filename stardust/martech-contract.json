@@ -74,7 +74,9 @@
    "boot": "gtm",
    "category": null,
    "cmpGroups": [],
-   "enabled": false
+   "enabled": false,
+   "loadedBy": "google-tag-manager-1",
+   "note": "Do not enable. GTM-NCZ3RJJ (011333-WEB-ONEXP CON CORP-CORP LCL United States) is a GTM Zone child container: GTM-NBWPCZW loads it itself via __zone tag #4709 (resource.tags[82]) on Page Path /us/(.*). Enabling this route too loads it twice and double-counts its page views and events. Its library was not saved."
   }
  ],
  "otherTags": [
@@ -1588,14 +1590,10 @@
     }
    ],
    "notes": [
-    {
-     "text": "Container GTM-NBWPCZW: 249 tags (__gclidw×1, __googtag×1, __gaawe×33, __cvt_7164284_3131×1, __cvt_7164284_3243×21, __cvt_7164284_4252×4, __cvt_5RM3Q×4, __cvt_MRQN8×3, __flc×4, __cvt_7164284_4220×5, __cvt_7164284_4134×2, __cvt_7164284_4410×1, __zone×87, __cl×11, __tg×48, __lcl×6, __ytl×2, __jel×1, __html×14), 238 variables, 108 triggers. A second container (GTM-NCZ3RJJ) is loaded at runtime; its library was not saved.",
-     "from": "stardust/martech/tags/www.googletagmanager.com-gtm-GTM-NBWPCZW.js resource"
-    },
-    {
-     "text": "Consent is read inside the container (variable OnetrustActiveGroups and DOM selector script[src*=cookielaw][data-domain-script]); tags gate on it inside GTM.",
-     "from": "stardust/martech/tags/www.googletagmanager.com-gtm-GTM-NBWPCZW.js resource.macros (vtp_name OnetrustActiveGroups)"
-    }
+    "Container GTM-NBWPCZW: 249 tags (__gclidw×1, __googtag×1, __gaawe×33, __cvt_7164284_3131×1, __cvt_7164284_3243×21, __cvt_7164284_4252×4, __cvt_5RM3Q×4, __cvt_MRQN8×3, __flc×4, __cvt_7164284_4220×5, __cvt_7164284_4134×2, __cvt_7164284_4410×1, __zone×87, __cl×11, __tg×48, __lcl×6, __ytl×2, __jel×1, __html×14), 238 variables, 108 triggers. A second container (GTM-NCZ3RJJ) is loaded at runtime as a GTM Zone child of this container (__zone tag #4709, resource.tags[82], Page Path /us/(.*)); keep route google-tag-manager-2 off; its library was not saved. — from `stardust/martech/tags/www.googletagmanager.com-gtm-GTM-NBWPCZW.js resource`",
+    "Consent is read inside the container (variable OnetrustActiveGroups and DOM selector script[src*=cookielaw][data-domain-script]); tags gate on it inside GTM. — from `stardust/martech/tags/www.googletagmanager.com-gtm-GTM-NBWPCZW.js resource.macros (vtp_name OnetrustActiveGroups)`",
+    "The Adobe Web SDK runs inside this container (there is no Launch): custom HTML tag #3300 (resource.tags[235]) sets up the `window.alloy` queue, and custom template `__cvt_7164284_3243` (21 tags, configured by tag #3921, resource.tags[38]) configures the SDK and sends its events. Config: orgId `9075A2B154DE8AF80A4C98A7@AdobeOrg` (resource.macros[59]), edge domain `smetrics.coca-cola.com` (resource.macros[65]), version from cookie `alloy_version` (resource.macros[58]; constant `2.35.0` at resource.macros[57]). Enabling route google-tag-manager-1 brings the SDK along; switching to aem-martech means pausing those GTM tags first, or the SDK loads twice. — from `stardust/martech/tags/www.googletagmanager.com-gtm-GTM-NBWPCZW.js` resource.tags[38], resource.tags[235]",
+    "Datastream is chosen per region by custom template `__cvt_7164284_3235` (resource.macros[53]); the market is URL path segment 1 (resource.macros[6]), mapped to a region by resource.macros[52]; cookie `alloy_send_to` can switch to dev; paused markets `aw|bb|bs|bz|cn|cw|gd|ht|lc|mo|mt|ru|tt|xh`. prod / dev: amer (incl. us) `2f98ea35-c6c2-4d6e-8244-3e36d267e7d9` / `6f74bb4e-2091-486b-8927-d72080d7353b` · emea `ac6c3aeb-a790-43f4-bde1-65deff4205b2` / `4bf7d719-0da6-4f27-8e45-628adeca5892` · apac `7b7a5287-0a24-48f9-b77f-e234668dca15` / `5a93a4f9-5a6f-45dc-81c2-86ef97fd4eba` · xx (fallback) `2f98ea35-c6c2-4d6e-8244-3e36d267e7d9` / `4bf7d719-0da6-4f27-8e45-628adeca5892` · zz (fallback) `4bf7d719-0da6-4f27-8e45-628adeca5892` / `4bf7d719-0da6-4f27-8e45-628adeca5892`. aemMartech takes one datastreamId, so config.datastreamId stays empty until the owner picks one per market. — from `stardust/martech/tags/www.googletagmanager.com-gtm-GTM-NBWPCZW.js` resource.macros[53]"
    ]
   }
  },
@@ -1618,16 +1616,24 @@
    ]
   },
   "config": {
-   "orgId": null,
+   "orgId": "9075A2B154DE8AF80A4C98A7@AdobeOrg",
    "datastreamId": null,
    "alloyInstanceName": "alloy",
-   "edgeDomain": null,
+   "edgeDomain": "smetrics.coca-cola.com",
    "defaultConsent": null,
    "launchUrls": []
   },
   "candidates": {
-   "datastreamId": [],
-   "stagingDatastreamId": []
+   "datastreamId": [
+    "2f98ea35-c6c2-4d6e-8244-3e36d267e7d9",
+    "ac6c3aeb-a790-43f4-bde1-65deff4205b2",
+    "7b7a5287-0a24-48f9-b77f-e234668dca15"
+   ],
+   "stagingDatastreamId": [
+    "6f74bb4e-2091-486b-8927-d72080d7353b",
+    "4bf7d719-0da6-4f27-8e45-628adeca5892",
+    "5a93a4f9-5a6f-45dc-81c2-86ef97fd4eba"
+   ]
   },
   "extension": null,
   "missingExtensions": [],

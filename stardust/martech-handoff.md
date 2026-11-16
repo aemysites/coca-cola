@@ -1,6 +1,6 @@
 # Martech hand-off
 
-Everything below is scaffolded **off**. To ship it, set `enabled: true` on `consent.cmp` and on each route in `stardust/martech-contract.json`, then re-run `deploy/scripts/martech-scaffold.mjs` and `dynamics/scripts/dynamics-check.mjs` to confirm the enabled tags load. Enabled tags load on `www.coca-cola.com` only; preview with `?martech=on` (add `&consent=accept` to grant every category).
+Everything below is scaffolded **off**. To ship it, set `enabled: true` on `consent.cmp` and on route `google-tag-manager-1` in `stardust/martech-contract.json` (**not** `google-tag-manager-2` — see Routes), then re-run `deploy/scripts/martech-scaffold.mjs` and `dynamics/scripts/dynamics-check.mjs` to confirm the enabled tags load. Enabled tags load on `www.coca-cola.com` only; preview with `?martech=on` (add `&consent=accept` to grant every category).
 
 ## Consent
 
@@ -14,13 +14,15 @@ Everything below is scaffolded **off**. To ship it, set `enabled: true` on `cons
 | id | vendor | src | CMP groups listing its host | enabled |
 |---|---|---|---|---|
 | google-tag-manager-1 | Google Tag Manager | `https://www.googletagmanager.com/gtm.js?id=GTM-NBWPCZW` | — | false |
-| google-tag-manager-2 | Google Tag Manager | `https://www.googletagmanager.com/gtm.js?id=GTM-NCZ3RJJ&gtm=4e6bb1` | — | false |
+| google-tag-manager-2 | Google Tag Manager | `https://www.googletagmanager.com/gtm.js?id=GTM-NCZ3RJJ&gtm=4e6bb1` | — | false — **keep off** |
 
-Also seen, not routed (loaded by the tag manager or inline on the source — confirm each still fires): analytics: Adobe Experience Platform Web SDK · analytics: Google Analytics / Ads · marketing: ad / retargeting pixel.
+**Do not enable `google-tag-manager-2`.** `GTM-NCZ3RJJ` ("011333-WEB-ONEXP CON CORP-CORP LCL United States") is a GTM Zone child container. `GTM-NBWPCZW` loads it itself: `__zone` tag #4709 (resource.tags[82]) with the boundary Page Path matches `/us/(.*)`. The `&gtm=4e6bb1` parameter in the captured URL is the mark of a zone load. Enabling the route as well loads the container twice on every `/us/…` page and double-counts its page views and events. It is one of 87 `__zone` child containers (one per market) in the parent. Keep the route disabled, or delete it from the contract.
+
+Also seen, not routed (all loaded by `GTM-NBWPCZW`, none directly by the page — confirm each still fires once GTM is on): analytics: Adobe Experience Platform Web SDK (see Web SDK below) · analytics: Google Analytics / Ads · marketing: ad / retargeting pixel.
 
 ## Rewrite before go-live
 
-These read the old URLs or DOM and will not match the migrated pages:
+These read the old URLs or DOM and will not match the migrated pages. **Coverage gap:** this list (and the Data layer list below) covers `GTM-NBWPCZW` only. The library of the child container `GTM-NCZ3RJJ` was not saved, so its rules, selectors and data-layer events have not been reviewed. Export it, or ask the owner for it, and review it the same way before go-live.
 - Google Tag Manager rule __cvt_MRQN8 #3619 — selectors `div.header__top-sign-up-button button` — read by the model at stardust/martech/tags/www.googletagmanager.com-gtm-GTM-NBWPCZW.js resource.rules[29] → resource.tags[24]
 - Google Tag Manager rule __flc #3780 — selectors `div.header__login-section .header__log-in-button .cmp-button, div.header__login-section--mobile .header__log-in-button .cmp-button` — read by the model at stardust/martech/tags/www.googletagmanager.com-gtm-GTM-NBWPCZW.js resource.rules[36] → resource.tags[33]
 - Google Tag Manager rule __gaawe Click #4069 — selectors `div.header__login-section .header__log-in-button .cmp-button, div.header__login-section--mobile .header__log-in-button .cmp-button` — read by the model at stardust/martech/tags/www.googletagmanager.com-gtm-GTM-NBWPCZW.js resource.rules[36] → resource.tags[52]
@@ -129,17 +131,30 @@ Ask the owner for the tagging plan (solution design reference): each event, its 
 ## Tag-manager notes (read by the model, not parsed)
 
 **Google Tag Manager:**
-- [object Object]
-- [object Object]
+- Container `GTM-NBWPCZW`: 249 tags (`__gclidw`×1, `__googtag`×1, `__gaawe`×33, `__cvt_7164284_3131`×1, `__cvt_7164284_3243`×21, `__cvt_7164284_4252`×4, `__cvt_5RM3Q`×4, `__cvt_MRQN8`×3, `__flc`×4, `__cvt_7164284_4220`×5, `__cvt_7164284_4134`×2, `__cvt_7164284_4410`×1, `__zone`×87, `__cl`×11, `__tg`×48, `__lcl`×6, `__ytl`×2, `__jel`×1, `__html`×14), 238 variables, 108 triggers. A second container (`GTM-NCZ3RJJ`) is loaded at runtime as a zone child (see Routes); its library was not saved. — from `stardust/martech/tags/www.googletagmanager.com-gtm-GTM-NBWPCZW.js` resource
+- Consent is read inside the container (variable `OnetrustActiveGroups` and DOM selector `script[src*=cookielaw][data-domain-script]`); tags gate on it inside GTM. — from `stardust/martech/tags/www.googletagmanager.com-gtm-GTM-NBWPCZW.js` resource.macros (vtp_name OnetrustActiveGroups)
+- The Adobe Web SDK runs inside this container: custom HTML tag #3300 (resource.tags[235]) sets up the `window.alloy` queue, and the custom template `__cvt_7164284_3243` (21 tags, configured by tag #3921, resource.tags[38]) configures the SDK and sends its events. See Web SDK below.
 
 Confirm everything read by the model against the owner's tagging plan.
 
 ## Web SDK (aem-martech)
 
-The source runs the Adobe Experience Platform Web SDK outside Launch. The `aem-martech` plugin can load it on the migrated site instead. It is off; the routes above stay the default.
+The source has no Adobe Launch. It runs the Adobe Experience Platform Web SDK **inside `GTM-NBWPCZW`** (see Tag-manager notes). **Default: enable route `google-tag-manager-1` and the SDK comes with it, with no extra setup.** The `aemMartech` plugin is optional and off. Only switch to it if the owner wants the SDK out of GTM (see below).
 
-- **orgId:** **not found — fill it in the contract** · **instance:** `alloy` · **edge domain:** **not found — fill it in the contract**
-- **datastreamId:** **not found — fill it in the contract**
-- **defaultConsent:** source unknown; the plugin defaults to `pending` and sends nothing until `updateUserConsent`. With `aemMartech.category` set, the scaffold starts the SDK `pending` whatever this value and grants `collect` once the CMP grants that group; without a category, this value applies as is. Launch rules that call `setConsent` on the source are not read — set the category to keep a consent gate.
+Values read from the GTM container (they are not yet in the contract's `aemMartech.config`):
 
-To switch: (1) `git subtree add --squash --prefix plugins/martech https://github.com/adobe-rnd/aem-martech.git main`; (2) in Launch, set the Web SDK extension to the self-hosted build with the same instance name and publish — otherwise the SDK loads twice; (3) set `aemMartech.enabled` and leave the `adobe-launch` route disabled (the plugin loads `launchUrls`); (4) re-run the scaffold.
+- **orgId:** `9075A2B154DE8AF80A4C98A7@AdobeOrg` (resource.macros[59]) · **instance:** `alloy` · **edge domain:** `smetrics.coca-cola.com`, a first-party CNAME (resource.macros[65]) · **version:** from cookie `alloy_version` (macros[58]); the container also defines the constant `2.35.0` (macros[57])
+- **datastreamId:** no single ID. It is chosen per region by custom template `__cvt_7164284_3235` (resource.macros[53]). The market is the first URL path segment (`/us/…` → `us`, macros[6]), and macros[52] maps it to a region. Cookie `alloy_send_to` can switch to the dev datastream. Paused markets: `aw|bb|bs|bz|cn|cw|gd|ht|lc|mo|mt|ru|tt|xh`.
+
+| region | prod datastream | dev datastream |
+|---|---|---|
+| amer (incl. `us`) | `2f98ea35-c6c2-4d6e-8244-3e36d267e7d9` | `6f74bb4e-2091-486b-8927-d72080d7353b` |
+| emea | `ac6c3aeb-a790-43f4-bde1-65deff4205b2` | `4bf7d719-0da6-4f27-8e45-628adeca5892` |
+| apac | `7b7a5287-0a24-48f9-b77f-e234668dca15` | `5a93a4f9-5a6f-45dc-81c2-86ef97fd4eba` |
+| xx (fallback) | `2f98ea35-c6c2-4d6e-8244-3e36d267e7d9` | `4bf7d719-0da6-4f27-8e45-628adeca5892` |
+| zz (fallback) | `4bf7d719-0da6-4f27-8e45-628adeca5892` | `4bf7d719-0da6-4f27-8e45-628adeca5892` |
+
+  Because the market comes from the path, a page outside `/{market}/…` (for example the migrated `/`) resolves no market, and the US datastream and the zone container will not apply there.
+- **defaultConsent:** not set by the GTM tags read here; consent is gated inside GTM via `OnetrustActiveGroups`. If you switch to the plugin: it defaults to `pending` and sends nothing until `updateUserConsent`. With `aemMartech.category` set, the scaffold starts the SDK `pending` whatever this value is, and grants `collect` once the CMP grants that group. Without a category, this value applies as is.
+
+To switch to the plugin (optional): (1) `git subtree add --squash --prefix plugins/martech https://github.com/adobe-rnd/aem-martech.git main`; (2) in **GTM** (there is no Launch property), pause custom HTML tag #3300 and all 21 `__cvt_7164284_3243` Web SDK tags, or otherwise the SDK loads twice. Move their events (page view, promo, form, video, auth, etc.) to the plugin or to data-layer handlers; (3) fill `aemMartech.config` with the orgId and edge domain above. Pick the datastream per market, because the plugin takes one ID and the source switches by region. Then set `aemMartech.enabled`. `launchUrls` stays empty; (4) re-run the scaffold.

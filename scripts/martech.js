@@ -4,7 +4,7 @@ const CONFIG = {
     'www.coca-cola.com',
   ],
   cmp: {
-    enabled: false,
+    enabled: true,
     src: 'https://cdn.cookielaw.org/scripttemplates/otSDKStub.js',
     attrs: {
       'data-domain-script': '0c78f894-f494-492b-8b21-a0bf3c6bfdfd',
@@ -12,7 +12,13 @@ const CONFIG = {
     groups: 'OnetrustActiveGroups',
     event: 'OneTrustGroupsUpdated',
   },
-  routes: [],
+  routes: [
+    {
+      src: 'https://www.googletagmanager.com/gtm.js?id=GTM-NBWPCZW',
+      boot: 'gtm',
+      category: null,
+    },
+  ],
 };
 
 const params = new URLSearchParams(window.location.search);

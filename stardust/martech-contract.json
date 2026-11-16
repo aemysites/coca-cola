@@ -18,7 +18,7 @@
    "groups": "OnetrustActiveGroups",
    "event": "OneTrustGroupsUpdated",
    "viaTagManager": false,
-   "enabled": false
+   "enabled": true
   },
   "model": "owner-decision",
   "categories": [
@@ -65,7 +65,7 @@
    "boot": "gtm",
    "category": null,
    "cmpGroups": [],
-   "enabled": false
+   "enabled": true
   },
   {
    "id": "google-tag-manager-2",

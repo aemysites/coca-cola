@@ -1,0 +1,11 @@
+{
+  "variantName": "teaser-block",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Grid of promo content cards; each whole card is a link with an image on top, title, body text and an arrow label.",
+  "contentPattern": "One row per card: image | h3 title, body paragraph, link paragraph (link text is the arrow label, its href is the card link). Section heading and trailing CTA are default content in the section.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Small grid (typically two) of promotional teaser cards.",
+  "reuseGuidance": "Reuse for static grids of linked promo cards. Use carousel when cards should scroll."
+}

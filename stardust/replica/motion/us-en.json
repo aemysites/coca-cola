@@ -1,0 +1,1145 @@
+{
+  "url": "https://www.coca-cola.com/us/en",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "experiencefragment",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 0,
+      "cls": "experiencefragment",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 1200,
+      "cls": "experiencefragment",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 2400,
+      "cls": "experiencefragment",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 3600,
+      "cls": "experiencefragment",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 4800,
+      "cls": "experiencefragment",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 4707,
+      "cls": "experiencefragment",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 3207,
+      "cls": "experiencefragment",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 2400,
+      "cls": "experiencefragment",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 1200,
+      "cls": "experiencefragment",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 800,
+      "cls": "experiencefragment",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 500,
+      "cls": "experiencefragment",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 300,
+      "cls": "experiencefragment",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 200,
+      "cls": "experiencefragment",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 150,
+      "cls": "experiencefragment",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 120,
+      "cls": "experiencefragment",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 90,
+      "cls": "experiencefragment",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 60,
+      "cls": "experiencefragment",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 30,
+      "cls": "experiencefragment",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 0,
+      "cls": "experiencefragment",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": "#splide02 .splide__pagination li:nth-child(2) button",
+      "frames": [
+        {
+          "t": 20338.69999999972,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 20541.899999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 20832.100000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 21035.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "#splide03 .splide__pagination li:nth-child(2) button",
+      "frames": [
+        {
+          "t": 22084.600000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 22288.100000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 22491.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 22694.399999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "#text-6164b3f4bd > ul > li:nth-child(2) > a",
+      "frames": [
+        {
+          "t": 23860,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 24064.899999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 24268.899999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 24477.19999999972,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": "#splide02 .splide__slide.is-active .content-card a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "h3.cmp-teaser__title",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.cmp-image__image",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "opacity 0.4s"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "h3.cmp-teaser__title",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.cmp-image__image",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "opacity 0.4s"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "#teaser-c8e377d167 .cmp-teaser__action-link",
+      "changed": [
+        "self.boxShadow"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "rgb(0, 0, 0) 0px 0px 0px 2px inset",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "#button-eb2f81a211",
+      "changed": [
+        "self.boxShadow"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 0, 0)",
+          "boxShadow": "rgb(108, 108, 108) 0px 0px 0px 4px inset",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".brands-list .cmp-image__link",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.cmp-image__image",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "none"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.cmp-image__image",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "none"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "#text-6164b3f4bd > ul > li:first-child > a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".footer__mobile-accordion li:first-child a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "opacity",
+        "el": "div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible > img.cmp-image__image",
+        "y": 1600,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible > img.cmp-image__image",
+        "y": 1600,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible > img.cmp-image__image",
+        "y": 1600,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible > img.cmp-image__image",
+        "y": 1600,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible > img.cmp-image__image",
+        "y": 1600,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible > img.cmp-image__image",
+        "y": 1600,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible > img.cmp-image__image",
+        "y": 1600,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible > img.cmp-image__image",
+        "y": 1600,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible > img.cmp-image__image",
+        "y": 1600,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible > img.cmp-image__image",
+        "y": 1600,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible > img.cmp-image__image",
+        "y": 2400,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible > img.cmp-image__image",
+        "y": 3200,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible > img.cmp-image__image",
+        "y": 4000,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible > img.cmp-image__image",
+        "y": 4000,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible > img.cmp-image__image",
+        "y": 4000,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible > img.cmp-image__image",
+        "y": 4000,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible > img.cmp-image__image",
+        "y": 4000,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible > img.cmp-image__image",
+        "y": 4000,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible > img.cmp-image__image",
+        "y": 4000,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cmp-container > div.carousel.panelcontainer.fade-in-observed > ul.splide__pagination.splide__pagination--ltr > li > button.splide__pagination__page",
+        "y": 2166,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cmp-container > div.carousel.panelcontainer.fade-in-observed > ul.splide__pagination.splide__pagination--ltr > li > button.splide__pagination__page.is-active",
+        "y": 2166,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.container.responsivegrid.container__content > div.cmp-container > div.carousel.panelcontainer.fade-in-observed > div.cmp-carousel.splide__track.splide__track--loop > div.cmp-carousel__content.splide__list",
+        "y": 2166,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cmp-container > div.carousel.panelcontainer.carousel--card-secondary > ul.splide__pagination.splide__pagination--ltr > li > button.splide__pagination__page",
+        "y": 4514,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "width",
+        "el": "div.cmp-container > div.carousel.panelcontainer.carousel--card-secondary > ul.splide__pagination.splide__pagination--ltr > li > button.splide__pagination__page.is-active",
+        "y": 4514,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.container.responsivegrid.container__content > div.cmp-container > div.carousel.panelcontainer.carousel--card-secondary > div.cmp-carousel.splide__track.splide__track--loop > div.cmp-carousel__content.splide__list",
+        "y": 4514,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.visible.loaded > img.cmp-image__image",
+        "y": 4514,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "rotate",
+        "el": "div.text > div > div.cmp-text > ul > li.has-submenu.sublist-is-open",
+        "y": 0,
+        "dur": "0s"
+      },
+      {
+        "prop": "scale",
+        "el": "div.cmp-container > div.container.responsivegrid.brands-list > div.cmp-container > div.adaptiveImage.image.color-variants--primary > div.cmp-adaptive-image.cmp-image",
+        "y": 4761,
+        "dur": "0s"
+      },
+      {
+        "prop": "scale",
+        "el": "div.cmp-container > div.container.responsivegrid.brands-list > div.cmp-container > div.adaptiveImage.image.color-variants--primary > div.cmp-adaptive-image.cmp-image",
+        "y": 0,
+        "dur": "0s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible",
+        "y": 400
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible",
+        "y": 400
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible",
+        "y": 1600
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible",
+        "y": 1600
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible",
+        "y": 1600
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible",
+        "y": 1600
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible",
+        "y": 1600
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible",
+        "y": 1600
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible",
+        "y": 1600
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible",
+        "y": 1600
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible",
+        "y": 1600
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible",
+        "y": 1600
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.teaser.campaign-card.content-on-bottom > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded",
+        "y": 1600
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "div.teaser.campaign-card.content-on-bottom > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible",
+        "y": 2400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded",
+        "y": 2400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded",
+        "y": 2400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded",
+        "y": 2400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded",
+        "y": 2400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded",
+        "y": 2400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded",
+        "y": 2400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded",
+        "y": 2400
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "div.teaser.campaign-card.content-on-bottom > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible",
+        "y": 3200
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible",
+        "y": 4000
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible",
+        "y": 4000
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible",
+        "y": 4000
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible",
+        "y": 4000
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible",
+        "y": 4000
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.visible",
+        "y": 4000
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.visible",
+        "y": 4000
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.visible",
+        "y": 4000
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.visible",
+        "y": 4000
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible",
+        "y": 4000
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.loaded.visible",
+        "y": 4000
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.visible",
+        "y": 4000
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.visible",
+        "y": 4000
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.visible",
+        "y": 4000
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.visible",
+        "y": 4000
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.visible",
+        "y": 4000
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.visible",
+        "y": 4000
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.cmp-container > div.carousel.panelcontainer.fade-in-observed > ul.splide__pagination.splide__pagination--ltr > li > button.splide__pagination__page.is-active",
+        "y": 2166
+      },
+      {
+        "added": [
+          "is-prev"
+        ],
+        "el": "div.cmp-container > div.carousel.panelcontainer.fade-in-observed > div.cmp-carousel.splide__track.splide__track--loop > div.cmp-carousel__content.splide__list > div.cmp-carousel__item.cmp-carousel__item--active.splide__slide",
+        "y": 2166
+      },
+      {
+        "added": [
+          "is-prev"
+        ],
+        "el": "div.cmp-container > div.carousel.panelcontainer.fade-in-observed > div.cmp-carousel.splide__track.splide__track--loop > div.cmp-carousel__content.splide__list > div.cmp-carousel__item.cmp-carousel__item--active.splide__slide",
+        "y": 2166
+      },
+      {
+        "added": [
+          "is-prev"
+        ],
+        "el": "div.cmp-container > div.carousel.panelcontainer.fade-in-observed > div.cmp-carousel.splide__track.splide__track--loop > div.cmp-carousel__content.splide__list > div.cmp-carousel__item.cmp-carousel__item--active.splide__slide",
+        "y": 2166
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.cmp-container > div.carousel.panelcontainer.fade-in-observed > div.cmp-carousel.splide__track.splide__track--loop > div.cmp-carousel__content.splide__list > div.cmp-carousel__item.splide__slide.is-visible",
+        "y": 2166
+      },
+      {
+        "added": [
+          "is-visible",
+          "is-next"
+        ],
+        "el": "div.cmp-container > div.carousel.panelcontainer.fade-in-observed > div.cmp-carousel.splide__track.splide__track--loop > div.cmp-carousel__content.splide__list > div.cmp-carousel__item.cmp-carousel__item--active.splide__slide",
+        "y": 2166
+      },
+      {
+        "added": [
+          "is-next"
+        ],
+        "el": "div.cmp-container > div.carousel.panelcontainer.fade-in-observed > div.cmp-carousel.splide__track.splide__track--loop > div.cmp-carousel__content.splide__list > div.cmp-carousel__item.cmp-carousel__item--active.splide__slide",
+        "y": 2166
+      },
+      {
+        "added": [
+          "is-next"
+        ],
+        "el": "div.cmp-container > div.carousel.panelcontainer.fade-in-observed > div.cmp-carousel.splide__track.splide__track--loop > div.cmp-carousel__content.splide__list > div.cmp-carousel__item.cmp-carousel__item--active.splide__slide",
+        "y": 2166
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.cmp-container > div.carousel.panelcontainer.carousel--card-secondary > ul.splide__pagination.splide__pagination--ltr > li > button.splide__pagination__page.is-active",
+        "y": 4514
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "a > div.cmp-teaser > div.cmp-teaser__image > div.cmp-adaptive-image.cmp-image > picture.visible.loaded",
+        "y": 4514
+      },
+      {
+        "added": [
+          "is-prev"
+        ],
+        "el": "div.cmp-container > div.carousel.panelcontainer.carousel--card-secondary > div.cmp-carousel.splide__track.splide__track--loop > div.cmp-carousel__content.splide__list > div.cmp-carousel__item.cmp-carousel__item--active.splide__slide",
+        "y": 4514
+      },
+      {
+        "added": [
+          "is-prev"
+        ],
+        "el": "div.cmp-container > div.carousel.panelcontainer.carousel--card-secondary > div.cmp-carousel.splide__track.splide__track--loop > div.cmp-carousel__content.splide__list > div.cmp-carousel__item.cmp-carousel__item--active.splide__slide",
+        "y": 4514
+      },
+      {
+        "added": [
+          "is-prev"
+        ],
+        "el": "div.cmp-container > div.carousel.panelcontainer.carousel--card-secondary > div.cmp-carousel.splide__track.splide__track--loop > div.cmp-carousel__content.splide__list > div.cmp-carousel__item.cmp-carousel__item--active.splide__slide",
+        "y": 4514
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.cmp-container > div.carousel.panelcontainer.carousel--card-secondary > div.cmp-carousel.splide__track.splide__track--loop > div.cmp-carousel__content.splide__list > div.cmp-carousel__item.splide__slide.is-visible",
+        "y": 4514
+      },
+      {
+        "added": [
+          "is-next"
+        ],
+        "el": "div.cmp-container > div.carousel.panelcontainer.carousel--card-secondary > div.cmp-carousel.splide__track.splide__track--loop > div.cmp-carousel__content.splide__list > div.cmp-carousel__item.splide__slide.is-visible",
+        "y": 4514
+      },
+      {
+        "added": [
+          "is-next"
+        ],
+        "el": "div.cmp-container > div.carousel.panelcontainer.carousel--card-secondary > div.cmp-carousel.splide__track.splide__track--loop > div.cmp-carousel__content.splide__list > div.cmp-carousel__item.splide__slide.is-visible",
+        "y": 4514
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "div.cmp-container > div.carousel.panelcontainer.carousel--card-secondary > div.cmp-carousel.splide__track.splide__track--loop > div.cmp-carousel__content.splide__list > div.cmp-carousel__item.splide__slide.is-visible",
+        "y": 4514
+      },
+      {
+        "added": [
+          "sublist-is-open"
+        ],
+        "el": "div.text > div > div.cmp-text > ul > li.has-submenu.sublist-is-open",
+        "y": 0
+      }
+    ]
+  }
+}

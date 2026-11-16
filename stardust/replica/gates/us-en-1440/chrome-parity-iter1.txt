@@ -1,0 +1,56 @@
+[live-session] STARDUST_STEALTH=0: automation-signal handling is OFF for this process
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.coca-cola.com/us/en
+  build: http://localhost:8791/us-en-proposed.html
+
+■ header: 8 delta(s) — 6 paired of 6/6 texts, 1/1 icons
+  REGION STYLE backgroundColor rgb(238, 238, 238) → rgb(255, 255, 255)
+  REGION STYLE position static → relative (fixed/sticky chrome must stay fixed/sticky — seam symmetry)
+  PAIR         "Brands"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Discover"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Impact"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Shop"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Promos & Offers"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Sign Up"  fontFamily noto-regional → tccc-unitytext
+
+■ footer: 37 delta(s) — 36 paired of 36/36 texts, 1/1 icons
+  OFFSET       the region sit Δy +1189px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+  REGION STYLE backgroundColor rgb(238, 238, 238) → rgb(0, 0, 0)
+  PAIR         "Help"  tag <h4> → <button>; fontFamily noto-regional → tccc-unitytext; Δy +1189px (6012→7201); Δw -84px (184→100)
+  PAIR         "Sign-up"  fontFamily noto-regional → tccc-unitytext; Δy +1189px (6054→7243)
+  PAIR         "Login"  fontFamily noto-regional → tccc-unitytext; Δy +1189px (6092→7281)
+  PAIR         "FAQs"  fontFamily noto-regional → tccc-unitytext; Δy +1189px (6130→7319)
+  PAIR         "Sitemap"  fontFamily noto-regional → tccc-unitytext; Δy +1189px (6168→7357)
+  PAIR         "Contact Us"  fontFamily noto-regional → tccc-unitytext; Δy +1189px (6206→7395)
+  PAIR         "Order Status"  fontFamily noto-regional → tccc-unitytext; Δy +1189px (6244→7433)
+  PAIR         "Shipping"  fontFamily noto-regional → tccc-unitytext; Δy +1189px (6282→7471)
+  PAIR         "Shop & Visit"  tag <h4> → <button>; fontFamily noto-regional → tccc-unitytext; Δx -84px (376→292); Δy +1189px (6012→7201)
+  PAIR         "Where to Buy"  fontFamily noto-regional → tccc-unitytext; Δx -84px (376→292); Δy +1189px (6054→7243)
+  PAIR         "Coca‑Cola Store Online"  fontFamily noto-regional → tccc-unitytext; Δx -84px (376→292); Δy +1189px (6092→7281)
+  PAIR         "Coca‑Cola Int'l Store Online"  fontFamily noto-regional → tccc-unitytext; Δx -84px (376→292); Δy +1189px (6130→7319)
+  PAIR         "Coca‑Cola Store Atlanta"  fontFamily noto-regional → tccc-unitytext; Δx -84px (376→292); Δy +1189px (6168→7357)
+  PAIR         "Coca‑Cola Store Orlando"  fontFamily noto-regional → tccc-unitytext; Δx -84px (376→292); Δy +1189px (6206→7395)
+  PAIR         "Coca‑Cola Store Las Vegas"  fontFamily noto-regional → tccc-unitytext; Δx -84px (376→292); Δy +1189px (6244→7433)
+  PAIR         "World of Coca‑Cola Attraction"  fontFamily noto-regional → tccc-unitytext; Δx -84px (376→292); Δy +1189px (6282→7471)
+  PAIR         "Android App"  fontFamily noto-regional → tccc-unitytext; Δx -84px (376→292); Δy +1189px (6320→7509)
+  PAIR         "Apple App"  fontFamily noto-regional → tccc-unitytext; Δx -84px (376→292); Δy +1189px (6358→7547)
+  PAIR         "Legal"  tag <h4> → <button>; fontFamily noto-regional → tccc-unitytext; Δx -84px (641→557); Δy +1189px (6012→7201)
+  PAIR         "Company"  fontFamily noto-regional → tccc-unitytext; Δx -84px (641→557); Δy +1189px (6054→7243)
+  PAIR         "Careers"  fontFamily noto-regional → tccc-unitytext; Δx -84px (641→557); Δy +1189px (6092→7281)
+  PAIR         "Consumer Privacy Notice"  fontFamily noto-regional → tccc-unitytext; Δx -84px (641→557); Δy +1189px (6130→7319)
+  PAIR         "Cookie Notice"  fontFamily noto-regional → tccc-unitytext; Δx -84px (641→557); Δy +1189px (6168→7357)
+  PAIR         "All Promotion Official Rules"  fontFamily noto-regional → tccc-unitytext; Δx -84px (641→557); Δy +1189px (6206→7395)
+  PAIR         "Notice At Collection"  fontFamily noto-regional → tccc-unitytext; Δx -84px (641→557); Δy +1189px (6244→7433)
+  PAIR         "Do Not Sell or Share My Personal Informa"  fontFamily noto-regional → tccc-unitytext; Δx -84px (641→557); Δy +1189px (6282→7471)
+  PAIR         "Terms of Service"  fontFamily noto-regional → tccc-unitytext; Δx -84px (641→557); Δy +1189px (6338→7527)
+  PAIR         "Cookie Settings"  fontFamily noto-regional → tccc-unitytext; Δx -84px (641→557); Δy +1189px (6376→7565)
+  PAIR         "Consumer Health Data Privacy Notice"  fontFamily noto-regional → tccc-unitytext; Δx -84px (641→557); Δy +1189px (6414→7603)
+  PAIR         "Data Trust Center"  fontFamily noto-regional → tccc-unitytext; Δx -84px (641→557); Δy +1189px (6470→7659)
+  PAIR         "X"  fontFamily noto-regional → tccc-unitytext; fontWeight 700 → 400; Δy +1190px (6027→7217); <a> backgroundColor rgba(255, 255, 255, 0) → rgba(0, 0, 0, 0)
+  PAIR         "Instagram"  fontFamily noto-regional → tccc-unitytext; fontWeight 700 → 400; Δy +1190px (6027→7217); <a> backgroundColor rgba(255, 255, 255, 0) → rgba(0, 0, 0, 0)
+  PAIR         "Youtube"  fontFamily noto-regional → tccc-unitytext; fontWeight 700 → 400; Δy +1190px (6027→7217); <a> backgroundColor rgba(255, 255, 255, 0) → rgba(0, 0, 0, 0)
+  PAIR         "Facebook"  fontFamily noto-regional → tccc-unitytext; fontWeight 700 → 400; Δy +1190px (6027→7217); <a> backgroundColor rgba(255, 255, 255, 0) → rgba(0, 0, 0, 0)
+  PAIR         "© 2026 . All rights reserved."  fontFamily noto-regional → tccc-unitytext; Δx -780px (940→160); Δy +1189px (6569→7758); Δw +780px (340→1120)
+  PAIR         "The Coca‑Cola Company"  fontFamily noto-regional → tccc-unitytext; Δy +1189px (6571→7760)
+
+✗ 45 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

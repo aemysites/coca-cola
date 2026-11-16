@@ -1,0 +1,195 @@
+{
+  "slug": "us-en",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "feature-xf",
+    "teaser-block",
+    "carousel",
+    "features",
+    "brands"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "page-title",
+    "feature-xf",
+    "teaser-block",
+    "promos",
+    "features",
+    "more",
+    "brands"
+  ],
+  "canonShas": {
+    "header": "7759f98f5037",
+    "footer": "4c7041a5254e",
+    "css": "06f52e7ebad7"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "output-path",
+      "detail": "moved to us/en.html: delivered document is /us/en (source canonical; /us/en/ 301s to /us/en on the source)",
+      "at": "2026-11-16T08:32:24.034Z"
+    }
+  ],
+  "metadata": {
+    "title": "Explore the Coca‑Cola® Official Site | Coca‑Cola®",
+    "description": "Experience the official Coca‑Cola® site. Explore our drinks, discover new flavors, and find exciting promos, offers and experiences from Coca‑Cola.",
+    "canonical": null,
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Explore the Coca‑Cola® Official Site | Coca‑Cola®",
+    "description": "Experience the official Coca‑Cola® site. Explore our drinks, discover new flavors, and find exciting promos, offers and experiences from Coca‑Cola.",
+    "url": "https://www.coca-cola.com/us/en"
+  },
+  "migratedAt": "2026-11-16T07:12:49Z",
+  "designMdSha": "6d822b6250a2",
+  "designJsonSha": "6e363b6a6812",
+  "sourceCurrentSha": "4eab1fa00e17",
+  "sourceProposedSha": "5254b4136033",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [
+    "carousel--wide"
+  ],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 8,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/us/en/brands",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/coca-cola-app",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/brands/freestyle",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/impact/culture",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/shop-now",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/holiday",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/coca-cola/football",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/coca-cola/hockey",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/holiday-caravan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/portfolio/evergreen-promotion",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/hubs/soccer",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/brands/simply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/tastebud-map",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/refreshing-films",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/vending",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/brands/coca-cola",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/brands/diet-coke",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/brands/sprite",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/brands/fanta",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/brands/smartwater",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/brands/minute-maid",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/brands",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/about-us/faq",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/sitemap",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/about-us/contact-us",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/shop-now",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/legal/coca-cola-rules",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/legal/terms-of-service",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "us/en.html",
+  "outputPathDefault": null,
+  "sidecar": "us/en._meta.json",
+  "driverVersion": "1"
+}

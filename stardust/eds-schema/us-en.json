@@ -1,0 +1,641 @@
+{
+ "source": "http://localhost:8791/us-en-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "feature-xf",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Your Shot at Alaska Starts Now"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Spin the Coca‑Cola Holiday Wheel and play for your chance to win an instant prize - plus enter for a chance to win an Alaska trip for two."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Play Now",
+     "href": "/us/en/offerings/holiday"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "teaser-block",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Promos & Offers"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "YOU COULD WIN BIG THIS SEASON"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Enter every Friday for your chance to win tickets, Fanatics digital gift cards, and more football prizes for fans."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Get Started"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "YOU COULD WIN BIG THIS SEASON"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Enter every Friday for your chance to win prizes† like tech, gift cards and more for hockey fans."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Get Started"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "View All Promos & Offers",
+     "href": "/us/en/offerings"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "A.content-card",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "promos",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Promos & Offers"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Don't Miss the Coca‑Cola Holiday Caravan"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Whether you're a lifelong fan or experiencing the magic for the first time, the Caravan is where holiday traditions come to life."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Find Your Stop"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "A Full Year of Favorites Could Be Yours"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Enter today for a chance to win 24 (or equivalent) of your favorite Coca‑Cola drinks a month for an entire year. From vitaminwater to Sprite, and so much more, a year supply could be yours."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Enter Now"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Don't Miss the Coca‑Cola Holiday Caravan"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Whether you're a lifelong fan or experiencing the magic for the first time, the Caravan is where holiday traditions come to life."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Find Your Stop"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "A Full Year of Favorites Could Be Yours"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Enter today for a chance to win 24 (or equivalent) of your favorite Coca‑Cola drinks a month for an entire year. From vitaminwater to Sprite, and so much more, a year supply could be yours."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Enter Now"
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Don't Miss the Coca‑Cola Holiday Caravan"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Whether you're a lifelong fan or experiencing the magic for the first time, the Caravan is where holiday traditions come to life."
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Find Your Stop"
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "A Full Year of Favorites Could Be Yours"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Enter today for a chance to win 24 (or equivalent) of your favorite Coca‑Cola drinks a month for an entire year. From vitaminwater to Sprite, and so much more, a year supply could be yours."
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Enter Now"
+    },
+    {
+     "role": "heading",
+     "order": 19,
+     "text": "Don't Miss the Coca‑Cola Holiday Caravan"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Whether you're a lifelong fan or experiencing the magic for the first time, the Caravan is where holiday traditions come to life."
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Find Your Stop"
+    },
+    {
+     "role": "heading",
+     "order": 22,
+     "text": "A Full Year of Favorites Could Be Yours"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Enter today for a chance to win 24 (or equivalent) of your favorite Coca‑Cola drinks a month for an entire year. From vitaminwater to Sprite, and so much more, a year supply could be yours."
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Enter Now"
+    },
+    {
+     "role": "heading",
+     "order": 25,
+     "text": "Don't Miss the Coca‑Cola Holiday Caravan"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Whether you're a lifelong fan or experiencing the magic for the first time, the Caravan is where holiday traditions come to life."
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Find Your Stop"
+    },
+    {
+     "role": "heading",
+     "order": 28,
+     "text": "A Full Year of Favorites Could Be Yours"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Enter today for a chance to win 24 (or equivalent) of your favorite Coca‑Cola drinks a month for an entire year. From vitaminwater to Sprite, and so much more, a year supply could be yours."
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Enter Now"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "View all Offerings",
+     "href": "/us/en/offerings"
+    }
+   ],
+   "imgCount": 10,
+   "editableTexts": 21,
+   "repeats": [
+    {
+     "unitSelector": "DIV.carousel__slide",
+     "count": 10,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "features",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Features"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Refresh Your Fandom All Year Long"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Soccer Central is your always-on home for the beautiful game. Whether you're into MLS, U.S. Soccer, or English Premier League, we keep soccer fans fueled with exclusive content, prizes, and experiences."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Explore for More",
+     "href": "/us/en/offerings/hubs/soccer"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Mix Up the Holiday Spirit"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Make the season merry with easy holiday recipes made with Simply®, from cranberry meatballs and glazed ham to festive sangria and warm winter drinks."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "View Holiday Recipes",
+     "href": "/us/en/brands/simply"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "ARTICLE.campaign-card",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "more",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "More from Coca‑Cola®"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Coca‑Cola Vending"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Each time you make a purchase with your mobile wallet at select Coca‑Cola vending machines, you’ll be one step closer to earning a drink reward."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Start Earning Today"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "you plus +one"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Have you downloaded yet? The +one app brings the universe of Coca‑Cola® into the palm of your hand. Start earning rewards today!"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Download Now"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Discover Your Tastebud Map"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "We’ve devised a quick, fun way to discover your ideal flavor pairings. Simply stick out your tongue and let us do the mapping. It's not science, but the results might surprise you."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Let's Do It"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "World of Coca‑Cola Annual Pass"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Unlock unlimited visits to World of Coca‑Cola with an Annual Pass. Enjoy exclusive experiences, more moments to explore, and surprises waiting every time you return."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Learn More"
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Coca‑Cola Refreshing Films"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Coca‑Cola® Refreshing Films provides students the opportunity to create content for the big screen."
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Check It Out"
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "Coca‑Cola Vending"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Each time you make a purchase with your mobile wallet at select Coca‑Cola vending machines, you’ll be one step closer to earning a drink reward."
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Start Earning Today"
+    },
+    {
+     "role": "heading",
+     "order": 19,
+     "text": "you plus +one"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Have you downloaded yet? The +one app brings the universe of Coca‑Cola® into the palm of your hand. Start earning rewards today!"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Download Now"
+    },
+    {
+     "role": "heading",
+     "order": 22,
+     "text": "Discover Your Tastebud Map"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "We’ve devised a quick, fun way to discover your ideal flavor pairings. Simply stick out your tongue and let us do the mapping. It's not science, but the results might surprise you."
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Let's Do It"
+    },
+    {
+     "role": "heading",
+     "order": 25,
+     "text": "World of Coca‑Cola Annual Pass"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Unlock unlimited visits to World of Coca‑Cola with an Annual Pass. Enjoy exclusive experiences, more moments to explore, and surprises waiting every time you return."
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Learn More"
+    },
+    {
+     "role": "heading",
+     "order": 28,
+     "text": "Coca‑Cola Refreshing Films"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Coca‑Cola® Refreshing Films provides students the opportunity to create content for the big screen."
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Check It Out"
+    },
+    {
+     "role": "heading",
+     "order": 31,
+     "text": "Coca‑Cola Vending"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Each time you make a purchase with your mobile wallet at select Coca‑Cola vending machines, you’ll be one step closer to earning a drink reward."
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Start Earning Today"
+    },
+    {
+     "role": "heading",
+     "order": 34,
+     "text": "you plus +one"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Have you downloaded yet? The +one app brings the universe of Coca‑Cola® into the palm of your hand. Start earning rewards today!"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Download Now"
+    },
+    {
+     "role": "heading",
+     "order": 37,
+     "text": "Discover Your Tastebud Map"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "We’ve devised a quick, fun way to discover your ideal flavor pairings. Simply stick out your tongue and let us do the mapping. It's not science, but the results might surprise you."
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Let's Do It"
+    },
+    {
+     "role": "heading",
+     "order": 40,
+     "text": "World of Coca‑Cola Annual Pass"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Unlock unlimited visits to World of Coca‑Cola with an Annual Pass. Enjoy exclusive experiences, more moments to explore, and surprises waiting every time you return."
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Learn More"
+    },
+    {
+     "role": "heading",
+     "order": 43,
+     "text": "Coca‑Cola Refreshing Films"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Coca‑Cola® Refreshing Films provides students the opportunity to create content for the big screen."
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Check It Out"
+    },
+    {
+     "role": "heading",
+     "order": 46,
+     "text": "Coca‑Cola Vending"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Each time you make a purchase with your mobile wallet at select Coca‑Cola vending machines, you’ll be one step closer to earning a drink reward."
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Start Earning Today"
+    },
+    {
+     "role": "heading",
+     "order": 49,
+     "text": "you plus +one"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Have you downloaded yet? The +one app brings the universe of Coca‑Cola® into the palm of your hand. Start earning rewards today!"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Download Now"
+    }
+   ],
+   "imgCount": 17,
+   "editableTexts": 35,
+   "repeats": [
+    {
+     "unitSelector": "DIV.carousel__slide",
+     "count": 17,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "brands",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Explore Our Brands"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "View All",
+     "href": "/us/en/brands"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "A.",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+/* carousel — content-card carousel (prototype .carousel / .content-card, landing.css + motion.css) */
+.carousel {
+  position: relative;
+  margin-top: 24px;
+}
+
+.carousel .carousel-track {
+  overflow: hidden;
+  padding-top: 8px;
+  margin-bottom: -16px;
+  padding-bottom: 16px;
+}
+
+.carousel .carousel-list {
+  display: flex;
+  gap: 16px;
+  padding: 0 20px;
+  transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.carousel .carousel-slide {
+  flex: 0 0 calc(100% - 1px);
+}
+
+.carousel .carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 24px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.carousel .carousel-dots li {
+  display: flex;
+}
+
+.carousel .carousel-dot {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border-radius: var(--radius-pill);
+  background: var(--grey-disabled);
+  transition: width 0.2s ease-in-out;
+}
+
+.carousel .carousel-dot[aria-selected='true'] {
+  width: 32px;
+  background: var(--black);
+}
+
+.carousel.wide {
+  margin-left: -24px;
+  margin-right: -24px;
+}
+
+.carousel.wide .carousel-list {
+  padding: 0 0 0 23px;
+}
+
+.carousel.wide .carousel-slide {
+  flex-basis: calc(100% - 24px);
+}
+
+/* content card (shared look with teaser-block) */
+.carousel .content-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  background: var(--white);
+  font-weight: 700;
+}
+
+.carousel .content-card-media img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.carousel .content-card-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 24px;
+  background: var(--white);
+}
+
+.carousel .card-text {
+  margin-bottom: 32px;
+}
+
+.carousel .card-text p {
+  margin-top: 8px;
+  font-weight: 400;
+}
+
+.carousel .content-card-body .has-arrow {
+  margin-top: auto;
+}
+
+.carousel .carousel-slide-clone .has-arrow::after {
+  content: none;
+}
+
+@media (width >= 1200px) {
+  .carousel .carousel-list {
+    gap: 24px;
+    padding: 0;
+  }
+
+  .carousel .carousel-slide {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  .carousel.wide {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .carousel.wide .carousel-list {
+    padding: 0;
+  }
+
+  .carousel.wide .carousel-slide {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+
+  .carousel .content-card-body {
+    padding: 32px;
+  }
+}
+
+.carousel .content-card-media picture {
+  display: block;
+}

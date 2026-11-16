@@ -1,0 +1,11 @@
+{
+  "variantName": "brands",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Grid of brand logo tiles; each tile is an image link with a visually hidden or small brand name.",
+  "contentPattern": "One row per brand: logo image | link paragraph (link text = brand name for screen readers, href = tile link). Section heading and trailing CTA are default content.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Brand logo showcase linking to each brand page.",
+  "reuseGuidance": "Reuse for any logo grid where each logo links out (brands, partners)."
+}

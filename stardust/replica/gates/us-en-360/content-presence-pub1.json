@@ -1,0 +1,4045 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-16T07:51:25.593Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.coca-cola.com/us/en",
+  "at": "2026-11-16T07:51:04.509Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6313,
+  "root": "main.container.responsivegrid",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > div#adaptiveImage-f3d00938f1 > a.cmp-image__link",
+    "x": 24,
+    "y": 26,
+    "w": 125,
+    "h": 20,
+    "text": "coca cola company logo",
+    "href": "/us/en"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.cmp-image__link > picture.loaded.visible > img.cmp-image__image",
+    "x": 24,
+    "y": 26,
+    "w": 125,
+    "h": 20,
+    "text": "coca cola company logo",
+    "file": "Coke-company-logo-black"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.cmp-container > div.header__top-sign-up-button.brand-colors > button",
+    "x": 208,
+    "y": 16,
+    "w": 84,
+    "h": 40,
+    "text": "sign up"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.button.header__menu-button > div.cmp-container > button.cmp-button",
+    "x": 312,
+    "y": 15,
+    "w": 24,
+    "h": 43,
+    "text": "menu"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text > div#text-4bc5392e0c > h1",
+    "x": 24,
+    "y": 112,
+    "w": 312,
+    "h": 160,
+    "level": 1,
+    "text": "the coca‑cola® official site for drinks & experiences"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#adaptiveImage-23f87cfb20 > picture.loaded.visible > img.cmp-image__image",
+    "x": 24,
+    "y": 328,
+    "w": 312,
+    "h": 208,
+    "text": "a white coca-cola gift box with a red-and-white striped ribb",
+    "file": "width380"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text > div#text-17c2f3bbb6 > h2",
+    "x": 24,
+    "y": 576,
+    "w": 312,
+    "h": 72,
+    "level": 2,
+    "text": "your shot at alaska starts now"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text > div#text-84794e19de > p",
+    "x": 24,
+    "y": 664,
+    "w": 312,
+    "h": 120,
+    "text": "Spin the Coca‑Cola Holiday Wheel and play for your chance to win an instant priz"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#container-5c9a64b67e > div.button > a#button-9f10517645",
+    "x": 24,
+    "y": 816,
+    "w": 312,
+    "h": 40,
+    "text": "play now",
+    "href": "/us/en/offerings/holiday"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#container-80730566ea > div.teaser.content-card > a#teaser-a66e4846c9-cta-22a314dd5c",
+    "x": 24,
+    "y": 896,
+    "w": 312,
+    "h": 498,
+    "text": "you could win big this season enter every friday for your chance to win tickets,",
+    "href": "/us/en/offerings/coca-cola/football"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#teaser-a66e4846c9 > div.cmp-teaser__content > h3.cmp-teaser__title",
+    "x": 48,
+    "y": 1154,
+    "w": 264,
+    "h": 56,
+    "level": 3,
+    "text": "you could win big this season"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#teaser-a66e4846c9-image > picture.loaded.visible > img.cmp-image__image",
+    "x": 24,
+    "y": 896,
+    "w": 312,
+    "h": 234,
+    "text": "a red banner with large white text reading “big wins,” surro",
+    "file": "width380"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#container-80730566ea > div.teaser.content-card > a#teaser-bc02972500-cta-22db96e952",
+    "x": 24,
+    "y": 1410,
+    "w": 312,
+    "h": 498,
+    "text": "you could win big this season enter every friday for your chance to win prizes† ",
+    "href": "/us/en/offerings/coca-cola/hockey"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#teaser-bc02972500 > div.cmp-teaser__content > h3.cmp-teaser__title",
+    "x": 48,
+    "y": 1668,
+    "w": 264,
+    "h": 56,
+    "level": 3,
+    "text": "you could win big this season"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#teaser-bc02972500-image > picture#cdq_element_2 > img#cdq_element_1",
+    "x": 24,
+    "y": 1410,
+    "w": 312,
+    "h": 234,
+    "text": "a red banner with large white text reading “big wins,” surro",
+    "file": "width380"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#container-ec87edacce > div.button > a#button-159c318d66",
+    "x": 24,
+    "y": 1940,
+    "w": 312,
+    "h": 40,
+    "text": "view all promos & offers",
+    "href": "/us/en/offerings"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title > div#title-eaaffc3eca > h2.cmp-title__text",
+    "x": 24,
+    "y": 2020,
+    "w": 312,
+    "h": 36,
+    "level": 2,
+    "text": "promos & offers"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#splide02-clone02 > div.teaser.content-card > a#teaser-3aa339ea1e-cta-5519b315fe",
+    "x": -243,
+    "y": 2088,
+    "w": 271,
+    "h": 587,
+    "text": "a full year of favorites could be yours enter today for a chance to win 24 (or e",
+    "href": "/us/en/offerings/portfolio/evergreen-promotion"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#teaser-3aa339ea1e > div.cmp-teaser__content > h3.cmp-teaser__title",
+    "x": -219,
+    "y": 2315,
+    "w": 223,
+    "h": 56,
+    "level": 3,
+    "text": "a full year of favorites could be yours"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#teaser-3aa339ea1e-image > picture.loaded.visible > img.cmp-image__image",
+    "x": -243,
+    "y": 2088,
+    "w": 271,
+    "h": 203,
+    "text": "assorted coca-cola products on an autumn park table promotin",
+    "file": "width380"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#splide02-slide01 > div.teaser.content-card > a#teaser-5bb129b0dc-cta-f0d8e307f5",
+    "x": 44,
+    "y": 2088,
+    "w": 271,
+    "h": 587,
+    "text": "don't miss the coca‑cola holiday caravan whether you're a lifelong fan or experi",
+    "href": "/us/en/offerings/holiday-caravan"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#teaser-5bb129b0dc > div.cmp-teaser__content > h3.cmp-teaser__title",
+    "x": 68,
+    "y": 2315,
+    "w": 223,
+    "h": 84,
+    "level": 3,
+    "text": "don't miss the coca‑cola holiday caravan"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#teaser-5bb129b0dc-image > picture.loaded.visible > img.cmp-image__image",
+    "x": 44,
+    "y": 2088,
+    "w": 271,
+    "h": 203,
+    "text": "a red coca-cola semi-truck outlined in glowing holiday light",
+    "file": "width380"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#splide02-slide02 > div.teaser.content-card > a#teaser-3aa339ea1e-cta-5519b315fe",
+    "x": 332,
+    "y": 2088,
+    "w": 271,
+    "h": 587,
+    "text": "a full year of favorites could be yours enter today for a chance to win 24 (or e",
+    "href": "/us/en/offerings/portfolio/evergreen-promotion"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#teaser-3aa339ea1e > div.cmp-teaser__content > h3.cmp-teaser__title",
+    "x": 356,
+    "y": 2315,
+    "w": 223,
+    "h": 56,
+    "level": 3,
+    "text": "a full year of favorites could be yours"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#teaser-3aa339ea1e-image > picture.loaded.visible > img.cmp-image__image",
+    "x": 332,
+    "y": 2088,
+    "w": 271,
+    "h": 203,
+    "text": "assorted coca-cola products on an autumn park table promotin",
+    "file": "width380"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.splide__pagination.splide__pagination--ltr > li > button.splide__pagination__page.is-active",
+    "x": 156,
+    "y": 2699,
+    "w": 32,
+    "h": 8,
+    "text": "go to slide 1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.splide__pagination.splide__pagination--ltr > li > button.splide__pagination__page",
+    "x": 196,
+    "y": 2699,
+    "w": 8,
+    "h": 8,
+    "text": "go to slide 2"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#container-313593d7fc > div.button > a#button-eb2f81a211",
+    "x": 24,
+    "y": 2739,
+    "w": 312,
+    "h": 40,
+    "text": "view all offerings",
+    "href": "/us/en/offerings"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title > div#title-de57f77d4e > h2.cmp-title__text",
+    "x": 24,
+    "y": 2819,
+    "w": 312,
+    "h": 36,
+    "level": 2,
+    "text": "features"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#teaser-c8e377d167 > div.cmp-teaser__content > h3.cmp-teaser__title",
+    "x": 48,
+    "y": 3142,
+    "w": 264,
+    "h": 108,
+    "level": 3,
+    "text": "refresh your fandom all year long"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__description > p",
+    "x": 48,
+    "y": 3258,
+    "w": 264,
+    "h": 192,
+    "text": "Soccer Central is your always-on home for the beautiful game. Whether you're int"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__action-container > a#teaser-c8e377d167-cta-50051be2bc",
+    "x": 48,
+    "y": 3482,
+    "w": 264,
+    "h": 40,
+    "text": "explore for more",
+    "href": "/us/en/offerings/hubs/soccer"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#teaser-c8e377d167-image > picture.loaded.visible > img.cmp-image__image",
+    "x": 0,
+    "y": 2887,
+    "w": 360,
+    "h": 311,
+    "text": "coca-cola soccer campaign banner featuring a woman drinking ",
+    "file": "width380"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#teaser-e01df91d42 > div.cmp-teaser__content > h3.cmp-teaser__title",
+    "x": 48,
+    "y": 3857,
+    "w": 264,
+    "h": 72,
+    "level": 3,
+    "text": "mix up the holiday spirit"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__description > p",
+    "x": 48,
+    "y": 3937,
+    "w": 264,
+    "h": 144,
+    "text": "Make the season merry with easy holiday recipes made with Simply®, from cranberr"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__action-container > a#teaser-e01df91d42-cta-917f183fa2",
+    "x": 48,
+    "y": 4113,
+    "w": 264,
+    "h": 40,
+    "text": "view holiday recipes",
+    "href": "/us/en/brands/simply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#teaser-e01df91d42-image > picture.loaded.visible > img.cmp-image__image",
+    "x": 0,
+    "y": 3602,
+    "w": 360,
+    "h": 311,
+    "text": "coca-cola soccer campaign banner featuring a woman drinking ",
+    "file": "width380"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title > div#title-ecd64db34a > h2.cmp-title__text",
+    "x": 24,
+    "y": 4217,
+    "w": 312,
+    "h": 72,
+    "level": 2,
+    "text": "more from coca‑cola®"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#splide03-clone02 > div.teaser.content-card > a#teaser-d27c5b2a12-cta-5b0fffede1",
+    "x": -306,
+    "y": 4321,
+    "w": 313,
+    "h": 571,
+    "text": "drinking coca-cola in car",
+    "href": "/us/en/offerings/vending"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#teaser-d27c5b2a12-image > picture.loaded.visible > img.cmp-image__image",
+    "x": -306,
+    "y": 4321,
+    "w": 313,
+    "h": 235,
+    "text": "drinking coca-cola in car",
+    "file": "width380"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#splide03-slide01 > div.teaser.content-card > a#teaser-64dd282e78-cta-278f96fa93",
+    "x": 23,
+    "y": 4321,
+    "w": 313,
+    "h": 571,
+    "text": "you plus +one have you downloaded yet? the +one app brings the universe of coca‑",
+    "href": "/wvrE/1n83zcqs"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#teaser-64dd282e78 > div.cmp-teaser__content > h3.cmp-teaser__title",
+    "x": 47,
+    "y": 4579,
+    "w": 265,
+    "h": 28,
+    "level": 3,
+    "text": "you plus +one"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#teaser-64dd282e78-image > picture.loaded.visible > img.cmp-image__image",
+    "x": 23,
+    "y": 4321,
+    "w": 313,
+    "h": 235,
+    "text": "download the coca-cola +one app",
+    "file": "width380"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#splide03-slide02 > div.teaser.content-card > a#teaser-5b2eef934c-cta-414a3719f1",
+    "x": 353,
+    "y": 4321,
+    "w": 313,
+    "h": 571,
+    "text": "discover your tastebud map",
+    "href": "/us/en/offerings/tastebud-map"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#teaser-5b2eef934c-image > picture.loaded.visible > img.cmp-image__image",
+    "x": 353,
+    "y": 4321,
+    "w": 313,
+    "h": 235,
+    "text": "discover your tastebud map",
+    "file": "width380"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.splide__pagination.splide__pagination--ltr > li > button.splide__pagination__page.is-active",
+    "x": 132,
+    "y": 4915,
+    "w": 32,
+    "h": 8,
+    "text": "go to slide 1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.splide__pagination.splide__pagination--ltr > li > button.splide__pagination__page",
+    "x": 172,
+    "y": 4915,
+    "w": 8,
+    "h": 8,
+    "text": "go to slide 2"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.splide__pagination.splide__pagination--ltr > li > button.splide__pagination__page",
+    "x": 188,
+    "y": 4915,
+    "w": 8,
+    "h": 8,
+    "text": "go to slide 3"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.splide__pagination.splide__pagination--ltr > li > button.splide__pagination__page",
+    "x": 204,
+    "y": 4915,
+    "w": 8,
+    "h": 8,
+    "text": "go to slide 4"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.splide__pagination.splide__pagination--ltr > li > button.splide__pagination__page",
+    "x": 220,
+    "y": 4915,
+    "w": 8,
+    "h": 8,
+    "text": "go to slide 5"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title > div#title-2462330387 > h2.cmp-title__text",
+    "x": 24,
+    "y": 4963,
+    "w": 312,
+    "h": 36,
+    "level": 2,
+    "text": "explore our brands"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.adaptiveImage.image > div#adaptiveImage-882587fb56 > a.cmp-image__link",
+    "x": 24,
+    "y": 5031,
+    "w": 148,
+    "h": 148,
+    "text": "coca-cola logo",
+    "href": "/us/en/brands/coca-cola"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.cmp-image__link > picture > img.cmp-image__image",
+    "x": 48,
+    "y": 5090,
+    "w": 100,
+    "h": 31,
+    "text": "coca-cola logo",
+    "file": "width380"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.adaptiveImage.image > div#adaptiveImage-faf125f544 > a.cmp-image__link",
+    "x": 188,
+    "y": 5031,
+    "w": 148,
+    "h": 148,
+    "text": "diet coke logo",
+    "href": "/us/en/brands/diet-coke"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.cmp-image__link > picture > img.cmp-image__image",
+    "x": 212,
+    "y": 5086,
+    "w": 100,
+    "h": 38,
+    "text": "diet coke logo",
+    "file": "width380"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.adaptiveImage.image > div#adaptiveImage-e9d6442618 > a.cmp-image__link",
+    "x": 24,
+    "y": 5195,
+    "w": 148,
+    "h": 148,
+    "text": "sprite logo",
+    "href": "/us/en/brands/sprite"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.cmp-image__link > picture > img.cmp-image__image",
+    "x": 48,
+    "y": 5251,
+    "w": 100,
+    "h": 38,
+    "text": "sprite logo",
+    "file": "width380"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.adaptiveImage.image > div#adaptiveImage-a5f0c82c4a > a.cmp-image__link",
+    "x": 188,
+    "y": 5195,
+    "w": 148,
+    "h": 148,
+    "text": "fanta logo",
+    "href": "/us/en/brands/fanta"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.cmp-image__link > picture > img.cmp-image__image",
+    "x": 212,
+    "y": 5241,
+    "w": 100,
+    "h": 56,
+    "text": "fanta logo",
+    "file": "width380"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.adaptiveImage.image > div#adaptiveImage-3b388e00fa > a.cmp-image__link",
+    "x": 24,
+    "y": 5359,
+    "w": 148,
+    "h": 148,
+    "text": "smartwater",
+    "href": "/us/en/brands/smartwater"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.cmp-image__link > picture > img.cmp-image__image",
+    "x": 48,
+    "y": 5415,
+    "w": 100,
+    "h": 36,
+    "text": "smartwater",
+    "file": "width380"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.adaptiveImage.image > div#adaptiveImage-9860dba61c > a.cmp-image__link",
+    "x": 188,
+    "y": 5359,
+    "w": 148,
+    "h": 148,
+    "text": "minute maid logo",
+    "href": "/us/en/brands/minute-maid"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.cmp-image__link > picture > img.cmp-image__image",
+    "x": 212,
+    "y": 5383,
+    "w": 100,
+    "h": 100,
+    "text": "minute maid logo",
+    "file": "width380"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#container-e841236ce8 > div.button.button--secondary > a#button-e85ba47a41",
+    "x": 24,
+    "y": 5539,
+    "w": 312,
+    "h": 40,
+    "text": "view all",
+    "href": "/us/en/brands"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div#adaptiveImage-da2154dbcc > picture > img.cmp-image__image",
+    "x": 24,
+    "y": 5691,
+    "w": 249,
+    "h": 40,
+    "text": "the coca cola company logo",
+    "file": "logo-white-large"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.text.footer__mobile-accordion > div#text-cd8a651f3e > h4",
+    "x": 24,
+    "y": 5812,
+    "w": 312,
+    "h": 32,
+    "level": 4,
+    "text": "help"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.text.footer__mobile-accordion > div#text-d3008f5379 > h4",
+    "x": 24,
+    "y": 5884,
+    "w": 312,
+    "h": 32,
+    "level": 4,
+    "text": "shop & visit"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.text.footer__mobile-accordion > div#text-b9a46e3835 > h4",
+    "x": 24,
+    "y": 5956,
+    "w": 312,
+    "h": 32,
+    "level": 4,
+    "text": "legal"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div#container-ec34f28b60 > div.button.footer__button--social-media > a#button-06fb0efc72",
+    "x": 24,
+    "y": 6069,
+    "w": 32,
+    "h": 32,
+    "text": "x",
+    "href": "/CocaCola"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div#container-ec34f28b60 > div.button.footer__button--social-media > a#button-663c28e16e",
+    "x": 72,
+    "y": 6069,
+    "w": 32,
+    "h": 32,
+    "text": "instagram",
+    "href": "/cocacola/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div#container-ec34f28b60 > div.button.footer__button--social-media > a#button-b5228de1f3",
+    "x": 120,
+    "y": 6069,
+    "w": 32,
+    "h": 32,
+    "text": "youtube",
+    "href": "/user/cocacola"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div#container-ec34f28b60 > div.button.footer__button--social-media > a#button-3deb64f5fa",
+    "x": 168,
+    "y": 6069,
+    "w": 32,
+    "h": 32,
+    "text": "facebook",
+    "href": "/Coca-Cola/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.adaptiveImage.image > div#adaptiveImage-4f60f928bb > a.cmp-image__link",
+    "x": 24,
+    "y": 6141,
+    "w": 134,
+    "h": 40,
+    "text": "available on the app store",
+    "href": "/us/app/coca-cola-usa/id1310675636"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.cmp-image__link > picture > img.cmp-image__image",
+    "x": 24,
+    "y": 6141,
+    "w": 134,
+    "h": 40,
+    "text": "available on the app store",
+    "file": "badge_apple"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.adaptiveImage.image > div#adaptiveImage-84a226bdd2 > a.cmp-image__link",
+    "x": 166,
+    "y": 6141,
+    "w": 131,
+    "h": 40,
+    "text": "get it on google play",
+    "href": "/store/apps/details"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.cmp-image__link > picture > img.cmp-image__image",
+    "x": 166,
+    "y": 6141,
+    "w": 131,
+    "h": 40,
+    "text": "get it on google play",
+    "file": "badge_google"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.text.footer__bottom--privacy > div#text-9f71a1ba9a > p",
+    "x": 24,
+    "y": 6221,
+    "w": 312,
+    "h": 36,
+    "text": "© 2026 . All rights reserved."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div#text-9f71a1ba9a > p > a",
+    "x": 77,
+    "y": 6223,
+    "w": 158,
+    "h": 14,
+    "text": "the coca‑cola company",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.flag.expanded > div.header-container > button.close-button",
+    "x": 211,
+    "y": 320,
+    "w": 26,
+    "h": 40,
+    "text": "x"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.flag.expanded > div.header-container > span.survey-title",
+    "x": 41,
+    "y": 326,
+    "w": 165,
+    "h": 24,
+    "text": "Just One Question"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.target-test > div.cmp-target-text > p",
+    "x": 7,
+    "y": 381,
+    "w": 234,
+    "h": 48,
+    "text": "Which of these sports do you love the most?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.options-container > div.button.survey-answer-button > button#answer-basketball",
+    "x": 7,
+    "y": 439,
+    "w": 115,
+    "h": 38,
+    "text": "basketball"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.options-container > div.button.survey-answer-button > button#answer-golf",
+    "x": 126,
+    "y": 439,
+    "w": 115,
+    "h": 38,
+    "text": "golf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.options-container > div.button.survey-answer-button > button#answer-baseball",
+    "x": 7,
+    "y": 483,
+    "w": 115,
+    "h": 38,
+    "text": "baseball"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.options-container > div.button.survey-answer-button > button#answer-football",
+    "x": 126,
+    "y": 483,
+    "w": 115,
+    "h": 38,
+    "text": "football"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.options-container > div.button.survey-answer-button > button#answer-hockey",
+    "x": 7,
+    "y": 527,
+    "w": 115,
+    "h": 38,
+    "text": "hockey"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.options-container > div.button.survey-answer-button > button#answer-soccer",
+    "x": 126,
+    "y": 527,
+    "w": 115,
+    "h": 38,
+    "text": "soccer"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 9,
+    "offPage": 43,
+    "textNodes": 84,
+    "controls": 56,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div#carousel-3d7e4f1884",
+     "path": "div#splide02-list > div#splide02-clone02 > div.teaser.content-card > a#teaser-3aa339ea1e-cta-5519b315fe",
+     "text": "a full year of favorites could be yours enter today for a ch",
+     "cutMin": 267,
+     "cutMax": 267
+    },
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div#teaser-3aa339ea1e",
+     "path": "a#teaser-3aa339ea1e-cta-5519b315fe > div#teaser-3aa339ea1e > div.cmp-teaser__content > h3.cmp-teaser__title",
+     "text": "a full year of favorites could be yours",
+     "cutMin": 0,
+     "cutMax": 215
+    },
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div#teaser-3aa339ea1e",
+     "path": "div#teaser-3aa339ea1e > div.cmp-teaser__content > div.cmp-teaser__description > p",
+     "text": "enter today for a chance to win 24 (or equivalent) of your f",
+     "cutMin": 0,
+     "cutMax": 218
+    },
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div#teaser-3aa339ea1e",
+     "path": "div#teaser-3aa339ea1e > div.cmp-teaser__content > div.cmp-teaser__action-container > p.cmp-teaser__action-link",
+     "text": "enter now",
+     "cutMin": 89,
+     "cutMax": 89
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div#carousel-6dcb0d15cd",
+     "path": "div#splide03-list > div#splide03-clone02 > div.teaser.content-card > a#teaser-d27c5b2a12-cta-5b0fffede1",
+     "text": "coca‑cola vending each time you make a purchase with your mo",
+     "cutMin": 306,
+     "cutMax": 306
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div#carousel-6dcb0d15cd",
+     "path": "div#splide03-list > div#splide03-slide02 > div.teaser.content-card > a#teaser-5b2eef934c-cta-414a3719f1",
+     "text": "discover your tastebud map we’ve devised a quick, fun way to",
+     "cutMin": 306,
+     "cutMax": 306
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--e4399cea--aemcoder.aem.page/us/en",
+  "at": "2026-11-16T07:51:25.434Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6313,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-header-logo > p > a",
+    "x": 24,
+    "y": 26,
+    "w": 125,
+    "h": 20,
+    "text": "coca cola company logo",
+    "href": "/us/en"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 24,
+    "y": 26,
+    "w": 125,
+    "h": 20,
+    "text": "coca cola company logo",
+    "file": "media_1513d201f2212de61589190767aeb26d23"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-header-signup > p.button-wrapper > a.button.primary",
+    "x": 208,
+    "y": 16,
+    "w": 84,
+    "h": 40,
+    "text": "sign up",
+    "href": "/us/en"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-header-inner > div.site-header-actions > button.menu-btn",
+    "x": 312,
+    "y": 15,
+    "w": 24,
+    "h": 43,
+    "text": "menu"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-header-inner > div.site-header-actions > button.menu-btn",
+    "x": 312,
+    "y": 15,
+    "w": 24,
+    "h": 43,
+    "label": "menu",
+    "value": "menu",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section > div.default-content-wrapper > h1#the-cocacola-official-site-for-drinks--experiences",
+    "x": 24,
+    "y": 112,
+    "w": 312,
+    "h": 160,
+    "level": 1,
+    "text": "the coca‑cola® official site for drinks & experiences"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-mobile > picture > img",
+    "x": 24,
+    "y": 328,
+    "w": 312,
+    "h": 208,
+    "text": "white coca-cola holiday gift box revealing a welcome to alas",
+    "file": "media_1af022be26f3d7057ff57a60c475e8c738"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.feature-xf.block > div.headline > h2#your-shot-at-alaska-starts-now",
+    "x": 24,
+    "y": 576,
+    "w": 312,
+    "h": 72,
+    "level": 2,
+    "text": "your shot at alaska starts now"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.feature-xf.block > div.lede > p",
+    "x": 24,
+    "y": 664,
+    "w": 312,
+    "h": 120,
+    "text": "Spin the Coca‑Cola Holiday Wheel and play for your chance to win an instant priz"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.actions > p.button-wrapper > a.button.primary",
+    "x": 24,
+    "y": 816,
+    "w": 312,
+    "h": 40,
+    "text": "play now",
+    "href": "/us/en/offerings/holiday"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block.block > div.teaser-grid > a.content-card",
+    "x": 24,
+    "y": 896,
+    "w": 312,
+    "h": 498,
+    "text": "you could win big this season enter every friday for your chance to win tickets,",
+    "href": "/us/en/offerings/coca-cola/football"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.content-card-media > picture > img",
+    "x": 24,
+    "y": 896,
+    "w": 312,
+    "h": 234,
+    "text": "coca-cola big wins fall football promo banner displaying pri",
+    "file": "media_10fbfc7c6b10250e25a55713dc6d9fa87e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.content-card-body > div.card-text > h3#you-could-win-big-this-season",
+    "x": 48,
+    "y": 1154,
+    "w": 264,
+    "h": 56,
+    "level": 3,
+    "text": "you could win big this season"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-block.block > div.teaser-grid > a.content-card",
+    "x": 24,
+    "y": 1410,
+    "w": 312,
+    "h": 498,
+    "text": "you could win big this season enter every friday for your chance to win prizes† ",
+    "href": "/us/en/offerings/coca-cola/hockey"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.content-card-media > picture > img",
+    "x": 24,
+    "y": 1410,
+    "w": 312,
+    "h": 234,
+    "text": "big wins promo banner with a hockey puck, lg tv, fanatics ca",
+    "file": "media_1aa8c27267162aa199ed30045eaff1206d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.content-card-body > div.card-text > h3#you-could-win-big-this-season-1",
+    "x": 48,
+    "y": 1668,
+    "w": 264,
+    "h": 56,
+    "level": 3,
+    "text": "you could win big this season"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p.button-wrapper > a.button.primary",
+    "x": 24,
+    "y": 1940,
+    "w": 312,
+    "h": 40,
+    "text": "view all promos & offers",
+    "href": "/us/en/offerings"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.carousel-container > div.default-content-wrapper > h2#promos--offers-1",
+    "x": 24,
+    "y": 2020,
+    "w": 312,
+    "h": 36,
+    "level": 2,
+    "text": "promos & offers"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.content-card-media > picture > img",
+    "x": -243,
+    "y": 2088,
+    "w": 271,
+    "h": 203,
+    "text": "",
+    "file": "media_1384387e54e30556e177af12fb565873e3"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel-list > div.carousel-slide.is-active > a.content-card",
+    "x": 44,
+    "y": 2088,
+    "w": 271,
+    "h": 587,
+    "text": "don't miss the coca‑cola holiday caravan whether you're a lifelong fan or experi",
+    "href": "/us/en/offerings/holiday-caravan"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.content-card-media > picture > img",
+    "x": 44,
+    "y": 2088,
+    "w": 271,
+    "h": 203,
+    "text": "a red coca-cola semi-truck outlined in glowing holiday light",
+    "file": "media_1767172124404cd06cd8ee0f2f3fc418f0"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.content-card-body > div.card-text > h3#dont-miss-the-cocacola-holiday-caravan",
+    "x": 68,
+    "y": 2315,
+    "w": 223,
+    "h": 84,
+    "level": 3,
+    "text": "don't miss the coca‑cola holiday caravan"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel-list > div.carousel-slide > a.content-card",
+    "x": 331,
+    "y": 2088,
+    "w": 271,
+    "h": 587,
+    "text": "a full year of favorites could be yours enter today for a chance to win 24 (or e",
+    "href": "/us/en/offerings/portfolio/evergreen-promotion"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.content-card-media > picture > img",
+    "x": 331,
+    "y": 2088,
+    "w": 271,
+    "h": 203,
+    "text": "assorted coca-cola products on an autumn park table promotin",
+    "file": "media_1384387e54e30556e177af12fb565873e3"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.content-card-body > div.card-text > h3#a-full-year-of-favorites-could-be-yours",
+    "x": 355,
+    "y": 2315,
+    "w": 223,
+    "h": 56,
+    "level": 3,
+    "text": "a full year of favorites could be yours"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.carousel-dots > li > button.carousel-dot.is-active",
+    "x": 156,
+    "y": 2699,
+    "w": 32,
+    "h": 8,
+    "text": "go to slide 1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.carousel-dots > li > button.carousel-dot",
+    "x": 196,
+    "y": 2699,
+    "w": 8,
+    "h": 8,
+    "text": "go to slide 2"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p.button-wrapper > a.button.primary",
+    "x": 24,
+    "y": 2739,
+    "w": 312,
+    "h": 40,
+    "text": "view all offerings",
+    "href": "/us/en/offerings"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.features-container > div.default-content-wrapper > h2#features",
+    "x": 24,
+    "y": 2819,
+    "w": 312,
+    "h": 36,
+    "level": 2,
+    "text": "features"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.campaign-card-content > div.headline > h3#refresh-your-fandom-all-year-long",
+    "x": 48,
+    "y": 3142,
+    "w": 264,
+    "h": 108,
+    "level": 3,
+    "text": "refresh your fandom all year long"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.campaign-card-content > div.lede > p",
+    "x": 48,
+    "y": 3258,
+    "w": 264,
+    "h": 192,
+    "text": "Soccer Central is your always-on home for the beautiful game. Whether you're int"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.actions > p.button-wrapper > a.button.secondary",
+    "x": 48,
+    "y": 3482,
+    "w": 264,
+    "h": 40,
+    "text": "explore for more",
+    "href": "/us/en/offerings/hubs/soccer"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-mobile > picture > img",
+    "x": 0,
+    "y": 2887,
+    "w": 360,
+    "h": 311,
+    "text": "coca-cola soccer campaign banner featuring a woman drinking ",
+    "file": "media_160c7f5509225d3fc68bda5b92cb8ea72b"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.campaign-card-content > div.headline > h3#mix-up-the-holiday-spirit",
+    "x": 48,
+    "y": 3856,
+    "w": 264,
+    "h": 72,
+    "level": 3,
+    "text": "mix up the holiday spirit"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.campaign-card-content > div.lede > p",
+    "x": 48,
+    "y": 3936,
+    "w": 264,
+    "h": 144,
+    "text": "Make the season merry with easy holiday recipes made with Simply®, from cranberr"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.actions > p.button-wrapper > a.button.secondary",
+    "x": 48,
+    "y": 4112,
+    "w": 264,
+    "h": 40,
+    "text": "view holiday recipes",
+    "href": "/us/en/brands/simply"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-mobile > picture > img",
+    "x": 0,
+    "y": 3602,
+    "w": 360,
+    "h": 311,
+    "text": "coca-cola soccer campaign banner featuring a woman drinking ",
+    "file": "media_1189571cec4c4ff9327c76218ddff6ad8e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.carousel-container > div.default-content-wrapper > h2#more-from-cocacola",
+    "x": 24,
+    "y": 4216,
+    "w": 312,
+    "h": 72,
+    "level": 2,
+    "text": "more from coca‑cola®"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.content-card-media > picture > img",
+    "x": -306,
+    "y": 4320,
+    "w": 313,
+    "h": 235,
+    "text": "",
+    "file": "media_1b2f5016fe8fb7f02ef20e73367965a0d9"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel-list > div.carousel-slide.is-active > a.content-card",
+    "x": 23,
+    "y": 4320,
+    "w": 313,
+    "h": 571,
+    "text": "you plus +one have you downloaded yet? the +one app brings the universe of coca‑",
+    "href": "/wvrE/1n83zcqs"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.content-card-media > picture > img",
+    "x": 23,
+    "y": 4320,
+    "w": 313,
+    "h": 235,
+    "text": "download the coca-cola +one app",
+    "file": "media_1d0fdaf376c4acff0b8bd924f5c999fed1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.content-card-body > div.card-text > h3#you-plus-one",
+    "x": 47,
+    "y": 4579,
+    "w": 265,
+    "h": 28,
+    "level": 3,
+    "text": "you plus +one"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel-list > div.carousel-slide > a.content-card",
+    "x": 352,
+    "y": 4320,
+    "w": 313,
+    "h": 571,
+    "text": "discover your tastebud map",
+    "href": "/us/en/offerings/tastebud-map"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.content-card-media > picture > img",
+    "x": 352,
+    "y": 4320,
+    "w": 313,
+    "h": 235,
+    "text": "discover your tastebud map",
+    "file": "media_17054fc8da726d681ed9a522901cad214b"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.carousel-dots > li > button.carousel-dot.is-active",
+    "x": 132,
+    "y": 4915,
+    "w": 32,
+    "h": 8,
+    "text": "go to slide 1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.carousel-dots > li > button.carousel-dot",
+    "x": 172,
+    "y": 4915,
+    "w": 8,
+    "h": 8,
+    "text": "go to slide 2"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.carousel-dots > li > button.carousel-dot",
+    "x": 188,
+    "y": 4915,
+    "w": 8,
+    "h": 8,
+    "text": "go to slide 3"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.carousel-dots > li > button.carousel-dot",
+    "x": 204,
+    "y": 4915,
+    "w": 8,
+    "h": 8,
+    "text": "go to slide 4"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.carousel-dots > li > button.carousel-dot",
+    "x": 220,
+    "y": 4915,
+    "w": 8,
+    "h": 8,
+    "text": "go to slide 5"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.brands-container > div.default-content-wrapper > h2#explore-our-brands",
+    "x": 24,
+    "y": 4963,
+    "w": 312,
+    "h": 36,
+    "level": 2,
+    "text": "explore our brands"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.brands.block > div.brands-grid > a.brand-tile",
+    "x": 24,
+    "y": 5031,
+    "w": 148,
+    "h": 148,
+    "text": "coca-cola logo",
+    "href": "/us/en/brands/coca-cola"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.brand-logo > picture > img",
+    "x": 48,
+    "y": 5089,
+    "w": 100,
+    "h": 31,
+    "text": "coca-cola logo",
+    "file": "media_199171c0497d001c5e1e94217797ead17c"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.brands.block > div.brands-grid > a.brand-tile",
+    "x": 188,
+    "y": 5031,
+    "w": 148,
+    "h": 148,
+    "text": "diet coke logo",
+    "href": "/us/en/brands/diet-coke"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.brand-logo > picture > img",
+    "x": 212,
+    "y": 5086,
+    "w": 100,
+    "h": 38,
+    "text": "diet coke logo",
+    "file": "media_1e065c6c01afe7fac6103b76bc6351658a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.brands.block > div.brands-grid > a.brand-tile",
+    "x": 24,
+    "y": 5195,
+    "w": 148,
+    "h": 148,
+    "text": "sprite logo",
+    "href": "/us/en/brands/sprite"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.brand-logo > picture > img",
+    "x": 48,
+    "y": 5250,
+    "w": 100,
+    "h": 38,
+    "text": "sprite logo",
+    "file": "media_179f7556c70d363a875410d6270784b752"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.brands.block > div.brands-grid > a.brand-tile",
+    "x": 188,
+    "y": 5195,
+    "w": 148,
+    "h": 148,
+    "text": "fanta logo",
+    "href": "/us/en/brands/fanta"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.brand-logo > picture > img",
+    "x": 212,
+    "y": 5241,
+    "w": 100,
+    "h": 56,
+    "text": "fanta logo",
+    "file": "media_124f4469c26fb7a0572fc1655c5138a87c"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.brands.block > div.brands-grid > a.brand-tile",
+    "x": 24,
+    "y": 5359,
+    "w": 148,
+    "h": 148,
+    "text": "smartwater",
+    "href": "/us/en/brands/smartwater"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.brand-logo > picture > img",
+    "x": 48,
+    "y": 5415,
+    "w": 100,
+    "h": 36,
+    "text": "smartwater",
+    "file": "media_1f9ebe412398858e1b83311dc9a29ecab3"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.brands.block > div.brands-grid > a.brand-tile",
+    "x": 188,
+    "y": 5359,
+    "w": 148,
+    "h": 148,
+    "text": "minute maid logo",
+    "href": "/us/en/brands/minute-maid"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.brand-logo > picture > img",
+    "x": 212,
+    "y": 5383,
+    "w": 100,
+    "h": 100,
+    "text": "minute maid logo",
+    "file": "media_1041e012bf57be610a6c5dafb9621bd77a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p.button-wrapper > a.button.secondary",
+    "x": 24,
+    "y": 5539,
+    "w": 312,
+    "h": 40,
+    "text": "view all",
+    "href": "/us/en/brands"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-logo > picture > img",
+    "x": 24,
+    "y": 5691,
+    "w": 249,
+    "h": 40,
+    "text": "the coca cola company logo",
+    "file": "media_162a9921f63c36735e8878faeed38a0402"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-col > div.footer-col-head > h4#help",
+    "x": 24,
+    "y": 5812,
+    "w": 312,
+    "h": 32,
+    "level": 4,
+    "text": "help"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-col > div.footer-col-head > h4#shop--visit",
+    "x": 24,
+    "y": 5884,
+    "w": 312,
+    "h": 32,
+    "level": 4,
+    "text": "shop & visit"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-col > div.footer-col-head > h4#legal",
+    "x": 24,
+    "y": 5956,
+    "w": 312,
+    "h": 32,
+    "level": 4,
+    "text": "legal"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 24,
+    "y": 6069,
+    "w": 32,
+    "h": 32,
+    "text": "x",
+    "href": "/CocaCola"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 72,
+    "y": 6069,
+    "w": 32,
+    "h": 32,
+    "text": "instagram",
+    "href": "/cocacola/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 120,
+    "y": 6069,
+    "w": 32,
+    "h": 32,
+    "text": "youtube",
+    "href": "/user/cocacola"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 168,
+    "y": 6069,
+    "w": 32,
+    "h": 32,
+    "text": "facebook",
+    "href": "/Coca-Cola/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-apps > p > a",
+    "x": 24,
+    "y": 6141,
+    "w": 134,
+    "h": 40,
+    "text": "available on the app store",
+    "href": "/us/app/coca-cola-usa/id1310675636"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 24,
+    "y": 6141,
+    "w": 134,
+    "h": 40,
+    "text": "available on the app store",
+    "file": "media_14abd80a073c8d407fffe81da74fe824ea"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-apps > p > a",
+    "x": 166,
+    "y": 6141,
+    "w": 131,
+    "h": 40,
+    "text": "get it on google play",
+    "href": "/store/apps/details"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 166,
+    "y": 6141,
+    "w": 131,
+    "h": 40,
+    "text": "get it on google play",
+    "file": "media_16b41d06ef87e0a46da604d759b6ec89a9"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-inner > div.footer-legal > p",
+    "x": 24,
+    "y": 6221,
+    "w": 312,
+    "h": 36,
+    "text": "© 2026 . All rights reserved."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-legal > p > a",
+    "x": 77,
+    "y": 6223,
+    "w": 158,
+    "h": 14,
+    "text": "the coca‑cola company",
+    "href": "/"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 5,
+    "offPage": 15,
+    "textNodes": 57,
+    "controls": 41,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.carousel-track",
+     "path": "div.carousel-track > div.carousel-list > div.carousel-slide > a.content-card",
+     "text": "a full year of favorites could be yoursenter today for a cha",
+     "cutMin": 266,
+     "cutMax": 305
+    },
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "n": 2,
+     "clipper": "a.content-card",
+     "path": "a.content-card > div.content-card-body > div.card-text > p",
+     "text": "enter today for a chance to win 24 (or equivalent) of your f",
+     "cutMin": 89,
+     "cutMax": 218
+    },
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "a.content-card",
+     "path": "a.content-card > div.content-card-body > div.card-text > h3#a-full-year-of-favorites-could-be-yours",
+     "text": "a full year of favorites could be yours",
+     "cutMin": 214,
+     "cutMax": 214
+    }
+   ],
+   "findings": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 266,
+     "path": "div.carousel-track > div.carousel-list > div.carousel-slide > a.content-card",
+     "text": "a full year of favorites could be yoursenter today for a cha",
+     "clipper": "div.carousel-track",
+     "rect": {
+      "l": 331,
+      "t": 2088,
+      "r": 602,
+      "b": 2675,
+      "w": 271,
+      "h": 587
+     },
+     "clip": {
+      "l": 24,
+      "t": 2080,
+      "r": 336,
+      "b": 2691,
+      "w": 312,
+      "h": 611
+     }
+    },
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "cut": 214,
+     "path": "a.content-card > div.content-card-body > div.card-text > h3#a-full-year-of-favorites-could-be-yours",
+     "text": "a full year of favorites could be yours",
+     "clipper": "a.content-card",
+     "rect": {
+      "l": 355,
+      "t": 2317,
+      "r": 574,
+      "b": 2341,
+      "w": 219,
+      "h": 24
+     },
+     "clip": {
+      "l": 331,
+      "t": 2088,
+      "r": 602,
+      "b": 2675,
+      "w": 271,
+      "h": 587
+     },
+     "lines": 2
+    },
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "cut": 218,
+     "path": "a.content-card > div.content-card-body > div.card-text > p",
+     "text": "enter today for a chance to win 24 (or equivalent) of your f",
+     "clipper": "a.content-card",
+     "rect": {
+      "l": 355,
+      "t": 2381,
+      "r": 566,
+      "b": 2400,
+      "w": 211,
+      "h": 19
+     },
+     "clip": {
+      "l": 331,
+      "t": 2088,
+      "r": 602,
+      "b": 2675,
+      "w": 271,
+      "h": 587
+     },
+     "lines": 9
+    },
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "cut": 89,
+     "path": "a.content-card > div.content-card-body > div.has-arrow > p",
+     "text": "enter now",
+     "clipper": "a.content-card",
+     "rect": {
+      "l": 355,
+      "t": 2629,
+      "r": 449,
+      "b": 2648,
+      "w": 94,
+      "h": 19
+     },
+     "clip": {
+      "l": 331,
+      "t": 2088,
+      "r": 602,
+      "b": 2675,
+      "w": 271,
+      "h": 587
+     },
+     "lines": 1
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 305,
+     "path": "div.carousel-track > div.carousel-list > div.carousel-slide > a.content-card",
+     "text": "discover your tastebud mapwe’ve devised a quick, fun way to ",
+     "clipper": "div.carousel-track",
+     "rect": {
+      "l": 352,
+      "t": 4320,
+      "r": 665,
+      "b": 4891,
+      "w": 313,
+      "h": 571
+     },
+     "clip": {
+      "l": 0,
+      "t": 4312,
+      "r": 360,
+      "b": 4907,
+      "w": 360,
+      "h": 595
+     }
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "the coca‑cola® official site for drinks & experiences",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "your shot at alaska starts now",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "you could win big this season",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "you could win big this season",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "promos & offers",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 1,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 2
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "don't miss the coca‑cola holiday caravan",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 2,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "features",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "refresh your fandom all year long",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "mix up the holiday spirit",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "more from coca‑cola®",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 1,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 2
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "you plus +one",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 5,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 5,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "explore our brands",
+   "variable": false,
+   "origin": {
+    "link": 7,
+    "button": 0,
+    "text": 0,
+    "image": 6
+   },
+   "eds": {
+    "link": 7,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 6,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 224,
+    "y": 29,
+    "w": 52,
+    "h": 14
+   },
+   {
+    "x": 52,
+    "y": 112,
+    "w": 256,
+    "h": 39
+   },
+   {
+    "x": 58,
+    "y": 152,
+    "w": 245,
+    "h": 39
+   },
+   {
+    "x": 111,
+    "y": 192,
+    "w": 138,
+    "h": 39
+   },
+   {
+    "x": 79,
+    "y": 232,
+    "w": 202,
+    "h": 39
+   },
+   {
+    "x": 42,
+    "y": 577,
+    "w": 276,
+    "h": 34
+   },
+   {
+    "x": 99,
+    "y": 613,
+    "w": 161,
+    "h": 34
+   },
+   {
+    "x": 33,
+    "y": 666,
+    "w": 294,
+    "h": 19
+   },
+   {
+    "x": 31,
+    "y": 690,
+    "w": 297,
+    "h": 19
+   },
+   {
+    "x": 52,
+    "y": 714,
+    "w": 256,
+    "h": 19
+   },
+   {
+    "x": 43,
+    "y": 738,
+    "w": 273,
+    "h": 19
+   },
+   {
+    "x": 161,
+    "y": 762,
+    "w": 37,
+    "h": 19
+   },
+   {
+    "x": 138,
+    "y": 826,
+    "w": 83,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1156,
+    "w": 257,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 1184,
+    "w": 85,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 1220,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1244,
+    "w": 187,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1268,
+    "w": 261,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1292,
+    "w": 249,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1348,
+    "w": 105,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1670,
+    "w": 257,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 1698,
+    "w": 85,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 1734,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1758,
+    "w": 221,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1782,
+    "w": 246,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1806,
+    "w": 107,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1862,
+    "w": 105,
+    "h": 19
+   },
+   {
+    "x": 69,
+    "y": 1950,
+    "w": 222,
+    "h": 19
+   },
+   {
+    "x": 63,
+    "y": 2021,
+    "w": 234,
+    "h": 34
+   },
+   {
+    "x": -219,
+    "y": 2317,
+    "w": 219,
+    "h": 24
+   },
+   {
+    "x": -219,
+    "y": 2429,
+    "w": 223,
+    "h": 19
+   },
+   {
+    "x": 68,
+    "y": 2317,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 68,
+    "y": 2345,
+    "w": 178,
+    "h": 24
+   },
+   {
+    "x": 68,
+    "y": 2373,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 68,
+    "y": 2409,
+    "w": 217,
+    "h": 19
+   },
+   {
+    "x": 68,
+    "y": 2433,
+    "w": 200,
+    "h": 19
+   },
+   {
+    "x": 68,
+    "y": 2457,
+    "w": 202,
+    "h": 19
+   },
+   {
+    "x": 68,
+    "y": 2481,
+    "w": 182,
+    "h": 19
+   },
+   {
+    "x": 68,
+    "y": 2505,
+    "w": 203,
+    "h": 19
+   },
+   {
+    "x": 68,
+    "y": 2529,
+    "w": 53,
+    "h": 19
+   },
+   {
+    "x": 68,
+    "y": 2629,
+    "w": 130,
+    "h": 19
+   },
+   {
+    "x": 356,
+    "y": 2317,
+    "w": 219,
+    "h": 24
+   },
+   {
+    "x": 356,
+    "y": 2345,
+    "w": 147,
+    "h": 24
+   },
+   {
+    "x": 356,
+    "y": 2381,
+    "w": 211,
+    "h": 19
+   },
+   {
+    "x": 356,
+    "y": 2405,
+    "w": 209,
+    "h": 19
+   },
+   {
+    "x": 356,
+    "y": 2429,
+    "w": 223,
+    "h": 19
+   },
+   {
+    "x": 356,
+    "y": 2453,
+    "w": 186,
+    "h": 19
+   },
+   {
+    "x": 356,
+    "y": 2477,
+    "w": 145,
+    "h": 19
+   },
+   {
+    "x": 356,
+    "y": 2501,
+    "w": 198,
+    "h": 19
+   },
+   {
+    "x": 356,
+    "y": 2525,
+    "w": 182,
+    "h": 19
+   },
+   {
+    "x": 356,
+    "y": 2549,
+    "w": 180,
+    "h": 19
+   },
+   {
+    "x": 356,
+    "y": 2573,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 356,
+    "y": 2629,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 101,
+    "y": 2749,
+    "w": 158,
+    "h": 19
+   },
+   {
+    "x": 118,
+    "y": 2820,
+    "w": 125,
+    "h": 34
+   },
+   {
+    "x": 48,
+    "y": 3143,
+    "w": 181,
+    "h": 34
+   },
+   {
+    "x": 48,
+    "y": 3179,
+    "w": 229,
+    "h": 34
+   },
+   {
+    "x": 48,
+    "y": 3215,
+    "w": 72,
+    "h": 34
+   },
+   {
+    "x": 48,
+    "y": 3260,
+    "w": 259,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3284,
+    "w": 221,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3308,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3332,
+    "w": 238,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3356,
+    "w": 219,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3380,
+    "w": 201,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3404,
+    "w": 254,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3428,
+    "w": 108,
+    "h": 19
+   },
+   {
+    "x": 105,
+    "y": 3492,
+    "w": 149,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3858,
+    "w": 152,
+    "h": 34
+   },
+   {
+    "x": 48,
+    "y": 3894,
+    "w": 191,
+    "h": 34
+   },
+   {
+    "x": 48,
+    "y": 3939,
+    "w": 246,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3963,
+    "w": 230,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3987,
+    "w": 249,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4011,
+    "w": 253,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4035,
+    "w": 219,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4059,
+    "w": 118,
+    "h": 19
+   },
+   {
+    "x": 84,
+    "y": 4123,
+    "w": 192,
+    "h": 19
+   },
+   {
+    "x": 105,
+    "y": 4218,
+    "w": 150,
+    "h": 34
+   },
+   {
+    "x": 100,
+    "y": 4254,
+    "w": 160,
+    "h": 34
+   },
+   {
+    "x": 47,
+    "y": 4581,
+    "w": 136,
+    "h": 24
+   },
+   {
+    "x": 47,
+    "y": 4617,
+    "w": 235,
+    "h": 19
+   },
+   {
+    "x": 47,
+    "y": 4641,
+    "w": 212,
+    "h": 19
+   },
+   {
+    "x": 47,
+    "y": 4665,
+    "w": 236,
+    "h": 19
+   },
+   {
+    "x": 47,
+    "y": 4689,
+    "w": 243,
+    "h": 19
+   },
+   {
+    "x": 47,
+    "y": 4713,
+    "w": 200,
+    "h": 19
+   },
+   {
+    "x": 47,
+    "y": 4845,
+    "w": 136,
+    "h": 19
+   },
+   {
+    "x": 42,
+    "y": 4964,
+    "w": 277,
+    "h": 34
+   },
+   {
+    "x": 144,
+    "y": 5549,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 24,
+    "y": 5814,
+    "w": 57,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 5886,
+    "w": 143,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 5958,
+    "w": 67,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 6223,
+    "w": 53,
+    "h": 14
+   },
+   {
+    "x": 77,
+    "y": 6223,
+    "w": 158,
+    "h": 14
+   },
+   {
+    "x": 235,
+    "y": 6223,
+    "w": 65,
+    "h": 14
+   },
+   {
+    "x": 24,
+    "y": 6241,
+    "w": 60,
+    "h": 14
+   },
+   {
+    "x": 219,
+    "y": 331,
+    "w": 10,
+    "h": 17
+   },
+   {
+    "x": 41,
+    "y": 328,
+    "w": 165,
+    "h": 19
+   },
+   {
+    "x": 12,
+    "y": 383,
+    "w": 224,
+    "h": 19
+   },
+   {
+    "x": 40,
+    "y": 407,
+    "w": 169,
+    "h": 19
+   },
+   {
+    "x": 26,
+    "y": 450,
+    "w": 77,
+    "h": 15
+   },
+   {
+    "x": 169,
+    "y": 450,
+    "w": 30,
+    "h": 15
+   },
+   {
+    "x": 33,
+    "y": 494,
+    "w": 63,
+    "h": 15
+   },
+   {
+    "x": 154,
+    "y": 494,
+    "w": 60,
+    "h": 15
+   },
+   {
+    "x": 38,
+    "y": 538,
+    "w": 54,
+    "h": 15
+   },
+   {
+    "x": 159,
+    "y": 538,
+    "w": 49,
+    "h": 15
+   }
+  ],
+  "eds": [
+   {
+    "x": 224,
+    "y": 29,
+    "w": 52,
+    "h": 14
+   },
+   {
+    "x": 52,
+    "y": 112,
+    "w": 256,
+    "h": 39
+   },
+   {
+    "x": 58,
+    "y": 152,
+    "w": 245,
+    "h": 39
+   },
+   {
+    "x": 111,
+    "y": 192,
+    "w": 138,
+    "h": 39
+   },
+   {
+    "x": 79,
+    "y": 232,
+    "w": 202,
+    "h": 39
+   },
+   {
+    "x": 42,
+    "y": 577,
+    "w": 276,
+    "h": 34
+   },
+   {
+    "x": 99,
+    "y": 613,
+    "w": 161,
+    "h": 34
+   },
+   {
+    "x": 33,
+    "y": 666,
+    "w": 294,
+    "h": 19
+   },
+   {
+    "x": 31,
+    "y": 690,
+    "w": 297,
+    "h": 19
+   },
+   {
+    "x": 52,
+    "y": 714,
+    "w": 256,
+    "h": 19
+   },
+   {
+    "x": 43,
+    "y": 738,
+    "w": 273,
+    "h": 19
+   },
+   {
+    "x": 161,
+    "y": 762,
+    "w": 37,
+    "h": 19
+   },
+   {
+    "x": 138,
+    "y": 826,
+    "w": 83,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1156,
+    "w": 257,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 1184,
+    "w": 85,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 1220,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1244,
+    "w": 187,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1268,
+    "w": 261,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1292,
+    "w": 249,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1348,
+    "w": 105,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1670,
+    "w": 257,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 1698,
+    "w": 85,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 1734,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1758,
+    "w": 221,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1782,
+    "w": 246,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1806,
+    "w": 107,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1862,
+    "w": 105,
+    "h": 19
+   },
+   {
+    "x": 69,
+    "y": 1950,
+    "w": 222,
+    "h": 19
+   },
+   {
+    "x": 63,
+    "y": 2021,
+    "w": 234,
+    "h": 34
+   },
+   {
+    "x": 68,
+    "y": 2317,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 68,
+    "y": 2345,
+    "w": 178,
+    "h": 24
+   },
+   {
+    "x": 68,
+    "y": 2373,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 68,
+    "y": 2409,
+    "w": 217,
+    "h": 19
+   },
+   {
+    "x": 68,
+    "y": 2433,
+    "w": 200,
+    "h": 19
+   },
+   {
+    "x": 68,
+    "y": 2457,
+    "w": 202,
+    "h": 19
+   },
+   {
+    "x": 68,
+    "y": 2481,
+    "w": 182,
+    "h": 19
+   },
+   {
+    "x": 68,
+    "y": 2505,
+    "w": 203,
+    "h": 19
+   },
+   {
+    "x": 68,
+    "y": 2529,
+    "w": 53,
+    "h": 19
+   },
+   {
+    "x": 68,
+    "y": 2629,
+    "w": 130,
+    "h": 19
+   },
+   {
+    "x": 355,
+    "y": 2317,
+    "w": 219,
+    "h": 24
+   },
+   {
+    "x": 355,
+    "y": 2345,
+    "w": 147,
+    "h": 24
+   },
+   {
+    "x": 355,
+    "y": 2381,
+    "w": 211,
+    "h": 19
+   },
+   {
+    "x": 355,
+    "y": 2405,
+    "w": 209,
+    "h": 19
+   },
+   {
+    "x": 355,
+    "y": 2429,
+    "w": 223,
+    "h": 19
+   },
+   {
+    "x": 355,
+    "y": 2453,
+    "w": 186,
+    "h": 19
+   },
+   {
+    "x": 355,
+    "y": 2477,
+    "w": 145,
+    "h": 19
+   },
+   {
+    "x": 355,
+    "y": 2501,
+    "w": 198,
+    "h": 19
+   },
+   {
+    "x": 355,
+    "y": 2525,
+    "w": 182,
+    "h": 19
+   },
+   {
+    "x": 355,
+    "y": 2549,
+    "w": 180,
+    "h": 19
+   },
+   {
+    "x": 355,
+    "y": 2573,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 355,
+    "y": 2629,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 101,
+    "y": 2749,
+    "w": 158,
+    "h": 19
+   },
+   {
+    "x": 118,
+    "y": 2820,
+    "w": 125,
+    "h": 34
+   },
+   {
+    "x": 48,
+    "y": 3143,
+    "w": 181,
+    "h": 34
+   },
+   {
+    "x": 48,
+    "y": 3179,
+    "w": 229,
+    "h": 34
+   },
+   {
+    "x": 48,
+    "y": 3215,
+    "w": 72,
+    "h": 34
+   },
+   {
+    "x": 48,
+    "y": 3260,
+    "w": 259,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3284,
+    "w": 221,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3308,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3332,
+    "w": 238,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3356,
+    "w": 219,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3380,
+    "w": 201,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3404,
+    "w": 254,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3428,
+    "w": 108,
+    "h": 19
+   },
+   {
+    "x": 105,
+    "y": 3492,
+    "w": 149,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3857,
+    "w": 152,
+    "h": 34
+   },
+   {
+    "x": 48,
+    "y": 3893,
+    "w": 191,
+    "h": 34
+   },
+   {
+    "x": 48,
+    "y": 3938,
+    "w": 246,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3962,
+    "w": 230,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3986,
+    "w": 249,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4010,
+    "w": 253,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4034,
+    "w": 219,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4058,
+    "w": 118,
+    "h": 19
+   },
+   {
+    "x": 84,
+    "y": 4122,
+    "w": 192,
+    "h": 19
+   },
+   {
+    "x": 105,
+    "y": 4217,
+    "w": 150,
+    "h": 34
+   },
+   {
+    "x": 100,
+    "y": 4253,
+    "w": 160,
+    "h": 34
+   },
+   {
+    "x": 47,
+    "y": 4581,
+    "w": 136,
+    "h": 24
+   },
+   {
+    "x": 47,
+    "y": 4617,
+    "w": 235,
+    "h": 19
+   },
+   {
+    "x": 47,
+    "y": 4641,
+    "w": 212,
+    "h": 19
+   },
+   {
+    "x": 47,
+    "y": 4665,
+    "w": 236,
+    "h": 19
+   },
+   {
+    "x": 47,
+    "y": 4689,
+    "w": 243,
+    "h": 19
+   },
+   {
+    "x": 47,
+    "y": 4713,
+    "w": 200,
+    "h": 19
+   },
+   {
+    "x": 47,
+    "y": 4845,
+    "w": 136,
+    "h": 19
+   },
+   {
+    "x": 42,
+    "y": 4964,
+    "w": 277,
+    "h": 34
+   },
+   {
+    "x": 144,
+    "y": 5549,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 24,
+    "y": 5814,
+    "w": 57,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 5886,
+    "w": 143,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 5958,
+    "w": 67,
+    "h": 28
+   },
+   {
+    "x": 24,
+    "y": 6223,
+    "w": 53,
+    "h": 14
+   },
+   {
+    "x": 77,
+    "y": 6223,
+    "w": 158,
+    "h": 14
+   },
+   {
+    "x": 235,
+    "y": 6223,
+    "w": 65,
+    "h": 14
+   },
+   {
+    "x": 24,
+    "y": 6241,
+    "w": 60,
+    "h": 14
+   }
+  ]
+ }
+}

@@ -1,0 +1,290 @@
+[
+ {
+  "domainScript": "0c78f894-f494-492b-8b21-a0bf3c6bfdfd",
+  "version": "202604.2.0",
+  "ruleSets": [
+   {
+    "name": "Opt-in Optimized California ",
+    "type": "GDPR",
+    "countries": 0,
+    "default": false,
+    "gpc": false,
+    "consentModel": "opt-in",
+    "banner": true,
+    "languages": 86,
+    "groups": [
+     {
+      "id": "1",
+      "name": "Necessary",
+      "status": "always active",
+      "hosts": [
+       "datatrust.coca-cola.com",
+       "static-p58902-e658605.adobeaemcloud.com",
+       "www.recaptcha.net",
+       "naou.coca-cola.com",
+       "prod-live-chat.sprinklr.com",
+       "login.naou.coca-cola.com",
+       "apps.coca-cola.com"
+      ]
+     },
+     {
+      "id": "2",
+      "name": "Analytics Cookies",
+      "status": "inactive",
+      "hosts": [
+       "coca-cola.com",
+       "d3n0pnl88fy9m.cloudfront.net",
+       "dfp.microsoft.com",
+       "naou.coca-cola.com",
+       "login.naou.coca-cola.com",
+       "cdn1.adoberesources.net"
+      ]
+     },
+     {
+      "id": "4",
+      "name": "Advertising ",
+      "status": "inactive",
+      "hosts": [
+       "dpm.demdex.net",
+       "demdex.net",
+       "tiktok.com",
+       "youtube.com",
+       "facebook.com",
+       "sc-static.net",
+       "hb.yahoo.net",
+       "cdn.pricespider.com",
+       "adnxs.com",
+       "tidaltv.com",
+       "bidswitch.net",
+       "openrtb-us-east-1.axonix.com",
+       "adform.net",
+       "casalemedia.com",
+       "quantserve.com",
+       "www.google.com",
+       "naou.coca-cola.com",
+       "www.youtube.com",
+       "doubleclick.net",
+       "weborama.fr",
+       "pubmatic.com",
+       "bat.bing.com",
+       "adsrvr.org",
+       "pinterest.com",
+       "tapad.com",
+       "rubiconproject.com",
+       "google.com",
+       "bing.com",
+       "snapchat.com",
+       "s.pubmine.com",
+       "apps.coca-cola.com",
+       "everesttech.net"
+      ]
+     },
+     {
+      "id": "3",
+      "name": "Personalization ",
+      "status": "inactive",
+      "hosts": [
+       "cdn.pricespider.com"
+      ]
+     },
+     {
+      "id": "5",
+      "name": "Social Media Cookies",
+      "status": "inactive",
+      "hosts": [
+       "ct.pinterest.com"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Opt-In Regions ",
+    "type": "GDPR",
+    "countries": 41,
+    "default": false,
+    "gpc": false,
+    "consentModel": "opt-in",
+    "banner": true,
+    "languages": 82,
+    "groups": [
+     {
+      "id": "1",
+      "name": "Necessary",
+      "status": "always active",
+      "hosts": [
+       "datatrust.coca-cola.com",
+       "static-p58902-e658605.adobeaemcloud.com",
+       "www.recaptcha.net",
+       "naou.coca-cola.com",
+       "prod-live-chat.sprinklr.com",
+       "login.naou.coca-cola.com",
+       "apps.coca-cola.com"
+      ]
+     },
+     {
+      "id": "2",
+      "name": "Analytics Cookies",
+      "status": "inactive",
+      "hosts": [
+       "coca-cola.com",
+       "d3n0pnl88fy9m.cloudfront.net",
+       "dfp.microsoft.com",
+       "naou.coca-cola.com",
+       "login.naou.coca-cola.com",
+       "cdn1.adoberesources.net"
+      ]
+     },
+     {
+      "id": "4",
+      "name": "Advertising ",
+      "status": "inactive",
+      "hosts": [
+       "dpm.demdex.net",
+       "demdex.net",
+       "tiktok.com",
+       "youtube.com",
+       "facebook.com",
+       "sc-static.net",
+       "hb.yahoo.net",
+       "cdn.pricespider.com",
+       "adnxs.com",
+       "tidaltv.com",
+       "bidswitch.net",
+       "openrtb-us-east-1.axonix.com",
+       "adform.net",
+       "casalemedia.com",
+       "quantserve.com",
+       "www.google.com",
+       "naou.coca-cola.com",
+       "www.youtube.com",
+       "doubleclick.net",
+       "weborama.fr",
+       "pubmatic.com",
+       "bat.bing.com",
+       "adsrvr.org",
+       "pinterest.com",
+       "tapad.com",
+       "rubiconproject.com",
+       "google.com",
+       "bing.com",
+       "snapchat.com",
+       "s.pubmine.com",
+       "apps.coca-cola.com",
+       "everesttech.net"
+      ]
+     },
+     {
+      "id": "3",
+      "name": "Personalization ",
+      "status": "inactive",
+      "hosts": [
+       "cdn.pricespider.com"
+      ]
+     },
+     {
+      "id": "5",
+      "name": "Social Media Cookies",
+      "status": "inactive",
+      "hosts": [
+       "ct.pinterest.com"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Global",
+    "type": "GDPR",
+    "countries": 209,
+    "default": true,
+    "gpc": false,
+    "consentModel": "implied consent",
+    "banner": true,
+    "languages": 82,
+    "groups": [
+     {
+      "id": "1",
+      "name": "Necessary",
+      "status": "always active",
+      "hosts": [
+       "datatrust.coca-cola.com",
+       "static-p58902-e658605.adobeaemcloud.com",
+       "www.recaptcha.net",
+       "naou.coca-cola.com",
+       "prod-live-chat.sprinklr.com",
+       "login.naou.coca-cola.com",
+       "apps.coca-cola.com"
+      ]
+     },
+     {
+      "id": "2",
+      "name": "Analytics Cookies",
+      "status": "inactive landingpage",
+      "hosts": [
+       "coca-cola.com",
+       "d3n0pnl88fy9m.cloudfront.net",
+       "dfp.microsoft.com",
+       "naou.coca-cola.com",
+       "login.naou.coca-cola.com",
+       "cdn1.adoberesources.net"
+      ]
+     },
+     {
+      "id": "4",
+      "name": "Advertising ",
+      "status": "inactive landingpage",
+      "hosts": [
+       "dpm.demdex.net",
+       "demdex.net",
+       "tiktok.com",
+       "youtube.com",
+       "facebook.com",
+       "sc-static.net",
+       "hb.yahoo.net",
+       "cdn.pricespider.com",
+       "adnxs.com",
+       "tidaltv.com",
+       "bidswitch.net",
+       "openrtb-us-east-1.axonix.com",
+       "adform.net",
+       "casalemedia.com",
+       "quantserve.com",
+       "www.google.com",
+       "naou.coca-cola.com",
+       "www.youtube.com",
+       "doubleclick.net",
+       "weborama.fr",
+       "pubmatic.com",
+       "bat.bing.com",
+       "adsrvr.org",
+       "pinterest.com",
+       "tapad.com",
+       "rubiconproject.com",
+       "google.com",
+       "bing.com",
+       "snapchat.com",
+       "s.pubmine.com",
+       "apps.coca-cola.com",
+       "everesttech.net"
+      ]
+     },
+     {
+      "id": "3",
+      "name": "Personalization ",
+      "status": "inactive landingpage",
+      "hosts": [
+       "cdn.pricespider.com"
+      ]
+     },
+     {
+      "id": "5",
+      "name": "Social Media Cookies",
+      "status": "inactive landingpage",
+      "hosts": [
+       "ct.pinterest.com"
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

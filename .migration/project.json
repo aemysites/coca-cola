@@ -1,0 +1,10 @@
+{
+  "sites": {
+    "coca-cola": {
+      "previewOrg": "aemysites",
+      "previewSite": "coca-cola",
+      "contentHostUrl": "https://content.da.live/aemysites/coca-cola/"
+    }
+  },
+  "type": "da"
+}

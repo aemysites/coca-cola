@@ -1,0 +1,95 @@
+{
+  "generatedAt": "2026-11-16T08:40:57.121Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.coca-cola.com/us/en",
+    "liveHost": "main--e4399cea--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 2,
+    "prototyped": 2,
+    "deployed": 2,
+    "optimised": 0
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 2,
+    "optimised": 0
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "deployed",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 3
+    },
+    {
+      "slug": "us-en",
+      "path": "/us/en",
+      "stage": "deployed",
+      "templateId": "us-en",
+      "isTemplate": true,
+      "openFindings": 3
+    }
+  ],
+  "templates": [
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "us-en",
+      "archetype": "us-en",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    }
+  ],
+  "blocks": {
+    "total": 5,
+    "converted": 0
+  },
+  "quality": {
+    "overall": 83,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": null,
+      "content-conversion": null,
+      "ai-search": 80,
+      "cross-page": 86
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 3,
+      "P3": 1
+    },
+    "history": [
+      83
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "platform-migration": 2,
+      "design-pass": 2
+    },
+    "byAutofix": {
+      "pending": 3
+    }
+  }
+}

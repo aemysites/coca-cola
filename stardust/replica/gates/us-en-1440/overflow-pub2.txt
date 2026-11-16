@@ -1,0 +1,9 @@
+[live-session] STARDUST_STEALTH=0: automation-signal handling is OFF for this process
+measure  https://main--e4399cea--aemcoder.aem.page/us/en
+  widths 1440 · 1 selector(s) · 1 props · first match
+
+@ 1440px
+  root  scrollWidth  1440  viewport 1440  scrollHeight   6706
+  html
+       x     0  y      0  w  1440  h  6706  vis  "Brands Discover Impact Shop Promos & Of…"
+      display: block

@@ -1,0 +1,31 @@
+{
+  "frozenAt": "2026-11-16T08:29:07.343Z",
+  "root": ".",
+  "paths": [
+    "styles/",
+    "fonts/",
+    "blocks/header/",
+    "blocks/footer/",
+    "head.html",
+    "scripts/"
+  ],
+  "files": {
+    "blocks/footer/footer.css": "48a86c1ab8184405ff919bd17638b14196db5fc7986daa4d4939b1d422e3545f",
+    "blocks/footer/footer.js": "8bb894e8bf2b7175b24a5d6902cd85c489979ac9cd0a60369df4db491c5f3edf",
+    "blocks/header/header.css": "6f56cdb20bcecfc864e8cb11b34328b151ddae792efd2a9dd180624418a14432",
+    "blocks/header/header.js": "731c2a04a68467139a29cca83dee5d223acc9fba5a61470ce1f06baee33ab0ce",
+    "fonts/LICENSING.md": "8e984556fc29a276aee31f8c7d114132c271dfd75a0543645d10e3bd431b255a",
+    "fonts/icomoon.woff": "5ed98b2f3e002de64e6f25bd979782b26bd160ff5fc40d89a44b5945ab127b41",
+    "fonts/tccc-unitytext-bold.woff2": "07aa279833d35592ac850c0dcaf3c2b09abf7ff6f8832e00f25afb21a5f48bd6",
+    "fonts/tccc-unitytext-regular.woff2": "ac7bd1104f63e9a4ebe7bc121b326aac3989f83ed0c8db79e736ae0152422657",
+    "head.html": "0f963b6378ffa7c27479f25b3c4ddbe93c448e71e4d35b4e464eed7eb00f57c2",
+    "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
+    "scripts/consent-check.js": "16eb4ff15d77d64ec96e8054e97beb84ba19f825b2d67b2fd2de1eadb78d26e6",
+    "scripts/consented.js": "8a6e80585bf898985ae3fa0012dc370a19f4e366ca6922d92b80b319bcf281aa",
+    "scripts/martech.js": "27c4d49537fe98c9c5ab87b2497e2ee45e5474866fd3af589bb99ec2332277e7",
+    "scripts/scripts.js": "ef3c564eae66673eb7df3e75764b48011838b1904b0774ebfcf1047590a78c13",
+    "styles/fonts.css": "babd9b536e300ab5a0ce502bf36c9b4aee6a4f3b0f34fecf8ce551644f5854f9",
+    "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+    "styles/styles.css": "fc55441fb7e5fa4e5053aa87c64273e9b60cb32406e20d687b1b5a1661d32680"
+  }
+}

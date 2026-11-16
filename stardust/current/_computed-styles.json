@@ -1,0 +1,4748 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-16T06:33:10.649Z",
+    "script": "style-census.mjs",
+    "readArtifacts": [
+      "https://www.coca-cola.com/us/en"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "userAgent": "browser-default",
+    "synthesizedInputs": [],
+    "failed": []
+  },
+  "pages": {
+    "https://www.coca-cola.com/us/en": {
+      "360": {
+        "title": "Explore the Coca‑Cola® Official Site | Coca-Cola US",
+        "viewport": {
+          "width": 360,
+          "height": 900
+        },
+        "elements": {
+          "total": 872,
+          "visible": 283
+        },
+        "occluders": [],
+        "headings": [
+          {
+            "tag": "h1",
+            "text": "The Coca‑Cola® Official Site for Drinks…",
+            "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > h1",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h2",
+            "text": "Your Shot at Alaska Starts Now",
+            "selector": "#text-17c2f3bbb6 > h2",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "700",
+            "lineHeight": "36px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h3",
+            "text": "YOU COULD WIN BIG THIS SEASON",
+            "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div > div:nth-of-type(1) > h3",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "700",
+            "lineHeight": "28px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h3",
+            "text": "YOU COULD WIN BIG THIS SEASON",
+            "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(2) > a > div > div:nth-of-type(1) > h3",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "700",
+            "lineHeight": "28px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h2",
+            "text": "Promos & Offers",
+            "selector": "#title-eaaffc3eca > h2",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "700",
+            "lineHeight": "36px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h3",
+            "text": "Don't Miss the Coca‑Cola Holiday Caravan",
+            "selector": "#splide02-slide01 > div > a > div > div:nth-of-type(1) > h3",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "700",
+            "lineHeight": "28px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h2",
+            "text": "Features",
+            "selector": "#title-de57f77d4e > h2",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "700",
+            "lineHeight": "36px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h3",
+            "text": "Refresh Your Fandom All Year Long",
+            "selector": "main > div > div:nth-of-type(2) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > h3",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "700",
+            "lineHeight": "36px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h3",
+            "text": "Mix Up the Holiday Spirit",
+            "selector": "#teaser-e01df91d42 > div:nth-of-type(1) > h3",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "700",
+            "lineHeight": "36px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h2",
+            "text": "More from Coca‑Cola®",
+            "selector": "#title-ecd64db34a > h2",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "700",
+            "lineHeight": "36px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h3",
+            "text": "you plus +one",
+            "selector": "#splide03-slide01 > div > a > div > div:nth-of-type(1) > h3",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "700",
+            "lineHeight": "28px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h2",
+            "text": "Explore Our Brands",
+            "selector": "main > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > h2",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "700",
+            "lineHeight": "36px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h4",
+            "text": "Help",
+            "selector": "div > div > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > h4",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h4",
+            "text": "Shop & Visit",
+            "selector": "div > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > div > h4",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h4",
+            "text": "Legal",
+            "selector": "div > div > div > div:nth-of-type(3) > div > div:nth-of-type(3) > div > h4",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "p",
+            "text": "Spin the Coca‑Cola Holiday Wheel and pl…",
+            "selector": "#container-5c9a64b67e > div:nth-of-type(3) > div > p",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "p",
+            "text": "Enter every Friday for your chance to w…",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(1) > a > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "p",
+            "text": "Enter every Friday for your chance to w…",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > a > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "p",
+            "text": "Whether you're a lifelong fan or experi…",
+            "selector": "#splide02-slide01 > div > a > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "p",
+            "text": "Soccer Central is your always-on home f…",
+            "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "p",
+            "text": "Make the season merry with easy holiday…",
+            "selector": "#teaser-e01df91d42 > div:nth-of-type(1) > div:nth-of-type(1) > p",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "p",
+            "text": "Have you downloaded yet? The +one app b…",
+            "selector": "#splide03-slide01 > div > a > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Sign Up",
+            "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
+            "count": 1,
+            "backgroundColor": "rgb(189, 189, 189)",
+            "color": "rgb(108, 108, 108)",
+            "borderRadius": "8000px",
+            "padding": "0px 16px",
+            "border": "0px none rgb(108, 108, 108)",
+            "borderColor": "rgb(108, 108, 108)",
+            "boxShadow": "none",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "700",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Play Now",
+            "selector": "#container-5c9a64b67e > div:nth-of-type(4) > a",
+            "count": 3,
+            "backgroundColor": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "8000px",
+            "padding": "4px 16px",
+            "border": "0px none rgb(255, 255, 255)",
+            "borderColor": "rgb(255, 255, 255)",
+            "boxShadow": "none",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(0, 0, 0)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(255, 255, 255)",
+              "boxShadow": "rgb(108, 108, 108) 0px 0px 0px 4px inset",
+              "changed": true
+            }
+          },
+          {
+            "text": "Explore for More",
+            "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
+            "count": 3,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "borderRadius": "8000px",
+            "padding": "4px 16px",
+            "border": "2px solid rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "boxShadow": "none",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "boxShadow": "rgb(0, 0, 0) 0px 0px 0px 2px inset",
+              "changed": true
+            }
+          }
+        ],
+        "links": [
+          {
+            "text": "YOU COULD WIN BIG THIS SEASON Enter eve…",
+            "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a",
+            "count": 4,
+            "color": "rgb(0, 0, 0)",
+            "textDecoration": "none",
+            "fontWeight": "700",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 360,
+              "h": 72
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "main",
+            "selector": "main",
+            "rect": {
+              "x": 24,
+              "y": 72,
+              "w": 312,
+              "h": 5507
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "footer",
+            "selector": "footer",
+            "rect": {
+              "x": 0,
+              "y": 5635,
+              "w": 360,
+              "h": 678
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div",
+            "rect": {
+              "x": 24,
+              "y": 112,
+              "w": 312,
+              "h": 5467
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "8000px",
+            "count": 29,
+            "area": 120325,
+            "sources": [
+              "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
+              "div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(3) > div > button",
+              "#container-5c9a64b67e > div:nth-of-type(4) > a"
+            ]
+          },
+          {
+            "value": "16px",
+            "count": 4,
+            "area": 648839,
+            "sources": [
+              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div",
+              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(2) > a > div",
+              "#splide02-slide01 > div > a > div"
+            ]
+          },
+          {
+            "value": "0px 0px 24px 24px",
+            "count": 2,
+            "area": 122705,
+            "sources": [
+              "body > div:nth-of-type(2) > div:nth-of-type(2) > div",
+              "body > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "8px",
+            "count": 2,
+            "area": 10599,
+            "sources": [
+              "div > div:nth-of-type(7) > div > div:nth-of-type(1) > div > a > picture > img",
+              "div > div:nth-of-type(7) > div > div:nth-of-type(2) > div > a > picture > img"
+            ]
+          },
+          {
+            "value": "30px",
+            "count": 1,
+            "area": 10432,
+            "sources": [
+              "body > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1)"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgba(0, 0, 0, 0.12) 0px 8px 16px 0px",
+            "count": 4,
+            "sources": [
+              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div",
+              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(2) > a > div",
+              "#splide02-slide01 > div > a > div"
+            ]
+          },
+          {
+            "value": "rgba(0, 0, 0, 0.1) 0px 4px 8px 0px",
+            "count": 1,
+            "sources": [
+              "body > div:nth-of-type(2) > div:nth-of-type(2) > div"
+            ]
+          }
+        ],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 16,
+            "area": 757160,
+            "sources": [
+              "header > div > div > div > div:nth-of-type(1)",
+              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div > div:nth-of-type(1)",
+              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 8,
+            "area": 359027,
+            "sources": [
+              "#container-5c9a64b67e > div:nth-of-type(4) > a",
+              "#container-ec87edacce > div:nth-of-type(3) > a",
+              "#splide02 > ul > li:nth-of-type(1) > button"
+            ]
+          },
+          {
+            "value": "rgb(108, 108, 108)",
+            "count": 5,
+            "area": 320,
+            "sources": [
+              "#splide02 > ul > li:nth-of-type(2) > button",
+              "#splide03 > ul > li:nth-of-type(2) > button",
+              "#splide03 > ul > li:nth-of-type(3) > button"
+            ]
+          },
+          {
+            "value": "rgb(238, 238, 238)",
+            "count": 1,
+            "area": 2272843,
+            "sources": [
+              "body"
+            ]
+          },
+          {
+            "value": "rgb(189, 189, 189)",
+            "count": 1,
+            "area": 3344,
+            "sources": [
+              "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 33,
+            "sources": [
+              "div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > h1",
+              "#text-17c2f3bbb6 > h2",
+              "#container-5c9a64b67e > div:nth-of-type(3) > div > p"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 10,
+            "sources": [
+              "#container-5c9a64b67e > div:nth-of-type(4) > a > span",
+              "#container-ec87edacce > div:nth-of-type(3) > a > span",
+              "main > div > div:nth-of-type(2) > div > div:nth-of-type(3) > a > span"
+            ]
+          },
+          {
+            "value": "rgb(108, 108, 108)",
+            "count": 1,
+            "sources": [
+              "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 6,
+            "sources": [
+              "#button-06fb0efc72",
+              "#container-ec34f28b60 > div:nth-of-type(2) > a",
+              "#container-ec34f28b60 > div:nth-of-type(3) > a"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 4,
+            "sources": [
+              "div > div:nth-of-type(2) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
+              "#teaser-e01df91d42 > div:nth-of-type(1) > div:nth-of-type(2) > a",
+              "#button-e85ba47a41"
+            ]
+          }
+        ],
+        "customProps": {
+          "--scrollWidth": {
+            "declared": "0px",
+            "computed": "0px"
+          },
+          "--onexp-white": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--onexp-black": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-accent-regular": {
+            "declared": "#ea0000",
+            "computed": "#ea0000"
+          },
+          "--color-icon-action-main-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-action-main-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-action-main-hover": {
+            "declared": "#353535",
+            "computed": "#353535"
+          },
+          "--color-icon-action-main-pressed": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-icon-action-on_brand-primary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-action-on_brand-primary-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-icon-action-on_brand-primary-hover": {
+            "declared": "#eeeeee",
+            "computed": "#eeeeee"
+          },
+          "--color-icon-action-on_brand-primary-pressed": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-icon-action-on_brand-secondary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-action-on_brand-secondary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-action-on_brand-secondary-hover": {
+            "declared": "#353535",
+            "computed": "#353535"
+          },
+          "--color-icon-action-on_brand-secondary-pressed": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-icon-action-on_brand-tertiary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-action-on_brand-tertiary-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-icon-action-on_brand-tertiary-hover": {
+            "declared": "#eeeeee",
+            "computed": "#eeeeee"
+          },
+          "--color-icon-action-on_brand-tertiary-pressed": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-icon-brand-primary-regular": {
+            "declared": "#ea0000",
+            "computed": "#ea0000"
+          },
+          "--color-icon-brand-secondary-regular": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-button-filled-header-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-button-filled-header-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-component-button-filled-neutral-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-button-filled-neutral-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-component-button-filled-on_brand-primary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-component-button-filled-on_brand-primary-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-icon-component-button-filled-on_brand-secondary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-button-filled-on_brand-secondary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-component-button-filled-on_image-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-component-button-filled-on_image-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-icon-component-button-link-footer-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-button-link-footer-hover": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-icon-component-button-link-footer-pressed": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-icon-component-button-link-neutral-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-component-button-link-neutral-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-icon-component-button-link-neutral-pressed": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-icon-component-button-link-on_brand-primary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-button-link-on_brand-primary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-component-button-link-on_brand-primary-pressed": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-icon-component-button-link-on_brand-secondary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-component-button-link-on_brand-secondary-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-icon-component-button-link-on_brand-secondary-pressed": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-icon-component-button-link-on_image-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-button-link-on_image-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-component-button-link-on_image-pressed": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-icon-component-button-outlined-footer-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-button-outlined-header-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-component-button-outlined-header-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-icon-component-button-outlined-neutral-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-component-button-outlined-neutral-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-icon-component-button-outlined-on_brand-primary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-button-outlined-on_brand-primary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-component-button-outlined-on_brand-secondary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-component-button-outlined-on_brand-secondary-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-icon-component-button-outlined-on_image-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-button-outlined-on_image-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-component-footer-action-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-footer-action-hover": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-icon-component-footer-action-pressed": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-icon-component-footer-neutral-regular": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-illustration-brand-primary": {
+            "declared": "#ea0000",
+            "computed": "#ea0000"
+          },
+          "--color-icon-component-illustration-brand-secondary": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-illustration-brand-tertiary": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-component-input-critical": {
+            "declared": "#bf1004",
+            "computed": "#bf1004"
+          },
+          "--color-icon-component-input-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-component-input-positive": {
+            "declared": "#1d6e17",
+            "computed": "#1d6e17"
+          },
+          "--color-icon-component-nav-action-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-component-nav-action-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-component-nav-action-hover": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-icon-component-nav-action-pressed": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-icon-component-nav-neutral-main-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-component-nav-neutral-main-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-component-nav-neutral-on_button-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-spin_the_wheel-neutral-primary": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-spin_the_wheel-neutral-secondary": {
+            "declared": "#ea0000",
+            "computed": "#ea0000"
+          },
+          "--color-icon-component-spin_the_wheel-primary-primary": {
+            "declared": "#eeeeee",
+            "computed": "#eeeeee"
+          },
+          "--color-icon-component-spin_the_wheel-primary-secondary": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-spin_the_wheel-secondary-primary": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-spin_the_wheel-secondary-quaternary": {
+            "declared": "#ea0000",
+            "computed": "#ea0000"
+          },
+          "--color-icon-component-spin_the_wheel-secondary-secondary": {
+            "declared": "#ea0000",
+            "computed": "#ea0000"
+          },
+          "--color-icon-component-spin_the_wheel-secondary-tertiary": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-neutral-interactive-neutral-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-neutral-interactive-neutral-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-neutral-interactive-primary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-neutral-interactive-primary-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-icon-neutral-interactive-secondary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-neutral-main-regular-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-neutral-main-regular-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-neutral-main-subtle-default": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-icon-neutral-on_brand-primary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-neutral-on_brand-primary-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-icon-neutral-on_brand-secondary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-neutral-on_brand-secondary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-neutral-on_brand-tertiary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-neutral-on_brand-tertiary-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-icon-status-critical": {
+            "declared": "#bf1004",
+            "computed": "#bf1004"
+          },
+          "--color-icon-status-info": {
+            "declared": "#0048ff",
+            "computed": "#0048ff"
+          },
+          "--color-icon-status-positive": {
+            "declared": "#1d6e17",
+            "computed": "#1d6e17"
+          },
+          "--color-icon-status-reverse-critical": {
+            "declared": "#ffa68f",
+            "computed": "#ffa68f"
+          },
+          "--color-icon-status-warning": {
+            "declared": "#725d27",
+            "computed": "#725d27"
+          },
+          "--color-shadow-interactive-hover": {
+            "declared": "#00000052",
+            "computed": "#00000052"
+          },
+          "--color-shadow-neutral-regular": {
+            "declared": "#0000001f",
+            "computed": "#0000001f"
+          },
+          "--color-stroke-action-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-brand-primary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-brand-primary-subtle": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-stroke-brand-secondary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-stroke-brand-secondary-subtle": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-stroke-component-button-filled-header-hover": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-stroke-component-button-filled-neutral-hover": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-stroke-component-button-filled-on_brand-primary-hover": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-stroke-component-button-filled-on_brand-secondary-hover": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-stroke-component-button-filled-on_image-hover": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-stroke-component-button-outlined-footer-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-stroke-component-button-outlined-header-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-component-button-outlined-header-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-stroke-component-button-outlined-neutral-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-component-button-outlined-neutral-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-stroke-component-button-outlined-on_brand-primary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-stroke-component-button-outlined-on_brand-primary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-stroke-component-button-outlined-on_brand-secondary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-component-button-outlined-on_brand-secondary-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-stroke-component-button-outlined-on_image-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-stroke-component-button-outlined-on_image-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-stroke-component-footer-interactive-focus": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-stroke-component-footer-neutral-regular": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-stroke-component-footer-neutral-subtle": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-stroke-component-input-field-active": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-component-input-field-critical": {
+            "declared": "#bf1004",
+            "computed": "#bf1004"
+          },
+          "--color-stroke-component-input-field-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-component-input-field-hover": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-stroke-component-input-field-positive": {
+            "declared": "#1d6e17",
+            "computed": "#1d6e17"
+          },
+          "--color-stroke-component-input-tag-subtle": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-stroke-component-nav-interactive-active": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-component-nav-interactive-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-component-nav-interactive-focus": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-component-nav-interactive-hover": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-stroke-component-nav-interactive-reverse-active": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-stroke-component-nav-interactive-reverse-focus": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-stroke-component-nav-neutral-main-regular": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-component-nav-neutral-main-subtle": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-stroke-interactive-main-active": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-interactive-main-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-interactive-main-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-stroke-interactive-main-focus": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-interactive-main-hover": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-stroke-interactive-main-pressed": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-stroke-interactive-on_brand-primary-focus": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-stroke-interactive-on_brand-secondary-focus": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-interactive-on_image-focus": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-stroke-neutral-main-regular-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-neutral-main-regular-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-stroke-neutral-main-subtle-default": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-stroke-neutral-on_brand-primary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-stroke-neutral-on_brand-primary-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-stroke-neutral-on_brand-secondary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-neutral-on_brand-secondary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-stroke-status-critical": {
+            "declared": "#bf1004",
+            "computed": "#bf1004"
+          },
+          "--color-stroke-status-info": {
+            "declared": "#0048ff",
+            "computed": "#0048ff"
+          },
+          "--color-stroke-status-positive": {
+            "declared": "#1d6e17",
+            "computed": "#1d6e17"
+          },
+          "--color-stroke-status-warning": {
+            "declared": "#725d27",
+            "computed": "#725d27"
+          },
+          "--color-surface-action-alpha-main-active": {
+            "declared": "#0000001f",
+            "computed": "#0000001f"
+          },
+          "--color-surface-action-alpha-main-default": {
+            "declared": "#00000000",
+            "computed": "#00000000"
+          },
+          "--color-surface-action-alpha-main-hover": {
+            "declared": "#0000001f",
+            "computed": "#0000001f"
+          },
+          "--color-surface-action-alpha-main-pressed": {
+            "declared": "#0000003d",
+            "computed": "#0000003d"
+          },
+          "--color-surface-action-alpha-on_brand-primary-default": {
+            "declared": "#ffffff00",
+            "computed": "#ffffff00"
+          },
+          "--color-surface-action-alpha-on_brand-primary-hover": {
+            "declared": "#ffffff1f",
+            "computed": "#ffffff1f"
+          },
+          "--color-surface-action-alpha-on_brand-primary-pressed": {
+            "declared": "#ffffff3d",
+            "computed": "#ffffff3d"
+          },
+          "--color-surface-action-alpha-on_brand-secondary-default": {
+            "declared": "#00000000",
+            "computed": "#00000000"
+          },
+          "--color-surface-action-alpha-on_brand-secondary-hover": {
+            "declared": "#0000001f",
+            "computed": "#0000001f"
+          },
+          "--color-surface-action-alpha-on_brand-secondary-pressed": {
+            "declared": "#0000003d",
+            "computed": "#0000003d"
+          },
+          "--color-surface-action-alpha-reverse-default": {
+            "declared": "#ffffff00",
+            "computed": "#ffffff00"
+          },
+          "--color-surface-action-alpha-reverse-pressed": {
+            "declared": "#ffffff3d",
+            "computed": "#ffffff3d"
+          },
+          "--color-surface-action-opaque-main-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-action-opaque-main-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-surface-action-opaque-main-hover": {
+            "declared": "#353535",
+            "computed": "#353535"
+          },
+          "--color-surface-action-opaque-main-pressed": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-surface-action-opaque-on_brand-primary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-surface-action-opaque-on_brand-primary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-surface-action-opaque-on_brand-primary-hover": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-surface-action-opaque-on_brand-primary-pressed": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-surface-action-opaque-on_brand-secondary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-action-opaque-on_brand-secondary-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-surface-action-opaque-on_brand-secondary-hover": {
+            "declared": "#353535",
+            "computed": "#353535"
+          },
+          "--color-surface-action-opaque-on_brand-secondary-pressed": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-surface-action-opaque-on_brand-tertiary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-surface-action-opaque-on_brand-tertiary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-surface-action-opaque-on_brand-tertiary-hover": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-surface-action-opaque-on_brand-tertiary-pressed": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-surface-action-opaque-on_image-hover": {
+            "declared": "#eeeeee",
+            "computed": "#eeeeee"
+          },
+          "--color-surface-brand-primary-regular": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-brand-secondary-regular": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-surface-brand-tertiary-regular": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-component-button-filled-header-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-component-button-filled-header-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-surface-component-button-filled-header-pressed": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-surface-component-button-filled-neutral-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-component-button-filled-neutral-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-surface-component-button-filled-neutral-pressed": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-surface-component-button-filled-on_brand-primary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-surface-component-button-filled-on_brand-primary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-surface-component-button-filled-on_brand-primary-pressed": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-surface-component-button-filled-on_brand-secondary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-component-button-filled-on_brand-secondary-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-surface-component-button-filled-on_brand-secondary-pressed": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-surface-component-button-filled-on_image-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-surface-component-button-filled-on_image-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-surface-component-button-filled-on_image-pressed": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-surface-component-button-outlined-footer-default": {
+            "declared": "#ffffff00",
+            "computed": "#ffffff00"
+          },
+          "--color-surface-component-button-outlined-footer-pressed": {
+            "declared": "#ffffff3d",
+            "computed": "#ffffff3d"
+          },
+          "--color-surface-component-button-outlined-header-default": {
+            "declared": "#00000000",
+            "computed": "#00000000"
+          },
+          "--color-surface-component-button-outlined-header-disabled": {
+            "declared": "#0000003d",
+            "computed": "#0000003d"
+          },
+          "--color-surface-component-button-outlined-neutral-default": {
+            "declared": "#00000000",
+            "computed": "#00000000"
+          },
+          "--color-surface-component-button-outlined-neutral-pressed": {
+            "declared": "#0000003d",
+            "computed": "#0000003d"
+          },
+          "--color-surface-component-button-outlined-on_brand-primary-default": {
+            "declared": "#ffffff00",
+            "computed": "#ffffff00"
+          },
+          "--color-surface-component-button-outlined-on_brand-primary-pressed": {
+            "declared": "#ffffff3d",
+            "computed": "#ffffff3d"
+          },
+          "--color-surface-component-button-outlined-on_brand-secondary-default": {
+            "declared": "#00000000",
+            "computed": "#00000000"
+          },
+          "--color-surface-component-button-outlined-on_brand-secondary-pressed": {
+            "declared": "#0000003d",
+            "computed": "#0000003d"
+          },
+          "--color-surface-component-button-outlined-on_image-default": {
+            "declared": "#ffffff00",
+            "computed": "#ffffff00"
+          },
+          "--color-surface-component-button-outlined-on_image-pressed": {
+            "declared": "#ffffff3d",
+            "computed": "#ffffff3d"
+          },
+          "--color-surface-component-footer-action-default": {
+            "declared": "#ffffff00",
+            "computed": "#ffffff00"
+          },
+          "--color-surface-component-footer-action-hover": {
+            "declared": "#ffffff1f",
+            "computed": "#ffffff1f"
+          },
+          "--color-surface-component-footer-action-pressed": {
+            "declared": "#ffffff3d",
+            "computed": "#ffffff3d"
+          },
+          "--color-surface-component-footer-neutral-regular": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-component-footer-neutral-subtle": {
+            "declared": "#353535",
+            "computed": "#353535"
+          },
+          "--color-surface-component-footer-regular": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-component-input-dropdown-hover": {
+            "declared": "#0000001f",
+            "computed": "#0000001f"
+          },
+          "--color-surface-component-input-dropdown-pressed": {
+            "declared": "#0000003d",
+            "computed": "#0000003d"
+          },
+          "--color-surface-component-input-field-regular": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-surface-component-live_badge-regular": {
+            "declared": "#ff0000",
+            "computed": "#ff0000"
+          },
+          "--color-surface-component-nav-action-alpha-default": {
+            "declared": "#00000000",
+            "computed": "#00000000"
+          },
+          "--color-surface-component-nav-action-alpha-hover": {
+            "declared": "#0000001f",
+            "computed": "#0000001f"
+          },
+          "--color-surface-component-nav-action-alpha-pressed": {
+            "declared": "#0000003d",
+            "computed": "#0000003d"
+          },
+          "--color-surface-component-nav-action-opaque-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-component-nav-action-opaque-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-surface-component-nav-action-opaque-hover": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-surface-component-nav-action-opaque-pressed": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-surface-component-nav-interactive-hover": {
+            "declared": "#0000001f",
+            "computed": "#0000001f"
+          },
+          "--color-surface-component-nav-interactive-pressed": {
+            "declared": "#0000003d",
+            "computed": "#0000003d"
+          },
+          "--color-surface-component-nav-neutral-alpha-regular": {
+            "declared": "#0000008f",
+            "computed": "#0000008f"
+          },
+          "--color-surface-component-nav-neutral-opaque-regular": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-surface-component-nav-neutral-opaque-subtle": {
+            "declared": "#eeeeee",
+            "computed": "#eeeeee"
+          },
+          "--color-surface-component-selector-active": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-component-selector-default": {
+            "declared": "#eeeeee",
+            "computed": "#eeeeee"
+          },
+          "--color-surface-component-selector-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-surface-component-selector-hover": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-surface-interactive-alpha-default": {
+            "declared": "#00000000",
+            "computed": "#00000000"
+          },
+          "--color-surface-interactive-alpha-hover": {
+            "declared": "#0000001f",
+            "computed": "#0000001f"
+          },
+          "--color-surface-interactive-alpha-pressed": {
+            "declared": "#0000003d",
+            "computed": "#0000003d"
+          },
+          "--color-surface-interactive-opaque-active": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-interactive-opaque-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-interactive-opaque-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-surface-interactive-opaque-hover": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-surface-interactive-opaque-pressed": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-surface-neutral-alpha-regular": {
+            "declared": "#0000008f",
+            "computed": "#0000008f"
+          },
+          "--color-surface-neutral-opaque-bold": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-surface-neutral-opaque-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-surface-neutral-opaque-regular": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-surface-neutral-opaque-subtle": {
+            "declared": "#eeeeee",
+            "computed": "#eeeeee"
+          },
+          "--color-surface-neutral-reverse-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-surface-neutral-reverse-regular": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-neutral-reverse-subtle": {
+            "declared": "#353535",
+            "computed": "#353535"
+          },
+          "--color-surface-status-critical": {
+            "declared": "#ffe9e2",
+            "computed": "#ffe9e2"
+          },
+          "--color-surface-status-info": {
+            "declared": "#f2eaff",
+            "computed": "#f2eaff"
+          },
+          "--color-surface-status-positive-bold": {
+            "declared": "#e4f2df",
+            "computed": "#e4f2df"
+          },
+          "--color-surface-status-positive-subtle": {
+            "declared": "#95cb87",
+            "computed": "#95cb87"
+          },
+          "--color-surface-status-warning": {
+            "declared": "#fceccf",
+            "computed": "#fceccf"
+          },
+          "--color-text-action-main-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-text-action-main-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-text-action-main-hover": {
+            "declared": "#353535",
+            "computed": "#353535"
+          },
+          "--color-text-action-main-pressed": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-text-action-on_brand-primary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-text-action-on_brand-primary-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-text-action-on_brand-primary-hover": {
+            "declared": "#eeeeee",
+            "computed": "#eeeeee"
+          },
+          "--color-text-action-on_brand-primary-pressed": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-text-action-on_brand-secondary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-text-action-on_brand-secondary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-text-action-on_brand-secondary-hover": {
+            "declared": "#353535",
+            "computed": "#353535"
+          },
+          "--color-text-action-on_brand-secondary-pressed": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-text-action-on_brand-tertiary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-text-action-on_brand-tertiary-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-text-action-on_brand-tertiary-hover": {
+            "declared": "#eeeeee",
+            "computed": "#eeeeee"
+          },
+          "--color-text-action-on_brand-tertiary-pressed": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-text-component-button-filled-header-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-text-component-button-filled-header-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-text-component-button-filled-neutral-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-text-component-button-filled-neutral-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-text-component-button-filled-on_brand-primary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-text-component-button-filled-on_brand-primary-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-text-component-button-filled-on_brand-secondary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-text-component-button-filled-on_brand-secondary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-text-component-button-filled-on_image-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-text-component-button-filled-on_image-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-text-component-button-link-footer-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-text-component-button-link-footer-hover": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-text-component-button-link-footer-pressed": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-text-component-button-link-neutral-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-text-component-button-link-neutral-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-text-component-button-link-neutral-pressed": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          }
+        },
+        "fonts": [
+          {
+            "family": "Fanta Pop",
+            "weight": "normal",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Better With",
+            "weight": "normal",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Aktiv Grotesk",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Aktiv Grotesk",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Aktiv Grotesk CD",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Aktiv Grotesk CD",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "TCCC-UnityText",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "TCCC-UnityText",
+            "weight": "700",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "icomoon",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "VideoJS",
+            "weight": "normal",
+            "style": "normal",
+            "status": "unloaded"
+          }
+        ],
+        "logoCandidates": [
+          {
+            "tag": "img",
+            "selector": "div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > a > picture > img",
+            "src": "https://www.coca-cola.com/content/dam/onexp/global/icons/Coke-company-logo-black.svg",
+            "inlineSvg": false,
+            "alt": "Coca Cola Company Logo",
+            "ariaLabel": null,
+            "class": "cmp-image__image",
+            "id": null,
+            "href": "/us/en",
+            "inHomeLink": false,
+            "rect": {
+              "x": 24,
+              "y": 26,
+              "w": 125,
+              "h": 20
+            }
+          }
+        ],
+        "iconFont": {
+          "families": [
+            "icomoon"
+          ],
+          "glyphs": [
+            {
+              "class": "has-submenu",
+              "pseudo": "::after",
+              "codepoint": "U+E91A",
+              "fontFamily": "icomoon"
+            },
+            {
+              "class": "cmp-button__icon cmp-button__icon--profile",
+              "pseudo": "::after",
+              "codepoint": "U+E905",
+              "fontFamily": "icomoon"
+            },
+            {
+              "class": "user-avatar__image",
+              "pseudo": "::after",
+              "codepoint": "U+E905",
+              "fontFamily": "icomoon"
+            },
+            {
+              "class": "cmp-button__icon cmp-button__icon--menu",
+              "pseudo": "::after",
+              "codepoint": "U+E910",
+              "fontFamily": "icomoon"
+            },
+            {
+              "class": "cmp-teaser__action-link",
+              "pseudo": "::after",
+              "codepoint": "U+E906",
+              "fontFamily": "icomoon"
+            },
+            {
+              "class": "cmp-button__icon cmp-button__icon--x-social",
+              "pseudo": "::after",
+              "codepoint": "U+E934",
+              "fontFamily": "icomoon"
+            },
+            {
+              "class": "cmp-button__icon cmp-button__icon--instagram",
+              "pseudo": "::after",
+              "codepoint": "U+E925",
+              "fontFamily": "icomoon"
+            },
+            {
+              "class": "cmp-button__icon cmp-button__icon--youtube",
+              "pseudo": "::after",
+              "codepoint": "U+E926",
+              "fontFamily": "icomoon"
+            },
+            {
+              "class": "cmp-button__icon cmp-button__icon--facebook",
+              "pseudo": "::after",
+              "codepoint": "U+E922",
+              "fontFamily": "icomoon"
+            },
+            {
+              "class": "ot-close-icon",
+              "pseudo": "::after",
+              "codepoint": "U+E909",
+              "fontFamily": "icomoon"
+            },
+            {
+              "class": "ot-link-btn back-btn-handler",
+              "pseudo": "::after",
+              "codepoint": "U+E907",
+              "fontFamily": "icomoon"
+            }
+          ]
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://www.coca-cola.com/us/en"
+      },
+      "1440": {
+        "title": "Explore the Coca‑Cola® Official Site | Coca-Cola US",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "elements": {
+          "total": 1077,
+          "visible": 380
+        },
+        "occluders": [],
+        "headings": [
+          {
+            "tag": "h1",
+            "text": "The Coca‑Cola® Official Site for Drinks…",
+            "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > h1",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "38px",
+            "fontWeight": "700",
+            "lineHeight": "48px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h2",
+            "text": "Your Shot at Alaska Starts Now",
+            "selector": "#text-17c2f3bbb6 > h2",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h3",
+            "text": "YOU COULD WIN BIG THIS SEASON",
+            "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div > div:nth-of-type(1) > h3",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h3",
+            "text": "YOU COULD WIN BIG THIS SEASON",
+            "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(2) > a > div > div:nth-of-type(1) > h3",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h2",
+            "text": "Promos & Offers",
+            "selector": "#title-eaaffc3eca > h2",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h3",
+            "text": "Don't Miss the Coca‑Cola Holiday Caravan",
+            "selector": "#splide02-slide01 > div > a > div > div:nth-of-type(1) > h3",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h3",
+            "text": "A Full Year of Favorites Could Be Yours",
+            "selector": "#splide02-slide02 > div > a > div > div:nth-of-type(1) > h3",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h2",
+            "text": "Features",
+            "selector": "#title-de57f77d4e > h2",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h3",
+            "text": "Refresh Your Fandom All Year Long",
+            "selector": "main > div > div:nth-of-type(2) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > h3",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h3",
+            "text": "Mix Up the Holiday Spirit",
+            "selector": "#teaser-e01df91d42 > div:nth-of-type(1) > h3",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h2",
+            "text": "More from Coca‑Cola®",
+            "selector": "#title-ecd64db34a > h2",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h3",
+            "text": "you plus +one",
+            "selector": "#splide03-slide01 > div > a > div > div:nth-of-type(1) > h3",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h3",
+            "text": "Discover Your Tastebud Map",
+            "selector": "#splide03-slide02 > div > a > div > div:nth-of-type(1) > h3",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h3",
+            "text": "World of Coca‑Cola Annual Pass",
+            "selector": "#splide03-slide03 > div > a > div > div:nth-of-type(1) > h3",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "lineHeight": "32px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h2",
+            "text": "Explore Our Brands",
+            "selector": "main > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > h2",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "-1.5px",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "h4",
+            "text": "Help",
+            "selector": "div > div > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > h4",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "700",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "uppercase",
+            "color": "rgb(213, 213, 213)"
+          },
+          {
+            "tag": "h4",
+            "text": "Shop & Visit",
+            "selector": "div > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > div > h4",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "700",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "uppercase",
+            "color": "rgb(213, 213, 213)"
+          },
+          {
+            "tag": "h4",
+            "text": "Legal",
+            "selector": "div > div > div > div:nth-of-type(3) > div > div:nth-of-type(3) > div > h4",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "700",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "uppercase",
+            "color": "rgb(213, 213, 213)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "p",
+            "text": "Spin the Coca‑Cola Holiday Wheel and pl…",
+            "selector": "#container-5c9a64b67e > div:nth-of-type(3) > div > p",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "p",
+            "text": "Enter every Friday for your chance to w…",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(1) > a > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "p",
+            "text": "Enter every Friday for your chance to w…",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > a > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "p",
+            "text": "Whether you're a lifelong fan or experi…",
+            "selector": "#splide02-slide01 > div > a > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "p",
+            "text": "Enter today for a chance to win 24 (or …",
+            "selector": "#splide02-slide02 > div > a > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "p",
+            "text": "Soccer Central is your always-on home f…",
+            "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "p",
+            "text": "Make the season merry with easy holiday…",
+            "selector": "#teaser-e01df91d42 > div:nth-of-type(1) > div:nth-of-type(1) > p",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "p",
+            "text": "Have you downloaded yet? The +one app b…",
+            "selector": "#splide03-slide01 > div > a > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "p",
+            "text": "We’ve devised a quick, fun way to disco…",
+            "selector": "#splide03-slide02 > div > a > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          },
+          {
+            "tag": "p",
+            "text": "Unlock unlimited visits to World of Coc…",
+            "selector": "#splide03-slide03 > div > a > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Sign Up",
+            "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
+            "count": 1,
+            "backgroundColor": "rgb(189, 189, 189)",
+            "color": "rgb(108, 108, 108)",
+            "borderRadius": "8000px",
+            "padding": "0px 16px",
+            "border": "0px none rgb(108, 108, 108)",
+            "borderColor": "rgb(108, 108, 108)",
+            "boxShadow": "none",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "700",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Play Now",
+            "selector": "#container-5c9a64b67e > div:nth-of-type(4) > a",
+            "count": 3,
+            "backgroundColor": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "8000px",
+            "padding": "4px 16px",
+            "border": "0px none rgb(255, 255, 255)",
+            "borderColor": "rgb(255, 255, 255)",
+            "boxShadow": "none",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(0, 0, 0)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(255, 255, 255)",
+              "boxShadow": "rgb(108, 108, 108) 0px 0px 0px 4px inset",
+              "changed": true
+            }
+          },
+          {
+            "text": "Explore for More",
+            "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
+            "count": 3,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "borderRadius": "8000px",
+            "padding": "4px 16px",
+            "border": "2px solid rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "boxShadow": "none",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "boxShadow": "rgb(0, 0, 0) 0px 0px 0px 2px inset",
+              "changed": true
+            }
+          },
+          {
+            "text": "Baseball",
+            "selector": "#answer-baseball",
+            "count": 6,
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(0, 0, 0)",
+            "borderRadius": "8000px",
+            "padding": "4px 16px",
+            "border": "0px none rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "boxShadow": "none",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(53, 53, 53)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(53, 53, 53)",
+              "boxShadow": "rgb(108, 108, 108) 0px 0px 0px 4px inset",
+              "changed": true
+            }
+          }
+        ],
+        "links": [
+          {
+            "text": "YOU COULD WIN BIG THIS SEASON Enter eve…",
+            "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a",
+            "count": 7,
+            "color": "rgb(0, 0, 0)",
+            "textDecoration": "none",
+            "fontWeight": "700",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 1440,
+              "h": 80
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "main",
+            "selector": "main",
+            "rect": {
+              "x": 160,
+              "y": 80,
+              "w": 1120,
+              "h": 5571
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px",
+            "maxWidth": "1120px",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "footer",
+            "selector": "footer",
+            "rect": {
+              "x": 0,
+              "y": 5771,
+              "w": 1440,
+              "h": 936
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div",
+            "rect": {
+              "x": 160,
+              "y": 136,
+              "w": 1120,
+              "h": 5515
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "8000px",
+            "count": 31,
+            "area": 146323,
+            "sources": [
+              "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
+              "#container-5c9a64b67e > div:nth-of-type(4) > a",
+              "div:nth-of-type(2) > div > div:nth-of-type(1) > a > div > div:nth-of-type(1) > div:nth-of-type(2) > p"
+            ]
+          },
+          {
+            "value": "16px",
+            "count": 9,
+            "area": 2790446,
+            "sources": [
+              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div",
+              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(2) > a > div",
+              "#splide02-slide01 > div > a > div"
+            ]
+          },
+          {
+            "value": "30px 0px 0px 30px",
+            "count": 1,
+            "area": 129600,
+            "sources": [
+              "body > div:nth-of-type(2) > div:nth-of-type(2) > div"
+            ]
+          },
+          {
+            "value": "0px 0px 0px 30px",
+            "count": 1,
+            "area": 111907,
+            "sources": [
+              "body > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "30px",
+            "count": 1,
+            "area": 16560,
+            "sources": [
+              "body > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1)"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgba(0, 0, 0, 0.12) 0px 8px 16px 0px",
+            "count": 7,
+            "sources": [
+              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div",
+              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(2) > a > div",
+              "#splide02-slide01 > div > a > div"
+            ]
+          },
+          {
+            "value": "rgba(0, 0, 0, 0.1) 0px 4px 8px 0px",
+            "count": 1,
+            "sources": [
+              "body > div:nth-of-type(2) > div:nth-of-type(2) > div"
+            ]
+          }
+        ],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 22,
+            "area": 2348121,
+            "sources": [
+              "header > div > div > div > div:nth-of-type(1)",
+              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div > div:nth-of-type(1)",
+              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 8,
+            "area": 1533752,
+            "sources": [
+              "#container-5c9a64b67e > div:nth-of-type(4) > a",
+              "#container-ec87edacce > div:nth-of-type(3) > a",
+              "#splide02 > ul > li:nth-of-type(1) > button"
+            ]
+          },
+          {
+            "value": "rgb(108, 108, 108)",
+            "count": 5,
+            "area": 320,
+            "sources": [
+              "#splide02 > ul > li:nth-of-type(2) > button",
+              "#splide03 > ul > li:nth-of-type(2) > button",
+              "#splide03 > ul > li:nth-of-type(3) > button"
+            ]
+          },
+          {
+            "value": "rgb(238, 238, 238)",
+            "count": 1,
+            "area": 9657450,
+            "sources": [
+              "body"
+            ]
+          },
+          {
+            "value": "rgb(189, 189, 189)",
+            "count": 1,
+            "area": 3344,
+            "sources": [
+              "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 47,
+            "sources": [
+              "div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > ul > li:nth-of-type(1) > a",
+              "div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > ul > li:nth-of-type(2) > a",
+              "div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > ul > li:nth-of-type(3) > a"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 34,
+            "sources": [
+              "#container-5c9a64b67e > div:nth-of-type(4) > a > span",
+              "#container-ec87edacce > div:nth-of-type(3) > a > span",
+              "main > div > div:nth-of-type(2) > div > div:nth-of-type(3) > a > span"
+            ]
+          },
+          {
+            "value": "rgb(213, 213, 213)",
+            "count": 3,
+            "sources": [
+              "div > div > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > h4",
+              "div > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > div > h4",
+              "div > div > div > div:nth-of-type(3) > div > div:nth-of-type(3) > div > h4"
+            ]
+          },
+          {
+            "value": "rgb(108, 108, 108)",
+            "count": 1,
+            "sources": [
+              "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 4,
+            "sources": [
+              "div > div:nth-of-type(2) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
+              "#teaser-e01df91d42 > div:nth-of-type(1) > div:nth-of-type(2) > a",
+              "#button-e85ba47a41"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 4,
+            "sources": [
+              "#button-06fb0efc72",
+              "#container-ec34f28b60 > div:nth-of-type(2) > a",
+              "#container-ec34f28b60 > div:nth-of-type(3) > a"
+            ]
+          }
+        ],
+        "customProps": {
+          "--scrollWidth": {
+            "declared": "0px",
+            "computed": "0px"
+          },
+          "--onexp-white": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--onexp-black": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-accent-regular": {
+            "declared": "#ea0000",
+            "computed": "#ea0000"
+          },
+          "--color-icon-action-main-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-action-main-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-action-main-hover": {
+            "declared": "#353535",
+            "computed": "#353535"
+          },
+          "--color-icon-action-main-pressed": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-icon-action-on_brand-primary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-action-on_brand-primary-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-icon-action-on_brand-primary-hover": {
+            "declared": "#eeeeee",
+            "computed": "#eeeeee"
+          },
+          "--color-icon-action-on_brand-primary-pressed": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-icon-action-on_brand-secondary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-action-on_brand-secondary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-action-on_brand-secondary-hover": {
+            "declared": "#353535",
+            "computed": "#353535"
+          },
+          "--color-icon-action-on_brand-secondary-pressed": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-icon-action-on_brand-tertiary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-action-on_brand-tertiary-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-icon-action-on_brand-tertiary-hover": {
+            "declared": "#eeeeee",
+            "computed": "#eeeeee"
+          },
+          "--color-icon-action-on_brand-tertiary-pressed": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-icon-brand-primary-regular": {
+            "declared": "#ea0000",
+            "computed": "#ea0000"
+          },
+          "--color-icon-brand-secondary-regular": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-button-filled-header-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-button-filled-header-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-component-button-filled-neutral-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-button-filled-neutral-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-component-button-filled-on_brand-primary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-component-button-filled-on_brand-primary-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-icon-component-button-filled-on_brand-secondary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-button-filled-on_brand-secondary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-component-button-filled-on_image-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-component-button-filled-on_image-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-icon-component-button-link-footer-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-button-link-footer-hover": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-icon-component-button-link-footer-pressed": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-icon-component-button-link-neutral-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-component-button-link-neutral-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-icon-component-button-link-neutral-pressed": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-icon-component-button-link-on_brand-primary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-button-link-on_brand-primary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-component-button-link-on_brand-primary-pressed": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-icon-component-button-link-on_brand-secondary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-component-button-link-on_brand-secondary-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-icon-component-button-link-on_brand-secondary-pressed": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-icon-component-button-link-on_image-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-button-link-on_image-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-component-button-link-on_image-pressed": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-icon-component-button-outlined-footer-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-button-outlined-header-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-component-button-outlined-header-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-icon-component-button-outlined-neutral-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-component-button-outlined-neutral-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-icon-component-button-outlined-on_brand-primary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-button-outlined-on_brand-primary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-component-button-outlined-on_brand-secondary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-component-button-outlined-on_brand-secondary-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-icon-component-button-outlined-on_image-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-button-outlined-on_image-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-component-footer-action-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-footer-action-hover": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-icon-component-footer-action-pressed": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-icon-component-footer-neutral-regular": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-illustration-brand-primary": {
+            "declared": "#ea0000",
+            "computed": "#ea0000"
+          },
+          "--color-icon-component-illustration-brand-secondary": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-illustration-brand-tertiary": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-component-input-critical": {
+            "declared": "#bf1004",
+            "computed": "#bf1004"
+          },
+          "--color-icon-component-input-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-component-input-positive": {
+            "declared": "#1d6e17",
+            "computed": "#1d6e17"
+          },
+          "--color-icon-component-nav-action-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-component-nav-action-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-component-nav-action-hover": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-icon-component-nav-action-pressed": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-icon-component-nav-neutral-main-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-component-nav-neutral-main-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-component-nav-neutral-on_button-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-spin_the_wheel-neutral-primary": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-spin_the_wheel-neutral-secondary": {
+            "declared": "#ea0000",
+            "computed": "#ea0000"
+          },
+          "--color-icon-component-spin_the_wheel-primary-primary": {
+            "declared": "#eeeeee",
+            "computed": "#eeeeee"
+          },
+          "--color-icon-component-spin_the_wheel-primary-secondary": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-spin_the_wheel-secondary-primary": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-component-spin_the_wheel-secondary-quaternary": {
+            "declared": "#ea0000",
+            "computed": "#ea0000"
+          },
+          "--color-icon-component-spin_the_wheel-secondary-secondary": {
+            "declared": "#ea0000",
+            "computed": "#ea0000"
+          },
+          "--color-icon-component-spin_the_wheel-secondary-tertiary": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-neutral-interactive-neutral-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-neutral-interactive-neutral-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-neutral-interactive-primary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-neutral-interactive-primary-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-icon-neutral-interactive-secondary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-neutral-main-regular-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-neutral-main-regular-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-neutral-main-subtle-default": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-icon-neutral-on_brand-primary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-neutral-on_brand-primary-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-icon-neutral-on_brand-secondary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-icon-neutral-on_brand-secondary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-icon-neutral-on_brand-tertiary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-icon-neutral-on_brand-tertiary-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-icon-status-critical": {
+            "declared": "#bf1004",
+            "computed": "#bf1004"
+          },
+          "--color-icon-status-info": {
+            "declared": "#0048ff",
+            "computed": "#0048ff"
+          },
+          "--color-icon-status-positive": {
+            "declared": "#1d6e17",
+            "computed": "#1d6e17"
+          },
+          "--color-icon-status-reverse-critical": {
+            "declared": "#ffa68f",
+            "computed": "#ffa68f"
+          },
+          "--color-icon-status-warning": {
+            "declared": "#725d27",
+            "computed": "#725d27"
+          },
+          "--color-shadow-interactive-hover": {
+            "declared": "#00000052",
+            "computed": "#00000052"
+          },
+          "--color-shadow-neutral-regular": {
+            "declared": "#0000001f",
+            "computed": "#0000001f"
+          },
+          "--color-stroke-action-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-brand-primary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-brand-primary-subtle": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-stroke-brand-secondary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-stroke-brand-secondary-subtle": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-stroke-component-button-filled-header-hover": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-stroke-component-button-filled-neutral-hover": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-stroke-component-button-filled-on_brand-primary-hover": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-stroke-component-button-filled-on_brand-secondary-hover": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-stroke-component-button-filled-on_image-hover": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-stroke-component-button-outlined-footer-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-stroke-component-button-outlined-header-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-component-button-outlined-header-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-stroke-component-button-outlined-neutral-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-component-button-outlined-neutral-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-stroke-component-button-outlined-on_brand-primary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-stroke-component-button-outlined-on_brand-primary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-stroke-component-button-outlined-on_brand-secondary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-component-button-outlined-on_brand-secondary-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-stroke-component-button-outlined-on_image-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-stroke-component-button-outlined-on_image-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-stroke-component-footer-interactive-focus": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-stroke-component-footer-neutral-regular": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-stroke-component-footer-neutral-subtle": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-stroke-component-input-field-active": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-component-input-field-critical": {
+            "declared": "#bf1004",
+            "computed": "#bf1004"
+          },
+          "--color-stroke-component-input-field-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-component-input-field-hover": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-stroke-component-input-field-positive": {
+            "declared": "#1d6e17",
+            "computed": "#1d6e17"
+          },
+          "--color-stroke-component-input-tag-subtle": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-stroke-component-nav-interactive-active": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-component-nav-interactive-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-component-nav-interactive-focus": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-component-nav-interactive-hover": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-stroke-component-nav-interactive-reverse-active": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-stroke-component-nav-interactive-reverse-focus": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-stroke-component-nav-neutral-main-regular": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-component-nav-neutral-main-subtle": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-stroke-interactive-main-active": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-interactive-main-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-interactive-main-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-stroke-interactive-main-focus": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-interactive-main-hover": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-stroke-interactive-main-pressed": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-stroke-interactive-on_brand-primary-focus": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-stroke-interactive-on_brand-secondary-focus": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-interactive-on_image-focus": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-stroke-neutral-main-regular-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-neutral-main-regular-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-stroke-neutral-main-subtle-default": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-stroke-neutral-on_brand-primary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-stroke-neutral-on_brand-primary-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-stroke-neutral-on_brand-secondary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-stroke-neutral-on_brand-secondary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-stroke-status-critical": {
+            "declared": "#bf1004",
+            "computed": "#bf1004"
+          },
+          "--color-stroke-status-info": {
+            "declared": "#0048ff",
+            "computed": "#0048ff"
+          },
+          "--color-stroke-status-positive": {
+            "declared": "#1d6e17",
+            "computed": "#1d6e17"
+          },
+          "--color-stroke-status-warning": {
+            "declared": "#725d27",
+            "computed": "#725d27"
+          },
+          "--color-surface-action-alpha-main-active": {
+            "declared": "#0000001f",
+            "computed": "#0000001f"
+          },
+          "--color-surface-action-alpha-main-default": {
+            "declared": "#00000000",
+            "computed": "#00000000"
+          },
+          "--color-surface-action-alpha-main-hover": {
+            "declared": "#0000001f",
+            "computed": "#0000001f"
+          },
+          "--color-surface-action-alpha-main-pressed": {
+            "declared": "#0000003d",
+            "computed": "#0000003d"
+          },
+          "--color-surface-action-alpha-on_brand-primary-default": {
+            "declared": "#ffffff00",
+            "computed": "#ffffff00"
+          },
+          "--color-surface-action-alpha-on_brand-primary-hover": {
+            "declared": "#ffffff1f",
+            "computed": "#ffffff1f"
+          },
+          "--color-surface-action-alpha-on_brand-primary-pressed": {
+            "declared": "#ffffff3d",
+            "computed": "#ffffff3d"
+          },
+          "--color-surface-action-alpha-on_brand-secondary-default": {
+            "declared": "#00000000",
+            "computed": "#00000000"
+          },
+          "--color-surface-action-alpha-on_brand-secondary-hover": {
+            "declared": "#0000001f",
+            "computed": "#0000001f"
+          },
+          "--color-surface-action-alpha-on_brand-secondary-pressed": {
+            "declared": "#0000003d",
+            "computed": "#0000003d"
+          },
+          "--color-surface-action-alpha-reverse-default": {
+            "declared": "#ffffff00",
+            "computed": "#ffffff00"
+          },
+          "--color-surface-action-alpha-reverse-pressed": {
+            "declared": "#ffffff3d",
+            "computed": "#ffffff3d"
+          },
+          "--color-surface-action-opaque-main-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-action-opaque-main-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-surface-action-opaque-main-hover": {
+            "declared": "#353535",
+            "computed": "#353535"
+          },
+          "--color-surface-action-opaque-main-pressed": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-surface-action-opaque-on_brand-primary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-surface-action-opaque-on_brand-primary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-surface-action-opaque-on_brand-primary-hover": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-surface-action-opaque-on_brand-primary-pressed": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-surface-action-opaque-on_brand-secondary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-action-opaque-on_brand-secondary-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-surface-action-opaque-on_brand-secondary-hover": {
+            "declared": "#353535",
+            "computed": "#353535"
+          },
+          "--color-surface-action-opaque-on_brand-secondary-pressed": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-surface-action-opaque-on_brand-tertiary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-surface-action-opaque-on_brand-tertiary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-surface-action-opaque-on_brand-tertiary-hover": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-surface-action-opaque-on_brand-tertiary-pressed": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-surface-action-opaque-on_image-hover": {
+            "declared": "#eeeeee",
+            "computed": "#eeeeee"
+          },
+          "--color-surface-brand-primary-regular": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-brand-secondary-regular": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-surface-brand-tertiary-regular": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-component-button-filled-header-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-component-button-filled-header-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-surface-component-button-filled-header-pressed": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-surface-component-button-filled-neutral-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-component-button-filled-neutral-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-surface-component-button-filled-neutral-pressed": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-surface-component-button-filled-on_brand-primary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-surface-component-button-filled-on_brand-primary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-surface-component-button-filled-on_brand-primary-pressed": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-surface-component-button-filled-on_brand-secondary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-component-button-filled-on_brand-secondary-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-surface-component-button-filled-on_brand-secondary-pressed": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-surface-component-button-filled-on_image-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-surface-component-button-filled-on_image-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-surface-component-button-filled-on_image-pressed": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-surface-component-button-outlined-footer-default": {
+            "declared": "#ffffff00",
+            "computed": "#ffffff00"
+          },
+          "--color-surface-component-button-outlined-footer-pressed": {
+            "declared": "#ffffff3d",
+            "computed": "#ffffff3d"
+          },
+          "--color-surface-component-button-outlined-header-default": {
+            "declared": "#00000000",
+            "computed": "#00000000"
+          },
+          "--color-surface-component-button-outlined-header-disabled": {
+            "declared": "#0000003d",
+            "computed": "#0000003d"
+          },
+          "--color-surface-component-button-outlined-neutral-default": {
+            "declared": "#00000000",
+            "computed": "#00000000"
+          },
+          "--color-surface-component-button-outlined-neutral-pressed": {
+            "declared": "#0000003d",
+            "computed": "#0000003d"
+          },
+          "--color-surface-component-button-outlined-on_brand-primary-default": {
+            "declared": "#ffffff00",
+            "computed": "#ffffff00"
+          },
+          "--color-surface-component-button-outlined-on_brand-primary-pressed": {
+            "declared": "#ffffff3d",
+            "computed": "#ffffff3d"
+          },
+          "--color-surface-component-button-outlined-on_brand-secondary-default": {
+            "declared": "#00000000",
+            "computed": "#00000000"
+          },
+          "--color-surface-component-button-outlined-on_brand-secondary-pressed": {
+            "declared": "#0000003d",
+            "computed": "#0000003d"
+          },
+          "--color-surface-component-button-outlined-on_image-default": {
+            "declared": "#ffffff00",
+            "computed": "#ffffff00"
+          },
+          "--color-surface-component-button-outlined-on_image-pressed": {
+            "declared": "#ffffff3d",
+            "computed": "#ffffff3d"
+          },
+          "--color-surface-component-footer-action-default": {
+            "declared": "#ffffff00",
+            "computed": "#ffffff00"
+          },
+          "--color-surface-component-footer-action-hover": {
+            "declared": "#ffffff1f",
+            "computed": "#ffffff1f"
+          },
+          "--color-surface-component-footer-action-pressed": {
+            "declared": "#ffffff3d",
+            "computed": "#ffffff3d"
+          },
+          "--color-surface-component-footer-neutral-regular": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-component-footer-neutral-subtle": {
+            "declared": "#353535",
+            "computed": "#353535"
+          },
+          "--color-surface-component-footer-regular": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-component-input-dropdown-hover": {
+            "declared": "#0000001f",
+            "computed": "#0000001f"
+          },
+          "--color-surface-component-input-dropdown-pressed": {
+            "declared": "#0000003d",
+            "computed": "#0000003d"
+          },
+          "--color-surface-component-input-field-regular": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-surface-component-live_badge-regular": {
+            "declared": "#ff0000",
+            "computed": "#ff0000"
+          },
+          "--color-surface-component-nav-action-alpha-default": {
+            "declared": "#00000000",
+            "computed": "#00000000"
+          },
+          "--color-surface-component-nav-action-alpha-hover": {
+            "declared": "#0000001f",
+            "computed": "#0000001f"
+          },
+          "--color-surface-component-nav-action-alpha-pressed": {
+            "declared": "#0000003d",
+            "computed": "#0000003d"
+          },
+          "--color-surface-component-nav-action-opaque-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-component-nav-action-opaque-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-surface-component-nav-action-opaque-hover": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-surface-component-nav-action-opaque-pressed": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-surface-component-nav-interactive-hover": {
+            "declared": "#0000001f",
+            "computed": "#0000001f"
+          },
+          "--color-surface-component-nav-interactive-pressed": {
+            "declared": "#0000003d",
+            "computed": "#0000003d"
+          },
+          "--color-surface-component-nav-neutral-alpha-regular": {
+            "declared": "#0000008f",
+            "computed": "#0000008f"
+          },
+          "--color-surface-component-nav-neutral-opaque-regular": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-surface-component-nav-neutral-opaque-subtle": {
+            "declared": "#eeeeee",
+            "computed": "#eeeeee"
+          },
+          "--color-surface-component-selector-active": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-component-selector-default": {
+            "declared": "#eeeeee",
+            "computed": "#eeeeee"
+          },
+          "--color-surface-component-selector-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-surface-component-selector-hover": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-surface-interactive-alpha-default": {
+            "declared": "#00000000",
+            "computed": "#00000000"
+          },
+          "--color-surface-interactive-alpha-hover": {
+            "declared": "#0000001f",
+            "computed": "#0000001f"
+          },
+          "--color-surface-interactive-alpha-pressed": {
+            "declared": "#0000003d",
+            "computed": "#0000003d"
+          },
+          "--color-surface-interactive-opaque-active": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-interactive-opaque-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-interactive-opaque-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-surface-interactive-opaque-hover": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-surface-interactive-opaque-pressed": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-surface-neutral-alpha-regular": {
+            "declared": "#0000008f",
+            "computed": "#0000008f"
+          },
+          "--color-surface-neutral-opaque-bold": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-surface-neutral-opaque-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-surface-neutral-opaque-regular": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-surface-neutral-opaque-subtle": {
+            "declared": "#eeeeee",
+            "computed": "#eeeeee"
+          },
+          "--color-surface-neutral-reverse-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-surface-neutral-reverse-regular": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-surface-neutral-reverse-subtle": {
+            "declared": "#353535",
+            "computed": "#353535"
+          },
+          "--color-surface-status-critical": {
+            "declared": "#ffe9e2",
+            "computed": "#ffe9e2"
+          },
+          "--color-surface-status-info": {
+            "declared": "#f2eaff",
+            "computed": "#f2eaff"
+          },
+          "--color-surface-status-positive-bold": {
+            "declared": "#e4f2df",
+            "computed": "#e4f2df"
+          },
+          "--color-surface-status-positive-subtle": {
+            "declared": "#95cb87",
+            "computed": "#95cb87"
+          },
+          "--color-surface-status-warning": {
+            "declared": "#fceccf",
+            "computed": "#fceccf"
+          },
+          "--color-text-action-main-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-text-action-main-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-text-action-main-hover": {
+            "declared": "#353535",
+            "computed": "#353535"
+          },
+          "--color-text-action-main-pressed": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-text-action-on_brand-primary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-text-action-on_brand-primary-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-text-action-on_brand-primary-hover": {
+            "declared": "#eeeeee",
+            "computed": "#eeeeee"
+          },
+          "--color-text-action-on_brand-primary-pressed": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-text-action-on_brand-secondary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-text-action-on_brand-secondary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-text-action-on_brand-secondary-hover": {
+            "declared": "#353535",
+            "computed": "#353535"
+          },
+          "--color-text-action-on_brand-secondary-pressed": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          },
+          "--color-text-action-on_brand-tertiary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-text-action-on_brand-tertiary-disabled": {
+            "declared": "#bdbdbd",
+            "computed": "#bdbdbd"
+          },
+          "--color-text-action-on_brand-tertiary-hover": {
+            "declared": "#eeeeee",
+            "computed": "#eeeeee"
+          },
+          "--color-text-action-on_brand-tertiary-pressed": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-text-component-button-filled-header-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-text-component-button-filled-header-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-text-component-button-filled-neutral-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-text-component-button-filled-neutral-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-text-component-button-filled-on_brand-primary-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-text-component-button-filled-on_brand-primary-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-text-component-button-filled-on_brand-secondary-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-text-component-button-filled-on_brand-secondary-disabled": {
+            "declared": "#6c6c6c",
+            "computed": "#6c6c6c"
+          },
+          "--color-text-component-button-filled-on_image-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-text-component-button-filled-on_image-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-text-component-button-link-footer-default": {
+            "declared": "#ffffff",
+            "computed": "#ffffff"
+          },
+          "--color-text-component-button-link-footer-hover": {
+            "declared": "#d5d5d5",
+            "computed": "#d5d5d5"
+          },
+          "--color-text-component-button-link-footer-pressed": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-text-component-button-link-neutral-default": {
+            "declared": "#000000",
+            "computed": "#000000"
+          },
+          "--color-text-component-button-link-neutral-disabled": {
+            "declared": "#a5a5a5",
+            "computed": "#a5a5a5"
+          },
+          "--color-text-component-button-link-neutral-pressed": {
+            "declared": "#4f4f4f",
+            "computed": "#4f4f4f"
+          }
+        },
+        "fonts": [
+          {
+            "family": "Fanta Pop",
+            "weight": "normal",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Better With",
+            "weight": "normal",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Aktiv Grotesk",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Aktiv Grotesk",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Aktiv Grotesk CD",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Aktiv Grotesk CD",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "TCCC-UnityText",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "TCCC-UnityText",
+            "weight": "700",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "icomoon",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "VideoJS",
+            "weight": "normal",
+            "style": "normal",
+            "status": "unloaded"
+          }
+        ],
+        "logoCandidates": [
+          {
+            "tag": "img",
+            "selector": "div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > a > picture > img",
+            "src": "https://www.coca-cola.com/content/dam/onexp/global/icons/Coke-company-logo-black.svg",
+            "inlineSvg": false,
+            "alt": "Coca Cola Company Logo",
+            "ariaLabel": null,
+            "class": "cmp-image__image",
+            "id": null,
+            "href": "/us/en",
+            "inHomeLink": false,
+            "rect": {
+              "x": 92,
+              "y": 30,
+              "w": 125,
+              "h": 20
+            }
+          }
+        ],
+        "iconFont": {
+          "families": [
+            "icomoon"
+          ],
+          "glyphs": [
+            {
+              "class": "has-submenu",
+              "pseudo": "::after",
+              "codepoint": "U+E91A",
+              "fontFamily": "icomoon"
+            },
+            {
+              "class": "cmp-button__icon cmp-button__icon--profile",
+              "pseudo": "::after",
+              "codepoint": "U+E905",
+              "fontFamily": "icomoon"
+            },
+            {
+              "class": "user-avatar__image",
+              "pseudo": "::after",
+              "codepoint": "U+E905",
+              "fontFamily": "icomoon"
+            },
+            {
+              "class": "cmp-button__icon cmp-button__icon--menu",
+              "pseudo": "::after",
+              "codepoint": "U+E910",
+              "fontFamily": "icomoon"
+            },
+            {
+              "class": "cmp-teaser__action-link",
+              "pseudo": "::after",
+              "codepoint": "U+E906",
+              "fontFamily": "icomoon"
+            },
+            {
+              "class": "cmp-button__icon cmp-button__icon--x-social",
+              "pseudo": "::after",
+              "codepoint": "U+E934",
+              "fontFamily": "icomoon"
+            },
+            {
+              "class": "cmp-button__icon cmp-button__icon--instagram",
+              "pseudo": "::after",
+              "codepoint": "U+E925",
+              "fontFamily": "icomoon"
+            },
+            {
+              "class": "cmp-button__icon cmp-button__icon--youtube",
+              "pseudo": "::after",
+              "codepoint": "U+E926",
+              "fontFamily": "icomoon"
+            },
+            {
+              "class": "cmp-button__icon cmp-button__icon--facebook",
+              "pseudo": "::after",
+              "codepoint": "U+E922",
+              "fontFamily": "icomoon"
+            },
+            {
+              "class": "ot-button-order-2",
+              "pseudo": "::after",
+              "codepoint": "U+E906",
+              "fontFamily": "icomoon"
+            },
+            {
+              "class": "ot-close-icon",
+              "pseudo": "::after",
+              "codepoint": "U+E909",
+              "fontFamily": "icomoon"
+            },
+            {
+              "class": "ot-link-btn back-btn-handler",
+              "pseudo": "::after",
+              "codepoint": "U+E907",
+              "fontFamily": "icomoon"
+            }
+          ]
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://www.coca-cola.com/us/en"
+      }
+    }
+  },
+  "aggregate": {
+    "counts": {
+      "pages": 1,
+      "widths": [
+        360,
+        1440
+      ],
+      "measurements": 2
+    },
+    "colors": [
+      {
+        "hex": "#000000",
+        "values": [
+          "rgb(0, 0, 0)"
+        ],
+        "weight": 166,
+        "bgArea": 1892779,
+        "by": {
+          "text": 80,
+          "background": 16,
+          "link": 11,
+          "button-text": 12,
+          "border": 8,
+          "button-background": 6,
+          "button-border": 6,
+          "heading": 27
+        },
+        "roles": [
+          "text",
+          "primary",
+          "heading"
+        ],
+        "sources": [
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > ul > li:nth-of-type(1) > a",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > h1",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "#container-5c9a64b67e > div:nth-of-type(4) > a",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a",
+            "prop": "link"
+          },
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "#answer-baseball",
+            "prop": "button-text"
+          }
+        ]
+      },
+      {
+        "hex": "#ffffff",
+        "values": [
+          "rgb(255, 255, 255)"
+        ],
+        "weight": 107,
+        "bgArea": 3105281,
+        "by": {
+          "text": 44,
+          "background": 38,
+          "border": 10,
+          "button-background": 6,
+          "button-text": 6,
+          "heading": 3
+        },
+        "roles": [
+          "surface",
+          "secondary",
+          "border"
+        ],
+        "sources": [
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "#container-5c9a64b67e > div:nth-of-type(4) > a > span",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "header > div > div > div > div:nth-of-type(1)",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "#button-06fb0efc72",
+            "prop": "border"
+          },
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "#answer-baseball",
+            "prop": "button-background"
+          },
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "#container-5c9a64b67e > div:nth-of-type(4) > a",
+            "prop": "button-text"
+          }
+        ]
+      },
+      {
+        "hex": "#eeeeee",
+        "values": [
+          "rgb(238, 238, 238)"
+        ],
+        "weight": 2,
+        "bgArea": 11930293,
+        "by": {
+          "background": 2
+        },
+        "roles": [
+          "background"
+        ],
+        "sources": [
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "body",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#6c6c6c",
+        "values": [
+          "rgb(108, 108, 108)"
+        ],
+        "weight": 14,
+        "bgArea": 640,
+        "by": {
+          "background": 10,
+          "button-text": 2,
+          "text": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "#splide02 > ul > li:nth-of-type(2) > button",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
+            "prop": "button-text"
+          },
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#d5d5d5",
+        "values": [
+          "rgb(213, 213, 213)"
+        ],
+        "weight": 6,
+        "by": {
+          "text": 3,
+          "heading": 3
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "div > div > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > h4",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "div > div > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > h4",
+            "prop": "heading"
+          },
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "div > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > div > h4",
+            "prop": "heading"
+          },
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "div > div > div > div:nth-of-type(3) > div > div:nth-of-type(3) > div > h4",
+            "prop": "heading"
+          }
+        ]
+      },
+      {
+        "hex": "#bdbdbd",
+        "values": [
+          "rgb(189, 189, 189)"
+        ],
+        "weight": 4,
+        "bgArea": 6688,
+        "by": {
+          "background": 2,
+          "button-background": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
+            "prop": "button-background"
+          }
+        ]
+      }
+    ],
+    "type": {
+      "families": [
+        {
+          "family": "Noto-regional",
+          "count": 70,
+          "headings": 33,
+          "text": 17,
+          "buttons": 20
+        }
+      ],
+      "headingFamily": "Noto-regional",
+      "bodyFamily": "Noto-regional",
+      "sizes": [
+        {
+          "px": 38,
+          "count": 1,
+          "headings": 1,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 32,
+          "count": 8,
+          "headings": 8,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 28,
+          "count": 7,
+          "headings": 7,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 24,
+          "count": 10,
+          "headings": 10,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 20,
+          "count": 4,
+          "headings": 4,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 16,
+          "count": 35,
+          "headings": 0,
+          "text": 17,
+          "buttons": 18
+        },
+        {
+          "px": 12,
+          "count": 2,
+          "headings": 0,
+          "text": 0,
+          "buttons": 2
+        },
+        {
+          "px": 10,
+          "count": 3,
+          "headings": 3,
+          "text": 0,
+          "buttons": 0
+        }
+      ],
+      "weights": [
+        {
+          "weight": "700",
+          "count": 53,
+          "headings": 33,
+          "text": 0,
+          "buttons": 20
+        },
+        {
+          "weight": "400",
+          "count": 17,
+          "headings": 0,
+          "text": 17,
+          "buttons": 0
+        }
+      ],
+      "levels": {
+        "h1": {
+          "fontSize": 38,
+          "fontWeight": "700",
+          "count": 1,
+          "score": 66.5
+        },
+        "h2": {
+          "fontSize": 32,
+          "fontWeight": "700",
+          "count": 5,
+          "score": 125.22
+        },
+        "h3": {
+          "fontSize": 24,
+          "fontWeight": "700",
+          "count": 7,
+          "score": 111.12
+        },
+        "h4": {
+          "fontSize": 24,
+          "fontWeight": "700",
+          "count": 3,
+          "score": 72.75
+        }
+      }
+    },
+    "motifs": {
+      "radius": {
+        "mode": "16px",
+        "areaMode": "16px",
+        "pill": "8000px",
+        "values": [
+          {
+            "value": "8000px",
+            "count": 60,
+            "area": 266648,
+            "sources": [
+              {
+                "url": "https://www.coca-cola.com/us/en",
+                "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button"
+              },
+              {
+                "url": "https://www.coca-cola.com/us/en",
+                "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(3) > div > button"
+              },
+              {
+                "url": "https://www.coca-cola.com/us/en",
+                "selector": "#container-5c9a64b67e > div:nth-of-type(4) > a"
+              },
+              {
+                "url": "https://www.coca-cola.com/us/en",
+                "selector": "div:nth-of-type(2) > div > div:nth-of-type(1) > a > div > div:nth-of-type(1) > div:nth-of-type(2) > p"
+              }
+            ]
+          },
+          {
+            "value": "16px",
+            "count": 13,
+            "area": 3439285,
+            "sources": [
+              {
+                "url": "https://www.coca-cola.com/us/en",
+                "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div"
+              },
+              {
+                "url": "https://www.coca-cola.com/us/en",
+                "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(2) > a > div"
+              },
+              {
+                "url": "https://www.coca-cola.com/us/en",
+                "selector": "#splide02-slide01 > div > a > div"
+              }
+            ]
+          },
+          {
+            "value": "0px 0px 24px 24px",
+            "count": 2,
+            "area": 122705,
+            "sources": [
+              {
+                "url": "https://www.coca-cola.com/us/en",
+                "selector": "body > div:nth-of-type(2) > div:nth-of-type(2) > div"
+              },
+              {
+                "url": "https://www.coca-cola.com/us/en",
+                "selector": "body > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3)"
+              }
+            ]
+          },
+          {
+            "value": "30px",
+            "count": 2,
+            "area": 26992,
+            "sources": [
+              {
+                "url": "https://www.coca-cola.com/us/en",
+                "selector": "body > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "8px",
+            "count": 2,
+            "area": 10599,
+            "sources": [
+              {
+                "url": "https://www.coca-cola.com/us/en",
+                "selector": "div > div:nth-of-type(7) > div > div:nth-of-type(1) > div > a > picture > img"
+              },
+              {
+                "url": "https://www.coca-cola.com/us/en",
+                "selector": "div > div:nth-of-type(7) > div > div:nth-of-type(2) > div > a > picture > img"
+              }
+            ]
+          },
+          {
+            "value": "0px 0px 0px 30px",
+            "count": 1,
+            "area": 111907,
+            "sources": [
+              {
+                "url": "https://www.coca-cola.com/us/en",
+                "selector": "body > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3)"
+              }
+            ]
+          },
+          {
+            "value": "30px 0px 0px 30px",
+            "count": 1,
+            "area": 129600,
+            "sources": [
+              {
+                "url": "https://www.coca-cola.com/us/en",
+                "selector": "body > div:nth-of-type(2) > div:nth-of-type(2) > div"
+              }
+            ]
+          }
+        ]
+      },
+      "shadows": [
+        {
+          "value": "rgba(0, 0, 0, 0.12) 0px 8px 16px 0px",
+          "count": 11,
+          "sources": [
+            {
+              "url": "https://www.coca-cola.com/us/en",
+              "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div"
+            },
+            {
+              "url": "https://www.coca-cola.com/us/en",
+              "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(2) > a > div"
+            },
+            {
+              "url": "https://www.coca-cola.com/us/en",
+              "selector": "#splide02-slide01 > div > a > div"
+            }
+          ]
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.1) 0px 4px 8px 0px",
+          "count": 2,
+          "sources": [
+            {
+              "url": "https://www.coca-cola.com/us/en",
+              "selector": "body > div:nth-of-type(2) > div:nth-of-type(2) > div"
+            }
+          ]
+        }
+      ],
+      "gradients": []
+    },
+    "hover": [
+      {
+        "kind": "button",
+        "from": {
+          "boxShadow": "none"
+        },
+        "to": {
+          "boxShadow": "rgb(0, 0, 0) 0px 0px 0px 2px inset"
+        },
+        "count": 2,
+        "sources": [
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > div:nth-of-type(2) > a"
+          },
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > div:nth-of-type(2) > a"
+          }
+        ]
+      },
+      {
+        "kind": "button",
+        "from": {
+          "boxShadow": "none"
+        },
+        "to": {
+          "boxShadow": "rgb(108, 108, 108) 0px 0px 0px 4px inset"
+        },
+        "count": 2,
+        "sources": [
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "#container-5c9a64b67e > div:nth-of-type(4) > a"
+          },
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "#container-5c9a64b67e > div:nth-of-type(4) > a"
+          }
+        ]
+      },
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "borderColor": "rgb(0, 0, 0)",
+          "boxShadow": "none"
+        },
+        "to": {
+          "backgroundColor": "rgb(53, 53, 53)",
+          "color": "rgb(255, 255, 255)",
+          "borderColor": "rgb(53, 53, 53)",
+          "boxShadow": "rgb(108, 108, 108) 0px 0px 0px 4px inset"
+        },
+        "count": 1,
+        "sources": [
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "#answer-baseball"
+          }
+        ]
+      }
+    ],
+    "logo": {
+      "source": "none",
+      "url": null,
+      "selector": null
+    },
+    "iconFont": {
+      "families": [
+        "icomoon"
+      ],
+      "glyphs": [
+        {
+          "class": "cmp-button__icon cmp-button__icon--facebook",
+          "pseudo": "::after",
+          "codepoint": "U+E922",
+          "fontFamily": "icomoon",
+          "count": 2,
+          "sources": [
+            "https://www.coca-cola.com/us/en",
+            "https://www.coca-cola.com/us/en"
+          ]
+        },
+        {
+          "class": "cmp-button__icon cmp-button__icon--instagram",
+          "pseudo": "::after",
+          "codepoint": "U+E925",
+          "fontFamily": "icomoon",
+          "count": 2,
+          "sources": [
+            "https://www.coca-cola.com/us/en",
+            "https://www.coca-cola.com/us/en"
+          ]
+        },
+        {
+          "class": "cmp-button__icon cmp-button__icon--menu",
+          "pseudo": "::after",
+          "codepoint": "U+E910",
+          "fontFamily": "icomoon",
+          "count": 2,
+          "sources": [
+            "https://www.coca-cola.com/us/en",
+            "https://www.coca-cola.com/us/en"
+          ]
+        },
+        {
+          "class": "cmp-button__icon cmp-button__icon--profile",
+          "pseudo": "::after",
+          "codepoint": "U+E905",
+          "fontFamily": "icomoon",
+          "count": 2,
+          "sources": [
+            "https://www.coca-cola.com/us/en",
+            "https://www.coca-cola.com/us/en"
+          ]
+        },
+        {
+          "class": "cmp-button__icon cmp-button__icon--x-social",
+          "pseudo": "::after",
+          "codepoint": "U+E934",
+          "fontFamily": "icomoon",
+          "count": 2,
+          "sources": [
+            "https://www.coca-cola.com/us/en",
+            "https://www.coca-cola.com/us/en"
+          ]
+        },
+        {
+          "class": "cmp-button__icon cmp-button__icon--youtube",
+          "pseudo": "::after",
+          "codepoint": "U+E926",
+          "fontFamily": "icomoon",
+          "count": 2,
+          "sources": [
+            "https://www.coca-cola.com/us/en",
+            "https://www.coca-cola.com/us/en"
+          ]
+        },
+        {
+          "class": "cmp-teaser__action-link",
+          "pseudo": "::after",
+          "codepoint": "U+E906",
+          "fontFamily": "icomoon",
+          "count": 2,
+          "sources": [
+            "https://www.coca-cola.com/us/en",
+            "https://www.coca-cola.com/us/en"
+          ]
+        },
+        {
+          "class": "has-submenu",
+          "pseudo": "::after",
+          "codepoint": "U+E91A",
+          "fontFamily": "icomoon",
+          "count": 2,
+          "sources": [
+            "https://www.coca-cola.com/us/en",
+            "https://www.coca-cola.com/us/en"
+          ]
+        },
+        {
+          "class": "ot-close-icon",
+          "pseudo": "::after",
+          "codepoint": "U+E909",
+          "fontFamily": "icomoon",
+          "count": 2,
+          "sources": [
+            "https://www.coca-cola.com/us/en",
+            "https://www.coca-cola.com/us/en"
+          ]
+        },
+        {
+          "class": "ot-link-btn back-btn-handler",
+          "pseudo": "::after",
+          "codepoint": "U+E907",
+          "fontFamily": "icomoon",
+          "count": 2,
+          "sources": [
+            "https://www.coca-cola.com/us/en",
+            "https://www.coca-cola.com/us/en"
+          ]
+        },
+        {
+          "class": "user-avatar__image",
+          "pseudo": "::after",
+          "codepoint": "U+E905",
+          "fontFamily": "icomoon",
+          "count": 2,
+          "sources": [
+            "https://www.coca-cola.com/us/en",
+            "https://www.coca-cola.com/us/en"
+          ]
+        },
+        {
+          "class": "ot-button-order-2",
+          "pseudo": "::after",
+          "codepoint": "U+E906",
+          "fontFamily": "icomoon",
+          "count": 1,
+          "sources": [
+            "https://www.coca-cola.com/us/en"
+          ]
+        }
+      ]
+    }
+  }
+}

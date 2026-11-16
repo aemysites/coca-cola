@@ -1,0 +1,11 @@
+{
+  "variantName": "features",
+  "baseBlock": "columns",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Stacked campaign cards, each a content panel (headline, lede, CTA) beside an art-directed image; image side alternates from the second card on.",
+  "contentPattern": "One row per card: h3 title, lede paragraph, CTA paragraph (italic link = secondary) | desktop image (>= 1200px) | optional mobile image. One image alone is used at all widths. Section heading is default content.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Alternating image-and-text campaign features on homepage and landing pages.",
+  "reuseGuidance": "Reuse for zig-zag media/text feature lists. Use feature-xf for a single full-width banner."
+}

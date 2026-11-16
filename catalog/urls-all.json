@@ -1,0 +1,21 @@
+{
+  "analysis-urls-all": {
+    "captured": "2026-11-16T09:29:57.127Z",
+    "totalUrls": 2,
+    "totalDocuments": 0,
+    "method": "user-provided-list",
+    "robotsTxtFound": false,
+    "robotsTxtRulesApplied": false,
+    "limitations": "Pages imported from a stardust auto-migration run; no site discovery was performed.",
+    "confidence": "100%",
+    "urls": [
+      {
+        "url": "https://www.coca-cola.com/"
+      },
+      {
+        "url": "https://www.coca-cola.com/us/en"
+      }
+    ],
+    "documents": []
+  }
+}

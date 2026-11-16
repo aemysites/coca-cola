@@ -1,0 +1,12 @@
+/* Shared motion layer — ONLY behaviours observed firing on live (stardust/replica/motion/us-en.json). */
+
+/* Image fade-in: live adds picture.loaded.visible → img opacity 0 → 1, .4s ease (theme.css @7400). */
+.js main.container img.fade { opacity: 0; transition: opacity .4s ease; }
+.js main.container img.fade.loaded.visible { opacity: 1; }
+
+/* Carousel track move on dot click: transform .4s (Splide default easing). */
+.carousel__list { transition: transform .4s cubic-bezier(.25, 1, .5, 1); }
+
+/* Button hovers (hover-diff: boxShadow only). */
+.btn--primary:hover { box-shadow: inset 0 0 0 4px var(--grey-disabled); }
+.btn--secondary:hover { box-shadow: inset 0 0 0 2px var(--black); }

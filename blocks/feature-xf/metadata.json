@@ -1,0 +1,11 @@
+{
+  "variantName": "feature-xf",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Full-width featured-experience band with an art-directed image (separate desktop and mobile crops), a large headline, a short lede and a single primary CTA.",
+  "contentPattern": "Row 1: desktop image (>= 1200px). Row 2: optional mobile image (< 1200px); a single image row is used at all widths. Row 3: h2 headline, lede paragraph, CTA paragraph (bold link = primary button).",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Featured campaign or promotion band near the top of a homepage or landing page.",
+  "reuseGuidance": "Reuse for any single campaign banner with image, headline, lede and one CTA. Use carousel or teaser-block for multiple promos."
+}

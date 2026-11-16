@@ -1,0 +1,1444 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-16T06:32:20.401Z",
+    "waitMode": "slow",
+    "waitMs": 5000,
+    "httpStatus": 200
+  },
+  "slug": "index",
+  "url": "https://www.coca-cola.com/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-16T06:32:20.401Z",
+  "finalUrl": "https://www.coca-cola.com/us/en",
+  "title": "Explore the Coca‑Cola® Official Site | Coca-Cola US",
+  "description": "Experience the official Coca‑Cola® site to find your favorite drink and discover new products, promos & offers, and more. Shop all Coca-Cola sodas here.",
+  "og": {
+    "title": "Explore the Coca‑Cola® Official Site | Coca-Cola US",
+    "description": "Experience the official Coca‑Cola® site to find your favorite drink and discover new products, promos & offers, and more. Shop all Coca-Cola sodas here.",
+    "image": "https://www.coca-cola.com/content/dam/onexp/us/en/homepage/ko-onexp-meta-image.jpg",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "The Coca‑Cola® Official Site for Drinks & Experiences"
+    },
+    {
+      "tag": "h2",
+      "text": "YOU COULD WIN BIG THIS SEASON"
+    },
+    {
+      "tag": "h2",
+      "text": "Promos & Offers"
+    },
+    {
+      "tag": "h3",
+      "text": "Don't Miss the Coca‑Cola Holiday Caravan"
+    },
+    {
+      "tag": "h3",
+      "text": "A Full Year of Favorites Could Be Yours"
+    },
+    {
+      "tag": "h2",
+      "text": "Features"
+    },
+    {
+      "tag": "h3",
+      "text": "Refresh Your Fandom All Year Long"
+    },
+    {
+      "tag": "h3",
+      "text": "Mix Up the Holiday Spirit"
+    },
+    {
+      "tag": "h2",
+      "text": "More from Coca‑Cola®"
+    },
+    {
+      "tag": "h3",
+      "text": "you plus +one"
+    },
+    {
+      "tag": "h3",
+      "text": "Discover Your Tastebud Map"
+    },
+    {
+      "tag": "h3",
+      "text": "World of Coca‑Cola Annual Pass"
+    },
+    {
+      "tag": "h2",
+      "text": "Explore Our Brands"
+    },
+    {
+      "tag": "h4",
+      "text": "Help"
+    },
+    {
+      "tag": "h4",
+      "text": "Shop & Visit"
+    },
+    {
+      "tag": "h4",
+      "text": "Legal"
+    }
+  ],
+  "body": [
+    "Enter every Friday for your chance to win tickets, Fanatics digital gift cards, and more football prizes for fans.",
+    "Whether you're a lifelong fan or experiencing the magic for the first time, the Caravan is where holiday traditions come to life.",
+    "Find Your Stop",
+    "Enter today for a chance to win 24 (or equivalent) of your favorite Coca‑Cola drinks a month for an entire year. From vitaminwater to Sprite, and so much more, a year supply could be yours.",
+    "Enter Now",
+    "Soccer Central is your always-on home for the beautiful game. Whether you're into MLS, U.S. Soccer, or English Premier League, we keep soccer fans fueled with exclusive content, prizes, and experiences.",
+    "Make the season merry with easy holiday recipes made with Simply®, from cranberry meatballs and glazed ham to festive sangria and warm winter drinks.",
+    "Have you downloaded yet? The +one app brings the universe of Coca‑Cola® into the palm of your hand. Start earning rewards today!",
+    "Download Now",
+    "We’ve devised a quick, fun way to discover your ideal flavor pairings. Simply stick out your tongue and let us do the mapping. It's not science, but the results might surprise you.",
+    "Let's Do It",
+    "Unlock unlimited visits to World of Coca‑Cola with an Annual Pass. Enjoy exclusive experiences, more moments to explore, and surprises waiting every time you return.",
+    "Learn More"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Brands",
+      "href": "/us/en/brands"
+    },
+    {
+      "label": "Discover",
+      "href": "#"
+    },
+    {
+      "label": "Impact",
+      "href": "#"
+    },
+    {
+      "label": "Shop",
+      "href": "#"
+    },
+    {
+      "label": "Promos & Offers",
+      "href": "/us/en/offerings"
+    },
+    {
+      "label": "Sign Up",
+      "href": null
+    },
+    {
+      "label": "Get Started",
+      "href": "/us/en/offerings/coca-cola/football"
+    },
+    {
+      "label": "Don't Miss the Coca‑Cola Holiday Caravan Whether you're a lifelong fan or experiencing the magic for the first time, the Caravan is where holiday traditions come to life. Find Your Stop",
+      "href": "/us/en/offerings/holiday-caravan"
+    },
+    {
+      "label": "A Full Year of Favorites Could Be Yours Enter today for a chance to win 24 (or equivalent) of your favorite Coca‑Cola drinks a month for an entire year. From vitaminwater to Sprite, and so much more, a year supply could be yours. Enter Now",
+      "href": "/us/en/offerings/portfolio/evergreen-promotion"
+    },
+    {
+      "label": "View all Offerings",
+      "href": "/us/en/offerings"
+    },
+    {
+      "label": "Explore for More",
+      "href": "/us/en/offerings/hubs/soccer"
+    },
+    {
+      "label": "View Holiday Recipes",
+      "href": "/us/en/brands/simply"
+    },
+    {
+      "label": "you plus +one Have you downloaded yet? The +one app brings the universe of Coca‑Cola® into the palm of your hand. Start earning rewards today! Download Now",
+      "href": "https://plusone.coca-cola.com/wvrE/1n83zcqs?af_xp=custom&_gl=1*1y8jds8*_gcl_au*NzQwNTUzMTg2LjE3ODA0MjEyOTU.*_ga*MTk3NDE0NjE2NC4xNzUzNzI4MTYz*_ga_64WQLHS3QK*czE3ODEyODk5OTEkbzg2JGcxJHQxNzgxMjkwMDIxJGozMCRsMCRoMA..&source_caller=ui&pid=OneXP&is_retargeting=true&af_click_lookback=7d&shortlink=1n83zcqs&af_reengagement_window=30d&af_inactivity_window=7d&c=plus_one_landing_page"
+    },
+    {
+      "label": "Discover Your Tastebud Map We’ve devised a quick, fun way to discover your ideal flavor pairings. Simply stick out your tongue and let us do the mapping. It's not science, but the results might surprise you. Let's Do It",
+      "href": "/us/en/offerings/tastebud-map"
+    },
+    {
+      "label": "World of Coca‑Cola Annual Pass Unlock unlimited visits to World of Coca‑Cola with an Annual Pass. Enjoy exclusive experiences, more moments to explore, and surprises waiting every time you return. Learn More",
+      "href": "https://www.worldofcoca-cola.com/plan-your-visit/ticket-information/annual-pass"
+    },
+    {
+      "label": "View All",
+      "href": "/us/en/brands"
+    },
+    {
+      "label": "Sign-up",
+      "href": "#signUp"
+    },
+    {
+      "label": "Login",
+      "href": "#login"
+    },
+    {
+      "label": "FAQs",
+      "href": "/us/en/about-us/faq"
+    },
+    {
+      "label": "Sitemap",
+      "href": "/us/en/sitemap"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/us/en/about-us/contact-us"
+    },
+    {
+      "label": "Order Status",
+      "href": "https://www.coca-colastore.com/sales/guest/form/"
+    },
+    {
+      "label": "Shipping",
+      "href": "https://www.coca-colastore.com/shipping-information"
+    },
+    {
+      "label": "Where to Buy",
+      "href": "/us/en/offerings/shop-now"
+    },
+    {
+      "label": "Coca‑Cola Store Online",
+      "href": "https://www.coca-colastore.com/"
+    },
+    {
+      "label": "Coca‑Cola Int'l Store Online",
+      "href": "https://intl.cokestore.com/"
+    },
+    {
+      "label": "Coca‑Cola Store Atlanta",
+      "href": "https://www.coca-colastore.com/retail/atlanta/"
+    },
+    {
+      "label": "Coca‑Cola Store Orlando",
+      "href": "https://www.coca-colastore.com/retail/orlando/"
+    },
+    {
+      "label": "Coca‑Cola Store Las Vegas",
+      "href": "https://www.coca-colastore.com/retail/las-vegas/"
+    },
+    {
+      "label": "World of Coca‑Cola Attraction",
+      "href": "https://www.worldofcoca-cola.com/"
+    },
+    {
+      "label": "Android App",
+      "href": "https://play.google.com/store/apps/details?id=com.coca_cola.android.ccnamobileapp"
+    },
+    {
+      "label": "Apple App",
+      "href": "https://apps.apple.com/us/app/coca-cola-usa/id1310675636"
+    },
+    {
+      "label": "Company",
+      "href": "https://www.coca-colacompany.com/company"
+    },
+    {
+      "label": "Careers",
+      "href": "https://www.coca-colacompany.com/careers"
+    },
+    {
+      "label": "Cookie Notice",
+      "href": "https://datatrust.coca-cola.com/us/en/notices/cookie-notice"
+    },
+    {
+      "label": "All Promotion Official Rules",
+      "href": "/us/en/legal/coca-cola-rules"
+    },
+    {
+      "label": "Notice At Collection",
+      "href": "https://datatrust.coca-cola.com/us/en/notices/supplemental-us-privacy-notice"
+    },
+    {
+      "label": "Do Not Sell or Share My Personal Information",
+      "href": "https://datatrust.coca-cola.com/us/en/notices/do-not-sell-or-share-my-personal-information"
+    },
+    {
+      "label": "Terms of Service",
+      "href": "/us/en/legal/terms-of-service"
+    },
+    {
+      "label": "Cookie Settings",
+      "href": "#js-open-onetrust-preference-center"
+    },
+    {
+      "label": "Data Trust Center",
+      "href": "https://datatrust.coca-cola.com/us/en"
+    },
+    {
+      "label": "X",
+      "href": "https://x.com/CocaCola"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://www.instagram.com/cocacola/"
+    },
+    {
+      "label": "Youtube",
+      "href": "https://www.youtube.com/user/cocacola"
+    },
+    {
+      "label": "Facebook",
+      "href": "https://www.facebook.com/Coca-Cola/"
+    },
+    {
+      "label": "The Coca‑Cola Company",
+      "href": "https://www.coca-colacompany.com"
+    }
+  ],
+  "links": [
+    "https://www.coca-cola.com/us/en",
+    "https://www.coca-cola.com/us/en/brands",
+    "https://www.coca-cola.com/us/en#",
+    "https://www.coca-cola.com/us/en/offerings/coca-cola-app",
+    "https://www.coca-cola.com/us/en/brands/freestyle",
+    "https://www.worldofcoca-cola.com/",
+    "https://www.coca-cola.com/us/en/impact/culture",
+    "https://www.coca-colacompany.com/social-impact",
+    "https://www.coca-colacompany.com/sustainability",
+    "https://www.coca-cola.com/us/en/offerings/shop-now",
+    "https://www.coca-colastore.com/",
+    "https://www.coca-cola.com/us/en/offerings",
+    "https://www.coca-cola.com/us/en/offerings/coca-cola/hockey",
+    "https://www.coca-cola.com/us/en/offerings/holiday",
+    "https://www.coca-cola.com/us/en/offerings/coca-cola/football",
+    "https://www.coca-cola.com/us/en/offerings/holiday-caravan",
+    "https://www.coca-cola.com/us/en/offerings/portfolio/evergreen-promotion",
+    "https://www.coca-cola.com/us/en/offerings/hubs/soccer",
+    "https://www.coca-cola.com/us/en/brands/simply",
+    "https://www.coca-cola.com/us/en/offerings/vending",
+    "https://plusone.coca-cola.com/wvrE/1n83zcqs?af_xp=custom&_gl=1*1y8jds8*_gcl_au*NzQwNTUzMTg2LjE3ODA0MjEyOTU.*_ga*MTk3NDE0NjE2NC4xNzUzNzI4MTYz*_ga_64WQLHS3QK*czE3ODEyODk5OTEkbzg2JGcxJHQxNzgxMjkwMDIxJGozMCRsMCRoMA..&source_caller=ui&pid=OneXP&is_retargeting=true&af_click_lookback=7d&shortlink=1n83zcqs&af_reengagement_window=30d&af_inactivity_window=7d&c=plus_one_landing_page",
+    "https://www.coca-cola.com/us/en/offerings/tastebud-map",
+    "https://www.worldofcoca-cola.com/plan-your-visit/ticket-information/annual-pass",
+    "https://www.coca-cola.com/us/en/offerings/refreshing-films",
+    "https://www.coca-cola.com/us/en/brands/coca-cola",
+    "https://www.coca-cola.com/us/en/brands/diet-coke",
+    "https://www.coca-cola.com/us/en/brands/sprite",
+    "https://www.coca-cola.com/us/en/brands/fanta",
+    "https://www.coca-cola.com/us/en/brands/smartwater",
+    "https://www.coca-cola.com/us/en/brands/minute-maid",
+    "https://www.coca-cola.com/us/en#signUp",
+    "https://www.coca-cola.com/us/en#login",
+    "https://www.coca-cola.com/us/en/about-us/faq",
+    "https://www.coca-cola.com/us/en/sitemap",
+    "https://www.coca-cola.com/us/en/about-us/contact-us",
+    "https://www.coca-colastore.com/sales/guest/form/",
+    "https://www.coca-colastore.com/shipping-information",
+    "https://intl.cokestore.com/",
+    "https://www.coca-colastore.com/retail/atlanta/",
+    "https://www.coca-colastore.com/retail/orlando/",
+    "https://www.coca-colastore.com/retail/las-vegas/",
+    "https://play.google.com/store/apps/details?id=com.coca_cola.android.ccnamobileapp",
+    "https://apps.apple.com/us/app/coca-cola-usa/id1310675636",
+    "https://www.coca-colacompany.com/company",
+    "https://www.coca-colacompany.com/careers",
+    "https://datatrust.coca-cola.com/us/en#privacy-notices",
+    "https://datatrust.coca-cola.com/us/en/notices/cookie-notice",
+    "https://www.coca-cola.com/us/en/legal/coca-cola-rules",
+    "https://datatrust.coca-cola.com/us/en/notices/supplemental-us-privacy-notice",
+    "https://datatrust.coca-cola.com/us/en/notices/do-not-sell-or-share-my-personal-information",
+    "https://www.coca-cola.com/us/en/legal/terms-of-service",
+    "https://www.coca-cola.com/us/en#js-open-onetrust-preference-center",
+    "https://datatrust.coca-cola.com/us/en/notices/us-consumer-health-privacy-policy",
+    "https://datatrust.coca-cola.com/us/en",
+    "https://x.com/CocaCola",
+    "https://www.instagram.com/cocacola/",
+    "https://www.youtube.com/user/cocacola",
+    "https://www.facebook.com/Coca-Cola/",
+    "https://www.coca-colacompany.com/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/global/icons/Coke-company-logo-black.svg",
+        "alt": "Coca Cola Company Logo",
+        "w": 125,
+        "h": 20
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/hero-banners/coca-cola-fall-hockey-big-wins-banner-dt.png/width1960.png",
+        "alt": "Big Wins promo banner with a hockey puck, LG TV, Fanatics card, and a Coca-Cola branded projector and blanket.",
+        "w": 1439,
+        "h": 679
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/hero-banners/kotm-holidays-26-us-banner-dt.png/width1960.png",
+        "alt": "White Coca-Cola holiday gift box revealing a Welcome to Alaska postcard with the Northern Lights on a solid red background.",
+        "w": 1439,
+        "h": 679
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/homepage/fall-football-banner-dt.png/width1960.png",
+        "alt": "Coca-Cola Big Wins fall football promo banner displaying prizes like tickets, a Fanatics gift card, jacket, and LG TV.",
+        "w": 1439,
+        "h": 679
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/hero-banners/coca-cola-fall-hockey-big-wins-banner-dt.png/width1960.png",
+        "alt": "Big Wins promo banner with a hockey puck, LG TV, Fanatics card, and a Coca-Cola branded projector and blanket.",
+        "w": 1439,
+        "h": 679
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/hero-banners/kotm-holidays-26-us-banner-dt.png/width1960.png",
+        "alt": "White Coca-Cola holiday gift box revealing a Welcome to Alaska postcard with the Northern Lights on a solid red background.",
+        "w": 1439,
+        "h": 679
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/homepage/fall-football-banner-dt.png/width1960.png",
+        "alt": "Coca-Cola Big Wins fall football promo banner displaying prizes like tickets, a Fanatics gift card, jacket, and LG TV.",
+        "w": 1439,
+        "h": 679
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/hero-banners/coca-cola-fall-hockey-big-wins-banner-dt.png/width1960.png",
+        "alt": "Big Wins promo banner with a hockey puck, LG TV, Fanatics card, and a Coca-Cola branded projector and blanket.",
+        "w": 1439,
+        "h": 679
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/offerings/holiday/onexp-hpg-caravan-teaser-allbreakpoints.png/width1960.png",
+        "alt": "A red Coca-Cola semi-truck outlined in glowing holiday lights, with a trailer decorated in Coca-Cola logos, stripes and white ribbon bows, set against a solid red background.",
+        "w": 1439,
+        "h": 1079
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/content-cards/product-for-a-year-us-tile-hq.png/width1960.png",
+        "alt": "Assorted Coca-Cola products on an autumn park table promoting a sweepstakes to win a full year of favorites.",
+        "w": 799,
+        "h": 599
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/offerings/holiday/onexp-hpg-caravan-teaser-allbreakpoints.png/width1960.png",
+        "alt": "A red Coca-Cola semi-truck outlined in glowing holiday lights, with a trailer decorated in Coca-Cola logos, stripes and white ribbon bows, set against a solid red background.",
+        "w": 1439,
+        "h": 1079
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/content-cards/product-for-a-year-us-tile-hq.png/width1960.png",
+        "alt": "Assorted Coca-Cola products on an autumn park table promoting a sweepstakes to win a full year of favorites.",
+        "w": 799,
+        "h": 599
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/offerings/holiday/onexp-hpg-caravan-teaser-allbreakpoints.png/width1960.png",
+        "alt": "A red Coca-Cola semi-truck outlined in glowing holiday lights, with a trailer decorated in Coca-Cola logos, stripes and white ribbon bows, set against a solid red background.",
+        "w": 1439,
+        "h": 1079
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/content-cards/product-for-a-year-us-tile-hq.png/width1960.png",
+        "alt": "Assorted Coca-Cola products on an autumn park table promoting a sweepstakes to win a full year of favorites.",
+        "w": 799,
+        "h": 599
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/offerings/holiday/onexp-hpg-caravan-teaser-allbreakpoints.png/width1960.png",
+        "alt": "A red Coca-Cola semi-truck outlined in glowing holiday lights, with a trailer decorated in Coca-Cola logos, stripes and white ribbon bows, set against a solid red background.",
+        "w": 1439,
+        "h": 1079
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/content-cards/product-for-a-year-us-tile-hq.png/width1960.png",
+        "alt": "Assorted Coca-Cola products on an autumn park table promoting a sweepstakes to win a full year of favorites.",
+        "w": 799,
+        "h": 599
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/offerings/holiday/onexp-hpg-caravan-teaser-allbreakpoints.png/width1960.png",
+        "alt": "A red Coca-Cola semi-truck outlined in glowing holiday lights, with a trailer decorated in Coca-Cola logos, stripes and white ribbon bows, set against a solid red background.",
+        "w": 1439,
+        "h": 1079
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/content-cards/product-for-a-year-us-tile-hq.png/width1960.png",
+        "alt": "Assorted Coca-Cola products on an autumn park table promoting a sweepstakes to win a full year of favorites.",
+        "w": 799,
+        "h": 599
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/campaign-cards/soccer-always-on-campaign-dt.png/width1960.png",
+        "alt": "Coca-Cola soccer campaign banner featuring a woman drinking from a glass bottle amidst a cheering stadium crowd.",
+        "w": 1102,
+        "h": 950
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/campaign-cards/simply-holidays-us-campaign-dt.png/width1960.png",
+        "alt": "Coca-Cola soccer campaign banner featuring a woman drinking from a glass bottle amidst a cheering stadium crowd.",
+        "w": 1102,
+        "h": 950
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/offerings/landing-page/desktop/coke-offering-vending.jpg/width1960.jpg",
+        "alt": "drinking coca-cola in car",
+        "w": 517,
+        "h": 387
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/homepage/plusone-card.jpg/width1960.jpg",
+        "alt": "download the Coca-Cola +one app",
+        "w": 799,
+        "h": 599
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/offerings/snap-camera-kit-onexp-tile-campaign-more-from-cc.png/width1960.png",
+        "alt": "discover your tastebud map",
+        "w": 747,
+        "h": 561
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/content-cards/world-of-coca-cola-tile.png/width1960.png",
+        "alt": "World of Coca‑Cola Annual Pass",
+        "w": 517,
+        "h": 387
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/offerings/landing-page/desktop/coke-offering-refreshing-films.jpg/width1960.jpg",
+        "alt": "refreshing films",
+        "w": 517,
+        "h": 387
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/offerings/landing-page/desktop/coke-offering-vending.jpg/width1960.jpg",
+        "alt": "drinking coca-cola in car",
+        "w": 517,
+        "h": 387
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/homepage/plusone-card.jpg/width1960.jpg",
+        "alt": "download the Coca-Cola +one app",
+        "w": 799,
+        "h": 599
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/offerings/snap-camera-kit-onexp-tile-campaign-more-from-cc.png/width1960.png",
+        "alt": "discover your tastebud map",
+        "w": 747,
+        "h": 561
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/content-cards/world-of-coca-cola-tile.png/width1960.png",
+        "alt": "World of Coca‑Cola Annual Pass",
+        "w": 517,
+        "h": 387
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/offerings/landing-page/desktop/coke-offering-refreshing-films.jpg/width1960.jpg",
+        "alt": "refreshing films",
+        "w": 517,
+        "h": 387
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/offerings/landing-page/desktop/coke-offering-vending.jpg/width1960.jpg",
+        "alt": "drinking coca-cola in car",
+        "w": 517,
+        "h": 387
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/homepage/plusone-card.jpg/width1960.jpg",
+        "alt": "download the Coca-Cola +one app",
+        "w": 799,
+        "h": 599
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/offerings/snap-camera-kit-onexp-tile-campaign-more-from-cc.png/width1960.png",
+        "alt": "discover your tastebud map",
+        "w": 747,
+        "h": 561
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/content-cards/world-of-coca-cola-tile.png/width1960.png",
+        "alt": "World of Coca‑Cola Annual Pass",
+        "w": 517,
+        "h": 387
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/offerings/landing-page/desktop/coke-offering-refreshing-films.jpg/width1960.jpg",
+        "alt": "refreshing films",
+        "w": 517,
+        "h": 387
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/offerings/landing-page/desktop/coke-offering-vending.jpg/width1960.jpg",
+        "alt": "drinking coca-cola in car",
+        "w": 517,
+        "h": 387
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/homepage/plusone-card.jpg/width1960.jpg",
+        "alt": "download the Coca-Cola +one app",
+        "w": 799,
+        "h": 599
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/homepage/CocaColalogor.png/width1960.png",
+        "alt": "Coca-Cola Logo",
+        "w": 420,
+        "h": 132
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/brands/sprite/en_sprite_logo_green-text-only_477x180.png/width1960.png",
+        "alt": "Sprite logo",
+        "w": 350,
+        "h": 132
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/brands/fanta/en_fanta_logo_colored_319x180_v1.png/width1960.png",
+        "alt": "Fanta Logo",
+        "w": 234,
+        "h": 132
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/brands/smartwater/multi-variant/v2/SW_wordmarks_RGB_color_500x180.png/width1960.png",
+        "alt": "smartwater",
+        "w": 367,
+        "h": 132
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/brands/minute-maid/final-logo/Global%20MinuteMaid%20Logo.png/width1960.png",
+        "alt": "Minute maid logo",
+        "w": 1439,
+        "h": 1439
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/global/icons/logo-white-large.svg",
+        "alt": "The Coca Cola Company Logo",
+        "w": 249,
+        "h": 40
+      }
+    ],
+    "allImgCount": 46,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--scrollWidth": "0px",
+    "--onexp-white": "#ffffff",
+    "--onexp-black": "#000000",
+    "--color-accent-regular": "#ea0000",
+    "--color-icon-action-main-default": "#000000",
+    "--color-icon-action-main-disabled": "#6c6c6c",
+    "--color-icon-action-main-hover": "#353535",
+    "--color-icon-action-main-pressed": "#4f4f4f",
+    "--color-icon-action-on_brand-primary-default": "#ffffff",
+    "--color-icon-action-on_brand-primary-disabled": "#bdbdbd",
+    "--color-icon-action-on_brand-primary-hover": "#eeeeee",
+    "--color-icon-action-on_brand-primary-pressed": "#d5d5d5",
+    "--color-icon-action-on_brand-secondary-default": "#000000",
+    "--color-icon-action-on_brand-secondary-disabled": "#6c6c6c",
+    "--color-icon-action-on_brand-secondary-hover": "#353535",
+    "--color-icon-action-on_brand-secondary-pressed": "#4f4f4f",
+    "--color-icon-action-on_brand-tertiary-default": "#ffffff",
+    "--color-icon-action-on_brand-tertiary-disabled": "#bdbdbd",
+    "--color-icon-action-on_brand-tertiary-hover": "#eeeeee",
+    "--color-icon-action-on_brand-tertiary-pressed": "#d5d5d5",
+    "--color-icon-brand-primary-regular": "#ea0000",
+    "--color-icon-brand-secondary-regular": "#ffffff",
+    "--color-icon-component-button-filled-header-default": "#ffffff",
+    "--color-icon-component-button-filled-header-disabled": "#6c6c6c",
+    "--color-icon-component-button-filled-neutral-default": "#ffffff",
+    "--color-icon-component-button-filled-neutral-disabled": "#6c6c6c",
+    "--color-icon-component-button-filled-on_brand-primary-default": "#000000",
+    "--color-icon-component-button-filled-on_brand-primary-disabled": "#a5a5a5",
+    "--color-icon-component-button-filled-on_brand-secondary-default": "#ffffff",
+    "--color-icon-component-button-filled-on_brand-secondary-disabled": "#6c6c6c",
+    "--color-icon-component-button-filled-on_image-default": "#000000",
+    "--color-icon-component-button-filled-on_image-disabled": "#a5a5a5",
+    "--color-icon-component-button-link-footer-default": "#ffffff",
+    "--color-icon-component-button-link-footer-hover": "#d5d5d5",
+    "--color-icon-component-button-link-footer-pressed": "#a5a5a5",
+    "--color-icon-component-button-link-neutral-default": "#000000",
+    "--color-icon-component-button-link-neutral-disabled": "#a5a5a5",
+    "--color-icon-component-button-link-neutral-pressed": "#4f4f4f",
+    "--color-icon-component-button-link-on_brand-primary-default": "#ffffff",
+    "--color-icon-component-button-link-on_brand-primary-disabled": "#6c6c6c",
+    "--color-icon-component-button-link-on_brand-primary-pressed": "#d5d5d5",
+    "--color-icon-component-button-link-on_brand-secondary-default": "#000000",
+    "--color-icon-component-button-link-on_brand-secondary-disabled": "#a5a5a5",
+    "--color-icon-component-button-link-on_brand-secondary-pressed": "#4f4f4f",
+    "--color-icon-component-button-link-on_image-default": "#ffffff",
+    "--color-icon-component-button-link-on_image-disabled": "#6c6c6c",
+    "--color-icon-component-button-link-on_image-pressed": "#d5d5d5",
+    "--color-icon-component-button-outlined-footer-default": "#ffffff",
+    "--color-icon-component-button-outlined-header-default": "#000000",
+    "--color-icon-component-button-outlined-header-disabled": "#a5a5a5",
+    "--color-icon-component-button-outlined-neutral-default": "#000000",
+    "--color-icon-component-button-outlined-neutral-disabled": "#a5a5a5",
+    "--color-icon-component-button-outlined-on_brand-primary-default": "#ffffff",
+    "--color-icon-component-button-outlined-on_brand-primary-disabled": "#6c6c6c",
+    "--color-icon-component-button-outlined-on_brand-secondary-default": "#000000",
+    "--color-icon-component-button-outlined-on_brand-secondary-disabled": "#a5a5a5",
+    "--color-icon-component-button-outlined-on_image-default": "#ffffff",
+    "--color-icon-component-button-outlined-on_image-disabled": "#6c6c6c",
+    "--color-icon-component-footer-action-default": "#ffffff",
+    "--color-icon-component-footer-action-hover": "#d5d5d5",
+    "--color-icon-component-footer-action-pressed": "#a5a5a5",
+    "--color-icon-component-footer-neutral-regular": "#ffffff",
+    "--color-icon-component-illustration-brand-primary": "#ea0000",
+    "--color-icon-component-illustration-brand-secondary": "#ffffff",
+    "--color-icon-component-illustration-brand-tertiary": "#000000",
+    "--color-icon-component-input-critical": "#bf1004",
+    "--color-icon-component-input-default": "#000000",
+    "--color-icon-component-input-positive": "#1d6e17",
+    "--color-icon-component-nav-action-default": "#000000",
+    "--color-icon-component-nav-action-disabled": "#6c6c6c",
+    "--color-icon-component-nav-action-hover": "#4f4f4f",
+    "--color-icon-component-nav-action-pressed": "#a5a5a5",
+    "--color-icon-component-nav-neutral-main-default": "#000000",
+    "--color-icon-component-nav-neutral-main-disabled": "#6c6c6c",
+    "--color-icon-component-nav-neutral-on_button-default": "#ffffff",
+    "--color-icon-component-spin_the_wheel-neutral-primary": "#ffffff",
+    "--color-icon-component-spin_the_wheel-neutral-secondary": "#ea0000",
+    "--color-icon-component-spin_the_wheel-primary-primary": "#eeeeee",
+    "--color-icon-component-spin_the_wheel-primary-secondary": "#ffffff",
+    "--color-icon-component-spin_the_wheel-secondary-primary": "#ffffff",
+    "--color-icon-component-spin_the_wheel-secondary-quaternary": "#ea0000",
+    "--color-icon-component-spin_the_wheel-secondary-secondary": "#ea0000",
+    "--color-icon-component-spin_the_wheel-secondary-tertiary": "#ffffff",
+    "--color-icon-neutral-interactive-neutral-default": "#ffffff",
+    "--color-icon-neutral-interactive-neutral-disabled": "#6c6c6c",
+    "--color-icon-neutral-interactive-primary-default": "#000000",
+    "--color-icon-neutral-interactive-primary-disabled": "#bdbdbd",
+    "--color-icon-neutral-interactive-secondary-default": "#ffffff",
+    "--color-icon-neutral-main-regular-default": "#000000",
+    "--color-icon-neutral-main-regular-disabled": "#6c6c6c",
+    "--color-icon-neutral-main-subtle-default": "#4f4f4f",
+    "--color-icon-neutral-on_brand-primary-default": "#ffffff",
+    "--color-icon-neutral-on_brand-primary-disabled": "#bdbdbd",
+    "--color-icon-neutral-on_brand-secondary-default": "#000000",
+    "--color-icon-neutral-on_brand-secondary-disabled": "#6c6c6c",
+    "--color-icon-neutral-on_brand-tertiary-default": "#ffffff",
+    "--color-icon-neutral-on_brand-tertiary-disabled": "#bdbdbd",
+    "--color-icon-status-critical": "#bf1004",
+    "--color-icon-status-info": "#0048ff",
+    "--color-icon-status-positive": "#1d6e17",
+    "--color-icon-status-reverse-critical": "#ffa68f",
+    "--color-icon-status-warning": "#725d27",
+    "--color-shadow-interactive-hover": "#00000052",
+    "--color-shadow-neutral-regular": "#0000001f",
+    "--color-stroke-action-default": "#000000",
+    "--color-stroke-brand-primary-default": "#000000",
+    "--color-stroke-brand-primary-subtle": "#4f4f4f",
+    "--color-stroke-brand-secondary-default": "#ffffff",
+    "--color-stroke-brand-secondary-subtle": "#d5d5d5",
+    "--color-stroke-component-button-filled-header-hover": "#6c6c6c",
+    "--color-stroke-component-button-filled-neutral-hover": "#6c6c6c",
+    "--color-stroke-component-button-filled-on_brand-primary-hover": "#a5a5a5",
+    "--color-stroke-component-button-filled-on_brand-secondary-hover": "#6c6c6c",
+    "--color-stroke-component-button-filled-on_image-hover": "#a5a5a5",
+    "--color-stroke-component-button-outlined-footer-default": "#ffffff",
+    "--color-stroke-component-button-outlined-header-default": "#000000",
+    "--color-stroke-component-button-outlined-header-disabled": "#a5a5a5",
+    "--color-stroke-component-button-outlined-neutral-default": "#000000",
+    "--color-stroke-component-button-outlined-neutral-disabled": "#a5a5a5",
+    "--color-stroke-component-button-outlined-on_brand-primary-default": "#ffffff",
+    "--color-stroke-component-button-outlined-on_brand-primary-disabled": "#6c6c6c",
+    "--color-stroke-component-button-outlined-on_brand-secondary-default": "#000000",
+    "--color-stroke-component-button-outlined-on_brand-secondary-disabled": "#a5a5a5",
+    "--color-stroke-component-button-outlined-on_image-default": "#ffffff",
+    "--color-stroke-component-button-outlined-on_image-disabled": "#6c6c6c",
+    "--color-stroke-component-footer-interactive-focus": "#ffffff",
+    "--color-stroke-component-footer-neutral-regular": "#ffffff",
+    "--color-stroke-component-footer-neutral-subtle": "#d5d5d5",
+    "--color-stroke-component-input-field-active": "#000000",
+    "--color-stroke-component-input-field-critical": "#bf1004",
+    "--color-stroke-component-input-field-default": "#000000",
+    "--color-stroke-component-input-field-hover": "#4f4f4f",
+    "--color-stroke-component-input-field-positive": "#1d6e17",
+    "--color-stroke-component-input-tag-subtle": "#d5d5d5",
+    "--color-stroke-component-nav-interactive-active": "#000000",
+    "--color-stroke-component-nav-interactive-default": "#000000",
+    "--color-stroke-component-nav-interactive-focus": "#000000",
+    "--color-stroke-component-nav-interactive-hover": "#4f4f4f",
+    "--color-stroke-component-nav-interactive-reverse-active": "#ffffff",
+    "--color-stroke-component-nav-interactive-reverse-focus": "#ffffff",
+    "--color-stroke-component-nav-neutral-main-regular": "#000000",
+    "--color-stroke-component-nav-neutral-main-subtle": "#d5d5d5",
+    "--color-stroke-interactive-main-active": "#000000",
+    "--color-stroke-interactive-main-default": "#000000",
+    "--color-stroke-interactive-main-disabled": "#bdbdbd",
+    "--color-stroke-interactive-main-focus": "#000000",
+    "--color-stroke-interactive-main-hover": "#4f4f4f",
+    "--color-stroke-interactive-main-pressed": "#a5a5a5",
+    "--color-stroke-interactive-on_brand-primary-focus": "#ffffff",
+    "--color-stroke-interactive-on_brand-secondary-focus": "#000000",
+    "--color-stroke-interactive-on_image-focus": "#ffffff",
+    "--color-stroke-neutral-main-regular-default": "#000000",
+    "--color-stroke-neutral-main-regular-disabled": "#6c6c6c",
+    "--color-stroke-neutral-main-subtle-default": "#d5d5d5",
+    "--color-stroke-neutral-on_brand-primary-default": "#ffffff",
+    "--color-stroke-neutral-on_brand-primary-disabled": "#bdbdbd",
+    "--color-stroke-neutral-on_brand-secondary-default": "#000000",
+    "--color-stroke-neutral-on_brand-secondary-disabled": "#6c6c6c",
+    "--color-stroke-status-critical": "#bf1004",
+    "--color-stroke-status-info": "#0048ff",
+    "--color-stroke-status-positive": "#1d6e17",
+    "--color-stroke-status-warning": "#725d27",
+    "--color-surface-action-alpha-main-active": "#0000001f",
+    "--color-surface-action-alpha-main-default": "#00000000",
+    "--color-surface-action-alpha-main-hover": "#0000001f",
+    "--color-surface-action-alpha-main-pressed": "#0000003d",
+    "--color-surface-action-alpha-on_brand-primary-default": "#ffffff00",
+    "--color-surface-action-alpha-on_brand-primary-hover": "#ffffff1f",
+    "--color-surface-action-alpha-on_brand-primary-pressed": "#ffffff3d",
+    "--color-surface-action-alpha-on_brand-secondary-default": "#00000000",
+    "--color-surface-action-alpha-on_brand-secondary-hover": "#0000001f",
+    "--color-surface-action-alpha-on_brand-secondary-pressed": "#0000003d",
+    "--color-surface-action-alpha-reverse-default": "#ffffff00",
+    "--color-surface-action-alpha-reverse-pressed": "#ffffff3d",
+    "--color-surface-action-opaque-main-default": "#000000",
+    "--color-surface-action-opaque-main-disabled": "#bdbdbd",
+    "--color-surface-action-opaque-main-hover": "#353535",
+    "--color-surface-action-opaque-main-pressed": "#4f4f4f",
+    "--color-surface-action-opaque-on_brand-primary-default": "#ffffff",
+    "--color-surface-action-opaque-on_brand-primary-disabled": "#6c6c6c",
+    "--color-surface-action-opaque-on_brand-primary-hover": "#d5d5d5",
+    "--color-surface-action-opaque-on_brand-primary-pressed": "#a5a5a5",
+    "--color-surface-action-opaque-on_brand-secondary-default": "#000000",
+    "--color-surface-action-opaque-on_brand-secondary-disabled": "#bdbdbd",
+    "--color-surface-action-opaque-on_brand-secondary-hover": "#353535",
+    "--color-surface-action-opaque-on_brand-secondary-pressed": "#4f4f4f",
+    "--color-surface-action-opaque-on_brand-tertiary-default": "#ffffff",
+    "--color-surface-action-opaque-on_brand-tertiary-disabled": "#6c6c6c",
+    "--color-surface-action-opaque-on_brand-tertiary-hover": "#d5d5d5",
+    "--color-surface-action-opaque-on_brand-tertiary-pressed": "#a5a5a5",
+    "--color-surface-action-opaque-on_image-hover": "#eeeeee",
+    "--color-surface-brand-primary-regular": "#000000",
+    "--color-surface-brand-secondary-regular": "#ffffff",
+    "--color-surface-brand-tertiary-regular": "#000000",
+    "--color-surface-component-button-filled-header-default": "#000000",
+    "--color-surface-component-button-filled-header-disabled": "#bdbdbd",
+    "--color-surface-component-button-filled-header-pressed": "#6c6c6c",
+    "--color-surface-component-button-filled-neutral-default": "#000000",
+    "--color-surface-component-button-filled-neutral-disabled": "#bdbdbd",
+    "--color-surface-component-button-filled-neutral-pressed": "#6c6c6c",
+    "--color-surface-component-button-filled-on_brand-primary-default": "#ffffff",
+    "--color-surface-component-button-filled-on_brand-primary-disabled": "#6c6c6c",
+    "--color-surface-component-button-filled-on_brand-primary-pressed": "#a5a5a5",
+    "--color-surface-component-button-filled-on_brand-secondary-default": "#000000",
+    "--color-surface-component-button-filled-on_brand-secondary-disabled": "#bdbdbd",
+    "--color-surface-component-button-filled-on_brand-secondary-pressed": "#6c6c6c",
+    "--color-surface-component-button-filled-on_image-default": "#ffffff",
+    "--color-surface-component-button-filled-on_image-disabled": "#6c6c6c",
+    "--color-surface-component-button-filled-on_image-pressed": "#a5a5a5",
+    "--color-surface-component-button-outlined-footer-default": "#ffffff00",
+    "--color-surface-component-button-outlined-footer-pressed": "#ffffff3d",
+    "--color-surface-component-button-outlined-header-default": "#00000000",
+    "--color-surface-component-button-outlined-header-disabled": "#0000003d",
+    "--color-surface-component-button-outlined-neutral-default": "#00000000",
+    "--color-surface-component-button-outlined-neutral-pressed": "#0000003d",
+    "--color-surface-component-button-outlined-on_brand-primary-default": "#ffffff00",
+    "--color-surface-component-button-outlined-on_brand-primary-pressed": "#ffffff3d",
+    "--color-surface-component-button-outlined-on_brand-secondary-default": "#00000000",
+    "--color-surface-component-button-outlined-on_brand-secondary-pressed": "#0000003d",
+    "--color-surface-component-button-outlined-on_image-default": "#ffffff00",
+    "--color-surface-component-button-outlined-on_image-pressed": "#ffffff3d",
+    "--color-surface-component-footer-action-default": "#ffffff00",
+    "--color-surface-component-footer-action-hover": "#ffffff1f",
+    "--color-surface-component-footer-action-pressed": "#ffffff3d",
+    "--color-surface-component-footer-neutral-regular": "#000000",
+    "--color-surface-component-footer-neutral-subtle": "#353535",
+    "--color-surface-component-footer-regular": "#000000",
+    "--color-surface-component-input-dropdown-hover": "#0000001f",
+    "--color-surface-component-input-dropdown-pressed": "#0000003d",
+    "--color-surface-component-input-field-regular": "#ffffff",
+    "--color-surface-component-live_badge-regular": "#ff0000",
+    "--color-surface-component-nav-action-alpha-default": "#00000000",
+    "--color-surface-component-nav-action-alpha-hover": "#0000001f",
+    "--color-surface-component-nav-action-alpha-pressed": "#0000003d",
+    "--color-surface-component-nav-action-opaque-default": "#000000",
+    "--color-surface-component-nav-action-opaque-disabled": "#bdbdbd",
+    "--color-surface-component-nav-action-opaque-hover": "#4f4f4f",
+    "--color-surface-component-nav-action-opaque-pressed": "#a5a5a5",
+    "--color-surface-component-nav-interactive-hover": "#0000001f",
+    "--color-surface-component-nav-interactive-pressed": "#0000003d",
+    "--color-surface-component-nav-neutral-alpha-regular": "#0000008f",
+    "--color-surface-component-nav-neutral-opaque-regular": "#ffffff",
+    "--color-surface-component-nav-neutral-opaque-subtle": "#eeeeee",
+    "--color-surface-component-selector-active": "#000000",
+    "--color-surface-component-selector-default": "#eeeeee",
+    "--color-surface-component-selector-disabled": "#a5a5a5",
+    "--color-surface-component-selector-hover": "#d5d5d5",
+    "--color-surface-interactive-alpha-default": "#00000000",
+    "--color-surface-interactive-alpha-hover": "#0000001f",
+    "--color-surface-interactive-alpha-pressed": "#0000003d",
+    "--color-surface-interactive-opaque-active": "#000000",
+    "--color-surface-interactive-opaque-default": "#000000",
+    "--color-surface-interactive-opaque-disabled": "#6c6c6c",
+    "--color-surface-interactive-opaque-hover": "#4f4f4f",
+    "--color-surface-interactive-opaque-pressed": "#a5a5a5",
+    "--color-surface-neutral-alpha-regular": "#0000008f",
+    "--color-surface-neutral-opaque-bold": "#d5d5d5",
+    "--color-surface-neutral-opaque-disabled": "#bdbdbd",
+    "--color-surface-neutral-opaque-regular": "#ffffff",
+    "--color-surface-neutral-opaque-subtle": "#eeeeee",
+    "--color-surface-neutral-reverse-disabled": "#6c6c6c",
+    "--color-surface-neutral-reverse-regular": "#000000",
+    "--color-surface-neutral-reverse-subtle": "#353535",
+    "--color-surface-status-critical": "#ffe9e2",
+    "--color-surface-status-info": "#f2eaff",
+    "--color-surface-status-positive-bold": "#e4f2df",
+    "--color-surface-status-positive-subtle": "#95cb87",
+    "--color-surface-status-warning": "#fceccf",
+    "--color-text-action-main-default": "#000000",
+    "--color-text-action-main-disabled": "#6c6c6c",
+    "--color-text-action-main-hover": "#353535",
+    "--color-text-action-main-pressed": "#4f4f4f",
+    "--color-text-action-on_brand-primary-default": "#ffffff",
+    "--color-text-action-on_brand-primary-disabled": "#bdbdbd",
+    "--color-text-action-on_brand-primary-hover": "#eeeeee",
+    "--color-text-action-on_brand-primary-pressed": "#d5d5d5",
+    "--color-text-action-on_brand-secondary-default": "#000000",
+    "--color-text-action-on_brand-secondary-disabled": "#6c6c6c",
+    "--color-text-action-on_brand-secondary-hover": "#353535",
+    "--color-text-action-on_brand-secondary-pressed": "#4f4f4f",
+    "--color-text-action-on_brand-tertiary-default": "#ffffff",
+    "--color-text-action-on_brand-tertiary-disabled": "#bdbdbd",
+    "--color-text-action-on_brand-tertiary-hover": "#eeeeee",
+    "--color-text-action-on_brand-tertiary-pressed": "#d5d5d5",
+    "--color-text-component-button-filled-header-default": "#ffffff",
+    "--color-text-component-button-filled-header-disabled": "#6c6c6c",
+    "--color-text-component-button-filled-neutral-default": "#ffffff",
+    "--color-text-component-button-filled-neutral-disabled": "#6c6c6c",
+    "--color-text-component-button-filled-on_brand-primary-default": "#000000",
+    "--color-text-component-button-filled-on_brand-primary-disabled": "#a5a5a5",
+    "--color-text-component-button-filled-on_brand-secondary-default": "#ffffff",
+    "--color-text-component-button-filled-on_brand-secondary-disabled": "#6c6c6c",
+    "--color-text-component-button-filled-on_image-default": "#000000",
+    "--color-text-component-button-filled-on_image-disabled": "#a5a5a5",
+    "--color-text-component-button-link-footer-default": "#ffffff",
+    "--color-text-component-button-link-footer-hover": "#d5d5d5",
+    "--color-text-component-button-link-footer-pressed": "#a5a5a5",
+    "--color-text-component-button-link-neutral-default": "#000000",
+    "--color-text-component-button-link-neutral-disabled": "#a5a5a5",
+    "--color-text-component-button-link-neutral-pressed": "#4f4f4f",
+    "--color-text-component-button-link-on_brand-primary-default": "#ffffff",
+    "--color-text-component-button-link-on_brand-primary-disabled": "#6c6c6c",
+    "--color-text-component-button-link-on_brand-primary-pressed": "#d5d5d5",
+    "--color-text-component-button-link-on_brand-secondary-default": "#000000",
+    "--color-text-component-button-link-on_brand-secondary-disabled": "#a5a5a5",
+    "--color-text-component-button-link-on_brand-secondary-pressed": "#4f4f4f",
+    "--color-text-component-button-link-on_image-default": "#ffffff",
+    "--color-text-component-button-link-on_image-disabled": "#6c6c6c",
+    "--color-text-component-button-link-on_image-pressed": "#d5d5d5",
+    "--color-text-component-button-outlined-footer-default": "#ffffff",
+    "--color-text-component-button-outlined-header-default": "#000000",
+    "--color-text-component-button-outlined-header-disabled": "#a5a5a5",
+    "--color-text-component-button-outlined-neutral-default": "#000000",
+    "--color-text-component-button-outlined-neutral-disabled": "#a5a5a5",
+    "--color-text-component-button-outlined-on_brand-primary-default": "#ffffff",
+    "--color-text-component-button-outlined-on_brand-primary-disabled": "#6c6c6c",
+    "--color-text-component-button-outlined-on_brand-secondary-default": "#000000",
+    "--color-text-component-button-outlined-on_brand-secondary-disabled": "#a5a5a5",
+    "--color-text-component-button-outlined-on_image-default": "#ffffff",
+    "--color-text-component-button-outlined-on_image-disabled": "#6c6c6c",
+    "--color-text-component-footer-action-default": "#ffffff",
+    "--color-text-component-footer-action-hover": "#d5d5d5",
+    "--color-text-component-footer-action-pressed": "#a5a5a5",
+    "--color-text-component-footer-neutral-regular": "#ffffff",
+    "--color-text-component-footer-neutral-subtle": "#d5d5d5",
+    "--color-text-component-input-default": "#000000",
+    "--color-text-component-input-placeholder": "#6c6c6c",
+    "--color-text-component-nav-action-default": "#000000",
+    "--color-text-component-nav-action-disabled": "#6c6c6c",
+    "--color-text-component-nav-action-hover": "#4f4f4f",
+    "--color-text-component-nav-action-pressed": "#a5a5a5",
+    "--color-text-component-nav-neutral-main-default": "#000000",
+    "--color-text-component-nav-neutral-main-disabled": "#6c6c6c",
+    "--color-text-component-nav-neutral-main-placeholder": "#6c6c6c",
+    "--color-text-component-nav-neutral-main-reverse": "#ffffff",
+    "--color-text-component-nav-status-critical": "#bf1004",
+    "--color-text-component-spin_the_wheel-primary": "#ffffff",
+    "--color-text-component-spin_the_wheel-secondary": "#000000",
+    "--color-text-interactive-active": "#000000",
+    "--color-text-neutral-main-regular-default": "#000000",
+    "--color-text-neutral-main-regular-disabled": "#6c6c6c",
+    "--color-text-neutral-main-regular-placeholder": "#6c6c6c",
+    "--color-text-neutral-main-subtle-default": "#4f4f4f",
+    "--color-text-neutral-on_brand-primary-default": "#ffffff",
+    "--color-text-neutral-on_brand-primary-disabled": "#bdbdbd",
+    "--color-text-neutral-on_brand-primary-hover": "#ffffff",
+    "--color-text-neutral-on_brand-secondary-default": "#000000",
+    "--color-text-neutral-on_brand-secondary-disabled": "#6c6c6c",
+    "--color-text-neutral-on_brand-tertiary-default": "#ffffff",
+    "--color-text-neutral-on_brand-tertiary-disabled": "#bdbdbd",
+    "--color-text-neutral-reverse-default": "#ffffff",
+    "--color-text-neutral-reverse-disabled": "#a5a5a5",
+    "--color-text-neutral-reverse-subtle": "#d5d5d5",
+    "--color-text-neutral-text_on_image-default": "#ffffff",
+    "--color-text-status-critical": "#bf1004",
+    "--color-text-status-info": "#0048ff",
+    "--color-text-status-positive": "#1d6e17",
+    "--color-text-status-reverse-critical": "#ffa68f",
+    "--color-text-status-warning": "#725d27",
+    "--dimension-radius-component-button": "8000px",
+    "--dimension-radius-component-card-m": "16px",
+    "--dimension-radius-component-card-l": "32px",
+    "--dimension-radius-component-image": "16px",
+    "--dimension-radius-component-modal": "16px",
+    "--dimension-radius-generic-min": "0px",
+    "--dimension-radius-generic-s": "4px",
+    "--dimension-radius-generic-m": "8px",
+    "--dimension-radius-generic-l": "12px",
+    "--dimension-radius-generic-xl": "16px",
+    "--dimension-radius-generic-2xl": "32px",
+    "--dimension-radius-generic-max": "8000px",
+    "--dimension-radius-universal-button": "8000px",
+    "--dimension-shadow-blur-min": "0px",
+    "--dimension-shadow-blur-m": "16px",
+    "--dimension-shadow-blur-l": "24px",
+    "--dimension-shadow-position-min": "0px",
+    "--dimension-shadow-position-s": "8px",
+    "--dimension-shadow-position-m": "12px",
+    "--dimension-shadow-spread-min": "0px",
+    "--dimension-shadow-spread-s": "2px",
+    "--dimension-size-2xs": "8px",
+    "--dimension-size-xs": "16px",
+    "--dimension-size-s": "24px",
+    "--dimension-size-m": "32px",
+    "--dimension-size-l": "40px",
+    "--dimension-size-xl": "48px",
+    "--dimension-size-2xl": "56px",
+    "--dimension-size-3xl": "64px",
+    "--dimension-size-4xl": "72px",
+    "--dimension-size-5xl": "80px",
+    "--dimension-size-6xl": "120px",
+    "--dimension-spacing-min": "0px",
+    "--dimension-spacing-3xs": "2px",
+    "--dimension-spacing-2xs": "4px",
+    "--dimension-spacing-xs": "8px",
+    "--dimension-spacing-s": "12px",
+    "--dimension-spacing-m": "16px",
+    "--dimension-spacing-l": "20px",
+    "--dimension-spacing-xl": "24px",
+    "--dimension-spacing-2xl": "32px",
+    "--dimension-spacing-3xl": "40px",
+    "--dimension-spacing-4xl": "64px",
+    "--dimension-spacing-5xl": "80px",
+    "--dimension-spacing-6xl": "120px",
+    "--dimension-stroke_weight-min": "0px",
+    "--dimension-stroke_weight-s": "1px",
+    "--dimension-stroke_weight-m": "2px",
+    "--dimension-stroke_weight-l": "4px",
+    "--dimension-stroke_weight-xl": "5px",
+    "--dimension-stroke_weight-2xl": "8px",
+    "--typography-font-family-brand-action": "TCCC-UnityText",
+    "--typography-font-family-brand-body": "TCCC-UnityText",
+    "--typography-font-family-brand-heading": "TCCC-UnityText",
+    "--typography-font-family-universal-action": "TCCC-UnityText",
+    "--typography-font-family-universal-body": "TCCC-UnityText",
+    "--typography-font-family-universal-heading": "TCCC-UnityText",
+    "--typography-font-weight-action-default": "normal",
+    "--typography-font-weight-action-heavy": "bold",
+    "--typography-font-weight-body-default": "normal",
+    "--typography-font-weight-body-heavy": "bold",
+    "--typography-font-weight-heading-default": "bold",
+    "--typography-letter_spacing-action": "0px",
+    "--typography-letter_spacing-body": "0px",
+    "--typography-letter_spacing-heading-primary": "-1.5px",
+    "--typography-letter_spacing-heading-secondary": "0px",
+    "--typography-paragraph_spacing-action-s": "0px",
+    "--typography-paragraph_spacing-body-s": "4px",
+    "--typography-paragraph_spacing-body-m": "8px",
+    "--typography-paragraph_spacing-heading-s": "0px",
+    "--variables-brand": "The Coca-Cola Company",
+    "--variables-mode": "Light",
+    "--inverse-color-stroke-interactive-main-focus": "#ffffff",
+    "--inverse-color-surface-action-alpha-main-default": "#ffffff00",
+    "--inverse-color-surface-action-opaque-main-default": "#ffffff",
+    "--inverse-color-surface-neutral-opaque-bold": "#4f4f4f",
+    "--inverse-color-surface-neutral-opaque-regular": "#000000",
+    "--inverse-color-surface-status-critical": "#69180a",
+    "--inverse-color-text-action-main-default": "#ffffff",
+    "--inverse-color-text-action-main-disabled": "#bdbdbd",
+    "--inverse-color-text-action-main-hover": "#eeeeee",
+    "--inverse-color-text-action-main-pressed": "#d5d5d5",
+    "--inverse-color-text-component-nav-status-critical": "#ffa68f",
+    "--inverse-color-text-neutral-main-regular-default": "#ffffff",
+    "--mobile-dimension-layout-gutter": "16px",
+    "--mobile-dimension-layout-margin": "24px",
+    "--mobile-dimension-layout-viewport-height": "812px",
+    "--mobile-dimension-layout-viewport-width": "375px",
+    "--mobile-dimension-radius-component-full_width_card": "0px",
+    "--mobile-dimension-radius-component-lower_modal": "0px",
+    "--mobile-dimension-radius-component-side_panel": "16px",
+    "--mobile-dimension-size-height-component-hero_cropped-default": "281px",
+    "--mobile-dimension-size-height-component-hero_parallax-max": "668px",
+    "--mobile-dimension-size-width-column-12": "327px",
+    "--mobile-dimension-size-width-column-2": "155px",
+    "--mobile-dimension-size-width-column-3": "279px",
+    "--mobile-dimension-size-width-column-4": "327px",
+    "--mobile-dimension-size-width-column-5": "327px",
+    "--mobile-dimension-size-width-column-6": "327px",
+    "--mobile-dimension-size-width-column-8": "327px",
+    "--mobile-dimension-size-width-column-expanded": "327px",
+    "--mobile-dimension-size-width-column-max": "1152px",
+    "--mobile-dimension-size-width-component-brand_card-default": "155px",
+    "--mobile-dimension-size-width-component-feed_card-max": "375px",
+    "--mobile-dimension-size-width-component-horizontal_card-content-max": "280px",
+    "--mobile-dimension-size-width-component-horizontal_card-image-max": "327px",
+    "--mobile-dimension-size-width-component-icons_list-min": "240px",
+    "--mobile-dimension-size-width-component-profile_menu-max": "375px",
+    "--mobile-dimension-size-width-component-spin_the_wheel-max": "327px",
+    "--mobile-dimension-size-width-documentation-component_example-max": "407px",
+    "--mobile-dimension-spacing-component-side_panel": "280px",
+    "--mobile-dimension-spacing-padding-card-s": "24px",
+    "--mobile-dimension-spacing-padding-card-l": "24px",
+    "--mobile-dimension-spacing-padding-modal-s": "24px",
+    "--mobile-dimension-spacing-vertical-hero_to_module": "40px",
+    "--mobile-dimension-spacing-vertical-module_to_module": "56px",
+    "--mobile-dimension-spacing-vertical-module_to_text": "32px",
+    "--mobile-dimension-spacing-vertical-text_to_module": "40px",
+    "--mobile-dimension-spacing-vertical-text_to_text": "8px",
+    "--mobile-typography-line_height-action-m": "24px",
+    "--mobile-typography-line_height-body-s": "20px",
+    "--mobile-typography-line_height-body-m": "24px",
+    "--mobile-typography-line_height-heading-s": "28px",
+    "--mobile-typography-line_height-heading-m": "32px",
+    "--mobile-typography-line_height-heading-l": "36px",
+    "--mobile-typography-line_height-heading-xl": "40px",
+    "--mobile-typography-line_height-heading-2xl": "56px",
+    "--mobile-typography-line_height-heading-3xl": "56px",
+    "--mobile-typography-size-action-m": "16px",
+    "--mobile-typography-size-body-s": "12px",
+    "--mobile-typography-size-body-m": "16px",
+    "--mobile-typography-size-heading-s": "20px",
+    "--mobile-typography-size-heading-m": "24px",
+    "--mobile-typography-size-heading-l": "28px",
+    "--mobile-typography-size-heading-xl": "32px",
+    "--mobile-typography-size-heading-2xl": "38px",
+    "--mobile-typography-size-heading-3xl": "48px",
+    "--mobile-variables-breakpoint": "Mobile",
+    "--mobile-variables-breakpoint-toggle-desktop_element": "false",
+    "--mobile-variables-breakpoint-toggle-mobile_element": "true",
+    "--mobile-variables-breakpoint-type-column_number": "4px",
+    "--mobile-variables-breakpoint-type-device": "Mobile",
+    "--mobile-variables-breakpoint-type-layout_margin": "24px",
+    "--tablet-dimension-layout-gutter": "24px",
+    "--tablet-dimension-layout-margin": "64px",
+    "--tablet-dimension-layout-viewport-height": "1024px",
+    "--tablet-dimension-layout-viewport-width": "768px",
+    "--tablet-dimension-radius-component-full_width_card": "16px",
+    "--tablet-dimension-radius-component-lower_modal": "16px",
+    "--tablet-dimension-radius-component-side_panel": "0px",
+    "--tablet-dimension-size-height-component-hero_cropped-default": "628px",
+    "--tablet-dimension-size-height-component-hero_parallax-max": "810px",
+    "--tablet-dimension-size-width-column-12": "640px",
+    "--tablet-dimension-size-width-column-2": "590px",
+    "--tablet-dimension-size-width-column-3": "640px",
+    "--tablet-dimension-size-width-column-4": "640px",
+    "--tablet-dimension-size-width-column-5": "640px",
+    "--tablet-dimension-size-width-column-6": "640px",
+    "--tablet-dimension-size-width-column-8": "640px",
+    "--tablet-dimension-size-width-column-expanded": "640px",
+    "--tablet-dimension-size-width-column-max": "640px",
+    "--tablet-dimension-size-width-component-brand_card-default": "240px",
+    "--tablet-dimension-size-width-component-feed_card-max": "407px",
+    "--tablet-dimension-size-width-component-horizontal_card-content-max": "407px",
+    "--tablet-dimension-size-width-component-horizontal_card-image-max": "640px",
+    "--tablet-dimension-size-width-component-icons_list-min": "240px",
+    "--tablet-dimension-size-width-component-profile_menu-max": "375px",
+    "--tablet-dimension-size-width-component-spin_the_wheel-max": "327px",
+    "--tablet-dimension-size-width-documentation-component_example-max": "407px",
+    "--tablet-dimension-spacing-component-side_panel": "0px",
+    "--tablet-dimension-spacing-padding-card-s": "24px",
+    "--tablet-dimension-spacing-padding-card-l": "24px",
+    "--tablet-dimension-spacing-padding-modal-s": "24px",
+    "--tablet-dimension-spacing-vertical-hero_to_module": "48px",
+    "--tablet-dimension-spacing-vertical-module_to_module": "80px",
+    "--tablet-dimension-spacing-vertical-module_to_text": "32px",
+    "--tablet-dimension-spacing-vertical-text_to_module": "48px",
+    "--tablet-dimension-spacing-vertical-text_to_text": "8px",
+    "--tablet-typography-line_height-action-m": "24px",
+    "--tablet-typography-line_height-body-s": "20px",
+    "--tablet-typography-line_height-body-m": "24px",
+    "--tablet-typography-line_height-heading-s": "28px",
+    "--tablet-typography-line_height-heading-m": "32px",
+    "--tablet-typography-line_height-heading-l": "36px",
+    "--tablet-typography-line_height-heading-xl": "40px",
+    "--tablet-typography-line_height-heading-2xl": "56px",
+    "--tablet-typography-line_height-heading-3xl": "56px",
+    "--tablet-typography-size-action-m": "16px",
+    "--tablet-typography-size-body-s": "12px",
+    "--tablet-typography-size-body-m": "16px",
+    "--tablet-typography-size-heading-s": "20px",
+    "--tablet-typography-size-heading-m": "24px",
+    "--tablet-typography-size-heading-l": "28px",
+    "--tablet-typography-size-heading-xl": "32px",
+    "--tablet-typography-size-heading-2xl": "38px",
+    "--tablet-typography-size-heading-3xl": "48px",
+    "--tablet-variables-breakpoint": "Tablet",
+    "--tablet-variables-breakpoint-toggle-desktop_element": "true",
+    "--tablet-variables-breakpoint-toggle-mobile_element": "false",
+    "--tablet-variables-breakpoint-type-column_number": "6px",
+    "--tablet-variables-breakpoint-type-device": "Desktop",
+    "--tablet-variables-breakpoint-type-layout_margin": "64px",
+    "--desktop-dimension-layout-gutter": "24px",
+    "--desktop-dimension-layout-margin": "0px",
+    "--desktop-dimension-layout-viewport-height": "1024px",
+    "--desktop-dimension-layout-viewport-width": "1440px",
+    "--desktop-dimension-radius-component-full_width_card": "16px",
+    "--desktop-dimension-radius-component-lower_modal": "16px",
+    "--desktop-dimension-radius-component-side_panel": "0px",
+    "--desktop-dimension-size-height-component-hero_cropped-default": "628px",
+    "--desktop-dimension-size-height-component-hero_parallax-max": "810px",
+    "--desktop-dimension-size-width-column-12": "1120px",
+    "--desktop-dimension-size-width-column-2": "167px",
+    "--desktop-dimension-size-width-column-3": "357px",
+    "--desktop-dimension-size-width-column-4": "357px",
+    "--desktop-dimension-size-width-column-5": "453px",
+    "--desktop-dimension-size-width-column-6": "548px",
+    "--desktop-dimension-size-width-column-8": "739px",
+    "--desktop-dimension-size-width-column-expanded": "1280px",
+    "--desktop-dimension-size-width-column-max": "1120px",
+    "--desktop-dimension-size-width-component-brand_card-default": "357px",
+    "--desktop-dimension-size-width-component-feed_card-max": "544px",
+    "--desktop-dimension-size-width-component-horizontal_card-content-max": "400px",
+    "--desktop-dimension-size-width-component-horizontal_card-image-max": "167px",
+    "--desktop-dimension-size-width-component-icons_list-min": "240px",
+    "--desktop-dimension-size-width-component-profile_menu-max": "420px",
+    "--desktop-dimension-size-width-component-spin_the_wheel-max": "327px",
+    "--desktop-dimension-size-width-documentation-component_example-max": "407px",
+    "--desktop-dimension-spacing-component-side_panel": "0px",
+    "--desktop-dimension-spacing-padding-card-s": "32px",
+    "--desktop-dimension-spacing-padding-card-l": "64px",
+    "--desktop-dimension-spacing-padding-modal-s": "32px",
+    "--desktop-dimension-spacing-vertical-hero_to_module": "56px",
+    "--desktop-dimension-spacing-vertical-module_to_module": "120px",
+    "--desktop-dimension-spacing-vertical-module_to_text": "32px",
+    "--desktop-dimension-spacing-vertical-text_to_module": "56px",
+    "--desktop-dimension-spacing-vertical-text_to_text": "8px",
+    "--desktop-typography-line_height-action-m": "24px",
+    "--desktop-typography-line_height-body-s": "20px",
+    "--desktop-typography-line_height-body-m": "24px",
+    "--desktop-typography-line_height-heading-s": "32px",
+    "--desktop-typography-line_height-heading-m": "36px",
+    "--desktop-typography-line_height-heading-l": "40px",
+    "--desktop-typography-line_height-heading-xl": "48px",
+    "--desktop-typography-line_height-heading-2xl": "112px",
+    "--desktop-typography-line_height-heading-3xl": "112px",
+    "--desktop-typography-size-action-m": "16px",
+    "--desktop-typography-size-body-s": "12px",
+    "--desktop-typography-size-body-m": "16px",
+    "--desktop-typography-size-heading-s": "24px",
+    "--desktop-typography-size-heading-m": "28px",
+    "--desktop-typography-size-heading-l": "32px",
+    "--desktop-typography-size-heading-xl": "38px",
+    "--desktop-typography-size-heading-2xl": "48px",
+    "--desktop-typography-size-heading-3xl": "96px",
+    "--desktop-variables-breakpoint": "Desktop",
+    "--desktop-variables-breakpoint-toggle-desktop_element": "true",
+    "--desktop-variables-breakpoint-toggle-mobile_element": "false",
+    "--desktop-variables-breakpoint-type-column_number": "12px",
+    "--desktop-variables-breakpoint-type-device": "Desktop",
+    "--desktop-variables-breakpoint-type-layout_margin": "160px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 16,
+    "mainTextLen": 7001,
+    "realImageCount": 43,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage",
+    "pageSize": {
+      "w": 1440,
+      "h": 5785
+    },
+    "duplicateOf": "us-en"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/0c78f894-f494-492b-8b21-a0bf3c6bfdfd/0c78f894-f494-492b-8b21-a0bf3c6bfdfd.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/0c78f894-f494-492b-8b21-a0bf3c6bfdfd/019e1c73-20ac-7d29-bbee-cb2c1dc548b1/en.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202604.2.0/assets/otFloatingRoundedCorner.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2719,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202604.2.0/assets/otFloatingRoundedCorner.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202604.2.0/assets/otCookieSettingsButton.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1970,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202604.2.0/assets/otCookieSettingsButton.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202604.2.0/assets/v2/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 13447,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202604.2.0/assets/v2/otPcCenter.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202604.2.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202604.2.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 2
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 2
+      },
+      {
+        "host": "rum.hlx.page",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 6,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 8,
+      "thirdPartyScriptHosts": 3,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/index.png",
+  "renderedHtml": "pages/index.html",
+  "slots": {
+    "pageType": "landing",
+    "note": "redirects to /us/en; same slots as us-en (duplicateOf)",
+    "page-headline": {
+      "selector": "main .cmp-text h1",
+      "text": "The Coca‑Cola® Official Site for Drinks & Experiences"
+    },
+    "hero-carousel": {
+      "selector": ".carousel.carousel--hero",
+      "items": ".teaser.hero (image, h2 title, description, cta)",
+      "firstSlideTitle": "YOU COULD WIN BIG THIS SEASON"
+    },
+    "promo-cards": {
+      "selector": ".title + .carousel (Promos & Offers)",
+      "heading": "Promos & Offers",
+      "cards": [
+        "Don't Miss the Coca‑Cola Holiday Caravan",
+        "A Full Year of Favorites Could Be Yours"
+      ],
+      "cta": "View all Offerings"
+    },
+    "feature-band": {
+      "selector": ".teaser.campaign-card",
+      "heading": "Features",
+      "items": [
+        "Refresh Your Fandom All Year Long",
+        "Mix Up the Holiday Spirit"
+      ]
+    },
+    "card-carousel": {
+      "selector": ".carousel.carousel--card-secondary",
+      "heading": "More from Coca‑Cola®",
+      "cards": [
+        "you plus +one",
+        "Discover Your Tastebud Map",
+        "World of Coca‑Cola Annual Pass"
+      ]
+    },
+    "brands-grid": {
+      "selector": ".container.brands-list",
+      "heading": "Explore Our Brands",
+      "cta": "View All"
+    },
+    "rotating": "hero slides and promo cards vary per load"
+  }
+}

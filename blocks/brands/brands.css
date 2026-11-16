@@ -1,0 +1,53 @@
+/* brands — brand logo grid (prototype .brands-grid, landing.css) */
+.brands .brands-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 32px -8px 0;
+  padding: 0 8px;
+}
+
+.brands .brand-tile {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1;
+  padding: 24px;
+  background: var(--white);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+}
+
+.brands .brand-logo {
+  width: 100%;
+}
+
+.brands .brand-logo picture {
+  display: block;
+}
+
+.brands .brand-logo img {
+  width: 100%;
+  height: auto;
+}
+
+/* the brand name labels the image link for assistive tech only (the source tile is image-only) */
+.brands .brand-name {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (width >= 1200px) {
+  .brands .brands-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 768px;
+    margin: 32px auto 0;
+    padding: 0 16px;
+  }
+}

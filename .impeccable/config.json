@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "icomoon",
+        "createdAt": "2026-11-16T06:50:22.702Z",
+        "reason": "replica: icomoon is the live site's own icon font, captured verbatim in stardust/current/assets/fonts (glyph codepoints lifted from theme.css)"
+      }
+    ]
+  }
+}

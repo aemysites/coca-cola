@@ -1,0 +1,16 @@
+{
+  "variantName": "carousel",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Looping content-card carousel with dot navigation; two cards per view on desktop (three with the wide option), one per view below 1200px.",
+  "contentPattern": "One row per slide: image | h3 title, body paragraph, link paragraph (link text is the arrow label, its href is the card link). Section heading and trailing CTA are default content in the section.",
+  "options": [
+    {
+      "class": "wide",
+      "label": "Wide"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Promo and \"more to explore\" card rows that scroll horizontally.",
+  "reuseGuidance": "Reuse for any scrolling set of linked content cards. Add the wide option for full-bleed, three-per-view layouts."
+}

@@ -1,0 +1,39 @@
+{
+  "id": "v_4528716c639d",
+  "type": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-16T09:29:57.127Z",
+  "sourceContext": {
+    "originUrl": "https://www.coca-cola.com/",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "moderate",
+    "imagePattern": "single",
+    "purpose": "Feature xf",
+    "structure": "one image"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.coca-cola.com/",
+        "instanceId": "b01-feature-xf",
+        "instanceIds": [
+          "b01-feature-xf"
+        ],
+        "screenshot": ".pages/www_coca-cola_com--15a2f8b0/blocks/b01-feature-xf.jpg"
+      },
+      {
+        "url": "https://www.coca-cola.com/us/en",
+        "instanceId": "b01-feature-xf",
+        "instanceIds": [
+          "b01-feature-xf"
+        ],
+        "screenshot": ".pages/www_coca-cola_com_us_en--5c32b505/blocks/b01-feature-xf.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

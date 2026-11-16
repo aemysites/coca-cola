@@ -1,0 +1,18 @@
+{
+  "templates": [
+    {
+      "name": "global-homepage",
+      "description": "Global Coca-Cola site root homepage with featured band, promo teasers, carousels, campaign features and brand grid.",
+      "urls": [
+        "https://www.coca-cola.com/"
+      ]
+    },
+    {
+      "name": "country-homepage",
+      "description": "Country/locale homepage (e.g. /us/en) with featured band, promo teasers, carousels, campaign features and brand grid.",
+      "urls": [
+        "https://www.coca-cola.com/us/en"
+      ]
+    }
+  ]
+}

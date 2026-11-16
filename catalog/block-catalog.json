@@ -1,0 +1,107 @@
+{
+  "block-catalog": {
+    "schemaVersion": 2,
+    "captured": "2026-11-16T09:29:57.127Z",
+    "totalBlockVariants": 5,
+    "totalBlocksProcessed": 10,
+    "newVariantsCreated": 0,
+    "variantsReused": 0,
+    "layoutKeyThreshold": 0.85,
+    "completionStatus": {
+      "analyzed": 2,
+      "failed": 0
+    },
+    "blockVariants": {
+      "v_4528716c639d": {
+        "id": "v_4528716c639d",
+        "name": "feature-xf",
+        "type": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "Featured campaign or promotion band near the top of a homepage or landing page. Used on 2 pages (global-homepage and country-homepage templates).",
+        "screenshots": [
+          ".pages/www_coca-cola_com--15a2f8b0/blocks/b01-feature-xf.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "feature-xf",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_387a5ea24c32": {
+        "id": "v_387a5ea24c32",
+        "name": "teaser-block",
+        "type": "cards",
+        "canonicalModel": "collection",
+        "pagesFound": 2,
+        "description": "Small grid (typically two) of promotional teaser cards. Used on 2 pages (global-homepage and country-homepage templates).",
+        "screenshots": [
+          ".pages/www_coca-cola_com--15a2f8b0/blocks/b02-teaser-block.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "teaser-block",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_30492809bcc7": {
+        "id": "v_30492809bcc7",
+        "name": "carousel",
+        "type": "carousel",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "Promo and \"more to explore\" card rows that scroll horizontally. Used on 2 pages (global-homepage and country-homepage templates).",
+        "screenshots": [
+          ".pages/www_coca-cola_com--15a2f8b0/blocks/b03-carousel.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "carousel",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_e12ac89c79a8": {
+        "id": "v_e12ac89c79a8",
+        "name": "features",
+        "type": "columns",
+        "canonicalModel": "collection",
+        "pagesFound": 2,
+        "description": "Alternating image-and-text campaign features on homepage and landing pages. Used on 2 pages (global-homepage and country-homepage templates).",
+        "screenshots": [
+          ".pages/www_coca-cola_com--15a2f8b0/blocks/b04-features.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "features",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_56ad511795e1": {
+        "id": "v_56ad511795e1",
+        "name": "brands",
+        "type": "cards",
+        "canonicalModel": "collection",
+        "pagesFound": 2,
+        "description": "Brand logo showcase linking to each brand page. Used on 2 pages (global-homepage and country-homepage templates).",
+        "screenshots": [
+          ".pages/www_coca-cola_com--15a2f8b0/blocks/b05-brands.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "brands",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      }
+    }
+  }
+}

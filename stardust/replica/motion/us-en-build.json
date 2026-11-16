@@ -1,0 +1,944 @@
+{
+  "url": "http://localhost:8791/us-en-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site-header",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site-header",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "site-header",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "site-header",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4706,
+      "cls": "site-header",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3206,
+      "cls": "site-header",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site-header",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site-header",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "site-header",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "site-header",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "site-header",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "site-header",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "site-header",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "site-header",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "site-header",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "site-header",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "site-header",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "static",
+      "height": "80px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".promos .carousel__dots li:nth-child(2) button",
+      "frames": [
+        {
+          "t": 11135.399999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 11339.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 11544.399999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 11752.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".more .carousel__dots li:nth-child(2) button",
+      "frames": [
+        {
+          "t": 12784.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 12997,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 13210,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 13425.19999999972,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".site-nav > ul > li:nth-child(2) > a",
+      "frames": [
+        {
+          "t": 14459.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 14670.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 14879.69999999972,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 15085.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".promos .carousel__slide.is-active a.content-card",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "rgba(0, 0, 0, 0.12) 0px 8px 16px 0px",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.fade.loaded",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "opacity 0.4s"
+          },
+          {
+            "el": "h3.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "span.has-arrow",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "rgba(0, 0, 0, 0.12) 0px 8px 16px 0px",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.fade.loaded",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "opacity 0.4s"
+          },
+          {
+            "el": "h3.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "span.has-arrow",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".campaign-card .btn",
+      "changed": [
+        "self.boxShadow"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "rgb(0, 0, 0) 0px 0px 0px 2px inset",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".promos .btn--primary",
+      "changed": [
+        "self.boxShadow"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 0, 0)",
+          "boxShadow": "rgb(108, 108, 108) 0px 0px 0px 4px inset",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".brands-grid a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "rgba(0, 0, 0, 0.12) 0px 8px 16px 0px",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.fade.loaded",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "opacity 0.4s"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "rgba(0, 0, 0, 0.12) 0px 8px 16px 0px",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.fade.loaded",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "opacity 0.4s"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".site-nav > ul > li:first-child > a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".footer-col li:first-child a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "opacity",
+        "el": "section.teaser-block > div.teaser-grid > a.content-card > div.content-card__media > img.fade.loaded.visible",
+        "y": 400,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.teaser-block > div.teaser-grid > a.content-card > div.content-card__media > img.fade.loaded.visible",
+        "y": 400,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.carousel__list > div.carousel__slide.is-active.is-visible > a.content-card > div.content-card__media > img.fade.loaded.visible",
+        "y": 1200,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.carousel__list > div.carousel__slide.is-next.is-visible > a.content-card > div.content-card__media > img.fade.loaded.visible",
+        "y": 1200,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main.container.responsivegrid > section.features > article.campaign-card > picture.campaign-card__media > img.fade.loaded.visible",
+        "y": 2000,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main.container.responsivegrid > section.features > article.campaign-card.campaign-card--right > picture.campaign-card__media > img.fade.loaded.visible",
+        "y": 2800,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.carousel__list > div.carousel__slide.is-visible > a.content-card > div.content-card__media > img.fade.loaded.visible",
+        "y": 3600,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.carousel__list > div.carousel__slide.is-active.is-visible > a.content-card > div.content-card__media > img.fade.loaded.visible",
+        "y": 3600,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.carousel__list > div.carousel__slide.is-next.is-visible > a.content-card > div.content-card__media > img.fade.loaded.visible",
+        "y": 3600,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main.container.responsivegrid > section.brands > div.brands-grid > a > img.fade.loaded.visible",
+        "y": 4400,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main.container.responsivegrid > section.brands > div.brands-grid > a > img.fade.loaded.visible",
+        "y": 4400,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main.container.responsivegrid > section.brands > div.brands-grid > a > img.fade.loaded.visible",
+        "y": 4400,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main.container.responsivegrid > section.brands > div.brands-grid > a > img.fade.loaded.visible",
+        "y": 4800,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main.container.responsivegrid > section.brands > div.brands-grid > a > img.fade.loaded.visible",
+        "y": 4800,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main.container.responsivegrid > section.brands > div.brands-grid > a > img.fade.loaded.visible",
+        "y": 4800,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "width",
+        "el": "section.promos > div.carousel > ul.carousel__dots > li > button.carousel__dot.is-active",
+        "y": 2166,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "width",
+        "el": "section.promos > div.carousel > ul.carousel__dots > li > button.carousel__dot",
+        "y": 2166,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "main.container.responsivegrid > section.promos > div.carousel > div.carousel__track > div.carousel__list",
+        "y": 2166,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.carousel__list > div.carousel__slide.carousel__slide--clone.is-next > a.content-card > div.content-card__media > img.fade.loaded.visible",
+        "y": 2166,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "width",
+        "el": "section.more > div.carousel.carousel--wide > ul.carousel__dots > li > button.carousel__dot.is-active",
+        "y": 4514,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "main.container.responsivegrid > section.more > div.carousel.carousel--wide > div.carousel__track > div.carousel__list",
+        "y": 4514,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "width",
+        "el": "section.more > div.carousel.carousel--wide > ul.carousel__dots > li > button.carousel__dot",
+        "y": 4514,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.carousel__list > div.carousel__slide.is-visible > a.content-card > div.content-card__media > img.fade.loaded.visible",
+        "y": 4514,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "rotate",
+        "el": "div.header-wrapper > div.site-header__inner > nav.site-nav > ul > li.has-submenu.sublist-is-open",
+        "y": 0,
+        "dur": "0s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "section.teaser-block > div.teaser-grid > a.content-card > div.content-card__media > img.fade.loaded.visible",
+        "y": 400
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "section.teaser-block > div.teaser-grid > a.content-card > div.content-card__media > img.fade.loaded.visible",
+        "y": 400
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "div.carousel__list > div.carousel__slide.is-active.is-visible > a.content-card > div.content-card__media > img.fade.loaded.visible",
+        "y": 1200
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "div.carousel__list > div.carousel__slide.is-next.is-visible > a.content-card > div.content-card__media > img.fade.loaded.visible",
+        "y": 1200
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "main.container.responsivegrid > section.features > article.campaign-card > picture.campaign-card__media > img.fade.loaded.visible",
+        "y": 2000
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "main.container.responsivegrid > section.features > article.campaign-card.campaign-card--right > picture.campaign-card__media > img.fade.loaded.visible",
+        "y": 2800
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "div.carousel__list > div.carousel__slide.is-active.is-visible > a.content-card > div.content-card__media > img.fade.loaded.visible",
+        "y": 3600
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "div.carousel__list > div.carousel__slide.is-next.is-visible > a.content-card > div.content-card__media > img.fade.loaded.visible",
+        "y": 3600
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "div.carousel__list > div.carousel__slide.is-visible > a.content-card > div.content-card__media > img.fade.loaded.visible",
+        "y": 3600
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "main.container.responsivegrid > section.brands > div.brands-grid > a > img.fade.loaded.visible",
+        "y": 4400
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "main.container.responsivegrid > section.brands > div.brands-grid > a > img.fade.loaded.visible",
+        "y": 4400
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "main.container.responsivegrid > section.brands > div.brands-grid > a > img.fade.loaded.visible",
+        "y": 4400
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "main.container.responsivegrid > section.brands > div.brands-grid > a > img.fade.loaded.visible",
+        "y": 4800
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "main.container.responsivegrid > section.brands > div.brands-grid > a > img.fade.loaded.visible",
+        "y": 4800
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "main.container.responsivegrid > section.brands > div.brands-grid > a > img.fade.loaded.visible",
+        "y": 4800
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "section.promos > div.carousel > ul.carousel__dots > li > button.carousel__dot.is-active",
+        "y": 2166
+      },
+      {
+        "added": [
+          "is-prev"
+        ],
+        "el": "section.promos > div.carousel > div.carousel__track > div.carousel__list > div.carousel__slide.is-prev",
+        "y": 2166
+      },
+      {
+        "added": [
+          "is-prev"
+        ],
+        "el": "section.promos > div.carousel > div.carousel__track > div.carousel__list > div.carousel__slide.is-prev",
+        "y": 2166
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "section.promos > div.carousel > div.carousel__track > div.carousel__list > div.carousel__slide.is-visible.is-active",
+        "y": 2166
+      },
+      {
+        "added": [
+          "is-next",
+          "is-visible"
+        ],
+        "el": "section.promos > div.carousel > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone.is-next",
+        "y": 2166
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "section.promos > div.carousel > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone.is-next",
+        "y": 2166
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "div.carousel__list > div.carousel__slide.carousel__slide--clone.is-next > a.content-card > div.content-card__media > img.fade.loaded.visible",
+        "y": 2166
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "section.more > div.carousel.carousel--wide > ul.carousel__dots > li > button.carousel__dot.is-active",
+        "y": 4514
+      },
+      {
+        "added": [
+          "is-prev"
+        ],
+        "el": "section.more > div.carousel.carousel--wide > div.carousel__track > div.carousel__list > div.carousel__slide.is-prev",
+        "y": 4514
+      },
+      {
+        "added": [
+          "is-prev"
+        ],
+        "el": "section.more > div.carousel.carousel--wide > div.carousel__track > div.carousel__list > div.carousel__slide.is-prev",
+        "y": 4514
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "section.more > div.carousel.carousel--wide > div.carousel__track > div.carousel__list > div.carousel__slide.is-visible.is-active",
+        "y": 4514
+      },
+      {
+        "added": [
+          "is-next"
+        ],
+        "el": "section.more > div.carousel.carousel--wide > div.carousel__track > div.carousel__list > div.carousel__slide.is-visible.is-next",
+        "y": 4514
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "section.more > div.carousel.carousel--wide > div.carousel__track > div.carousel__list > div.carousel__slide.is-visible",
+        "y": 4514
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "div.carousel__list > div.carousel__slide.is-visible > a.content-card > div.content-card__media > img.fade.loaded.visible",
+        "y": 4514
+      },
+      {
+        "added": [
+          "sublist-is-open"
+        ],
+        "el": "div.header-wrapper > div.site-header__inner > nav.site-nav > ul > li.has-submenu.sublist-is-open",
+        "y": 0
+      }
+    ]
+  }
+}

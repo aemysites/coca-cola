@@ -1,0 +1,50 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "landing"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-16T07:12:27Z",
+      "endedAt": "2026-11-16T07:13:18Z",
+      "verdict": "rendered 1, unchanged 0, refused 0, passthrough 0 (archetype us-en → us/en/index.html; modules feature-xf, teaser-block, carousel, features, brands); index (duplicateOf us-en) pending as unit landing",
+      "archetypes": {
+        "landing": "us-en"
+      },
+      "pageMap": {
+        "us-en": "us/en.html",
+        "index": "index.html"
+      },
+      "notes": "Archetype rendered via branch A with --canon-css stardust/prototypes/css/canon.css. index = captured duplicate row of us-en: rides the sibling tier, renders only after C-archetype (us-en live + gated on the published origin). Root decision in stardust/direction.md (D-root)."
+    },
+    "landing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "slugs": [
+        "index"
+      ],
+      "blockedBy": "rollout C-archetype unit landing (us-en live + gated)",
+      "command": "node stardust/scripts/migrate/migrate.mjs render index --archetype index=us-en --canon-css stardust/prototypes/css/canon.css",
+      "startedAt": "2026-11-16T08:00:47.389Z",
+      "endedAt": "2026-11-16T08:01:04.841Z",
+      "verdict": "rendered 1, unchanged 0, refused 0, passthrough 0 (index ← us-en verbatim, duplicateOf; 5 modules; 31 out-of-scope links same as archetype)"
+    },
+    "report": {
+      "status": "done",
+      "kind": "report",
+      "templates": [
+        "landing"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-16T08:40:48.764Z",
+      "endedAt": "2026-11-16T08:40:48.764Z",
+      "verdict": "2 pages migrated (us-en archetype → us/en.html leaf, index ← us-en duplicateOf → index.html); both deployed + verified; driver summary still computes us/en/index.html (trailing-slash default) — delivered leaf /us/en is the record"
+    }
+  }
+}

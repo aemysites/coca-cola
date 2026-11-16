@@ -1,0 +1,12 @@
+{
+ "cache-control": "max-age=300, must-revalidate",
+ "content-security-policy": "default-src * data: mediastream: blob: filesystem: about: ws: wss: 'unsafe-eval' 'wasm-unsafe-eval' 'unsafe-inline';script-src * data: mediastream: blob: filesystem: about: 'unsafe-eval' 'unsafe-inline';connect-src * data: mediastream: blob: filesystem: about: 'unsafe-eval' 'unsafe-inline';frame-src * data: mediastream: blob: filesystem: about: 'unsafe-eval' 'unsafe-inline';frame-ancestors 'self' https://food.grab.com https://food.stg-myteksi.com",
+ "server": "CEP",
+ "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+ "via": "1.1 d430993d08ddf1e5fb27a5abae1dfcc6.cloudfront.net (CloudFront)",
+ "x-amz-cf-pop": "SFO53-P10",
+ "x-cache": "Error from cloudfront",
+ "x-content-type-options": "nosniff",
+ "x-infrastructure": "CepAws",
+ "x-xss-protection": "1; mode=block"
+}

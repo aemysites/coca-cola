@@ -1,0 +1,293 @@
+{
+  "discovery": {
+    "fetchTechnique": "chrome",
+    "count": 2,
+    "concurrency": 2,
+    "technique": "given (--pages)",
+    "userChoice": {
+      "pages": [
+        "https://www.coca-cola.com/us/en",
+        "https://www.coca-cola.com/"
+      ],
+      "cap": null,
+      "reason": "caller scoped exactly 2 pages (replica, hands-off)"
+    },
+    "filteredAsJunk": [],
+    "redirects": [
+      {
+        "from": "https://www.coca-cola.com/",
+        "to": "https://www.coca-cola.com/us/en",
+        "slug": "index",
+        "duplicateOf": "us-en"
+      }
+    ],
+    "notes": [
+      "curl (non-browser UA) gets CloudFront 403 Request blocked; Playwright Chrome (no stealth, STARDUST_STEALTH=0) gets 200",
+      "project crawl.mjs patched: consent prune skipped <body> (body matched the consent selector and was removed), viewport-step scroll for lazy images"
+    ]
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.coca-cola.com/onexp-theme/18b0fb116e5f38df6fa41bcb6d3a6e980c6fe693e0daee40c5e8d5f19c429e4d/resources/favicons/favicon-32x32.png",
+    "file": "assets/favicon.png"
+  },
+  "crawl": {
+    "failures": [],
+    "degraded": [],
+    "pageTimeoutMs": 120000
+  },
+  "captureGaps": {
+    "roots": [
+      {
+        "root": "/us/en",
+        "slug": "us-en",
+        "linked": 27,
+        "uncaptured": [
+          "/us/en/about-us/contact-us",
+          "/us/en/about-us/faq",
+          "/us/en/brands",
+          "/us/en/brands/coca-cola",
+          "/us/en/brands/diet-coke",
+          "/us/en/brands/fanta",
+          "/us/en/brands/freestyle",
+          "/us/en/brands/minute-maid",
+          "/us/en/brands/simply",
+          "/us/en/brands/smartwater",
+          "/us/en/brands/sprite",
+          "/us/en/impact/culture",
+          "/us/en/legal/coca-cola-rules",
+          "/us/en/legal/terms-of-service",
+          "/us/en/offerings",
+          "/us/en/offerings/coca-cola-app",
+          "/us/en/offerings/coca-cola/football",
+          "/us/en/offerings/coca-cola/hockey",
+          "/us/en/offerings/holiday",
+          "/us/en/offerings/holiday-caravan",
+          "/us/en/offerings/hubs/soccer",
+          "/us/en/offerings/portfolio/evergreen-promotion",
+          "/us/en/offerings/refreshing-films",
+          "/us/en/offerings/shop-now",
+          "/us/en/offerings/tastebud-map",
+          "/us/en/offerings/vending",
+          "/us/en/sitemap"
+        ]
+      }
+    ],
+    "detail": "uncaptured first-level targets: us/en 27"
+  },
+  "dynamicSurface": {
+    "pages": 2,
+    "pagesWithSameSiteData": 0,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 2,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/0c78f894-f494-492b-8b21-a0bf3c6bfdfd/0c78f894-f494-492b-8b21-a0bf3c6bfdfd.json",
+        "pages": 2,
+        "examples": [
+          "index",
+          "us-en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "pages": 2,
+        "examples": [
+          "index",
+          "us-en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/0c78f894-f494-492b-8b21-a0bf3c6bfdfd/019e1c73-20ac-7d29-bbee-cb2c1dc548b1/en.json",
+        "pages": 2,
+        "examples": [
+          "index",
+          "us-en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202604.2.0/assets/otFloatingRoundedCorner.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202604.2.0/assets/otFloatingRoundedCorner.json",
+        "pages": 2,
+        "examples": [
+          "index",
+          "us-en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202604.2.0/assets/otCookieSettingsButton.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202604.2.0/assets/otCookieSettingsButton.json",
+        "pages": 2,
+        "examples": [
+          "index",
+          "us-en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202604.2.0/assets/v2/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202604.2.0/assets/v2/otPcCenter.json",
+        "pages": 2,
+        "examples": [
+          "index",
+          "us-en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202604.2.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202604.2.0/assets/otCommonStyles.css",
+        "pages": 2,
+        "examples": [
+          "index",
+          "us-en"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "pages": 2,
+        "examples": [
+          "index",
+          "us-en"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "cdn.cookielaw.org",
+        "pages": 2,
+        "examples": [
+          "index",
+          "us-en"
+        ]
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 2,
+        "examples": [
+          "index",
+          "us-en"
+        ]
+      },
+      {
+        "host": "rum.hlx.page",
+        "pages": 2,
+        "examples": [
+          "index",
+          "us-en"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "aem-sites",
+        "pages": 2,
+        "examples": [
+          "index",
+          "us-en"
+        ]
+      }
+    ],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 2,
+        "examples": [
+          "index",
+          "us-en"
+        ]
+      }
+    ],
+    "formTargets": []
+  },
+  "visionCheck": [
+    {
+      "slug": "us-en",
+      "verdict": "recaptured",
+      "notes": "medium-wait capture showed blank lazy card images (Promos, Features, More from Coca-Cola); recaptured with --wait slow + viewport-step scroll; all imagery present, no consent banner or overlay in shot"
+    },
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "redirect to /us/en; screenshot identical to us-en"
+    }
+  ],
+  "siblingCandidates": [
+    {
+      "origin": "https://www.coca-colastore.com",
+      "confidence": "medium",
+      "evidence": "footer Shop & Visit links",
+      "decision": "excluded (scope fixed to 2 pages by caller)"
+    },
+    {
+      "origin": "https://www.worldofcoca-cola.com",
+      "confidence": "medium",
+      "evidence": "footer + card link",
+      "decision": "excluded (scope fixed)"
+    },
+    {
+      "origin": "https://www.coca-colacompany.com",
+      "confidence": "medium",
+      "evidence": "footer Company/Careers + logo link",
+      "decision": "excluded (scope fixed)"
+    }
+  ],
+  "overlays": {
+    "consent": "OneTrust (#onetrust-banner-sdk, Allow All) dismissed; floating cookie-settings button",
+    "survey": "third-party \"Just One Question\" sports poll popup appears after scrolling (seen in live probe and census, #answer-*)",
+    "signUpLogin": "header dialogs #signUp / #login"
+  }
+}

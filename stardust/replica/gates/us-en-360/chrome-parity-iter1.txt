@@ -1,0 +1,25 @@
+[live-session] STARDUST_STEALTH=0: automation-signal handling is OFF for this process
+[live-session] waiting to pace live navigations to www.coca-cola.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 964 ms
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.coca-cola.com/us/en
+  build: http://localhost:8791/us-en-proposed.html
+
+■ header: 3 delta(s) — 1 paired of 1/1 texts, 1/1 icons
+  REGION STYLE backgroundColor rgb(238, 238, 238) → rgb(255, 255, 255)
+  REGION STYLE position static → relative (fixed/sticky chrome must stay fixed/sticky — seam symmetry)
+  PAIR         "Sign Up"  fontFamily noto-regional → tccc-unitytext; Δx +12px (208→220)
+
+■ footer: 10 delta(s) — 9 paired of 9/9 texts, 3/3 icons
+  OFFSET       the region sit Δy +2034px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+  REGION STYLE backgroundColor rgb(238, 238, 238) → rgb(0, 0, 0)
+  PAIR         "Help"  tag <h4> → <button>; fontFamily noto-regional → tccc-unitytext; paddingRight 0px → 32px; Δy +2034px (5812→7846)
+  PAIR         "Shop & Visit"  tag <h4> → <button>; fontFamily noto-regional → tccc-unitytext; paddingRight 0px → 32px; Δy +2034px (5884→7918)
+  PAIR         "Legal"  tag <h4> → <button>; fontFamily noto-regional → tccc-unitytext; paddingRight 0px → 32px; Δy +2034px (5956→7990)
+  PAIR         "X"  fontFamily noto-regional → tccc-unitytext; fontWeight 700 → 400; Δy +2034px (6085→8119); <a> backgroundColor rgba(255, 255, 255, 0) → rgba(0, 0, 0, 0)
+  PAIR         "Instagram"  fontFamily noto-regional → tccc-unitytext; fontWeight 700 → 400; Δy +2034px (6085→8119); <a> backgroundColor rgba(255, 255, 255, 0) → rgba(0, 0, 0, 0)
+  PAIR         "Youtube"  fontFamily noto-regional → tccc-unitytext; fontWeight 700 → 400; Δy +2034px (6085→8119); <a> backgroundColor rgba(255, 255, 255, 0) → rgba(0, 0, 0, 0)
+  PAIR         "Facebook"  fontFamily noto-regional → tccc-unitytext; fontWeight 700 → 400; Δy +2034px (6085→8119); <a> backgroundColor rgba(255, 255, 255, 0) → rgba(0, 0, 0, 0)
+  PAIR         "© 2026 . All rights reserved."  fontFamily noto-regional → tccc-unitytext; Δy +2034px (6221→8255)
+  PAIR         "The Coca‑Cola Company"  fontFamily noto-regional → tccc-unitytext; Δy +2034px (6223→8257)
+
+✗ 13 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

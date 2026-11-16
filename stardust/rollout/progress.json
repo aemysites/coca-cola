@@ -1,0 +1,92 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "landing"
+      ],
+      "startedAt": "2026-11-16T07:15:41.747Z",
+      "endedAt": "2026-11-16T07:29:45.492Z",
+      "pages": 0,
+      "blocks": 2,
+      "gates": {
+        "chrome": "header/footer behaviour verified on preview (1440, 390); pixel + crop + parity gate runs on the first deployed page (archetype-landing) per the foundation-first rule"
+      },
+      "verdict": "foundation: files 17, nav/footer live, lint ok, pushed 332a12c (code at f784349)"
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "startedAt": "2026-11-16T07:29:54.537Z",
+      "endedAt": "2026-11-16T07:59:55.504Z",
+      "pages": 1,
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "archetype": "gate.sh pub1 0.95% Δh0; gate-all row PASS 2.87% Δh0"
+        },
+        "1440": {
+          "archetype": "gate.sh pub2 1.08% Δh1; gate-all row PASS 1.08% Δh1"
+        },
+        "crop": "header/footer 0.00/0.27% (1440), 0.00/0.37% (360)",
+        "chrome": "45 deltas 1440 / 13 at 360 (noto-regional stack, header bg, Sign Up tag) → foundation-requests",
+        "contentDiff": "main: carousel-clone heading repeats (clones text-less for AI-readability); chrome 4🔴/11🟡 → foundation-requests"
+      },
+      "verdict": "archetype-landing: us-en live, blocks 5, gate 1440 1.08% / 360 2.87%, crop h/f 0.00/0.27% (1440) and 0.00/0.37% (360), clipped 0, missing 0, requests 3"
+    },
+    "cluster-landing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "landing"
+      ],
+      "startedAt": "2026-11-16T08:03:13.580Z",
+      "endedAt": "2026-11-16T08:07:17.512Z",
+      "pages": 1,
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "sibling": "gate-all index PASS 2.87% Δh0 clip0 MISSING/HIDDEN 0"
+        },
+        "1440": {
+          "sibling": "gate-all index PASS 1.08% Δh1 clip0 MISSING/HIDDEN 0"
+        }
+      },
+      "verdict": "landing: pages 1/1 live (/ root index ← us-en duplicateOf), blocks 5 reused, gate 1440 1.08% / 360 2.87%, requests 0"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "landing"
+      ],
+      "startedAt": "2026-11-16T08:07:25.720Z",
+      "endedAt": "2026-11-16T08:11:57.825Z",
+      "pages": 2,
+      "gates": {
+        "360": "2 PASS / 0 FAIL (us-en 2.87% Δh0, / 2.87% Δh0; clip 0; MISSING/HIDDEN 0)",
+        "1440": "2 PASS / 0 FAIL (us-en 1.08% Δh1, / 1.08% Δh1; clip 0; MISSING/HIDDEN 0)"
+      },
+      "verdict": "gate-all: 2/2 PASS at 1440 and 360 on the published origin; coverage updated"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "landing"
+      ],
+      "startedAt": "2026-11-16T08:12:10.475Z",
+      "endedAt": "2026-11-16T08:29:07.376Z",
+      "pages": 2,
+      "gates": {
+        "360": "preview re-gate after requests: us-en 2.86% / index 2.99%, 2 PASS",
+        "1440": "preview re-gate after requests: us-en 1.08% / index 1.08%, 2 PASS"
+      },
+      "verdict": "final: 3 foundation requests applied once (fallback face sources in styles.css + scoped overrides removed; /favicon.ico; header/footer aria-label + role=button CTAs + hidden Account button), lint clean, re-frozen; 2/2 PASS on preview at 1440/360"
+    }
+  }
+}

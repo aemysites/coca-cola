@@ -1,0 +1,113 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-16T07:13:44.951Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-16T07:13:44.951Z",
+  "blocks": [
+    {
+      "id": "brands",
+      "label": "brands",
+      "kind": "module",
+      "signature": "module:brands",
+      "source": null,
+      "usedByTemplates": [
+        "us-en"
+      ],
+      "usedByPages": [
+        "us-en"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "brands",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "carousel",
+      "label": "carousel",
+      "kind": "module",
+      "signature": "module:carousel",
+      "source": null,
+      "usedByTemplates": [
+        "us-en"
+      ],
+      "usedByPages": [
+        "us-en"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "carousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "feature-xf",
+      "label": "feature-xf",
+      "kind": "module",
+      "signature": "module:feature-xf",
+      "source": null,
+      "usedByTemplates": [
+        "us-en"
+      ],
+      "usedByPages": [
+        "us-en"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "feature-xf",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "features",
+      "label": "features",
+      "kind": "module",
+      "signature": "module:features",
+      "source": null,
+      "usedByTemplates": [
+        "us-en"
+      ],
+      "usedByPages": [
+        "us-en"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "features",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "teaser-block",
+      "label": "teaser-block",
+      "kind": "module",
+      "signature": "module:teaser-block",
+      "source": null,
+      "usedByTemplates": [
+        "us-en"
+      ],
+      "usedByPages": [
+        "us-en"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "teaser-block",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

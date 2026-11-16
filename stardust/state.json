@@ -1,0 +1,177 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-11-16T08:04:06Z",
+    "stardustVersion": "0.39.3"
+  },
+  "site": {
+    "originUrl": "https://www.coca-cola.com",
+    "deployUrl": null,
+    "extractedAt": "2026-11-16T06:36:52.389Z",
+    "pageCap": null,
+    "totalDiscovered": 2,
+    "crawled": 2,
+    "discovery": "given (--pages)",
+    "captureGaps": [
+      {
+        "root": "/us/en",
+        "slug": "us-en",
+        "linked": 27,
+        "uncaptured": [
+          "/us/en/about-us/contact-us",
+          "/us/en/about-us/faq",
+          "/us/en/brands",
+          "/us/en/brands/coca-cola",
+          "/us/en/brands/diet-coke",
+          "/us/en/brands/fanta",
+          "/us/en/brands/freestyle",
+          "/us/en/brands/minute-maid",
+          "/us/en/brands/simply",
+          "/us/en/brands/smartwater",
+          "/us/en/brands/sprite",
+          "/us/en/impact/culture",
+          "/us/en/legal/coca-cola-rules",
+          "/us/en/legal/terms-of-service",
+          "/us/en/offerings",
+          "/us/en/offerings/coca-cola-app",
+          "/us/en/offerings/coca-cola/football",
+          "/us/en/offerings/coca-cola/hockey",
+          "/us/en/offerings/holiday",
+          "/us/en/offerings/holiday-caravan",
+          "/us/en/offerings/hubs/soccer",
+          "/us/en/offerings/portfolio/evergreen-promotion",
+          "/us/en/offerings/refreshing-films",
+          "/us/en/offerings/shop-now",
+          "/us/en/offerings/tastebud-map",
+          "/us/en/offerings/vending",
+          "/us/en/sitemap"
+        ]
+      }
+    ]
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-16T06:36:52.389Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "us-en",
+      "url": "https://www.coca-cola.com/us/en",
+      "title": "Explore the Coca‑Cola® Official Site | Coca-Cola US",
+      "type": "landing",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-16T06:32:22.438Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-16T07:08:39Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-16T07:10:34Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en.json",
+      "prototypePath": "stardust/prototypes/us-en-proposed.html",
+      "migratedPath": "stardust/migrated/us/en.html",
+      "archetype": true,
+      "liveUrl": "https://main--e4399cea--aemcoder.aem.live/us/en",
+      "edsPath": "/us/en",
+      "deployedAt": "2026-11-16"
+    },
+    {
+      "slug": "index",
+      "url": "https://www.coca-cola.com/",
+      "title": "Explore the Coca‑Cola® Official Site | Coca-Cola US",
+      "type": "landing",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-16T06:32:20.401Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-16T08:04:06Z"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-11-16T08:04:06.181Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/index.html",
+      "finalUrl": "https://www.coca-cola.com/us/en",
+      "redirectsTo": "us-en",
+      "duplicateOf": "us-en",
+      "archetype": false,
+      "liveUrl": "https://main--e4399cea--aemcoder.aem.live/",
+      "edsPath": "/index",
+      "deployedPath": "/",
+      "deployedAt": "2026-11-16"
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-16T08:00:54Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/us/en",
+        "outputPath": "us/en.html",
+        "slug": "us-en",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 8,
+    "bundledAssets": [
+      "css/canon.css",
+      "css/landing.css",
+      "css/motion.css",
+      "fonts/icomoon.woff",
+      "fonts/tccc-unitytext-bold.woff2",
+      "fonts/tccc-unitytext-regular.woff2",
+      "js/landing.js",
+      "js/motion.js"
+    ],
+    "pages": [
+      {
+        "slug": "us-en",
+        "file": "stardust/migrated/us/en.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 8
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-16T08:00:54Z",
+      "rendered": [
+        "index"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

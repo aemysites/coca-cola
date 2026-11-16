@@ -1,0 +1,23 @@
+[live-session] STARDUST_STEALTH=0: automation-signal handling is OFF for this process
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.coca-cola.com/us/en (live side from cache stardust/replica/gates/us-en-360/chrome-live.json, probed 2026-11-16T06:54:12.098Z — delete the file to re-probe)
+  build: https://main--e4399cea--aemcoder.aem.page/us/en
+
+■ header: 3 delta(s) — 1 paired of 1/1 texts, 1/1 icons
+  REGION STYLE backgroundColor rgb(238, 238, 238) → rgb(255, 255, 255)
+  REGION STYLE position static → relative (fixed/sticky chrome must stay fixed/sticky — seam symmetry)
+  PAIR         "Sign Up"  tag <button> → <a>; fontFamily noto-regional → tccc-unitytext
+
+■ footer: 10 delta(s) — 9 paired of 9/9 texts, 3/3 icons
+  PAIR         "Help"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Shop & Visit"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Legal"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "X"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Instagram"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Youtube"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Facebook"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "© 2026 . All rights reserved."  fontFamily noto-regional → tccc-unitytext
+  PAIR         "The Coca‑Cola Company"  fontFamily noto-regional → tccc-unitytext
+  ICON         icon #0: signature "logo-white-large.svg" → "media_162a9921f63c36735e8878faeed38a0402"
+
+✗ 13 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

@@ -1,0 +1,22 @@
+[live-session] STARDUST_STEALTH=0: automation-signal handling is OFF for this process
+
+Content diff @ 360px (profile "generic", roots: main.container.responsivegrid, header, footer)
+root "main.container.responsivegrid"
+  source: 69 text nodes — 26 headings, 0 eyebrows, 6 CTAs, 37 body; 26 img
+  build: 69 text nodes — 26 headings, 0 eyebrows, 6 CTAs, 37 body; 26 img
+  editable texts (outermost h*/p/ul/ol): source 63 / build 46
+  attributes (placeholder/aria-label/title): source 30 / build 30; icons: source 0 / build 0
+root "header"
+  source: 18 text nodes — 0 headings, 0 eyebrows, 13 CTAs, 5 body; 1 img
+  build: 18 text nodes — 0 headings, 0 eyebrows, 13 CTAs, 5 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 14 / build 14; icons: source 2 / build 2
+root "footer"
+  source: 36 text nodes — 3 headings, 0 eyebrows, 32 CTAs, 1 body; 3 img
+  build: 36 text nodes — 3 headings, 0 eyebrows, 32 CTAs, 1 body; 3 img
+  editable texts (outermost h*/p/ul/ol): source 7 / build 7
+  attributes (placeholder/aria-label/title): source 11 / build 11; icons: source 4 / build 4
+
+Findings: 1 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 1
+  🟡 EDITABLE COUNT [main.container.responsivegrid]: build has 46 outermost editable element(s) vs 63 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).

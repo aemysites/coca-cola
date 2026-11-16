@@ -1,0 +1,67 @@
+/* teaser-block — promo teaser grid (prototype .teaser-block / .content-card, landing.css) */
+
+/* the section head is authored but hidden on the source (screen-reader title only) */
+.teaser-block-container .default-content-wrapper h2 {
+  display: none;
+}
+
+.teaser-block .teaser-grid {
+  display: grid;
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.teaser-block .content-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  background: var(--white);
+  font-weight: 700;
+}
+
+.teaser-block .content-card-media img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.teaser-block .content-card-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 24px;
+  background: var(--white);
+}
+
+.teaser-block .card-text {
+  margin-bottom: 32px;
+}
+
+.teaser-block .card-text p {
+  margin-top: 8px;
+  font-weight: 400;
+}
+
+.teaser-block .content-card-body .has-arrow {
+  margin-top: auto;
+}
+
+@media (width >= 1200px) {
+  .teaser-block .teaser-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-top: 56px;
+  }
+
+  .teaser-block .content-card-body {
+    padding: 32px;
+  }
+}
+
+.teaser-block .content-card-media picture {
+  display: block;
+}

@@ -1,0 +1,10 @@
+[live-session] STARDUST_STEALTH=0: automation-signal handling is OFF for this process
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.coca-cola.com/us/en (live side from cache stardust/replica/gates/us-en-1440/chrome-live.json, probed 2026-11-16T06:54:28.254Z — delete the file to re-probe)
+  build: http://localhost:8791/us-en-proposed.html
+
+■ header: ✓ parity — 6 paired of 6/6 texts, 1/1 icons
+
+■ footer: ✓ parity — 36 paired of 36/36 texts, 1/1 icons
+
+✓ chrome parity within tolerance — run crop-compare (pass bar item 5) to confirm in pixels.

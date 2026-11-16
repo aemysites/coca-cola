@@ -1,0 +1,107 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-11-16T08:31:20.719Z",
+  "origin": "https://main--e4399cea--aemcoder.aem.page",
+  "parity": "stardust/dynamics/parity.json",
+  "contract": "stardust/martech-contract.json"
+ },
+ "results": [
+  {
+   "feature": "Header menus: Discover, Impact, Shop",
+   "id": "chrome-menu",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "3 × header .site-nav li.has-submenu (min 3)",
+   "thirdParty": "",
+   "ms": 2941,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Header menus: Discover, Impact, Shop",
+   "id": "chrome-menu",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "3 × header .site-nav li.has-submenu (min 3)",
+   "thirdParty": "",
+   "ms": 1971,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Header drawer: Menu (mobile)",
+   "id": "chrome-drawer",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × header button.menu-btn[aria-controls] (min 1)",
+   "thirdParty": "",
+   "ms": 1936,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Sign Up / Log In header dialogs",
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "2 × header a[role=button][aria-label='Sign Up'] (min 1)",
+   "thirdParty": "",
+   "ms": 1936,
+   "environmentLimit": null
+  },
+  {
+   "feature": "OneTrust CMP, GTM, Adobe Web SDK, GA4/Ads, ad pixels, data layers, AWS CloudWatch RUM (rows 5–10, 14)",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-awaiting-owner",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (0 gated · 0 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6201,
+   "environmentLimit": null
+  },
+  {
+   "feature": "OneTrust CMP, GTM, Adobe Web SDK, GA4/Ads, ad pixels, data layers, AWS CloudWatch RUM (rows 5–10, 14)",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-awaiting-owner",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (0 gated · 0 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6185,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Operational telemetry (RUM)",
+   "id": "t-unknown-third-party-host-rum-hlx-page",
+   "class": "T",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 2 page(s)",
+   "thirdParty": "",
+   "ms": 3834,
+   "environmentLimit": null
+  },
+  {
+   "feature": "martech: consent + tag routing",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-off",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (3 gated · 0 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6204,
+   "environmentLimit": null
+  }
+ ]
+}

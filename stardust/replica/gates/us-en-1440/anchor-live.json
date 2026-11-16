@@ -1,0 +1,18 @@
+{
+  "key": {
+    "url": "https://www.coca-cola.com/us/en",
+    "width": 1440,
+    "main": "main.container.responsivegrid"
+  },
+  "probedAt": "2026-11-16T06:54:54.685Z",
+  "data": {
+    "doc": 6707,
+    "rootMissing": false,
+    "rootWrapsChrome": false,
+    "sections": [],
+    "footer": [
+      5771,
+      936
+    ]
+  }
+}

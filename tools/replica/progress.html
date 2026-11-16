@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Migration result</title>
+<link rel="stylesheet" href="spectrum.css">
+<style>
+  body { background-color: var(--spectrum-bg-app); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 24px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .meta { color: var(--spectrum-text-subdued); margin: 0 0 24px; }
+  .spectrum-panel { margin-bottom: 16px; }
+  .spectrum-panel-header { margin: 0; padding: 0 16px; }
+  details.spectrum-panel > summary { cursor: pointer; list-style: none; }
+  details.spectrum-panel > summary::-webkit-details-marker { display: none; }
+  details.spectrum-panel > summary > h2 { margin: 0; font: inherit; }
+  details.spectrum-panel > summary > h2::before { content: "\25B8"; display: inline-block; width: 1em; margin-right: 6px; color: var(--spectrum-text-subdued); }
+  details.spectrum-panel[open] > summary > h2::before { content: "\25BE"; }
+  .panel-body { padding: 16px; }
+  .panel-body > :last-child { margin-bottom: 0; }
+  .bar { height: 8px; border-radius: 9999px; background-color: var(--spectrum-gray-200); overflow: hidden; }
+  .bar span { display: block; height: 100%; background-color: var(--spectrum-accent-bg); }
+  ol.steps { list-style: none; padding: 0; margin: 0; }
+  ol.steps li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; }
+  ol.steps li + li { border-top: 1px solid var(--spectrum-gray-200); }
+  details summary { cursor: pointer; }
+  table.pages { margin-top: 8px; }
+  table.pages td { word-break: break-all; }
+  table.pages td .spectrum-badge { word-break: normal; }
+  @media (max-width: 400px) { table.pages th, table.pages td { padding: 8px 4px; } }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--spectrum-gray-200); }
+  th { color: var(--spectrum-text-subdued); font-weight: 700; }
+  .panel-body h3 { margin: 16px 0 4px; }
+  ol.todo { padding-left: 20px; margin: 0 0 16px; }
+  ol.todo li { margin: 6px 0; }
+  ul.all { columns: 2; margin: 4px 0; padding-left: 18px; }
+  .spectrum-panel-header .spectrum-badge { margin-left: 8px; vertical-align: middle; }
+  #blocks-used table.blocks { table-layout: fixed; }
+  #blocks-used table.blocks th:nth-child(1) { width: 26%; }
+  #blocks-used table.blocks th:nth-child(2) { width: 32%; }
+  #blocks-used td { overflow-wrap: break-word; vertical-align: top; }
+  #blocks-used td:last-child { overflow-wrap: anywhere; }
+  #blocks-used tr.group td { border-top: 1px solid var(--spectrum-gray-300); }
+  #blocks-used td.block { font-weight: 700; }
+  #blocks-used .block-pages { display: block; font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .variant { display: inline-block; padding: 0 6px; margin: 0 4px 2px 0; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-sm); font-family: var(--spectrum-font-code); }
+  #blocks-used .variant-inline { font-family: var(--spectrum-font-code); font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .default, #blocks-used .blocks-count { color: var(--spectrum-text-subdued); }
+  #blocks-used .default { font-style: italic; }
+  #blocks-used .blocks-count { margin: 0; }
+  #blocks-used button.more { padding: 0; border: 0; background: none; color: var(--spectrum-text-accent); font: inherit; cursor: pointer; text-decoration: underline; }
+  #blocks-used .blocks-popover { width: min(520px, 90vw); max-height: 80vh; overflow: auto; overflow-wrap: anywhere; padding: 16px 20px; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-lg); background-color: var(--spectrum-bg-layer-1); box-shadow: var(--spectrum-shadow-elevated); }
+  #blocks-used .blocks-popover::backdrop { background-color: color-mix(in srgb, var(--spectrum-gray-900) 35%, transparent); }
+  #blocks-used .popover-head { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+  #blocks-used .popover-head h3 { margin: 0; }
+  #blocks-used ul.popover-pages { columns: 2; padding-left: 20px; margin: 12px 0 0; }
+  #blocks-used ul.popover-pages li { padding: 4px 0; break-inside: avoid; }
+  /* A browser without the popover API would show every page list inline; ':popover-open' is invalid there. */
+  @supports not selector(:popover-open) {
+    #blocks-used .blocks-popover, #blocks-used .more { display: none; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Migration result</h1>
+    <span class="spectrum-badge spectrum-badge--positive">Ready</span>
+  </header>
+  <p class="meta">Source site: <a href="https://www.coca-cola.com/" target="_blank" rel="noopener">https://www.coca-cola.com/</a><br>Preview site: <a href="https://main--e4399cea--aemcoder.aem.page/" target="_blank" rel="noopener">https://main--e4399cea--aemcoder.aem.page/</a><br>Finished: 2026-11-16 08:41 UTC</p>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>What's done</h2></summary>
+    <div class="panel-body">
+      <p>Your migration is complete: both addresses are live on the new platform, match your current design closely at desktop and mobile sizes, and every link has been checked. Analytics, tags and the cookie banner are in place and switched off until you decide to turn them on.</p>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Next steps</h2></summary>
+    <div class="panel-body">
+      <p>The site is ready for your review; turning on analytics and connecting sign-in are the decisions left with you.</p>
+      <ol class="todo">
+        <li><strong>Make it yours.</strong> Move this result into your own site and GitHub repository: use <strong>Make it yours</strong> on this migration in AEM Coder.</li>
+        <li><strong>Review the pages</strong> on the <a href="https://main--e4399cea--aemcoder.aem.page/" target="_blank" rel="noopener">preview site</a>.</li>
+        <li><strong>Switch on analytics and tags</strong> when you are ready: see <em>Before you switch them on</em> under Analytics and tags.</li>
+      </ol>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Pages</h2></summary>
+    <div class="panel-body">
+      <p>This migration covers 2 pages. 2 of 2 are published on the preview site; 2 have passed the side-by-side check against the original.</p>
+      <details open>
+        <summary>2 pages in this migration</summary>
+        <table class="pages">
+          <thead><tr><th>Source page</th><th>On the preview site</th><th>Status</th></tr></thead>
+          <tbody>
+          <tr><td><a href="https://www.coca-cola.com/us/en" target="_blank" rel="noopener">https://www.coca-cola.com/us/en</a></td><td><a href="https://main--e4399cea--aemcoder.aem.page/us/en" target="_blank" rel="noopener">Explore the Coca‑Cola® Official Site | Coca‑Cola®</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.coca-cola.com/" target="_blank" rel="noopener">https://www.coca-cola.com/</a></td><td><a href="https://main--e4399cea--aemcoder.aem.page/" target="_blank" rel="noopener">Explore the Coca‑Cola® Official Site | Coca‑Cola®</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+  </details>
+
+  <details class="spectrum-panel">
+    <summary class="spectrum-panel-header"><h2>Page templates</h2></summary>
+    <div class="panel-body">
+      <table>
+        <thead><tr><th>Template</th><th>Pages</th><th>Desktop</th><th>Mobile</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Home page</td><td>2</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" id="blocks-used">
+    <summary class="spectrum-panel-header"><h2>Blocks used</h2></summary>
+    <div class="panel-body">
+      <p>5 blocks in 6 variants across 2 pages. These are the building blocks your authors will work with.</p>
+      <table class="blocks">
+        <thead><tr><th>Block</th><th>Variant</th><th>Pages</th></tr></thead>
+        <tbody>
+          <tr class="group"><td class="block">brands<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--e4399cea--aemcoder.aem.page/us/en" target="_blank" rel="noopener">Explore the Coca‑Cola® Official Site | Coca‑Cola®</a>, <a href="https://main--e4399cea--aemcoder.aem.page/" target="_blank" rel="noopener">Explore the Coca‑Cola® Official Site | Coca‑Cola®</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">carousel<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--e4399cea--aemcoder.aem.page/us/en" target="_blank" rel="noopener">Explore the Coca‑Cola® Official Site | Coca‑Cola®</a>, <a href="https://main--e4399cea--aemcoder.aem.page/" target="_blank" rel="noopener">Explore the Coca‑Cola® Official Site | Coca‑Cola®</a></td></tr>
+          <tr><td><span class="variant">wide</span></td><td><a href="https://main--e4399cea--aemcoder.aem.page/us/en" target="_blank" rel="noopener">Explore the Coca‑Cola® Official Site | Coca‑Cola®</a>, <a href="https://main--e4399cea--aemcoder.aem.page/" target="_blank" rel="noopener">Explore the Coca‑Cola® Official Site | Coca‑Cola®</a></td></tr>
+          <tr class="group"><td class="block">feature-xf<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--e4399cea--aemcoder.aem.page/us/en" target="_blank" rel="noopener">Explore the Coca‑Cola® Official Site | Coca‑Cola®</a>, <a href="https://main--e4399cea--aemcoder.aem.page/" target="_blank" rel="noopener">Explore the Coca‑Cola® Official Site | Coca‑Cola®</a></td></tr>
+          <tr class="group"><td class="block">features<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--e4399cea--aemcoder.aem.page/us/en" target="_blank" rel="noopener">Explore the Coca‑Cola® Official Site | Coca‑Cola®</a>, <a href="https://main--e4399cea--aemcoder.aem.page/" target="_blank" rel="noopener">Explore the Coca‑Cola® Official Site | Coca‑Cola®</a></td></tr>
+          <tr class="group"><td class="block">teaser-block<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--e4399cea--aemcoder.aem.page/us/en" target="_blank" rel="noopener">Explore the Coca‑Cola® Official Site | Coca‑Cola®</a>, <a href="https://main--e4399cea--aemcoder.aem.page/" target="_blank" rel="noopener">Explore the Coca‑Cola® Official Site | Coca‑Cola®</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Analytics and tags</h2><span class="spectrum-badge">Switched off</span></summary>
+    <div class="panel-body">
+      <p>We carried over 2 tags and OneTrust, <strong>switched off</strong>: nothing loads on the new site until you turn it on.</p>
+      <table>
+        <thead><tr><th>Found on www.coca-cola.com</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>Google Tag Manager</td><td><code>GTM-NBWPCZW</code>, <code>GTM-NCZ3RJJ</code></td></tr>
+          <tr><td>Consent manager</td><td>OneTrust, 5 cookie categories</td></tr>
+          <tr><td>Data layers</td><td><code>adobeDataLayer</code>, <code>dataLayer</code></td></tr>
+          <tr><td>Adobe Web SDK</td><td>Configured in your tag setup</td></tr>
+          <tr><td>Loaded by your tags</td><td>Adobe Experience Platform Web SDK, Google Analytics / Ads, ad / retargeting pixel</td></tr>
+        </tbody>
+      </table>
+      <p>We read the Google Tag Manager container (80 rules, 110 data elements).</p>
+      <h3>Before you switch them on</h3>
+      <ol class="todo">
+        <li><strong>Check 9 rules that target the old page structure</strong> (CSS selectors or URLs), for example <code>__cvt_MRQN8 #3619</code>, <code>__flc #3780</code>, <code>__gaawe Click #4069</code> and 6 more.
+          <details><summary>Show all 9</summary><ul class="all"><li><code>__cvt_MRQN8 #3619</code></li><li><code>__flc #3780</code></li><li><code>__gaawe Click #4069</code></li><li><code>__gaawe Click #4071</code></li><li><code>__flc #4009</code></li><li><code>__gaawe Click #4062</code></li><li><code>__gaawe Click #4074</code></li><li><code>__gaawe #4500</code></li><li><code>__gaawe whatsapp_authentication #4692</code></li></ul></details></li>
+        <li><strong>Send 27 data-layer events from the new pages</strong> so the tags fire, for example <code>auth_complete</code>, <code>play_spotify</code>, <code>^promo_</code> and 24 more.
+          <details><summary>Show all 27</summary><ul class="all"><li><code>auth_complete</code></li><li><code>play_spotify</code></li><li><code>^promo_</code></li><li><code>experience_event</code></li><li><code>OneTrustLoaded</code></li><li><code>target_conversion</code></li><li><code>target_impression</code></li><li><code>push_notifications_click_CTA</code></li><li><code>push_notifications_subscribed</code></li><li><code>joq_event</code></li><li><code>onexp_form_submit</code></li><li><code>session_10s_elapsed|session_30s_elapsed</code></li><li><code>promo_result|promo_view_repushed</code></li><li><code>komotion</code></li><li><code>onexp_form_view</code></li><li><code>user_referral</code></li><li><code>^((?!^map_view$).)*map_.*</code></li><li><code>data_collection_form_submit|data_collection_form_view</code></li><li><code>quiz</code></li><li><code>onexp_form_start</code></li><li><code>cmp_show|cmp_hide</code></li><li><code>get_user_profile</code></li><li><code>authentication_context|OneTrustGroupsUpdated|promo_participation</code></li><li><code>recaptcha_assessment_token_received</code></li><li><code>ttd_dom_ready</code></li><li><code>onexp_user_onboarding</code></li><li><code>user_signin|user_signup</code></li></ul></details></li>
+        <li><strong>Switch on OneTrust together with the tags.</strong></li>
+      </ol>
+      <p class="meta">Full details for your developers: <code>stardust/martech-handoff.md</code> in the repository.</p>
+    </div>
+  </details>
+
+  <details class="spectrum-panel">
+    <summary class="spectrum-panel-header"><h2>Journey</h2></summary>
+    <div class="panel-body">
+      <ol class="steps">
+        <li>Analyzing your site<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Capturing brand and design<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Rebuilding page templates<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Publishing your pages<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Checking every page against the original<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Final checks<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+      </ol>
+    </div>
+  </details>
+</main>
+</body>
+</html>

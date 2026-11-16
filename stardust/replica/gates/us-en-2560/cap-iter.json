@@ -1,0 +1,1061 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-16T07:08:06.620Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.coca-cola.com/us/en",
+      "http://localhost:8791/us-en-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from stardust/current/DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.coca-cola.com/us/en",
+    "http://localhost:8791/us-en-proposed.html"
+  ],
+  "probeNote": "from stardust/current/DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "body.page.basicpage > div.root.container > div.cmp-container > main.container.responsivegrid",
+      "isBody": false,
+      "leaves": 104,
+      "w2": 1120
+    },
+    "origins": [
+      {
+        "kind": "shell",
+        "px": 1120,
+        "via": "max-width",
+        "selector": "body.page.basicpage > div.root.container > div.cmp-container > main.container.responsivegrid",
+        "tier": 0,
+        "share": 1,
+        "section": -1,
+        "w1": 1120,
+        "maxWidth": "1120px"
+      },
+      {
+        "kind": "module",
+        "px": 327,
+        "via": "fixed",
+        "selector": "#container-5c9a64b67e > div.button > a.cmp-button",
+        "tier": 7,
+        "share": 0.01,
+        "section": 0,
+        "w1": 327,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 576,
+        "via": "fixed",
+        "selector": "#container-ec87edacce > div.container.responsivegrid > div.cmp-container > div.teaser.content-card",
+        "tier": 8,
+        "share": 0.03,
+        "section": 0,
+        "w1": 576,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 576,
+        "via": "fixed",
+        "selector": "#container-ec87edacce > div.container.responsivegrid > div.cmp-container > div.teaser.content-card",
+        "tier": 8,
+        "share": 0.03,
+        "section": 0,
+        "w1": 576,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 327,
+        "via": "fixed",
+        "selector": "#container-ec87edacce > div.button > a.cmp-button",
+        "tier": 7,
+        "share": 0.01,
+        "section": 0,
+        "w1": 327,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 548,
+        "via": "fixed",
+        "selector": "#splide02-clone01",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 548,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 548,
+        "via": "fixed",
+        "selector": "#splide02-clone02",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 548,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 548,
+        "via": "fixed",
+        "selector": "#splide02-clone03",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 548,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 548,
+        "via": "fixed",
+        "selector": "#splide02-clone04",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 548,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 548,
+        "via": "fixed",
+        "selector": "#splide02-slide01",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 548,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 548,
+        "via": "fixed",
+        "selector": "#splide02-slide02",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 548,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 548,
+        "via": "fixed",
+        "selector": "#splide02-clone05",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 548,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 548,
+        "via": "fixed",
+        "selector": "#splide02-clone06",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 548,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 548,
+        "via": "fixed",
+        "selector": "#splide02-clone07",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 548,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 548,
+        "via": "fixed",
+        "selector": "#splide02-clone08",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 548,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 327,
+        "via": "fixed",
+        "selector": "div.container.responsivegrid > div.cmp-container > div.button > a.cmp-button",
+        "tier": 5,
+        "share": 0.01,
+        "section": 1,
+        "w1": 327,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 576,
+        "via": "fixed",
+        "selector": "div.cmp-container > div.teaser.campaign-card > div.cmp-teaser > div.cmp-teaser__content",
+        "tier": 6,
+        "share": 0.03,
+        "section": 1,
+        "w1": 576,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 327,
+        "via": "fixed",
+        "selector": "div.cmp-teaser > div.cmp-teaser__content > div.cmp-teaser__action-container > a.cmp-teaser__action-link",
+        "tier": 8,
+        "share": 0.01,
+        "section": 1,
+        "w1": 327,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 672,
+        "via": "fixed",
+        "selector": "div.cmp-container > div.teaser.campaign-card > div.cmp-teaser > div.cmp-teaser__image",
+        "tier": 6,
+        "share": 0,
+        "section": 1,
+        "w1": 672,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 576,
+        "via": "fixed",
+        "selector": "#teaser-e01df91d42 > div.cmp-teaser__content",
+        "tier": 6,
+        "share": 0.03,
+        "section": 1,
+        "w1": 576,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 327,
+        "via": "fixed",
+        "selector": "#teaser-e01df91d42 > div.cmp-teaser__content > div.cmp-teaser__action-container > a.cmp-teaser__action-link",
+        "tier": 8,
+        "share": 0.01,
+        "section": 1,
+        "w1": 327,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 672,
+        "via": "fixed",
+        "selector": "#teaser-e01df91d42 > div.cmp-teaser__image",
+        "tier": 6,
+        "share": 0,
+        "section": 1,
+        "w1": 672,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "#splide03-clone01",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "#splide03-clone02",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "#splide03-clone03",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "#splide03-clone04",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "#splide03-clone05",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "#splide03-clone06",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "#splide03-slide01",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "#splide03-slide02",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "#splide03-slide03",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "#splide03-slide04",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "#splide03-slide05",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "#splide03-clone07",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "#splide03-clone08",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "#splide03-clone09",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "#splide03-clone10",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "#splide03-clone11",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "#splide03-clone12",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 768,
+        "via": "fixed",
+        "selector": "div.container.responsivegrid > div.cmp-container > div.container.responsivegrid > div.cmp-container",
+        "tier": 5,
+        "share": 0,
+        "section": 2,
+        "w1": 768,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 327,
+        "via": "fixed",
+        "selector": "#button-e85ba47a41",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 327,
+        "maxWidth": "100%"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "div.cmp-container > main.container.responsivegrid > div.cmp-container > div.container.responsivegrid",
+        "px": 576,
+        "capSelector": "#container-ec87edacce > div.container.responsivegrid > div.cmp-container > div.teaser.content-card"
+      },
+      {
+        "index": 1,
+        "selector": "div.cmp-container > main.container.responsivegrid > div.cmp-container > div.container.responsivegrid",
+        "px": 672,
+        "capSelector": "div.cmp-container > div.teaser.campaign-card > div.cmp-teaser > div.cmp-teaser__image"
+      },
+      {
+        "index": 2,
+        "selector": "div.cmp-container > main.container.responsivegrid > div.cmp-container > div.container.responsivegrid",
+        "px": 768,
+        "capSelector": "div.container.responsivegrid > div.cmp-container > div.container.responsivegrid > div.cmp-container"
+      }
+    ],
+    "shellMaxWidth": 1120,
+    "contentMaxWidth": 1120,
+    "contentFrom": "shell",
+    "maxCap": 1120,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 500
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "body > main.container.responsivegrid",
+      "isBody": false,
+      "leaves": 104,
+      "w2": 1120
+    },
+    "origins": [
+      {
+        "kind": "shell",
+        "px": 1120,
+        "via": "max-width",
+        "selector": "body > main.container.responsivegrid",
+        "tier": 0,
+        "share": 1,
+        "section": -1,
+        "w1": 1120,
+        "maxWidth": "1120px"
+      },
+      {
+        "kind": "module",
+        "px": 327,
+        "via": "fixed",
+        "selector": "main.container.responsivegrid > section.feature-xf > div.btn-row > a.btn.btn--primary",
+        "tier": 3,
+        "share": 0.01,
+        "section": 1,
+        "w1": 327,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 544,
+        "via": "fixed",
+        "selector": "main.container.responsivegrid > section.teaser-block > div.teaser-grid > a.content-card",
+        "tier": 3,
+        "share": 0.03,
+        "section": 2,
+        "w1": 544,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 544,
+        "via": "fixed",
+        "selector": "main.container.responsivegrid > section.teaser-block > div.teaser-grid > a.content-card",
+        "tier": 3,
+        "share": 0.03,
+        "section": 2,
+        "w1": 544,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 327,
+        "via": "fixed",
+        "selector": "main.container.responsivegrid > section.teaser-block > div.btn-row > a.btn.btn--primary",
+        "tier": 3,
+        "share": 0.01,
+        "section": 2,
+        "w1": 327,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 548,
+        "via": "fixed",
+        "selector": "div.carousel > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone",
+        "tier": 5,
+        "share": 0.03,
+        "section": 3,
+        "w1": 548,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 548,
+        "via": "fixed",
+        "selector": "div.carousel > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone",
+        "tier": 5,
+        "share": 0.03,
+        "section": 3,
+        "w1": 548,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 548,
+        "via": "fixed",
+        "selector": "div.carousel > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone",
+        "tier": 5,
+        "share": 0.03,
+        "section": 3,
+        "w1": 548,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 548,
+        "via": "fixed",
+        "selector": "div.carousel > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone",
+        "tier": 5,
+        "share": 0.03,
+        "section": 3,
+        "w1": 548,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 548,
+        "via": "fixed",
+        "selector": "div.carousel > div.carousel__track > div.carousel__list > div.carousel__slide.is-active",
+        "tier": 5,
+        "share": 0.03,
+        "section": 3,
+        "w1": 548,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 548,
+        "via": "fixed",
+        "selector": "div.carousel > div.carousel__track > div.carousel__list > div.carousel__slide.is-next",
+        "tier": 5,
+        "share": 0.03,
+        "section": 3,
+        "w1": 548,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 548,
+        "via": "fixed",
+        "selector": "div.carousel > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone",
+        "tier": 5,
+        "share": 0.03,
+        "section": 3,
+        "w1": 548,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 548,
+        "via": "fixed",
+        "selector": "div.carousel > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone",
+        "tier": 5,
+        "share": 0.03,
+        "section": 3,
+        "w1": 548,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 548,
+        "via": "fixed",
+        "selector": "div.carousel > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone",
+        "tier": 5,
+        "share": 0.03,
+        "section": 3,
+        "w1": 548,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 548,
+        "via": "fixed",
+        "selector": "div.carousel > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone",
+        "tier": 5,
+        "share": 0.03,
+        "section": 3,
+        "w1": 548,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 327,
+        "via": "fixed",
+        "selector": "main.container.responsivegrid > section.promos > div.btn-row > a.btn.btn--primary",
+        "tier": 3,
+        "share": 0.01,
+        "section": 3,
+        "w1": 327,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 576,
+        "via": "fixed",
+        "selector": "main.container.responsivegrid > section.features > article.campaign-card > div.campaign-card__content",
+        "tier": 3,
+        "share": 0.03,
+        "section": 4,
+        "w1": 576,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 327,
+        "via": "fixed",
+        "selector": "section.features > article.campaign-card > div.campaign-card__content > a.btn.btn--secondary",
+        "tier": 4,
+        "share": 0.01,
+        "section": 4,
+        "w1": 327,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 640,
+        "via": "fixed",
+        "selector": "main.container.responsivegrid > section.features > article.campaign-card > picture.campaign-card__media",
+        "tier": 3,
+        "share": 0,
+        "section": 4,
+        "w1": 640,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 576,
+        "via": "fixed",
+        "selector": "main.container.responsivegrid > section.features > article.campaign-card.campaign-card--right > div.campaign-card__content",
+        "tier": 3,
+        "share": 0.03,
+        "section": 4,
+        "w1": 576,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 327,
+        "via": "fixed",
+        "selector": "section.features > article.campaign-card.campaign-card--right > div.campaign-card__content > a.btn.btn--secondary",
+        "tier": 4,
+        "share": 0.01,
+        "section": 4,
+        "w1": 327,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 640,
+        "via": "fixed",
+        "selector": "main.container.responsivegrid > section.features > article.campaign-card.campaign-card--right > picture.campaign-card__media",
+        "tier": 3,
+        "share": 0,
+        "section": 4,
+        "w1": 640,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "div.carousel.carousel--wide > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone",
+        "tier": 5,
+        "share": 0.03,
+        "section": 5,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "div.carousel.carousel--wide > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone",
+        "tier": 5,
+        "share": 0.03,
+        "section": 5,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "div.carousel.carousel--wide > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone",
+        "tier": 5,
+        "share": 0.03,
+        "section": 5,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "div.carousel.carousel--wide > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone",
+        "tier": 5,
+        "share": 0.03,
+        "section": 5,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "div.carousel.carousel--wide > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone",
+        "tier": 5,
+        "share": 0.03,
+        "section": 5,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "div.carousel.carousel--wide > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone",
+        "tier": 5,
+        "share": 0.03,
+        "section": 5,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "div.carousel.carousel--wide > div.carousel__track > div.carousel__list > div.carousel__slide.is-active",
+        "tier": 5,
+        "share": 0.03,
+        "section": 5,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "div.carousel.carousel--wide > div.carousel__track > div.carousel__list > div.carousel__slide.is-next",
+        "tier": 5,
+        "share": 0.03,
+        "section": 5,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "div.carousel.carousel--wide > div.carousel__track > div.carousel__list > div.carousel__slide.is-visible",
+        "tier": 5,
+        "share": 0.03,
+        "section": 5,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "div.carousel.carousel--wide > div.carousel__track > div.carousel__list > div.carousel__slide",
+        "tier": 5,
+        "share": 0.03,
+        "section": 5,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "div.carousel.carousel--wide > div.carousel__track > div.carousel__list > div.carousel__slide",
+        "tier": 5,
+        "share": 0.03,
+        "section": 5,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "div.carousel.carousel--wide > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone",
+        "tier": 5,
+        "share": 0.03,
+        "section": 5,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "div.carousel.carousel--wide > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone",
+        "tier": 5,
+        "share": 0.03,
+        "section": 5,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "div.carousel.carousel--wide > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone",
+        "tier": 5,
+        "share": 0.03,
+        "section": 5,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "div.carousel.carousel--wide > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone",
+        "tier": 5,
+        "share": 0.03,
+        "section": 5,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "div.carousel.carousel--wide > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone",
+        "tier": 5,
+        "share": 0.03,
+        "section": 5,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "div.carousel.carousel--wide > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone",
+        "tier": 5,
+        "share": 0.03,
+        "section": 5,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 768,
+        "via": "max-width",
+        "selector": "body > main.container.responsivegrid > section.brands > div.brands-grid",
+        "tier": 2,
+        "share": 0,
+        "section": 6,
+        "w1": 768,
+        "maxWidth": "768px"
+      },
+      {
+        "kind": "module",
+        "px": 327,
+        "via": "fixed",
+        "selector": "main.container.responsivegrid > section.brands > div.btn-row > a.btn.btn--secondary",
+        "tier": 3,
+        "share": 0.01,
+        "section": 6,
+        "w1": 327,
+        "maxWidth": "100%"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "body > main.container.responsivegrid > h1.page-title",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "body > main.container.responsivegrid > section.feature-xf",
+        "px": 327,
+        "capSelector": "main.container.responsivegrid > section.feature-xf > div.btn-row > a.btn.btn--primary"
+      },
+      {
+        "index": 2,
+        "selector": "body > main.container.responsivegrid > section.teaser-block",
+        "px": 544,
+        "capSelector": "main.container.responsivegrid > section.teaser-block > div.teaser-grid > a.content-card"
+      },
+      {
+        "index": 3,
+        "selector": "body > main.container.responsivegrid > section.promos",
+        "px": 548,
+        "capSelector": "div.carousel > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone"
+      },
+      {
+        "index": 4,
+        "selector": "body > main.container.responsivegrid > section.features",
+        "px": 640,
+        "capSelector": "main.container.responsivegrid > section.features > article.campaign-card > picture.campaign-card__media"
+      },
+      {
+        "index": 5,
+        "selector": "body > main.container.responsivegrid > section.more",
+        "px": 357,
+        "capSelector": "div.carousel.carousel--wide > div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone"
+      },
+      {
+        "index": 6,
+        "selector": "body > main.container.responsivegrid > section.brands",
+        "px": 768,
+        "capSelector": "body > main.container.responsivegrid > section.brands > div.brands-grid"
+      }
+    ],
+    "shellMaxWidth": 1120,
+    "contentMaxWidth": 1120,
+    "contentFrom": "shell",
+    "maxCap": 1120,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 266
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "wrapper cap",
+        "detail": "live 1120px = build 1120px (±20)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "sections",
+        "detail": "live 3 vs build 7 top-level sections — module rows compared by order up to the shorter side, advisory until the structure matches",
+        "advisory": true
+      },
+      {
+        "ok": true,
+        "label": "module 1/3",
+        "detail": "live 576px (#container-ec87edacce > div.container.responsivegrid > div.cmp-container > div.teaser.content-card) → build full-bleed (body > main.container.responsivegrid > h1.page-title)",
+        "advisory": true
+      },
+      {
+        "ok": true,
+        "label": "module 2/3",
+        "detail": "live 672px → build 327px, Δ-345px (main.container.responsivegrid > section.feature-xf > div.btn-row > a.btn.btn--primary)",
+        "advisory": true
+      },
+      {
+        "ok": true,
+        "label": "module 3/3",
+        "detail": "live 768px → build 544px, Δ-224px (main.container.responsivegrid > section.teaser-block > div.teaser-grid > a.content-card)",
+        "advisory": true
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/us-en-2560/cap-iter.json"
+}

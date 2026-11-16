@@ -1,0 +1,1230 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://www.coca-cola.com/us/en",
+ "at": "2026-11-16T06:34:21.472Z",
+ "shots": "stardust/.work/chrome/header-contract",
+ "widths": {
+  "390": {
+   "root": "#container-4e440151fa>header",
+   "controls": [
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#adaptiveImage-f3d00938f1>a",
+     "href": "https://www.coca-cola.com/us/en",
+     "expanded": null,
+     "rect": [
+      24,
+      26,
+      125,
+      20
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Sign Up",
+     "key": "sign up",
+     "role": "toggle",
+     "kind": "account",
+     "sel": "#container-5883f7c6f8>div>div:nth-of-type(1)>div>div:nth-of-type(3)>div>div:nth-of-type(1)>button",
+     "expanded": null,
+     "rect": [
+      238,
+      16,
+      84,
+      40
+     ],
+     "actions": {
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Menu",
+     "key": "menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "#container-5883f7c6f8>div>div:nth-of-type(1)>div>div:nth-of-type(3)>div>div:nth-of-type(3)>div>button",
+     "expanded": null,
+     "rect": [
+      342,
+      15,
+      24,
+      43
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Brands",
+          "href": "https://www.coca-cola.com/us/en/brands"
+         },
+         {
+          "text": "Discover",
+          "href": "https://www.coca-cola.com/us/en#"
+         },
+         {
+          "text": "Impact",
+          "href": "https://www.coca-cola.com/us/en#"
+         },
+         {
+          "text": "Shop",
+          "href": "https://www.coca-cola.com/us/en#"
+         },
+         {
+          "text": "Promos & Offers",
+          "href": "https://www.coca-cola.com/us/en/offerings"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Brands",
+         "Discover",
+         "Impact",
+         "Shop",
+         "Promos & Offers",
+         "Sign Up",
+         "Log In"
+        ],
+        "options": 0,
+        "rect": [
+         24,
+         80,
+         342,
+         724
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [],
+       "shot": "390-001-Menu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Brands",
+          "href": "https://www.coca-cola.com/us/en/brands"
+         },
+         {
+          "text": "Discover",
+          "href": "https://www.coca-cola.com/us/en#"
+         },
+         {
+          "text": "Impact",
+          "href": "https://www.coca-cola.com/us/en#"
+         },
+         {
+          "text": "Shop",
+          "href": "https://www.coca-cola.com/us/en#"
+         },
+         {
+          "text": "Promos & Offers",
+          "href": "https://www.coca-cola.com/us/en/offerings"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Brands",
+         "Discover",
+         "Impact",
+         "Shop",
+         "Promos & Offers",
+         "Sign Up",
+         "Log In"
+        ],
+        "options": 0,
+        "rect": [
+         24,
+         80,
+         342,
+         724
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [],
+       "shot": "390-002-Menu-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Brands",
+       "key": "brands",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#text-6164b3f4bd>ul>li:nth-of-type(1)>a",
+       "expanded": null,
+       "rect": [
+        24,
+        80,
+        342,
+        18
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "navigates": "https://www.coca-cola.com/us/en/brands"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://www.coca-cola.com/us/en/brands"
+        }
+       }
+      },
+      {
+       "name": "Discover",
+       "key": "discover",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#text-6164b3f4bd>ul>li:nth-of-type(2)>a",
+       "expanded": "false",
+       "rect": [
+        24,
+        122,
+        342,
+        18
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "+one App",
+            "href": "https://www.coca-cola.com/us/en/offerings/coca-cola-app"
+           },
+           {
+            "text": "Freestyle",
+            "href": "https://www.coca-cola.com/us/en/brands/freestyle"
+           },
+           {
+            "text": "World Of Coca‑Cola Attraction",
+            "href": "https://www.worldofcoca-cola.com/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           24,
+           140,
+           342,
+           150
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "rotate",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "li.has-submenu"
+          }
+         ],
+         "shot": "390-003-Discover-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "+one App",
+            "href": "https://www.coca-cola.com/us/en/offerings/coca-cola-app"
+           },
+           {
+            "text": "Freestyle",
+            "href": "https://www.coca-cola.com/us/en/brands/freestyle"
+           },
+           {
+            "text": "World Of Coca‑Cola Attraction",
+            "href": "https://www.worldofcoca-cola.com/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           24,
+           140,
+           342,
+           150
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "rotate",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "li.has-submenu"
+          }
+         ],
+         "shot": "390-004-Discover-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Impact",
+       "key": "impact",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#text-6164b3f4bd>ul>li:nth-of-type(3)>a",
+       "expanded": "false",
+       "rect": [
+        24,
+        164,
+        342,
+        18
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Culture",
+            "href": "https://www.coca-cola.com/us/en/impact/culture"
+           },
+           {
+            "text": "Social",
+            "href": "https://www.coca-colacompany.com/social-impact"
+           },
+           {
+            "text": "Sustainability",
+            "href": "https://www.coca-colacompany.com/sustainability"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           24,
+           182,
+           342,
+           150
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "rotate",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "li.has-submenu"
+          }
+         ],
+         "shot": "390-005-Impact-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Culture",
+            "href": "https://www.coca-cola.com/us/en/impact/culture"
+           },
+           {
+            "text": "Social",
+            "href": "https://www.coca-colacompany.com/social-impact"
+           },
+           {
+            "text": "Sustainability",
+            "href": "https://www.coca-colacompany.com/sustainability"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           24,
+           182,
+           342,
+           150
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "rotate",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "li.has-submenu"
+          }
+         ],
+         "shot": "390-006-Impact-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Shop",
+       "key": "shop",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#text-6164b3f4bd>ul>li:nth-of-type(4)>a",
+       "expanded": "false",
+       "rect": [
+        24,
+        206,
+        342,
+        18
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Where to Buy",
+            "href": "https://www.coca-cola.com/us/en/offerings/shop-now"
+           },
+           {
+            "text": "Coca‑Cola Store",
+            "href": "https://www.coca-colastore.com/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           24,
+           224,
+           342,
+           108
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "rotate",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "li.has-submenu"
+          }
+         ],
+         "shot": "390-007-Shop-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Where to Buy",
+            "href": "https://www.coca-cola.com/us/en/offerings/shop-now"
+           },
+           {
+            "text": "Coca‑Cola Store",
+            "href": "https://www.coca-colastore.com/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           24,
+           224,
+           342,
+           108
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "rotate",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "li.has-submenu"
+          }
+         ],
+         "shot": "390-008-Shop-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Promos & Offers",
+       "key": "promos offers",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#text-6164b3f4bd>ul>li:nth-of-type(5)>a",
+       "expanded": null,
+       "rect": [
+        24,
+        248,
+        342,
+        18
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "navigates": "https://www.coca-cola.com/us/en/offerings"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://www.coca-cola.com/us/en/offerings"
+        }
+       }
+      },
+      {
+       "name": "Sign Up",
+       "key": "sign up",
+       "role": "toggle",
+       "kind": "account",
+       "sel": "#container-5883f7c6f8>div>div:nth-of-type(1)>div>div:nth-of-type(2)>div>div:nth-of-type(2)>div>div:nth-of-type(1)>button",
+       "expanded": null,
+       "rect": [
+        24,
+        708,
+        342,
+        40
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Log In",
+       "key": "log in",
+       "role": "toggle",
+       "kind": "account",
+       "sel": "#container-5883f7c6f8>div>div:nth-of-type(1)>div>div:nth-of-type(2)>div>div:nth-of-type(2)>div>div:nth-of-type(2)>button",
+       "expanded": null,
+       "rect": [
+        24,
+        764,
+        342,
+        40
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 72,
+     "position": "static",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 72,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 72,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 72,
+     "position": "static",
+     "inView": true
+    }
+   ],
+   "states": 8,
+   "truncated": null,
+   "loads": 1,
+   "requests": 102,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  },
+  "1440": {
+   "root": "#container-4e440151fa>header",
+   "controls": [
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#adaptiveImage-f3d00938f1>a",
+     "href": "https://www.coca-cola.com/us/en",
+     "expanded": null,
+     "rect": [
+      80,
+      19,
+      149,
+      43
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Brands",
+     "key": "brands",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#text-6164b3f4bd>ul>li:nth-of-type(1)>a",
+     "expanded": null,
+     "rect": [
+      273,
+      0,
+      55,
+      80
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": false,
+       "navigates": "https://www.coca-cola.com/us/en/brands"
+      },
+      "key": {
+       "opened": false,
+       "navigates": "https://www.coca-cola.com/us/en/brands"
+      }
+     }
+    },
+    {
+     "name": "Discover",
+     "key": "discover",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#text-6164b3f4bd>ul>li:nth-of-type(2)>a",
+     "expanded": "false",
+     "rect": [
+      368,
+      0,
+      68,
+      80
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "+one App",
+          "href": "https://www.coca-cola.com/us/en/offerings/coca-cola-app"
+         },
+         {
+          "text": "Freestyle",
+          "href": "https://www.coca-cola.com/us/en/brands/freestyle"
+         },
+         {
+          "text": "World Of Coca‑Cola Attraction",
+          "href": "https://www.worldofcoca-cola.com/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         348,
+         80,
+         285,
+         134
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "rotate",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "li.has-submenu"
+        }
+       ],
+       "shot": "1440-001-Discover-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "+one App",
+          "href": "https://www.coca-cola.com/us/en/offerings/coca-cola-app"
+         },
+         {
+          "text": "Freestyle",
+          "href": "https://www.coca-cola.com/us/en/brands/freestyle"
+         },
+         {
+          "text": "World Of Coca‑Cola Attraction",
+          "href": "https://www.worldofcoca-cola.com/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         348,
+         80,
+         285,
+         134
+        ]
+       },
+       "expanded": "false",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "rotate",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "li.has-submenu"
+        }
+       ],
+       "shot": "1440-002-Discover-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "+one App",
+          "href": "https://www.coca-cola.com/us/en/offerings/coca-cola-app"
+         },
+         {
+          "text": "Freestyle",
+          "href": "https://www.coca-cola.com/us/en/brands/freestyle"
+         },
+         {
+          "text": "World Of Coca‑Cola Attraction",
+          "href": "https://www.worldofcoca-cola.com/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         348,
+         80,
+         285,
+         134
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "rotate",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "li.has-submenu"
+        }
+       ],
+       "shot": "1440-003-Discover-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Impact",
+     "key": "impact",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#text-6164b3f4bd>ul>li:nth-of-type(3)>a",
+     "expanded": "false",
+     "rect": [
+      505,
+      0,
+      54,
+      80
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Culture",
+          "href": "https://www.coca-cola.com/us/en/impact/culture"
+         },
+         {
+          "text": "Social",
+          "href": "https://www.coca-colacompany.com/social-impact"
+         },
+         {
+          "text": "Sustainability",
+          "href": "https://www.coca-colacompany.com/sustainability"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         485,
+         80,
+         175,
+         134
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "rotate",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "li.has-submenu"
+        }
+       ],
+       "shot": "1440-004-Impact-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Culture",
+          "href": "https://www.coca-cola.com/us/en/impact/culture"
+         },
+         {
+          "text": "Social",
+          "href": "https://www.coca-colacompany.com/social-impact"
+         },
+         {
+          "text": "Sustainability",
+          "href": "https://www.coca-colacompany.com/sustainability"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         485,
+         80,
+         175,
+         134
+        ]
+       },
+       "expanded": "false",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "rotate",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "li.has-submenu"
+        }
+       ],
+       "shot": "1440-005-Impact-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Culture",
+          "href": "https://www.coca-cola.com/us/en/impact/culture"
+         },
+         {
+          "text": "Social",
+          "href": "https://www.coca-colacompany.com/social-impact"
+         },
+         {
+          "text": "Sustainability",
+          "href": "https://www.coca-colacompany.com/sustainability"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         485,
+         80,
+         175,
+         134
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "rotate",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "li.has-submenu"
+        }
+       ],
+       "shot": "1440-006-Impact-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Shop",
+     "key": "shop",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#text-6164b3f4bd>ul>li:nth-of-type(4)>a",
+     "expanded": "false",
+     "rect": [
+      628,
+      0,
+      40,
+      80
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Where to Buy",
+          "href": "https://www.coca-cola.com/us/en/offerings/shop-now"
+         },
+         {
+          "text": "Coca‑Cola Store",
+          "href": "https://www.coca-colastore.com/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         608,
+         80,
+         191,
+         108
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "rotate",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "li.has-submenu"
+        }
+       ],
+       "shot": "1440-007-Shop-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Where to Buy",
+          "href": "https://www.coca-cola.com/us/en/offerings/shop-now"
+         },
+         {
+          "text": "Coca‑Cola Store",
+          "href": "https://www.coca-colastore.com/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         608,
+         80,
+         191,
+         108
+        ]
+       },
+       "expanded": "false",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "rotate",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "li.has-submenu"
+        }
+       ],
+       "shot": "1440-008-Shop-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Where to Buy",
+          "href": "https://www.coca-cola.com/us/en/offerings/shop-now"
+         },
+         {
+          "text": "Coca‑Cola Store",
+          "href": "https://www.coca-colastore.com/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         608,
+         80,
+         191,
+         108
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "rotate",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "li.has-submenu"
+        }
+       ],
+       "shot": "1440-009-Shop-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Promos & Offers",
+     "key": "promos offers",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#text-6164b3f4bd>ul>li:nth-of-type(5)>a",
+     "expanded": null,
+     "rect": [
+      737,
+      0,
+      127,
+      80
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": false,
+       "navigates": "https://www.coca-cola.com/us/en/offerings"
+      },
+      "key": {
+       "opened": false,
+       "navigates": "https://www.coca-cola.com/us/en/offerings"
+      }
+     }
+    },
+    {
+     "name": "Sign Up",
+     "key": "sign up",
+     "role": "toggle",
+     "kind": "account",
+     "sel": "#container-5883f7c6f8>div>div:nth-of-type(1)>div>div:nth-of-type(3)>div>div:nth-of-type(1)>button",
+     "expanded": null,
+     "rect": [
+      1252,
+      20,
+      84,
+      40
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 80,
+     "position": "static",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 80,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 80,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 80,
+     "position": "static",
+     "inView": true
+    }
+   ],
+   "states": 9,
+   "truncated": null,
+   "loads": 1,
+   "requests": 84,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": null
+}

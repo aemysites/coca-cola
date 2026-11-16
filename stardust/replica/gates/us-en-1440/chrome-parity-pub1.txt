@@ -1,0 +1,56 @@
+[live-session] STARDUST_STEALTH=0: automation-signal handling is OFF for this process
+[live-session] waiting to pace live navigations to main--e4399cea--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 987 ms
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.coca-cola.com/us/en (live side from cache stardust/replica/gates/us-en-1440/chrome-live.json, probed 2026-11-16T06:54:28.254Z — delete the file to re-probe)
+  build: https://main--e4399cea--aemcoder.aem.page/us/en
+
+■ header: 8 delta(s) — 6 paired of 6/6 texts, 1/1 icons
+  REGION STYLE backgroundColor rgb(238, 238, 238) → rgb(255, 255, 255)
+  REGION STYLE position static → relative (fixed/sticky chrome must stay fixed/sticky — seam symmetry)
+  PAIR         "Brands"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Discover"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Impact"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Shop"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Promos & Offers"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Sign Up"  tag <button> → <a>; fontFamily noto-regional → tccc-unitytext
+
+■ footer: 37 delta(s) — 36 paired of 36/36 texts, 1/1 icons
+  PAIR         "Help"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Sign-up"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Login"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "FAQs"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Sitemap"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Contact Us"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Order Status"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Shipping"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Shop & Visit"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Where to Buy"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Coca‑Cola Store Online"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Coca‑Cola Int'l Store Online"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Coca‑Cola Store Atlanta"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Coca‑Cola Store Orlando"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Coca‑Cola Store Las Vegas"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "World of Coca‑Cola Attraction"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Android App"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Apple App"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Legal"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Company"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Careers"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Consumer Privacy Notice"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Cookie Notice"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "All Promotion Official Rules"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Notice At Collection"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Do Not Sell or Share My Personal Informa"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Terms of Service"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Cookie Settings"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Consumer Health Data Privacy Notice"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Data Trust Center"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "X"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Instagram"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Youtube"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "Facebook"  fontFamily noto-regional → tccc-unitytext
+  PAIR         "© 2026 . All rights reserved."  fontFamily noto-regional → tccc-unitytext
+  PAIR         "The Coca‑Cola Company"  fontFamily noto-regional → tccc-unitytext
+  ICON         icon #0: signature "logo-white-large.svg" → "media_162a9921f63c36735e8878faeed38a0402"
+
+✗ 45 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

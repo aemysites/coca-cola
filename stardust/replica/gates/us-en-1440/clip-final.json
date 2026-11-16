@@ -1,0 +1,1228 @@
+{
+ "url": "http://localhost:8791/us-en-proposed.html",
+ "at": "2026-11-16T07:07:44.990Z",
+ "width": 1440,
+ "status": 200,
+ "settlePasses": 2,
+ "docH": 6706,
+ "pageW": 1440,
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 14,
+  "offPage": 74,
+  "textNodes": 143,
+  "controls": 90,
+  "total": 0
+ },
+ "findings": [
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "path": "div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone > a.content-card",
+   "text": "a full year of favorites could be yours enter today for a ch",
+   "clipper": "div.carousel__track",
+   "rect": {
+    "l": -412,
+    "t": 1913,
+    "r": 136,
+    "b": 2588,
+    "w": 548,
+    "h": 675
+   },
+   "clip": {
+    "l": 160,
+    "t": 1905,
+    "r": 1280,
+    "b": 2604,
+    "w": 1120,
+    "h": 699
+   }
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 0,
+   "path": "div.carousel__slide.carousel__slide--clone > a.content-card > div.content-card__body > h3",
+   "text": "a full year of favorites could be yours",
+   "clipper": "a.content-card",
+   "rect": {
+    "l": -380,
+    "t": 2358,
+    "r": 77,
+    "b": 2386,
+    "w": 457,
+    "h": 28
+   },
+   "clip": {
+    "l": -412,
+    "t": 1913,
+    "r": 136,
+    "b": 2588,
+    "w": 548,
+    "h": 675
+   },
+   "lines": 1
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 0,
+   "path": "div.carousel__slide.carousel__slide--clone > a.content-card > div.content-card__body > p",
+   "text": "enter today for a chance to win 24 (or equivalent) of your f",
+   "clipper": "a.content-card",
+   "rect": {
+    "l": -380,
+    "t": 2398,
+    "r": 67,
+    "b": 2417,
+    "w": 447,
+    "h": 19
+   },
+   "clip": {
+    "l": -412,
+    "t": 1913,
+    "r": 136,
+    "b": 2588,
+    "w": 548,
+    "h": 675
+   },
+   "lines": 4
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "path": "div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone > a.content-card",
+   "text": "don't miss the coca‑cola holiday caravan whether you're a li",
+   "clipper": "div.carousel__track",
+   "rect": {
+    "l": 1304,
+    "t": 1913,
+    "r": 1852,
+    "b": 2588,
+    "w": 548,
+    "h": 675
+   },
+   "clip": {
+    "l": 160,
+    "t": 1905,
+    "r": 1280,
+    "b": 2604,
+    "w": 1120,
+    "h": 699
+   }
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 292,
+   "path": "div.carousel__slide.carousel__slide--clone > a.content-card > div.content-card__body > h3",
+   "text": "don't miss the coca‑cola holiday caravan",
+   "clipper": "a.content-card",
+   "rect": {
+    "l": 1336,
+    "t": 2358,
+    "r": 1732,
+    "b": 2386,
+    "w": 396,
+    "h": 28
+   },
+   "clip": {
+    "l": 1304,
+    "t": 1913,
+    "r": 1852,
+    "b": 2588,
+    "w": 548,
+    "h": 675
+   },
+   "lines": 2
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 375,
+   "path": "div.carousel__slide.carousel__slide--clone > a.content-card > div.content-card__body > p",
+   "text": "whether you're a lifelong fan or experiencing the magic for ",
+   "clipper": "a.content-card",
+   "rect": {
+    "l": 1336,
+    "t": 2430,
+    "r": 1815,
+    "b": 2449,
+    "w": 479,
+    "h": 19
+   },
+   "clip": {
+    "l": 1304,
+    "t": 1913,
+    "r": 1852,
+    "b": 2588,
+    "w": 548,
+    "h": 675
+   },
+   "lines": 3
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 26,
+   "path": "div.carousel__slide.carousel__slide--clone > a.content-card > div.content-card__body > span.has-arrow",
+   "text": "find your stop",
+   "clipper": "a.content-card",
+   "rect": {
+    "l": 1336,
+    "t": 2534,
+    "r": 1466,
+    "b": 2553,
+    "w": 130,
+    "h": 19
+   },
+   "clip": {
+    "l": 1304,
+    "t": 1913,
+    "r": 1852,
+    "b": 2588,
+    "w": 548,
+    "h": 675
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "path": "div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone > a.content-card",
+   "text": "coca‑cola vending each time you make a purchase with your mo",
+   "clipper": "div.carousel__track",
+   "rect": {
+    "l": -221,
+    "t": 4332,
+    "r": 136,
+    "b": 4936,
+    "w": 357,
+    "h": 604
+   },
+   "clip": {
+    "l": 160,
+    "t": 4324,
+    "r": 1280,
+    "b": 4952,
+    "w": 1120,
+    "h": 628
+   }
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 0,
+   "path": "div.carousel__slide.carousel__slide--clone > a.content-card > div.content-card__body > h3",
+   "text": "coca‑cola vending",
+   "clipper": "a.content-card",
+   "rect": {
+    "l": -189,
+    "t": 4634,
+    "r": 36,
+    "b": 4662,
+    "w": 225,
+    "h": 28
+   },
+   "clip": {
+    "l": -221,
+    "t": 4332,
+    "r": 136,
+    "b": 4936,
+    "w": 357,
+    "h": 604
+   },
+   "lines": 1
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 0,
+   "path": "div.carousel__slide.carousel__slide--clone > a.content-card > div.content-card__body > p",
+   "text": "each time you make a purchase with your mobile wallet at sel",
+   "clipper": "a.content-card",
+   "rect": {
+    "l": -189,
+    "t": 4674,
+    "r": 86,
+    "b": 4693,
+    "w": 275,
+    "h": 19
+   },
+   "clip": {
+    "l": -221,
+    "t": 4332,
+    "r": 136,
+    "b": 4936,
+    "w": 357,
+    "h": 604
+   },
+   "lines": 5
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "path": "div.carousel__track > div.carousel__list > div.carousel__slide > a.content-card",
+   "text": "coca‑cola refreshing films coca‑cola® refreshing films provi",
+   "clipper": "div.carousel__track",
+   "rect": {
+    "l": 1304,
+    "t": 4332,
+    "r": 1661,
+    "b": 4936,
+    "w": 357,
+    "h": 604
+   },
+   "clip": {
+    "l": 160,
+    "t": 4324,
+    "r": 1280,
+    "b": 4952,
+    "w": 1120,
+    "h": 628
+   }
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 154,
+   "path": "div.carousel__slide > a.content-card > div.content-card__body > h3",
+   "text": "coca‑cola refreshing films",
+   "clipper": "a.content-card",
+   "rect": {
+    "l": 1336,
+    "t": 4634,
+    "r": 1594,
+    "b": 4662,
+    "w": 258,
+    "h": 28
+   },
+   "clip": {
+    "l": 1304,
+    "t": 4332,
+    "r": 1661,
+    "b": 4936,
+    "w": 357,
+    "h": 604
+   },
+   "lines": 2
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 181,
+   "path": "div.carousel__slide > a.content-card > div.content-card__body > p",
+   "text": "coca‑cola® refreshing films provides students the opportunit",
+   "clipper": "a.content-card",
+   "rect": {
+    "l": 1336,
+    "t": 4706,
+    "r": 1583,
+    "b": 4725,
+    "w": 248,
+    "h": 19
+   },
+   "clip": {
+    "l": 1304,
+    "t": 4332,
+    "r": 1661,
+    "b": 4936,
+    "w": 357,
+    "h": 604
+   },
+   "lines": 4
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 7,
+   "path": "div.carousel__slide > a.content-card > div.content-card__body > span.has-arrow",
+   "text": "check it out",
+   "clipper": "a.content-card",
+   "rect": {
+    "l": 1336,
+    "t": 4882,
+    "r": 1447,
+    "b": 4901,
+    "w": 111,
+    "h": 19
+   },
+   "clip": {
+    "l": 1304,
+    "t": 4332,
+    "r": 1661,
+    "b": 4936,
+    "w": 357,
+    "h": 604
+   },
+   "lines": 1
+  }
+ ],
+ "textBoxes": [
+  {
+   "x": 273,
+   "y": 32,
+   "w": 55,
+   "h": 17
+  },
+  {
+   "x": 368,
+   "y": 32,
+   "w": 68,
+   "h": 17
+  },
+  {
+   "x": 505,
+   "y": 32,
+   "w": 54,
+   "h": 17
+  },
+  {
+   "x": 628,
+   "y": 32,
+   "w": 40,
+   "h": 17
+  },
+  {
+   "x": 737,
+   "y": 32,
+   "w": 127,
+   "h": 17
+  },
+  {
+   "x": 1268,
+   "y": 33,
+   "w": 52,
+   "h": 14
+  },
+  {
+   "x": 199,
+   "y": 137,
+   "w": 1041,
+   "h": 46
+  },
+  {
+   "x": 463,
+   "y": 841,
+   "w": 514,
+   "h": 39
+  },
+  {
+   "x": 167,
+   "y": 899,
+   "w": 1107,
+   "h": 19
+  },
+  {
+   "x": 687,
+   "y": 923,
+   "w": 66,
+   "h": 19
+  },
+  {
+   "x": 678,
+   "y": 987,
+   "w": 83,
+   "h": 19
+  },
+  {
+   "x": 192,
+   "y": 1515,
+   "w": 425,
+   "h": 28
+  },
+  {
+   "x": 192,
+   "y": 1555,
+   "w": 421,
+   "h": 19
+  },
+  {
+   "x": 192,
+   "y": 1579,
+   "w": 469,
+   "h": 19
+  },
+  {
+   "x": 192,
+   "y": 1603,
+   "w": 41,
+   "h": 19
+  },
+  {
+   "x": 192,
+   "y": 1659,
+   "w": 105,
+   "h": 19
+  },
+  {
+   "x": 768,
+   "y": 1515,
+   "w": 425,
+   "h": 28
+  },
+  {
+   "x": 768,
+   "y": 1555,
+   "w": 455,
+   "h": 19
+  },
+  {
+   "x": 768,
+   "y": 1579,
+   "w": 359,
+   "h": 19
+  },
+  {
+   "x": 768,
+   "y": 1659,
+   "w": 105,
+   "h": 19
+  },
+  {
+   "x": 609,
+   "y": 1755,
+   "w": 222,
+   "h": 19
+  },
+  {
+   "x": 585,
+   "y": 1841,
+   "w": 270,
+   "h": 39
+  },
+  {
+   "x": -380,
+   "y": 2358,
+   "w": 457,
+   "h": 28
+  },
+  {
+   "x": -380,
+   "y": 2398,
+   "w": 447,
+   "h": 19
+  },
+  {
+   "x": -380,
+   "y": 2422,
+   "w": 448,
+   "h": 19
+  },
+  {
+   "x": -380,
+   "y": 2446,
+   "w": 479,
+   "h": 19
+  },
+  {
+   "x": 192,
+   "y": 2358,
+   "w": 396,
+   "h": 28
+  },
+  {
+   "x": 192,
+   "y": 2390,
+   "w": 98,
+   "h": 28
+  },
+  {
+   "x": 192,
+   "y": 2430,
+   "w": 479,
+   "h": 19
+  },
+  {
+   "x": 192,
+   "y": 2454,
+   "w": 399,
+   "h": 19
+  },
+  {
+   "x": 192,
+   "y": 2478,
+   "w": 194,
+   "h": 19
+  },
+  {
+   "x": 192,
+   "y": 2534,
+   "w": 130,
+   "h": 19
+  },
+  {
+   "x": 764,
+   "y": 2358,
+   "w": 457,
+   "h": 28
+  },
+  {
+   "x": 764,
+   "y": 2398,
+   "w": 447,
+   "h": 19
+  },
+  {
+   "x": 764,
+   "y": 2422,
+   "w": 448,
+   "h": 19
+  },
+  {
+   "x": 764,
+   "y": 2446,
+   "w": 479,
+   "h": 19
+  },
+  {
+   "x": 764,
+   "y": 2470,
+   "w": 237,
+   "h": 19
+  },
+  {
+   "x": 764,
+   "y": 2534,
+   "w": 94,
+   "h": 19
+  },
+  {
+   "x": 1336,
+   "y": 2358,
+   "w": 396,
+   "h": 28
+  },
+  {
+   "x": 1336,
+   "y": 2390,
+   "w": 98,
+   "h": 28
+  },
+  {
+   "x": 1336,
+   "y": 2430,
+   "w": 479,
+   "h": 19
+  },
+  {
+   "x": 1336,
+   "y": 2454,
+   "w": 399,
+   "h": 19
+  },
+  {
+   "x": 1336,
+   "y": 2478,
+   "w": 194,
+   "h": 19
+  },
+  {
+   "x": 1336,
+   "y": 2534,
+   "w": 130,
+   "h": 19
+  },
+  {
+   "x": 641,
+   "y": 2662,
+   "w": 158,
+   "h": 19
+  },
+  {
+   "x": 648,
+   "y": 2748,
+   "w": 144,
+   "h": 39
+  },
+  {
+   "x": 224,
+   "y": 2884,
+   "w": 403,
+   "h": 39
+  },
+  {
+   "x": 224,
+   "y": 2924,
+   "w": 164,
+   "h": 39
+  },
+  {
+   "x": 224,
+   "y": 2974,
+   "w": 397,
+   "h": 19
+  },
+  {
+   "x": 224,
+   "y": 2998,
+   "w": 395,
+   "h": 19
+  },
+  {
+   "x": 224,
+   "y": 3022,
+   "w": 378,
+   "h": 19
+  },
+  {
+   "x": 224,
+   "y": 3046,
+   "w": 361,
+   "h": 19
+  },
+  {
+   "x": 224,
+   "y": 3070,
+   "w": 208,
+   "h": 19
+  },
+  {
+   "x": 313,
+   "y": 3278,
+   "w": 149,
+   "h": 19
+  },
+  {
+   "x": 800,
+   "y": 3636,
+   "w": 405,
+   "h": 39
+  },
+  {
+   "x": 800,
+   "y": 3686,
+   "w": 359,
+   "h": 19
+  },
+  {
+   "x": 800,
+   "y": 3710,
+   "w": 371,
+   "h": 19
+  },
+  {
+   "x": 800,
+   "y": 3734,
+   "w": 385,
+   "h": 19
+  },
+  {
+   "x": 800,
+   "y": 3758,
+   "w": 210,
+   "h": 19
+  },
+  {
+   "x": 868,
+   "y": 4030,
+   "w": 192,
+   "h": 19
+  },
+  {
+   "x": 537,
+   "y": 4260,
+   "w": 367,
+   "h": 39
+  },
+  {
+   "x": -189,
+   "y": 4634,
+   "w": 225,
+   "h": 28
+  },
+  {
+   "x": -189,
+   "y": 4674,
+   "w": 275,
+   "h": 19
+  },
+  {
+   "x": -189,
+   "y": 4698,
+   "w": 283,
+   "h": 19
+  },
+  {
+   "x": -189,
+   "y": 4722,
+   "w": 254,
+   "h": 19
+  },
+  {
+   "x": -189,
+   "y": 4746,
+   "w": 235,
+   "h": 19
+  },
+  {
+   "x": -189,
+   "y": 4770,
+   "w": 201,
+   "h": 19
+  },
+  {
+   "x": 192,
+   "y": 4634,
+   "w": 167,
+   "h": 28
+  },
+  {
+   "x": 192,
+   "y": 4674,
+   "w": 272,
+   "h": 19
+  },
+  {
+   "x": 192,
+   "y": 4698,
+   "w": 275,
+   "h": 19
+  },
+  {
+   "x": 192,
+   "y": 4722,
+   "w": 283,
+   "h": 19
+  },
+  {
+   "x": 192,
+   "y": 4746,
+   "w": 243,
+   "h": 19
+  },
+  {
+   "x": 192,
+   "y": 4770,
+   "w": 54,
+   "h": 19
+  },
+  {
+   "x": 192,
+   "y": 4882,
+   "w": 136,
+   "h": 19
+  },
+  {
+   "x": 573,
+   "y": 4634,
+   "w": 280,
+   "h": 28
+  },
+  {
+   "x": 573,
+   "y": 4666,
+   "w": 54,
+   "h": 28
+  },
+  {
+   "x": 573,
+   "y": 4706,
+   "w": 293,
+   "h": 19
+  },
+  {
+   "x": 573,
+   "y": 4730,
+   "w": 216,
+   "h": 19
+  },
+  {
+   "x": 573,
+   "y": 4754,
+   "w": 260,
+   "h": 19
+  },
+  {
+   "x": 573,
+   "y": 4778,
+   "w": 214,
+   "h": 19
+  },
+  {
+   "x": 573,
+   "y": 4802,
+   "w": 288,
+   "h": 19
+  },
+  {
+   "x": 573,
+   "y": 4826,
+   "w": 231,
+   "h": 19
+  },
+  {
+   "x": 573,
+   "y": 4882,
+   "w": 91,
+   "h": 19
+  },
+  {
+   "x": 955,
+   "y": 4634,
+   "w": 230,
+   "h": 28
+  },
+  {
+   "x": 955,
+   "y": 4666,
+   "w": 147,
+   "h": 28
+  },
+  {
+   "x": 955,
+   "y": 4706,
+   "w": 274,
+   "h": 19
+  },
+  {
+   "x": 955,
+   "y": 4730,
+   "w": 293,
+   "h": 19
+  },
+  {
+   "x": 955,
+   "y": 4754,
+   "w": 245,
+   "h": 19
+  },
+  {
+   "x": 955,
+   "y": 4778,
+   "w": 267,
+   "h": 19
+  },
+  {
+   "x": 955,
+   "y": 4802,
+   "w": 281,
+   "h": 19
+  },
+  {
+   "x": 955,
+   "y": 4826,
+   "w": 57,
+   "h": 19
+  },
+  {
+   "x": 955,
+   "y": 4882,
+   "w": 102,
+   "h": 19
+  },
+  {
+   "x": 1336,
+   "y": 4634,
+   "w": 258,
+   "h": 28
+  },
+  {
+   "x": 1336,
+   "y": 4666,
+   "w": 65,
+   "h": 28
+  },
+  {
+   "x": 1336,
+   "y": 4706,
+   "w": 248,
+   "h": 19
+  },
+  {
+   "x": 1336,
+   "y": 4730,
+   "w": 191,
+   "h": 19
+  },
+  {
+   "x": 1336,
+   "y": 4754,
+   "w": 285,
+   "h": 19
+  },
+  {
+   "x": 1336,
+   "y": 4778,
+   "w": 128,
+   "h": 19
+  },
+  {
+   "x": 1336,
+   "y": 4882,
+   "w": 111,
+   "h": 19
+  },
+  {
+   "x": 560,
+   "y": 5024,
+   "w": 320,
+   "h": 39
+  },
+  {
+   "x": 684,
+   "y": 5620,
+   "w": 72,
+   "h": 19
+  },
+  {
+   "x": 160,
+   "y": 6014,
+   "w": 30,
+   "h": 12
+  },
+  {
+   "x": 160,
+   "y": 6053,
+   "w": 60,
+   "h": 17
+  },
+  {
+   "x": 160,
+   "y": 6091,
+   "w": 43,
+   "h": 17
+  },
+  {
+   "x": 160,
+   "y": 6129,
+   "w": 40,
+   "h": 17
+  },
+  {
+   "x": 160,
+   "y": 6167,
+   "w": 65,
+   "h": 17
+  },
+  {
+   "x": 160,
+   "y": 6205,
+   "w": 86,
+   "h": 17
+  },
+  {
+   "x": 160,
+   "y": 6243,
+   "w": 100,
+   "h": 17
+  },
+  {
+   "x": 160,
+   "y": 6281,
+   "w": 69,
+   "h": 17
+  },
+  {
+   "x": 376,
+   "y": 6014,
+   "w": 74,
+   "h": 12
+  },
+  {
+   "x": 376,
+   "y": 6053,
+   "w": 106,
+   "h": 17
+  },
+  {
+   "x": 376,
+   "y": 6091,
+   "w": 180,
+   "h": 17
+  },
+  {
+   "x": 376,
+   "y": 6129,
+   "w": 215,
+   "h": 17
+  },
+  {
+   "x": 376,
+   "y": 6167,
+   "w": 187,
+   "h": 17
+  },
+  {
+   "x": 376,
+   "y": 6205,
+   "w": 193,
+   "h": 17
+  },
+  {
+   "x": 376,
+   "y": 6243,
+   "w": 209,
+   "h": 17
+  },
+  {
+   "x": 376,
+   "y": 6281,
+   "w": 233,
+   "h": 17
+  },
+  {
+   "x": 376,
+   "y": 6319,
+   "w": 97,
+   "h": 17
+  },
+  {
+   "x": 376,
+   "y": 6357,
+   "w": 81,
+   "h": 17
+  },
+  {
+   "x": 641,
+   "y": 6014,
+   "w": 37,
+   "h": 12
+  },
+  {
+   "x": 641,
+   "y": 6053,
+   "w": 73,
+   "h": 17
+  },
+  {
+   "x": 641,
+   "y": 6091,
+   "w": 61,
+   "h": 17
+  },
+  {
+   "x": 641,
+   "y": 6129,
+   "w": 195,
+   "h": 17
+  },
+  {
+   "x": 641,
+   "y": 6167,
+   "w": 108,
+   "h": 17
+  },
+  {
+   "x": 641,
+   "y": 6205,
+   "w": 214,
+   "h": 17
+  },
+  {
+   "x": 641,
+   "y": 6243,
+   "w": 155,
+   "h": 17
+  },
+  {
+   "x": 641,
+   "y": 6281,
+   "w": 186,
+   "h": 17
+  },
+  {
+   "x": 641,
+   "y": 6299,
+   "w": 164,
+   "h": 17
+  },
+  {
+   "x": 641,
+   "y": 6337,
+   "w": 130,
+   "h": 17
+  },
+  {
+   "x": 641,
+   "y": 6375,
+   "w": 124,
+   "h": 17
+  },
+  {
+   "x": 641,
+   "y": 6413,
+   "w": 238,
+   "h": 17
+  },
+  {
+   "x": 641,
+   "y": 6431,
+   "w": 50,
+   "h": 17
+  },
+  {
+   "x": 641,
+   "y": 6469,
+   "w": 138,
+   "h": 17
+  },
+  {
+   "x": 940,
+   "y": 6570,
+   "w": 53,
+   "h": 14
+  },
+  {
+   "x": 993,
+   "y": 6570,
+   "w": 158,
+   "h": 14
+  },
+  {
+   "x": 1151,
+   "y": 6570,
+   "w": 129,
+   "h": 14
+  }
+ ],
+ "groups": [
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 4,
+   "clipper": "div.carousel__track",
+   "path": "div.carousel__track > div.carousel__list > div.carousel__slide.carousel__slide--clone > a.content-card",
+   "text": "a full year of favorites could be yours enter today for a ch",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 4,
+   "clipper": "a.content-card",
+   "path": "div.carousel__slide.carousel__slide--clone > a.content-card > div.content-card__body > h3",
+   "text": "a full year of favorites could be yours",
+   "cutMin": 0,
+   "cutMax": 292
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 4,
+   "clipper": "a.content-card",
+   "path": "div.carousel__slide.carousel__slide--clone > a.content-card > div.content-card__body > p",
+   "text": "enter today for a chance to win 24 (or equivalent) of your f",
+   "cutMin": 0,
+   "cutMax": 375
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 2,
+   "clipper": "a.content-card",
+   "path": "div.carousel__slide.carousel__slide--clone > a.content-card > div.content-card__body > span.has-arrow",
+   "text": "find your stop",
+   "cutMin": 7,
+   "cutMax": 26
+  }
+ ],
+ "tier": "chrome"
+}

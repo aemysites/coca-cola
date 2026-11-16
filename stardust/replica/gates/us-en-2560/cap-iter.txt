@@ -1,0 +1,16 @@
+cap-probe  base 1440 → probe 2560 (from stardust/current/DESIGN.json)
+live   https://www.coca-cola.com/us/en
+  shell     1120px  max-width body.page.basicpage > div.root.container > div.cmp-container > main.container.responsivegrid  (tier 0, holds 100% of the text)
+  modules  3 sections: capped 768 ×1, 672 ×1, 576 ×1 · full-bleed ×0
+  contentMaxWidth 1120px (shell) · shellMaxWidth 1120px · root body.page.basicpage > div.root.container > div.cmp-container > main.container.responsivegrid
+build  http://localhost:8791/us-en-proposed.html
+  shell     1120px  max-width body > main.container.responsivegrid  (tier 0, holds 100% of the text)
+  modules  7 sections: capped 548 ×2, 768 ×1, 640 ×1, 357 ×1, 327 ×1 · full-bleed ×1
+  contentMaxWidth 1120px (shell) · shellMaxWidth 1120px · root body > main.container.responsivegrid
+rows
+  ✓ wrapper cap: live 1120px = build 1120px (±20)
+  ⚠ sections: live 3 vs build 7 top-level sections — module rows compared by order up to the shorter side, advisory until the structure matches
+  ⚠ module 1/3: live 576px (#container-ec87edacce > div.container.responsivegrid > div.cmp-container > div.teaser.content-card) → build full-bleed (body > main.container.responsivegrid > h1.page-title)
+  ⚠ module 2/3: live 672px → build 327px, Δ-345px (main.container.responsivegrid > section.feature-xf > div.btn-row > a.btn.btn--primary)
+  ⚠ module 3/3: live 768px → build 544px, Δ-224px (main.container.responsivegrid > section.teaser-block > div.teaser-grid > a.content-card)
+cap-probe: PASS at 2560 — 0 of 5 rows failed (evidence stardust/replica/gates/us-en-2560/cap-iter.json)

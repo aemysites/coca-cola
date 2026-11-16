@@ -1,0 +1,9 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.coca-cola.com/",
+  "log": [
+    "stitched stardust/replica/gates/all-360/index/origin.png: 360x6313 from 8 chunks"
+  ],
+  "fontsFailed": [],
+  "at": "2026-11-16T08:37:26.950Z"
+}

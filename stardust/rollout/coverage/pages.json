@@ -1,0 +1,105 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-16T08:32:32.277Z",
+    "readArtifacts": [
+      "stardust/migrated"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-16T08:39:05.711Z",
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Explore the Coca‑Cola® Official Site | Coca‑Cola®",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:812ea46d1b71496da9babb8a451cd07e20511119b8c6c742dbf8471b8a28e423",
+        "sourceUrl": "https://www.coca-cola.com/"
+      },
+      "blocks": [
+        "feature-xf",
+        "teaser-block",
+        "carousel",
+        "features",
+        "brands"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--e4399cea--aemcoder.aem.page/",
+        "deployedAt": "2026-11-16T08:03:44.706Z",
+        "verifiedAt": "2026-11-16T08:39:05.711Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.99,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-16T08:39:05.662Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en",
+      "path": "/us/en",
+      "title": "Explore the Coca‑Cola® Official Site | Coca‑Cola®",
+      "templateId": "us-en",
+      "source": {
+        "migratedHtml": "stardust/migrated/us/en.html",
+        "metaJson": "stardust/migrated/us/en._meta.json",
+        "sourceHash": "sha256:aa8d732098c8df0d303b1ded322ffc112bf4a7528bca390c44d6af8ab1631cf1",
+        "sourceUrl": "https://www.coca-cola.com/us/en"
+      },
+      "blocks": [
+        "feature-xf",
+        "teaser-block",
+        "carousel",
+        "features",
+        "brands"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--e4399cea--aemcoder.aem.page/us/en",
+        "deployedAt": "2026-11-16T07:44:26.180Z",
+        "verifiedAt": "2026-11-16T08:39:05.711Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-16T08:39:05.662Z"
+        }
+      }
+    }
+  ]
+}

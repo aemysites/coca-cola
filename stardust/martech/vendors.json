@@ -1,0 +1,54 @@
+{
+ "pages": 1,
+ "vendors": [
+  {
+   "host": "www.googletagmanager.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": "tag manager: Google Tag Manager",
+   "class": "T",
+   "inCsp": false
+  },
+  {
+   "host": "rum.hlx.page",
+   "pages": 1,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "cdn.cookielaw.org",
+   "pages": 1,
+   "firstParty": false,
+   "role": "consent: OneTrust",
+   "class": "T",
+   "inCsp": false
+  },
+  {
+   "host": "www.coca-cola.com",
+   "pages": 1,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "cdn.global.gcds.coke.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  }
+ ],
+ "inline": {
+  "adobeDataLayer": 1,
+  "dataLayer": 1,
+  "OneTrust": 1
+ },
+ "cspHosts": [
+  "food.grab.com",
+  "food.stg-myteksi.com"
+ ]
+}

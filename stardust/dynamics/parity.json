@@ -1,0 +1,25 @@
+{
+  "_provenance": { "writtenBy": "stardust:dynamics", "writtenAt": "2026-11-16T08:35:00Z" },
+  "method": "curated rows of stardust/dynamic-features.md replayed against the published origin (aem.live); martech parts carried over, every part disabled (owner decision)",
+  "features": [
+    { "id": "chrome-menu", "feature": "Header menus: Discover, Impact, Shop", "class": "M", "pages": 2, "disposition": "rebuild-native", "reproducibility": "self", "status": "done",
+      "verifiedBy": "header contract (chrome-compare exit 0 at C0); submenu triggers present on both pages",
+      "checks": [ { "type": "dom-count", "path": "/us/en", "selector": "header .site-nav li.has-submenu", "min": 3 }, { "type": "dom-count", "path": "/", "selector": "header .site-nav li.has-submenu", "min": 3 } ] },
+    { "id": "chrome-drawer", "feature": "Header drawer: Menu (mobile)", "class": "M", "pages": 2, "disposition": "rebuild-native", "reproducibility": "self", "status": "done",
+      "verifiedBy": "header contract 390 drawer; Menu button present",
+      "checks": [ { "type": "dom-count", "path": "/us/en", "selector": "header button.menu-btn[aria-controls]", "min": 1 } ] },
+    { "id": "m-modal-trigger-aria-haspopup-chrome-only-button-content", "feature": "aria-haspopup Filter Icon button (chrome only)", "class": "M", "pages": 1, "disposition": "rebuild-native", "reproducibility": "self", "status": "interim",
+      "verifiedBy": "not rendered on the scoped pages at either gate width (chrome crops 0.00 % header)", "checks": [] },
+    { "id": "x-sign-in-account-links", "feature": "Sign Up / Log In header dialogs", "class": "X", "pages": 2, "disposition": "static-snapshot", "reproducibility": "needs-backend", "status": "interim",
+      "owner": "A-1: authentication on the new host", "verifiedBy": "controls render per the source (role=button, aria-label); no auth backend",
+      "checks": [ { "type": "dom-count", "path": "/us/en", "selector": "header a[role=button][aria-label='Sign Up']", "min": 1 } ] },
+    { "id": "martech", "feature": "OneTrust CMP, GTM, Adobe Web SDK, GA4/Ads, ad pixels, data layers, AWS CloudWatch RUM (rows 5–10, 14)", "class": "T", "pages": 2, "disposition": "embed-passthrough", "reproducibility": "needs-business-decision", "status": "scaffolded-awaiting-owner",
+      "owner": "A-3 / A-5: which containers and the tagging plan run on the new host; every contract part ships disabled",
+      "verifiedBy": "scripts/martech.js ships; gate mode: no vendor request while parts are disabled",
+      "checks": [ { "type": "martech", "path": "/us/en", "mode": "gate" }, { "type": "martech", "path": "/", "mode": "gate" } ] },
+    { "id": "a-cms-app-settings-object-cq", "feature": "AEM Sites CQ runtime object", "class": "A", "pages": 2, "disposition": "static-snapshot", "reproducibility": "self", "status": "interim", "verifiedBy": "no consumer on the migrated pages; nothing ships", "checks": [] },
+    { "id": "f-form-protection-captcha-antibot", "feature": "reCAPTCHA site keys for sign-up/login", "class": "F", "pages": 2, "disposition": "static-snapshot", "reproducibility": "needs-backend", "status": "interim", "owner": "A-1 (tied to auth)", "verifiedBy": "no form on the scoped pages", "checks": [] },
+    { "id": "t-unknown-third-party-host-rum-hlx-page", "feature": "Operational telemetry (RUM)", "class": "T", "pages": 2, "disposition": "rebuild-native", "reproducibility": "self", "status": "done", "verifiedBy": "EDS aem.js emits RUM natively; pages load without uncaught errors",
+      "checks": [ { "type": "no-page-errors", "paths": ["/", "/us/en"] } ] }
+  ]
+}

@@ -1,0 +1,99 @@
+/* Landing archetype (us-en) — main content sections. Mobile-first; source steps 768 / 1200. */
+
+main.container.responsivegrid { display: flow-root; margin: 0 24px; }
+.page-title { margin-top: 40px; text-align: center; }
+
+/* Featured experience (Adobe Target slot — captured state: Holiday Wheel) */
+.feature-xf { margin-top: 56px; text-align: center; }
+.feature-xf__media { display: block; }
+.feature-xf__media img { width: 100%; height: auto; border-radius: var(--radius-card); }
+.feature-xf h2 { margin-top: 40px; }
+.feature-xf p { margin-top: 16px; }
+.feature-xf .btn-row { margin-top: 32px; }
+
+/* Promo teaser grid (two 4:3 content cards) */
+.teaser-block__title { display: none; }
+.teaser-grid { display: grid; gap: 16px; margin-top: 40px; }
+
+/* Content card (shared by grid and carousels) */
+.content-card {
+  display: flex; flex-direction: column; height: 100%; overflow: hidden;
+  border-radius: var(--radius-card); box-shadow: var(--shadow-card); background: var(--white); font-weight: 700;
+}
+.content-card__media img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; }
+.content-card__body { display: flex; flex: 1 1 auto; flex-direction: column; padding: 24px; background: var(--white); }
+.content-card__body p { margin-top: 8px; font-weight: 400; }
+.content-card__body p:last-of-type { margin-bottom: 32px; }
+.content-card__body .has-arrow { margin-top: auto; }
+
+/* Section heads in the content container */
+.section-title { margin-top: 40px; text-align: center; }
+
+/* Carousels (splide-equivalent: static initial state, track scrolls by JS) */
+.carousel { position: relative; margin-top: 24px; }
+.carousel__track { overflow: hidden; padding-top: 8px; margin-bottom: -16px; padding-bottom: 16px; }
+.carousel__list { display: flex; gap: 16px; padding: 0 20px; transition: transform .4s ease; }
+.carousel__slide { flex: 0 0 calc(100% - 1px); }
+.carousel__dots { display: flex; justify-content: center; gap: 8px; margin: 24px 0 0; padding: 0; list-style: none; }
+.carousel__dots li { display: flex; }
+.carousel__dot {
+  width: 8px; height: 8px; padding: 0; border-radius: var(--radius-pill);
+  background: var(--grey-disabled); transition: width .2s ease-in-out;
+}
+.carousel__dot[aria-selected="true"] { width: 32px; background: var(--black); }
+.carousel--wide { margin-left: -24px; margin-right: -24px; }
+.carousel--wide .carousel__list { padding: 0 0 0 23px; }
+.carousel--wide .carousel__slide { flex-basis: calc(100% - 24px); }
+
+/* Campaign cards (Features) */
+.campaign-card { position: relative; display: flex; flex-direction: column; margin-top: 32px; }
+.campaign-card + .campaign-card { margin-top: 56px; }
+.campaign-card__media { display: block; order: -1; margin: 0 -24px; }
+.campaign-card__media img { width: 100%; height: auto; aspect-ratio: 380 / 328; object-fit: cover; }
+.campaign-card__content {
+  position: relative; z-index: 1; display: flex; flex-direction: column; margin-top: -80px; padding: 24px;
+  background: var(--white); border-radius: var(--radius-card); box-shadow: var(--shadow-card);
+}
+.campaign-card__content h2 { margin: 0; }
+.campaign-card__content p { margin-top: 8px; }
+.campaign-card__content .btn { margin-top: 32px; }
+
+/* Brands grid */
+.brands-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 32px -8px 0; padding: 0 8px; }
+.brands-grid a {
+  display: flex; align-items: center; justify-content: center; aspect-ratio: 1; padding: 24px;
+  background: var(--white); border-radius: var(--radius-card); box-shadow: var(--shadow-card);
+}
+.brands-grid img { width: 100%; height: auto; }
+
+@media (min-width: 1200px) {
+  main.container.responsivegrid { max-width: 1120px; margin: 0 auto; }
+  .page-title { margin-top: 56px; font-size: 38px; line-height: 48px; }
+  h2, .h2 { font-size: 32px; line-height: 40px; }
+  h3, .h3 { font-size: 24px; line-height: 32px; }
+  .feature-xf { margin-top: 120px; }
+  .feature-xf h2 { margin-top: 56px; }
+  .btn-row .btn { width: 327px; }
+  .teaser-grid { grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 56px; }
+  .content-card__body { padding: 32px; }
+  .section-title { margin-top: 56px; }
+  .carousel__list { gap: 24px; padding: 0; }
+  .carousel__slide { flex-basis: calc((100% - 24px) / 2); }
+  .carousel--wide { margin-left: 0; margin-right: 0; }
+  .carousel--wide .carousel__list { padding: 0; }
+  .carousel--wide .carousel__slide { flex-basis: calc((100% - 48px) / 3); }
+  .campaign-card { flex-direction: row; align-items: flex-start; margin: 32px -16px 0; }
+  .campaign-card + .campaign-card { margin-top: 120px; }
+  .campaign-card__media { order: 2; flex: 0 0 640px; margin: 80px 16px 0 -80px; }
+  .campaign-card__media img { aspect-ratio: 640 / 552; border-radius: var(--radius-card); }
+  .campaign-card__content { flex: 0 0 576px; min-height: 552px; margin: 0; padding: 64px 80px; background: none; box-shadow: none; }
+  .campaign-card__content::before {
+    content: ""; position: absolute; inset: 0 16px; z-index: -1;
+    background: var(--white); border-radius: var(--radius-card); box-shadow: var(--shadow-card);
+  }
+  .campaign-card__content .btn { width: 327px; margin-top: auto; }
+  .campaign-card__content p + .btn { margin-top: auto; }
+  .campaign-card--right .campaign-card__media { order: 0; margin: 80px -80px 0 16px; }
+  .campaign-card--right .campaign-card__content { order: 1; }
+  .brands-grid { grid-template-columns: repeat(3, 1fr); gap: 24px; max-width: 768px; margin: 32px auto 0; padding: 0 16px; }
+}

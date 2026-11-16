@@ -1,0 +1,18 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://main--e4399cea--aemcoder.aem.page/us/en",
+  "width": 360,
+  "vh": 900,
+  "height": 6313,
+  "chunks": 8,
+  "denialCheck": "ok",
+  "fontsFailed": [
+    "tccc-unitytext-fallback"
+  ],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 0,
+    "late": 0
+  },
+  "at": "2026-11-16T07:50:25.977Z"
+}

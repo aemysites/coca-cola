@@ -1,20 +1,18 @@
-[live-session] STARDUST_STEALTH=0: automation-signal handling is OFF for this process
-[live-session] waiting to pace live navigations to www.coca-cola.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 489 ms
+[live-session] waiting to pace live navigations to www.coca-cola.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
 
 Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/us-en-1440/vdiff-iter1/
 
 build red flags (advisory): 
-  • IMAGERY GAP: source renders 45 images, build renders 22. The build renders far fewer images than the source — confirm intended (CSS backgrounds) vs missing assets.
-  • CONTENT GAP: source 38 headings / 12 content-boxes / main 5571px vs build 17 / 7 / 6704px. Heading/box/height shortfall vs the source — likely dropped or duplicated content.
-  • HEADING FACE ×17: "Noto-regional" → "Liberation Sans" on every differing heading (source → build). A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • CONTENT GAP: source 41 headings / 12 content-boxes / main 4649px vs build 17 / 7 / 4561px. Heading/box/height shortfall vs the source — likely dropped or duplicated content.
+  • HEADING FACE ×17: "Noto-regional" → "Encode Sans Expanded" on every differing heading (source → build). A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
 
 Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
 {
  "source": {
   "viewport": 1440,
   "blankRender": false,
-  "mainHeight": 5571,
-  "textLen": 6388,
+  "mainHeight": 4649,
+  "textLen": 7014,
   "images": [
    {
     "src": "Coke-company-logo-black.svg",
@@ -26,25 +24,57 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
    },
    {
     "src": "width1960.png",
-    "natural": "1439x617",
-    "rendered": "1120x481",
-    "fit": "fill",
+    "natural": "1439x679",
+    "rendered": "1252x591",
+    "fit": "cover",
     "stretched": false,
     "failedToLoad": false
    },
    {
     "src": "width1960.png",
-    "natural": "799x599",
-    "rendered": "544x408",
-    "fit": "fill",
+    "natural": "1439x679",
+    "rendered": "1252x591",
+    "fit": "cover",
     "stretched": false,
     "failedToLoad": false
    },
    {
     "src": "width1960.png",
-    "natural": "799x599",
-    "rendered": "544x408",
-    "fit": "fill",
+    "natural": "1439x679",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "1439x679",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "1439x679",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "1439x679",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "1439x679",
+    "rendered": "1252x591",
+    "fit": "cover",
     "stretched": false,
     "failedToLoad": false
    },
@@ -369,7 +399,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "failedToLoad": false
    },
    {
-    "src": "0?ti=187146240&tm=gtm002&Ver=2&mid=2b6bd9fe-839b-4c97-a3b4-96ab920a5aad&bo=1&sid=8999d4f0e18711f1aa9e1d5c8963d796&vid=899a8a10e18711f19f1f3361691639f5&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&nwd=1&tl=Explore%20the%20Coca%E2%80%91Cola%C2%AE%20Official%20Site%20%7C%20Coca-Cola%20US&p=https%3A%2F%2Fwww.coca-cola.com%2Fus%2Fen&r=&lt=1916&evt=pageLoad&sv=2&cdb=AQEB&rn=989532",
+    "src": "0?ti=187146240&tm=gtm002&Ver=2&mid=48f0672e-d470-40c5-a2f1-afbc2146fc73&bo=1&sid=7a1d8c40e31d11f1af37c5f01d7a6056&vid=7a1db260e31d11f194574761ef0edfe7&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&tl=Explore%20the%20Coca%E2%80%91Cola%C2%AE%20Official%20Site%20%7C%20Coca-Cola%20US&p=https%3A%2F%2Fwww.coca-cola.com%2Fus%2Fen&r=&lt=1732&evt=pageLoad&sv=2&cdb=AQER&rn=20526",
     "natural": "0x0",
     "rendered": "0x0",
     "fit": "fill",
@@ -388,33 +418,57 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
    },
    {
     "tag": "h2",
-    "text": "Your Shot at Alaska Starts Now",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "32px",
+    "text": "YOU COULD WIN BIG THIS SEASON",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
     "family": "Noto-regional",
     "fontLoaded": true
    },
    {
     "tag": "h2",
-    "text": "Promos & Offers",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "32px",
+    "text": "YOU COULD WIN BIG THIS SEASON",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
     "family": "Noto-regional",
     "fontLoaded": true
    },
    {
-    "tag": "h3",
-    "text": "YOU COULD WIN BIG THIS SEASON",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
+    "tag": "h2",
+    "text": "Your Shot at Alaska Starts Now",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
     "family": "Noto-regional",
     "fontLoaded": true
    },
    {
-    "tag": "h3",
+    "tag": "h2",
     "text": "YOU COULD WIN BIG THIS SEASON",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "YOU COULD WIN BIG THIS SEASON",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Your Shot at Alaska Starts Now",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "YOU COULD WIN BIG THIS SEASON",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
     "family": "Noto-regional",
     "fontLoaded": true
    },
@@ -516,7 +570,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
    },
    {
     "tag": "h3",
-    "text": "Refresh Your Fandom All Year Lon",
+    "text": "Mix Up the Holiday Spirit",
     "color": "rgb(0, 0, 0)",
     "fontSize": "32px",
     "family": "Noto-regional",
@@ -524,7 +578,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
    },
    {
     "tag": "h3",
-    "text": "Mix Up the Holiday Spirit",
+    "text": "Refresh Your Fandom All Year Lon",
     "color": "rgb(0, 0, 0)",
     "fontSize": "32px",
     "family": "Noto-regional",
@@ -686,6 +740,26 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
   "eyebrows": [],
   "flushText": [
    {
+    "tag": "h2",
+    "text": "YOU COULD WIN BIG THIS SEASO",
+    "left": -2378
+   },
+   {
+    "tag": "p",
+    "text": "Enter every Friday for your ",
+    "left": -2378
+   },
+   {
+    "tag": "h2",
+    "text": "YOU COULD WIN BIG THIS SEASO",
+    "left": -1102
+   },
+   {
+    "tag": "p",
+    "text": "Enter every Friday for your ",
+    "left": -1102
+   },
+   {
     "tag": "h3",
     "text": "Don't Miss the Coca‑Cola Hol",
     "left": -2096
@@ -704,26 +778,6 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "tag": "h3",
     "text": "A Full Year of Favorites Cou",
     "left": -1524
-   },
-   {
-    "tag": "p",
-    "text": "Enter today for a chance to ",
-    "left": -1524
-   },
-   {
-    "tag": "p",
-    "text": "Enter Now",
-    "left": -1524
-   },
-   {
-    "tag": "h3",
-    "text": "Don't Miss the Coca‑Cola Hol",
-    "left": -952
-   },
-   {
-    "tag": "p",
-    "text": "Whether you're a lifelong fa",
-    "left": -952
    }
   ],
   "contentBoxes": [
@@ -733,24 +787,39 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "left": 160
    },
    {
-    "sel": "cmp-text",
-    "width": 1120,
-    "left": 160
+    "sel": "cmp-teaser__content",
+    "width": 1252,
+    "left": -2458
    },
    {
-    "sel": "cmp-text",
-    "width": 1120,
-    "left": 160
+    "sel": "cmp-teaser__content",
+    "width": 1252,
+    "left": -1182
    },
    {
-    "sel": "cmp-text",
-    "width": 1120,
-    "left": 160
+    "sel": "cmp-teaser__content",
+    "width": 1252,
+    "left": 94
    },
    {
-    "sel": "cmp-container",
-    "width": 1152,
-    "left": 144
+    "sel": "cmp-teaser__content",
+    "width": 1252,
+    "left": 1370
+   },
+   {
+    "sel": "cmp-teaser__content",
+    "width": 1252,
+    "left": 2646
+   },
+   {
+    "sel": "cmp-teaser__content",
+    "width": 1252,
+    "left": 3922
+   },
+   {
+    "sel": "cmp-teaser__content",
+    "width": 1252,
+    "left": 5199
    },
    {
     "sel": "cmp-title",
@@ -771,29 +840,14 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "sel": "cmp-teaser",
     "width": 1152,
     "left": 144
-   },
-   {
-    "sel": "cmp-teaser",
-    "width": 1152,
-    "left": 144
-   },
-   {
-    "sel": "cmp-title",
-    "width": 1120,
-    "left": 160
-   },
-   {
-    "sel": "cmp-carousel__content",
-    "width": 1120,
-    "left": -2128
    }
   ]
  },
  "build": {
   "viewport": 1440,
   "blankRender": false,
-  "mainHeight": 6704,
-  "textLen": 2455,
+  "mainHeight": 4561,
+  "textLen": 2443,
   "images": [
    {
     "src": "Coke-company-logo-black.svg",
@@ -804,47 +858,79 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "failedToLoad": false
    },
    {
-    "src": "width1960.png",
-    "natural": "1960x841",
-    "rendered": "1120x481",
-    "fit": "fill",
-    "stretched": false,
-    "failedToLoad": false
-   },
-   {
-    "src": "width1960.png",
-    "natural": "1088x816",
-    "rendered": "544x599",
+    "src": "coca-cola-fall-hockey-big-wins-banner-dt.png",
+    "natural": "1960x925",
+    "rendered": "1252x591",
     "fit": "cover",
     "stretched": false,
     "failedToLoad": false
    },
    {
-    "src": "width1960.png",
-    "natural": "1088x816",
-    "rendered": "544x599",
+    "src": "kotm-holidays-26-us-banner-dt.png",
+    "natural": "1960x925",
+    "rendered": "1252x591",
     "fit": "cover",
     "stretched": false,
     "failedToLoad": false
    },
    {
-    "src": "width1960.png",
+    "src": "fall-football-banner-dt.png",
+    "natural": "1960x925",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "coca-cola-fall-hockey-big-wins-banner-dt.png",
+    "natural": "1960x925",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "kotm-holidays-26-us-banner-dt.png",
+    "natural": "1960x925",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "product-for-a-year-us-tile-hq.png",
+    "natural": "1088x816",
+    "rendered": "548x411",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "onexp-hpg-caravan-teaser-allbreakpoints.png",
     "natural": "1960x1470",
-    "rendered": "548x1079",
+    "rendered": "548x411",
     "fit": "cover",
     "stretched": false,
     "failedToLoad": false
    },
    {
-    "src": "width1960.png",
+    "src": "product-for-a-year-us-tile-hq.png",
     "natural": "1088x816",
-    "rendered": "548x1079",
+    "rendered": "548x411",
     "fit": "cover",
     "stretched": false,
     "failedToLoad": false
    },
    {
-    "src": "width1960.png",
+    "src": "onexp-hpg-caravan-teaser-allbreakpoints.png",
+    "natural": "1960x1470",
+    "rendered": "548x411",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "simply-holidays-us-campaign-dt.png",
     "natural": "1500x1294",
     "rendered": "640x552",
     "fit": "cover",
@@ -852,7 +938,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "failedToLoad": false
    },
    {
-    "src": "width1960.png",
+    "src": "soccer-always-on-campaign-dt.png",
     "natural": "1500x1294",
     "rendered": "640x552",
     "fit": "cover",
@@ -860,47 +946,63 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "failedToLoad": false
    },
    {
-    "src": "width1960.jpg",
-    "natural": "1088x816",
-    "rendered": "357x599",
+    "src": "coke-offering-vending.jpg",
+    "natural": "704x528",
+    "rendered": "357x268",
     "fit": "cover",
     "stretched": false,
     "failedToLoad": false
    },
    {
-    "src": "width1960.png",
+    "src": "plusone-card.jpg",
+    "natural": "1088x816",
+    "rendered": "357x268",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "snap-camera-kit-onexp-tile-campaign-more-from-cc.png",
     "natural": "1018x764",
-    "rendered": "357x599",
+    "rendered": "357x268",
     "fit": "cover",
     "stretched": false,
     "failedToLoad": false
    },
    {
-    "src": "width1960.png",
+    "src": "world-of-coca-cola-tile.png",
     "natural": "704x528",
-    "rendered": "357x599",
+    "rendered": "357x268",
     "fit": "cover",
     "stretched": false,
     "failedToLoad": false
    },
    {
-    "src": "width1960.jpg",
+    "src": "coke-offering-refreshing-films.jpg",
     "natural": "704x528",
-    "rendered": "357x599",
+    "rendered": "357x268",
     "fit": "cover",
     "stretched": false,
     "failedToLoad": false
    },
    {
-    "src": "width1960.jpg",
+    "src": "coke-offering-vending.jpg",
     "natural": "704x528",
-    "rendered": "357x599",
+    "rendered": "357x268",
     "fit": "cover",
     "stretched": false,
     "failedToLoad": false
    },
    {
-    "src": "width1960.png",
+    "src": "plusone-card.jpg",
+    "natural": "1088x816",
+    "rendered": "357x268",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "CocaColalogor.png",
     "natural": "573x180",
     "rendered": "181x57",
     "fit": "fill",
@@ -908,7 +1010,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "failedToLoad": false
    },
    {
-    "src": "width1960.png",
+    "src": "en_diet-coke_logo_color_471x180.png",
     "natural": "471x180",
     "rendered": "181x69",
     "fit": "fill",
@@ -916,7 +1018,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "failedToLoad": false
    },
    {
-    "src": "width1960.png",
+    "src": "en_sprite_logo_green-text-only_477x180.png",
     "natural": "477x180",
     "rendered": "181x68",
     "fit": "fill",
@@ -924,7 +1026,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "failedToLoad": false
    },
    {
-    "src": "width1960.png",
+    "src": "en_fanta_logo_colored_319x180_v1.png",
     "natural": "319x180",
     "rendered": "181x102",
     "fit": "fill",
@@ -932,7 +1034,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "failedToLoad": false
    },
    {
-    "src": "width1960.png",
+    "src": "SW_wordmarks_RGB_color_500x180.png",
     "natural": "500x180",
     "rendered": "181x65",
     "fit": "fill",
@@ -940,7 +1042,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "failedToLoad": false
    },
    {
-    "src": "width1960.png",
+    "src": "Global-MinuteMaid-Logo.png",
     "natural": "1960x1960",
     "rendered": "181x181",
     "fit": "fill",
@@ -957,7 +1059,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
    },
    {
     "src": "badge_apple.png",
-    "natural": "216x62",
+    "natural": "0x0",
     "rendered": "0x0",
     "fit": "fill",
     "stretched": 0,
@@ -965,7 +1067,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
    },
    {
     "src": "badge_google.png",
-    "natural": "210x62",
+    "natural": "0x0",
     "rendered": "0x0",
     "fit": "fill",
     "stretched": 0,
@@ -978,31 +1080,31 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "The Coca‑Cola® Official Site for",
     "color": "rgb(0, 0, 0)",
     "fontSize": "38px",
-    "family": "Liberation Sans",
+    "family": "Encode Sans Expanded",
     "fontLoaded": true
    },
    {
     "tag": "h2",
     "text": "Your Shot at Alaska Starts Now",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "32px",
-    "family": "Liberation Sans",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
+    "family": "Encode Sans Expanded",
     "fontLoaded": true
    },
    {
-    "tag": "h3",
+    "tag": "h2",
     "text": "YOU COULD WIN BIG THIS SEASON",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
+    "family": "Encode Sans Expanded",
     "fontLoaded": true
    },
    {
-    "tag": "h3",
+    "tag": "h2",
     "text": "YOU COULD WIN BIG THIS SEASON",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
+    "family": "Encode Sans Expanded",
     "fontLoaded": true
    },
    {
@@ -1010,7 +1112,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "Promos & Offers",
     "color": "rgb(0, 0, 0)",
     "fontSize": "32px",
-    "family": "Liberation Sans",
+    "family": "Encode Sans Expanded",
     "fontLoaded": true
    },
    {
@@ -1018,7 +1120,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "Don't Miss the Coca‑Cola Holiday",
     "color": "rgb(0, 0, 0)",
     "fontSize": "24px",
-    "family": "Liberation Sans",
+    "family": "Encode Sans Expanded",
     "fontLoaded": true
    },
    {
@@ -1026,7 +1128,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "A Full Year of Favorites Could B",
     "color": "rgb(0, 0, 0)",
     "fontSize": "24px",
-    "family": "Liberation Sans",
+    "family": "Encode Sans Expanded",
     "fontLoaded": true
    },
    {
@@ -1034,15 +1136,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "Features",
     "color": "rgb(0, 0, 0)",
     "fontSize": "32px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "Refresh Your Fandom All Year Lon",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "32px",
-    "family": "Liberation Sans",
+    "family": "Encode Sans Expanded",
     "fontLoaded": true
    },
    {
@@ -1050,7 +1144,15 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "Mix Up the Holiday Spirit",
     "color": "rgb(0, 0, 0)",
     "fontSize": "32px",
-    "family": "Liberation Sans",
+    "family": "Encode Sans Expanded",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Refresh Your Fandom All Year Lon",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Encode Sans Expanded",
     "fontLoaded": true
    },
    {
@@ -1058,7 +1160,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "More from Coca‑Cola®",
     "color": "rgb(0, 0, 0)",
     "fontSize": "32px",
-    "family": "Liberation Sans",
+    "family": "Encode Sans Expanded",
     "fontLoaded": true
    },
    {
@@ -1066,7 +1168,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "you plus +one",
     "color": "rgb(0, 0, 0)",
     "fontSize": "24px",
-    "family": "Liberation Sans",
+    "family": "Encode Sans Expanded",
     "fontLoaded": true
    },
    {
@@ -1074,7 +1176,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "Discover Your Tastebud Map",
     "color": "rgb(0, 0, 0)",
     "fontSize": "24px",
-    "family": "Liberation Sans",
+    "family": "Encode Sans Expanded",
     "fontLoaded": true
    },
    {
@@ -1082,7 +1184,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "World of Coca‑Cola Annual Pass",
     "color": "rgb(0, 0, 0)",
     "fontSize": "24px",
-    "family": "Liberation Sans",
+    "family": "Encode Sans Expanded",
     "fontLoaded": true
    },
    {
@@ -1090,7 +1192,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "Coca‑Cola Refreshing Films",
     "color": "rgb(0, 0, 0)",
     "fontSize": "24px",
-    "family": "Liberation Sans",
+    "family": "Encode Sans Expanded",
     "fontLoaded": true
    },
    {
@@ -1098,7 +1200,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "Coca‑Cola Vending",
     "color": "rgb(0, 0, 0)",
     "fontSize": "24px",
-    "family": "Liberation Sans",
+    "family": "Encode Sans Expanded",
     "fontLoaded": true
    },
    {
@@ -1106,7 +1208,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "Explore Our Brands",
     "color": "rgb(0, 0, 0)",
     "fontSize": "32px",
-    "family": "Liberation Sans",
+    "family": "Encode Sans Expanded",
     "fontLoaded": true
    }
   ],
@@ -1114,39 +1216,39 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
   "flushText": [],
   "contentBoxes": [
    {
-    "sel": "feature-xf",
-    "width": 1120,
-    "left": 160
+    "sel": "hero-card__content",
+    "width": 1252,
+    "left": 94
    },
    {
-    "sel": "teaser-grid",
-    "width": 1120,
-    "left": 160
+    "sel": "hero-card__content",
+    "width": 1252,
+    "left": 1370
    },
    {
-    "sel": "carousel__list",
+    "sel": "hero-card__content",
+    "width": 1252,
+    "left": 2646
+   },
+   {
+    "sel": "carousel__track",
+    "width": 1120,
+    "left": -436
+   },
+   {
+    "sel": "campaign-card",
     "width": 1120,
     "left": 160
    },
    {
     "sel": "campaign-card",
-    "width": 1152,
-    "left": 144
-   },
-   {
-    "sel": "campaign-card",
-    "width": 1152,
-    "left": 144
-   },
-   {
-    "sel": "carousel__list",
     "width": 1120,
     "left": 160
    },
    {
-    "sel": "brands",
+    "sel": "carousel__track",
     "width": 1120,
-    "left": 160
+    "left": -253
    }
   ]
  }

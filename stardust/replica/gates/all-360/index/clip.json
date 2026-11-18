@@ -1,6 +1,6 @@
 {
- "url": "https://main--e4399cea--aemcoder.aem.live/",
- "at": "2026-11-16T08:38:53.189Z",
+ "url": "https://main--43eb1ed9--aemcoder.aem.live/",
+ "at": "2026-11-18T10:19:01.160Z",
  "source": "content-presence",
  "counts": {
   "textClipped": 0,
@@ -11,9 +11,9 @@
   "collapsed": 0,
   "scrollHidden": 0,
   "horizontal": 5,
-  "offPage": 15,
-  "textNodes": 57,
-  "controls": 41,
+  "offPage": 23,
+  "textNodes": 50,
+  "controls": 40,
   "total": 0
  },
  "groups": [
@@ -21,20 +21,20 @@
    "kind": "CONTROL X-CUT",
    "advisory": true,
    "n": 2,
-   "clipper": "div.carousel-track",
-   "path": "div.carousel-track > div.carousel-list > div.carousel-slide > a.content-card",
+   "clipper": "div.carousel-viewport",
+   "path": "div.carousel-viewport > div.carousel-track > div.carousel-slide > a.content-card",
    "text": "a full year of favorites could be yoursenter today for a cha",
-   "cutMin": 266,
-   "cutMax": 305
+   "cutMin": 268,
+   "cutMax": 306
   },
   {
    "kind": "TEXT X-HIDDEN",
    "advisory": true,
    "n": 2,
    "clipper": "a.content-card",
-   "path": "a.content-card > div.content-card-body > div.card-text > p",
+   "path": "a.content-card > div.content-card-body > div.content-card-text > p",
    "text": "enter today for a chance to win 24 (or equivalent) of your f",
-   "cutMin": 89,
+   "cutMin": 91,
    "cutMax": 218
   },
   {
@@ -42,10 +42,10 @@
    "advisory": true,
    "n": 1,
    "clipper": "a.content-card",
-   "path": "a.content-card > div.content-card-body > div.card-text > h3#a-full-year-of-favorites-could-be-yours",
+   "path": "a.content-card > div.content-card-body > div.content-card-title > h3#a-full-year-of-favorites-could-be-yours",
    "text": "a full year of favorites could be yours",
-   "cutMin": 214,
-   "cutMax": 214
+   "cutMin": 219,
+   "cutMax": 219
   }
  ],
  "origin": {
@@ -58,9 +58,9 @@
    "collapsed": 0,
    "scrollHidden": 0,
    "horizontal": 9,
-   "offPage": 43,
-   "textNodes": 84,
-   "controls": 56,
+   "offPage": 67,
+   "textNodes": 95,
+   "controls": 62,
    "total": 0
   }
  }

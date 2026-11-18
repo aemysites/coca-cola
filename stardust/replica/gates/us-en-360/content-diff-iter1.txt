@@ -1,108 +1,85 @@
-[live-session] STARDUST_STEALTH=0: automation-signal handling is OFF for this process
+[live-session] waiting to pace live navigations to www.coca-cola.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
 
-Content diff @ 360px (profile "generic", roots: main.container.responsivegrid, header, footer)
-root "main.container.responsivegrid"
-  source: 69 text nodes — 26 headings, 0 eyebrows, 6 CTAs, 37 body; 26 img
-  build: 44 text nodes — 17 headings, 0 eyebrows, 6 CTAs, 21 body; 18 img
-  editable texts (outermost h*/p/ul/ol): source 63 / build 17
-  attributes (placeholder/aria-label/title): source 30 / build 12; icons: source 0 / build 0
+Content diff @ 360px (profile "generic", roots: main, header, footer)
+root "main"
+  source: 79 text nodes — 29 headings, 0 eyebrows, 11 CTAs, 39 body; 30 img
+  build: 43 text nodes — 17 headings, 0 eyebrows, 7 CTAs, 19 body; 24 img
+  editable texts (outermost h*/p/ul/ol): source 68 / build 36
+  attributes (placeholder/aria-label/title): source 38 / build 23; icons: source 0 / build 0
 root "header"
   source: 18 text nodes — 0 headings, 0 eyebrows, 13 CTAs, 5 body; 1 img
-  build: 27 text nodes — 0 headings, 0 eyebrows, 23 CTAs, 4 body; 1 img
-  editable texts (outermost h*/p/ul/ol): source 1 / build 2
-  attributes (placeholder/aria-label/title): source 14 / build 7; icons: source 2 / build 1
+  build: 17 text nodes — 0 headings, 0 eyebrows, 13 CTAs, 4 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 14 / build 13; icons: source 2 / build 1
 root "footer"
   source: 36 text nodes — 3 headings, 0 eyebrows, 32 CTAs, 1 body; 3 img
-  build: 36 text nodes — 0 headings, 0 eyebrows, 32 CTAs, 4 body; 3 img
+  build: 36 text nodes — 3 headings, 0 eyebrows, 32 CTAs, 1 body; 3 img
   editable texts (outermost h*/p/ul/ol): source 7 / build 7
-  attributes (placeholder/aria-label/title): source 11 / build 6; icons: source 4 / build 4
+  attributes (placeholder/aria-label/title): source 11 / build 12; icons: source 4 / build 0
 
-Findings: 87 (13 structural 🔴)
-Tiers: looks-same 🔴 13 · nothing-lost 🟡 20 · accepted 🟢 0 (owner 0, auto 0) · advisory 54
-  🔴 MISSING HEADING [main.container.responsivegrid]: source heading "Promos & Offers" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
-  🔴 MISSING HEADING [main.container.responsivegrid]: source heading "Don't Miss the Coca‑Cola Holiday Caravan" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
-  🔴 MISSING HEADING [main.container.responsivegrid]: source heading "A Full Year of Favorites Could Be Yours" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
-  🔴 MISSING HEADING [main.container.responsivegrid]: source heading "Don't Miss the Coca‑Cola Holiday Caravan" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
-  🔴 MISSING HEADING [main.container.responsivegrid]: source heading "A Full Year of Favorites Could Be Yours" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
-  🔴 MISSING HEADING [main.container.responsivegrid]: source heading "Coca‑Cola Refreshing Films" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
-  🔴 MISSING HEADING [main.container.responsivegrid]: source heading "Coca‑Cola Vending" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
-  🔴 MISSING HEADING [main.container.responsivegrid]: source heading "you plus +one" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
-  🔴 MISSING HEADING [main.container.responsivegrid]: source heading "Discover Your Tastebud Map" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+Findings: 64 (21 structural 🔴)
+Tiers: looks-same 🔴 21 · nothing-lost 🟡 15 · accepted 🟢 0 (owner 0, auto 0) · advisory 28
+  🔴 MISSING HEADING [main]: source heading "YOU COULD WIN BIG THIS SEASON" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING CTA [main]: source cta "Get Started" → /us/en/offerings/coca-cola/football has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING HEADING [main]: source heading "YOU COULD WIN BIG THIS SEASON" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING CTA [main]: source cta "Get Started" → /us/en/offerings/coca-cola/hockey has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING HEADING [main]: source heading "Your Shot at Alaska Starts Now" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING CTA [main]: source cta "Play and Enter" → /us/en/offerings/holiday has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING HEADING [main]: source heading "YOU COULD WIN BIG THIS SEASON" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING CTA [main]: source cta "Get Started" → /us/en/offerings/coca-cola/football has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING HEADING [main]: source heading "Don't Miss the Coca‑Cola Holiday Caravan" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING HEADING [main]: source heading "A Full Year of Favorites Could Be Yours" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING HEADING [main]: source heading "Don't Miss the Coca‑Cola Holiday Caravan" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING HEADING [main]: source heading "A Full Year of Favorites Could Be Yours" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING HEADING [main]: source heading "Coca‑Cola Refreshing Films" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING HEADING [main]: source heading "Coca‑Cola Vending" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING HEADING [main]: source heading "you plus +one" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING HEADING [main]: source heading "Discover Your Tastebud Map" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
   🔴 MISSING ICON [header]: source icon-font glyph U+E905 (icomoon, 0×0) at "account" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
-  🔴 ROLE SWAP [footer]: "Help" is a heading in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
-  🔴 ROLE SWAP [footer]: "Shop & Visit" is a heading in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
-  🔴 ROLE SWAP [footer]: "Legal" is a heading in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
-  🟠 EXTRA [header]: build cta "Brands" has no source source — Unexpected node with no source.
-  🟠 EXTRA [header]: build cta "+one App" has no source source — Unexpected node with no source.
-  🟠 EXTRA [header]: build cta "Freestyle" has no source source — Unexpected node with no source.
-  🟠 EXTRA [header]: build cta "World Of Coca‑Cola Attraction" has no source source — Unexpected node with no source.
-  🟠 EXTRA [header]: build cta "Culture" has no source source — Unexpected node with no source.
-  🟠 EXTRA [header]: build cta "Social" has no source source — Unexpected node with no source.
-  🟠 EXTRA [header]: build cta "Sustainability" has no source source — Unexpected node with no source.
-  🟠 EXTRA [header]: build cta "Where to Buy" has no source source — Unexpected node with no source.
-  🟠 EXTRA [header]: build cta "Coca‑Cola Store" has no source source — Unexpected node with no source.
-  🟠 EXTRA [header]: build cta "Promos & Offers" has no source source — Unexpected node with no source.
-  🟡 MISSING BODY [main.container.responsivegrid]: source body "Whether you're a lifelong fan or experiencing th"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
-  🟡 MISSING BODY [main.container.responsivegrid]: source body "Find Your Stop"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
-  🟡 MISSING BODY [main.container.responsivegrid]: source body "Enter today for a chance to win 24 (or equivalen"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
-  🟡 MISSING BODY [main.container.responsivegrid]: source body "Enter Now"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
-  🟡 MISSING BODY [main.container.responsivegrid]: source body "Whether you're a lifelong fan or experiencing th"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
-  🟡 MISSING BODY [main.container.responsivegrid]: source body "Find Your Stop"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
-  🟡 MISSING BODY [main.container.responsivegrid]: source body "Enter today for a chance to win 24 (or equivalen"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
-  🟡 MISSING BODY [main.container.responsivegrid]: source body "Enter Now"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
-  🟡 MISSING BODY [main.container.responsivegrid]: source body "Coca‑Cola® Refreshing Films provides students th"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
-  🟡 MISSING BODY [main.container.responsivegrid]: source body "Check It Out"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
-  🟡 MISSING BODY [main.container.responsivegrid]: source body "Each time you make a purchase with your mobile w"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
-  🟡 MISSING BODY [main.container.responsivegrid]: source body "Start Earning Today"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
-  🟡 MISSING BODY [main.container.responsivegrid]: source body "Have you downloaded yet? The +one app brings the"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
-  🟡 MISSING BODY [main.container.responsivegrid]: source body "Download Now"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
-  🟡 MISSING BODY [main.container.responsivegrid]: source body "We’ve devised a quick, fun way to discover your "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
-  🟡 MISSING BODY [main.container.responsivegrid]: source body "Let's Do It"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
-  🟡 EDITABLE COUNT [main.container.responsivegrid]: build has 17 outermost editable element(s) vs 63 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
-  🟡 MISSING TITLE [main.container.responsivegrid]: source <img> title="Coca-Cola holiday gift box with Alaska trip post" has no build <img> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING TITLE [main.container.responsivegrid]: source <img> title="“Big Wins” football sweepstakes prize banner" has no build <img> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING TITLE [main.container.responsivegrid]: source <img> title="“Big Wins” hockey sweepstakes prize banner" has no build <img> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING ARIA-LABEL [main.container.responsivegrid]: source <div> aria-label="Slide 1 of 2" has no build <div> with that aria-label (build <div> aria-labels: "Promos & Offers", "Choose a slide to display", "More from Coca‑Cola®"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING TITLE [main.container.responsivegrid]: source <img> title="Coca-Cola holiday Caravan" has no build <img> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING ARIA-LABEL [main.container.responsivegrid]: source <div> aria-label="Slide 2 of 2" has no build <div> with that aria-label (build <div> aria-labels: "Promos & Offers", "Choose a slide to display", "More from Coca‑Cola®"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING ARIA-LABEL [main.container.responsivegrid]: source <div> aria-label="Slide 1 of 2" has no build <div> with that aria-label (build <div> aria-labels: "Promos & Offers", "Choose a slide to display", "More from Coca‑Cola®"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING TITLE [main.container.responsivegrid]: source <img> title="Coca-Cola holiday Caravan" has no build <img> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING ARIA-LABEL [main.container.responsivegrid]: source <div> aria-label="Slide 2 of 2" has no build <div> with that aria-label (build <div> aria-labels: "Promos & Offers", "Choose a slide to display", "More from Coca‑Cola®"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING ARIA-LABEL [main.container.responsivegrid]: source <div> aria-label="Slide 1 of 2" has no build <div> with that aria-label (build <div> aria-labels: "Promos & Offers", "Choose a slide to display", "More from Coca‑Cola®"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING TITLE [main.container.responsivegrid]: source <img> title="Coca-Cola holiday Caravan" has no build <img> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING ARIA-LABEL [main.container.responsivegrid]: source <div> aria-label="Slide 2 of 2" has no build <div> with that aria-label (build <div> aria-labels: "Promos & Offers", "Choose a slide to display", "More from Coca‑Cola®"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING ARIA-LABEL [main.container.responsivegrid]: source <div> aria-label="Slide 4 of 5" has no build <div> with that aria-label (build <div> aria-labels: "Promos & Offers", "Choose a slide to display", "More from Coca‑Cola®"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING ARIA-LABEL [main.container.responsivegrid]: source <div> aria-label="Slide 5 of 5" has no build <div> with that aria-label (build <div> aria-labels: "Promos & Offers", "Choose a slide to display", "More from Coca‑Cola®"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING ARIA-LABEL [main.container.responsivegrid]: source <div> aria-label="Slide 1 of 5" has no build <div> with that aria-label (build <div> aria-labels: "Promos & Offers", "Choose a slide to display", "More from Coca‑Cola®"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING ARIA-LABEL [main.container.responsivegrid]: source <div> aria-label="Slide 2 of 5" has no build <div> with that aria-label (build <div> aria-labels: "Promos & Offers", "Choose a slide to display", "More from Coca‑Cola®"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING ARIA-LABEL [main.container.responsivegrid]: source <div> aria-label="Slide 3 of 5" has no build <div> with that aria-label (build <div> aria-labels: "Promos & Offers", "Choose a slide to display", "More from Coca‑Cola®"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING ARIA-LABEL [main.container.responsivegrid]: source <div> aria-label="Slide 4 of 5" has no build <div> with that aria-label (build <div> aria-labels: "Promos & Offers", "Choose a slide to display", "More from Coca‑Cola®"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING ARIA-LABEL [main.container.responsivegrid]: source <div> aria-label="Slide 5 of 5" has no build <div> with that aria-label (build <div> aria-labels: "Promos & Offers", "Choose a slide to display", "More from Coca‑Cola®"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING ARIA-LABEL [main.container.responsivegrid]: source <div> aria-label="Slide 1 of 5" has no build <div> with that aria-label (build <div> aria-labels: "Promos & Offers", "Choose a slide to display", "More from Coca‑Cola®"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING ARIA-LABEL [main.container.responsivegrid]: source <div> aria-label="Slide 2 of 5" has no build <div> with that aria-label (build <div> aria-labels: "Promos & Offers", "Choose a slide to display", "More from Coca‑Cola®"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 EXTRA ARIA-LABEL [main.container.responsivegrid]: build <section> aria-label="Featured promotions" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
-  🟡 EXTRA ARIA-LABEL [main.container.responsivegrid]: build <div> aria-label="Promos & Offers" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
-  🟡 EXTRA ARIA-LABEL [main.container.responsivegrid]: build <div> aria-label="More from Coca‑Cola®" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
-  🟡 MISSING BODY [header]: source body "Log In"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
-  🟡 MISSING BODY [header]: source body "Sign Up"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🔴 MISSING ICON [footer]: source icon-font glyph U+E934 (icomoon, 16×16) at "x" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source icon-font glyph U+E925 (icomoon, 16×16) at "instagram" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source icon-font glyph U+E926 (icomoon, 16×16) at "youtube" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source icon-font glyph U+E922 (icomoon, 16×16) at "facebook" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟠 FONT FORK [header]: 2 matched line(s) render a DIFFERENT face: cta "Social": source Noto-regional→sys vs build Encode Sans Expanded (-11%); cta "Coca‑Cola Store": source Noto-regional→sys vs build Encode Sans Expanded (-11%). A matched line renders a different typeface. A "→sys" on the source side means it named a font it never loaded; confirm the substitution is intended, else load the missing face.
+  🟠 FONT FORK [footer]: 2 matched line(s) render a DIFFERENT face: cta "Instagram": source Noto-regional→sys vs build Encode Sans Expanded (-11%); cta "Facebook": source Noto-regional→sys vs build Encode Sans Expanded (-12%). A matched line renders a different typeface. A "→sys" on the source side means it named a font it never loaded; confirm the substitution is intended, else load the missing face.
+  🟡 MISSING BODY [main]: source body "Enter every Friday for your chance to win ticket"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Enter every Friday for your chance to win prizes"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Spin the Coca‑Cola Holiday Wheel and play for yo"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Enter every Friday for your chance to win ticket"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Whether you're a lifelong fan or experiencing th"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Find Your Stop"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Enter today for a chance to win 24 (or equivalen"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Enter Now"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Whether you're a lifelong fan or experiencing th"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Find Your Stop"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Enter today for a chance to win 24 (or equivalen"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Enter Now"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Coca‑Cola® Refreshing Films provides students th"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Check It Out"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Each time you make a purchase with your mobile w"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Start Earning Today"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Have you downloaded yet? The +one app brings the"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Download Now"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "We’ve devised a quick, fun way to discover your "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Let's Do It"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EDITABLE COUNT [main]: build has 36 outermost editable element(s) vs 68 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 MISSING ARIA-LABEL [main]: source <div> aria-label="Slide 2 of 3" has no build <div> with that aria-label (build <div> aria-labels: "Slide 1 of 3", "Slide 2 of 3", "Slide 3 of 3"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <div> aria-label="Slide 3 of 3" has no build <div> with that aria-label (build <div> aria-labels: "Slide 1 of 3", "Slide 2 of 3", "Slide 3 of 3"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <div> aria-label="Slide 1 of 3" has no build <div> with that aria-label (build <div> aria-labels: "Slide 1 of 3", "Slide 2 of 3", "Slide 3 of 3"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <div> aria-label="Slide 2 of 3" has no build <div> with that aria-label (build <div> aria-labels: "Slide 1 of 3", "Slide 2 of 3", "Slide 3 of 3"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <img> title="Coca-Cola holiday Caravan" has no build <img> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <div> aria-label="Slide 1 of 2" has no build <div> with that aria-label (build <div> aria-labels: "Slide 1 of 3", "Slide 2 of 3", "Slide 3 of 3"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <img> title="Coca-Cola holiday Caravan" has no build <img> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <div> aria-label="Slide 2 of 2" has no build <div> with that aria-label (build <div> aria-labels: "Slide 1 of 3", "Slide 2 of 3", "Slide 3 of 3"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <div> aria-label="Slide 1 of 2" has no build <div> with that aria-label (build <div> aria-labels: "Slide 1 of 3", "Slide 2 of 3", "Slide 3 of 3"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <img> title="Coca-Cola holiday Caravan" has no build <img> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <div> aria-label="Slide 2 of 2" has no build <div> with that aria-label (build <div> aria-labels: "Slide 1 of 3", "Slide 2 of 3", "Slide 3 of 3"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <div> aria-label="Slide 4 of 5" has no build <div> with that aria-label (build <div> aria-labels: "Slide 1 of 3", "Slide 2 of 3", "Slide 3 of 3"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <div> aria-label="Slide 5 of 5" has no build <div> with that aria-label (build <div> aria-labels: "Slide 1 of 3", "Slide 2 of 3", "Slide 3 of 3"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <div> aria-label="Slide 1 of 5" has no build <div> with that aria-label (build <div> aria-labels: "Slide 1 of 3", "Slide 2 of 3", "Slide 3 of 3"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [main]: source <div> aria-label="Slide 2 of 5" has no build <div> with that aria-label (build <div> aria-labels: "Slide 1 of 3", "Slide 2 of 3", "Slide 3 of 3"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
   🟡 MISSING SR-ONLY TEXT [header]: source body "Account" (visually hidden, read by assistive tech) not found in build. Visually hidden text the source gives screen readers is gone — restore it (sr-only text or the aria-label it fed).
-  🟡 MISSING BODY [header]: source body "Menu"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
-  🟡 EXTRA [header]: build body "Discover" has no source source — Build copy with no source — invented/placeholder; confirm intended.
-  🟡 EXTRA [header]: build body "Impact" has no source source — Build copy with no source — invented/placeholder; confirm intended.
-  🟡 EXTRA [header]: build body "Shop" has no source source — Build copy with no source — invented/placeholder; confirm intended.
-  🟡 MISSING TITLE [header]: source <a> title="plus one app" has no build <a> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING TITLE [header]: source <a> title="visit freestyle" has no build <a> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING TITLE [header]: source <a> title="where to buy" has no build <a> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING TITLE [header]: source <a> title="coca-cola store" has no build <a> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING ARIA-LABEL [header]: source <button> aria-label="Log In" has no build <button> with that aria-label (build <button> aria-labels: "Sign Up", "Menu"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING ARIA-LABEL [header]: source <button> aria-label="Sign Up" has no build <button> with that aria-label (build <button> aria-labels: "Sign Up", "Menu"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING ARIA-LABEL [header]: source <button> aria-label="Account" has no build <button> with that aria-label (build <button> aria-labels: "Sign Up", "Menu"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING ARIA-LABEL [header]: source <button> aria-label="Account" has no build <button> with that aria-label (build <button> aria-labels: "Sign Up", "Menu"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [header]: source <button> aria-label="Account" has no build <button> with that aria-label (build <button> aria-labels: "Sign Up", "Log In", "Sign Up"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [header]: source <button> aria-label="Account" has no build <button> with that aria-label (build <button> aria-labels: "Sign Up", "Log In", "Sign Up"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
   🟡 EXTRA ARIA-LABEL [header]: build <nav> aria-label="Main" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
-  🟡 MISSING TITLE [footer]: source <a> title="where to buy" has no build <a> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING TITLE [footer]: source <a> title="https://www.coca-colastore.com/" has no build <a> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING TITLE [footer]: source <a> title="https://intl.cokestore.com/" has no build <a> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING TITLE [footer]: source <a> title="https://www.coca-colastore.com/retail/atlanta/" has no build <a> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING TITLE [footer]: source <a> title="https://www.coca-colastore.com/retail/orlando/" has no build <a> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
-  🟡 MISSING TITLE [footer]: source <a> title="https://www.coca-colastore.com/retail/las-vegas/" has no build <a> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
   🟡 EXTRA ARIA-LABEL [footer]: build <nav> aria-label="Footer" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

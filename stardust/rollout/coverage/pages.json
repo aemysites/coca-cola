@@ -1,42 +1,43 @@
 {
   "_provenance": {
     "writtenBy": "stardust:rollout/inventory",
-    "writtenAt": "2026-11-16T08:32:32.277Z",
+    "writtenAt": "2026-11-18T07:53:54.865Z",
     "readArtifacts": [
-      "stardust/migrated"
+      "stardust/migrated",
+      "stardust/state.json"
     ],
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-11-16T08:39:05.711Z",
+  "generatedAt": "2026-11-18T10:22:36.129Z",
   "pages": [
     {
       "slug": "index",
       "path": "/",
-      "title": "Explore the Coca‑Cola® Official Site | Coca‑Cola®",
-      "templateId": "index",
+      "title": "Explore the Coca‑Cola® Official Site | Coca-Cola US",
+      "templateId": "us-en",
+      "representative": "us-en",
       "source": {
-        "migratedHtml": "stardust/migrated/index.html",
-        "metaJson": "stardust/migrated/_meta.json",
-        "sourceHash": "sha256:812ea46d1b71496da9babb8a451cd07e20511119b8c6c742dbf8471b8a28e423",
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:44cef5143496c1e8d35a6df5a5926e3d018b41e156b70b97829204803ed3a9cd",
+        "currentStatePath": "stardust/current/pages/index.json",
         "sourceUrl": "https://www.coca-cola.com/"
       },
       "blocks": [
-        "feature-xf",
-        "teaser-block",
         "carousel",
-        "features",
-        "brands"
+        "campaign-card",
+        "brands-list"
       ],
       "widgets": [],
       "delivery": {
         "status": "verified",
-        "deployedUrl": "https://main--e4399cea--aemcoder.aem.page/",
-        "deployedAt": "2026-11-16T08:03:44.706Z",
-        "verifiedAt": "2026-11-16T08:39:05.711Z",
+        "deployedUrl": "https://main--43eb1ed9--aemcoder.aem.live/",
+        "deployedAt": "2026-11-18T08:44:18.332Z",
+        "verifiedAt": "2026-11-18T10:22:35.874Z",
         "error": null,
         "gate": {
           "pass": true,
-          "pct": 2.99,
+          "pct": 6.03,
           "heightDelta": 0,
           "clipped": 0,
           "content": {
@@ -51,38 +52,36 @@
           "reasons": [],
           "override": null,
           "table": "stardust/replica/gates/all-360/summary.json",
-          "at": "2026-11-16T08:39:05.662Z"
+          "at": "2026-11-18T10:22:36.129Z"
         }
       }
     },
     {
       "slug": "us-en",
       "path": "/us/en",
-      "title": "Explore the Coca‑Cola® Official Site | Coca‑Cola®",
+      "title": "Explore the Coca‑Cola® Official Site | Coca-Cola US",
       "templateId": "us-en",
       "source": {
-        "migratedHtml": "stardust/migrated/us/en.html",
-        "metaJson": "stardust/migrated/us/en._meta.json",
-        "sourceHash": "sha256:aa8d732098c8df0d303b1ded322ffc112bf4a7528bca390c44d6af8ab1631cf1",
+        "migratedHtml": "stardust/migrated/us/en/index.html",
+        "metaJson": "stardust/migrated/us/en/_meta.json",
+        "sourceHash": "sha256:d3c496ac16c8d443219a763cd86382e48a01abf54e2e4f0b22cd8d66e240a300",
         "sourceUrl": "https://www.coca-cola.com/us/en"
       },
       "blocks": [
-        "feature-xf",
-        "teaser-block",
         "carousel",
-        "features",
-        "brands"
+        "campaign-card",
+        "brands-list"
       ],
       "widgets": [],
       "delivery": {
         "status": "verified",
-        "deployedUrl": "https://main--e4399cea--aemcoder.aem.page/us/en",
-        "deployedAt": "2026-11-16T07:44:26.180Z",
-        "verifiedAt": "2026-11-16T08:39:05.711Z",
+        "deployedUrl": "https://main--43eb1ed9--aemcoder.aem.live/us/en",
+        "deployedAt": "2026-11-18T08:44:18.264Z",
+        "verifiedAt": "2026-11-18T10:22:35.874Z",
         "error": null,
         "gate": {
           "pass": true,
-          "pct": 3,
+          "pct": 6.03,
           "heightDelta": 0,
           "clipped": 0,
           "content": {
@@ -97,7 +96,7 @@
           "reasons": [],
           "override": null,
           "table": "stardust/replica/gates/all-360/summary.json",
-          "at": "2026-11-16T08:39:05.662Z"
+          "at": "2026-11-18T10:22:36.129Z"
         }
       }
     }

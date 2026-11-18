@@ -1,83 +1,184 @@
-/* carousel — content-card carousel (prototype .carousel / .content-card, landing.css + motion.css) */
+/* carousel — lifted from stardust/prototypes/us-en.css (carousels, hero card, content card) */
 .carousel {
-  position: relative;
-  margin-top: 24px;
+  --gap: 16px;
+
+  margin-top: 32px;
 }
 
-.carousel .carousel-track {
+.carousel.hero {
+  margin-top: var(--module-gap);
+}
+
+.carousel .carousel-viewport {
   overflow: hidden;
-  padding-top: 8px;
-  margin-bottom: -16px;
-  padding-bottom: 16px;
 }
 
-.carousel .carousel-list {
+/* one presentational clone sits before slide 1 */
+.carousel .carousel-track {
   display: flex;
-  gap: 16px;
-  padding: 0 20px;
-  transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  gap: var(--gap);
+  transform: translateX(calc(-100% - var(--gap)));
+}
+
+.carousel .carousel-track.is-animating {
+  transition: transform 0.4s ease;
 }
 
 .carousel .carousel-slide {
-  flex: 0 0 calc(100% - 1px);
+  flex: 0 0 100%;
+  min-width: 0;
 }
 
 .carousel .carousel-dots {
   display: flex;
+  align-items: center;
   justify-content: center;
   gap: 8px;
-  margin: 24px 0 0;
-  padding: 0;
-  list-style: none;
+  margin-top: 24px;
 }
 
 .carousel .carousel-dots li {
   display: flex;
 }
 
-.carousel .carousel-dot {
+.carousel .carousel-dots button {
+  display: inline-block;
   width: 8px;
   height: 8px;
-  padding: 0;
   border-radius: var(--radius-pill);
-  background: var(--grey-disabled);
-  transition: width 0.2s ease-in-out;
+  background: var(--c-grey-600);
+  transition: width 0.2s ease;
 }
 
-.carousel .carousel-dot[aria-selected='true'] {
+.carousel .carousel-dots button.is-active {
   width: 32px;
-  background: var(--black);
+  background: var(--c-black);
 }
 
-.carousel.wide {
-  margin-left: -24px;
-  margin-right: -24px;
+/* full-bleed tracks (hero everywhere; "More from" below the desktop step) */
+.carousel.hero .carousel-viewport,
+.carousel.secondary .carousel-viewport {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  padding-inline: 6.5217vw;
 }
 
-.carousel.wide .carousel-list {
-  padding: 0 0 0 23px;
+.carousel.promos .carousel-viewport {
+  padding-inline: 20px;
 }
 
-.carousel.wide .carousel-slide {
-  flex-basis: calc(100% - 24px);
+/* art direction: mobile image below 1200px, desktop image from 1200px */
+.carousel .media-desktop {
+  display: none;
 }
 
-/* content card (shared look with teaser-block) */
+/* ---------- hero card ---------- */
+.carousel .hero-card {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 0.6067;
+  border-radius: var(--radius-card);
+  color: var(--c-white);
+}
+
+.carousel .hero-card-media,
+.carousel .hero-card-media > div,
+.carousel .hero-card-media picture,
+.carousel .hero-card-media img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel .hero-card-media img {
+  object-fit: cover;
+}
+
+.carousel .hero-card-media .media-desktop {
+  display: none;
+}
+
+/* scrim, lifted: .hero.content-on-* .cmp-teaser__image:after */
+.carousel .hero-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, transparent 0%, rgb(0 0 0 / 56%) 100%);
+}
+
+.carousel .hero-card-top::before {
+  background: linear-gradient(0deg, transparent 0%, rgb(0 0 0 / 56%) 100%);
+}
+
+.carousel .hero-card-content {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 24px;
+  text-align: center;
+}
+
+.carousel .hero-card-bottom .hero-card-content {
+  justify-content: flex-end;
+}
+
+.carousel .hero-card-title :is(h1, h2, h3) {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.carousel .hero-card-text {
+  margin-top: 8px;
+}
+
+.carousel .hero-card-cta {
+  margin-top: 32px;
+}
+
+.carousel .hero-card-cta a.button:any-link {
+  background: var(--c-white);
+  color: var(--c-black);
+}
+
+.carousel .hero-card-cta a.button:any-link:hover {
+  box-shadow: inset 0 0 0 4px var(--c-grey-400);
+}
+
+/* ---------- content card (promos + more-from) ---------- */
 .carousel .content-card {
   display: flex;
   flex-direction: column;
   height: 100%;
   overflow: hidden;
   border-radius: var(--radius-card);
+  background: var(--c-white);
   box-shadow: var(--shadow-card);
-  background: var(--white);
-  font-weight: 700;
+  color: var(--c-black);
+  text-decoration: none;
+}
+
+.carousel .content-card-media {
+  flex: none;
+  aspect-ratio: 4 / 3;
+}
+
+.carousel .content-card-media > div,
+.carousel .content-card-media picture {
+  display: contents;
+}
+
+.carousel .content-card-media .media-desktop {
+  display: none;
 }
 
 .carousel .content-card-media img {
   width: 100%;
-  height: auto;
-  aspect-ratio: 4 / 3;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -86,54 +187,130 @@
   flex: 1 1 auto;
   flex-direction: column;
   padding: 24px;
-  background: var(--white);
+  background: var(--c-white);
 }
 
-.carousel .card-text {
-  margin-bottom: 32px;
+.carousel .content-card-title :is(h2, h3, h4) {
+  font-size: 20px;
+  line-height: 28px;
 }
 
-.carousel .card-text p {
-  margin-top: 8px;
-  font-weight: 400;
+.carousel .content-card-text {
+  margin: 8px 0 32px;
 }
 
-.carousel .content-card-body .has-arrow {
+.carousel .content-card-cta {
+  position: relative;
+  display: inline-flex;
+  align-self: flex-start;
   margin-top: auto;
+  padding-inline-end: 24px;
+  font-weight: 700;
 }
 
-.carousel .carousel-slide-clone .has-arrow::after {
-  content: none;
+.carousel .content-card-cta p,
+.carousel .content-card-cta span {
+  text-decoration: underline;
+}
+
+.carousel .content-card-cta::after {
+  content: "\e906";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  font-family: icomoon, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  translate: 0 -50%;
 }
 
 @media (width >= 1200px) {
-  .carousel .carousel-list {
-    gap: 24px;
-    padding: 0;
+  .carousel {
+    --gap: 24px;
   }
 
-  .carousel .carousel-slide {
-    flex-basis: calc((100% - 24px) / 2);
+  .carousel .media-mobile,
+  .carousel .content-card-media .media-mobile {
+    display: none;
   }
 
-  .carousel.wide {
+  .carousel .media-desktop,
+  .carousel .content-card-media .media-desktop {
+    display: contents;
+  }
+
+  .carousel .hero-card-media .media-desktop {
+    display: block;
+  }
+
+  .carousel.secondary .carousel-viewport {
+    width: auto;
     margin-left: 0;
-    margin-right: 0;
+    padding-inline: 0;
   }
 
-  .carousel.wide .carousel-list {
-    padding: 0;
+  .carousel.promos .carousel-viewport {
+    padding-inline: 0;
   }
 
-  .carousel.wide .carousel-slide {
-    flex-basis: calc((100% - 48px) / 3);
+  .carousel.promos .carousel-slide {
+    flex-basis: calc((100% - var(--gap)) / 2);
+  }
+
+  .carousel.promos .carousel-track {
+    transform: translateX(calc((-100% - var(--gap)) / 2));
+  }
+
+  .carousel.secondary .carousel-slide {
+    flex-basis: calc((100% - 2 * var(--gap)) / 3);
+  }
+
+  .carousel.secondary .carousel-track {
+    transform: translateX(calc((-100% - var(--gap)) / 3));
+  }
+
+  .carousel .hero-card {
+    aspect-ratio: 2.1192;
+  }
+
+  .carousel .hero-card::before,
+  .carousel .hero-card-top::before {
+    background: linear-gradient(270deg, transparent 0%, rgb(0 0 0 / 56%) 100%);
+  }
+
+  .carousel .hero-card-content,
+  .carousel .hero-card-bottom .hero-card-content {
+    justify-content: center;
+    padding: 80px;
+    text-align: start;
+  }
+
+  .carousel .hero-card-title,
+  .carousel .hero-card-text {
+    max-width: 50%;
+  }
+
+  .carousel .hero-card-title :is(h1, h2, h3) {
+    font-size: 38px;
+    line-height: 48px;
+  }
+
+  .carousel .hero-card-cta a.button:any-link {
+    margin-inline: 0;
   }
 
   .carousel .content-card-body {
     padding: 32px;
   }
-}
 
-.carousel .content-card-media picture {
-  display: block;
+  .carousel .content-card-title :is(h2, h3, h4) {
+    font-size: 24px;
+    line-height: 32px;
+  }
 }

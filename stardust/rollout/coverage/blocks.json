@@ -1,30 +1,52 @@
 {
   "_provenance": {
     "writtenBy": "stardust:rollout/blocks",
-    "writtenAt": "2026-11-16T07:13:44.951Z",
+    "writtenAt": "2026-11-18T07:54:16.036Z",
     "readArtifacts": [
       "stardust/rollout/coverage/pages.json"
     ],
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-11-16T07:13:44.951Z",
+  "generatedAt": "2026-11-18T08:44:18.512Z",
   "blocks": [
     {
-      "id": "brands",
-      "label": "brands",
+      "id": "brands-list",
+      "label": "brands-list",
       "kind": "module",
-      "signature": "module:brands",
+      "signature": "module:brands-list",
       "source": null,
       "usedByTemplates": [
         "us-en"
       ],
       "usedByPages": [
+        "index",
         "us-en"
       ],
-      "instanceCount": 1,
+      "instanceCount": 2,
       "delivery": {
-        "status": "pending",
-        "edsBlockName": "brands",
+        "status": "deployed",
+        "edsBlockName": "brands-list",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "campaign-card",
+      "label": "campaign-card",
+      "kind": "module",
+      "signature": "module:campaign-card",
+      "source": null,
+      "usedByTemplates": [
+        "us-en"
+      ],
+      "usedByPages": [
+        "index",
+        "us-en"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "campaign-card",
         "blockPath": null,
         "convertedAt": null
       }
@@ -39,72 +61,13 @@
         "us-en"
       ],
       "usedByPages": [
+        "index",
         "us-en"
       ],
-      "instanceCount": 1,
+      "instanceCount": 2,
       "delivery": {
-        "status": "pending",
+        "status": "deployed",
         "edsBlockName": "carousel",
-        "blockPath": null,
-        "convertedAt": null
-      }
-    },
-    {
-      "id": "feature-xf",
-      "label": "feature-xf",
-      "kind": "module",
-      "signature": "module:feature-xf",
-      "source": null,
-      "usedByTemplates": [
-        "us-en"
-      ],
-      "usedByPages": [
-        "us-en"
-      ],
-      "instanceCount": 1,
-      "delivery": {
-        "status": "pending",
-        "edsBlockName": "feature-xf",
-        "blockPath": null,
-        "convertedAt": null
-      }
-    },
-    {
-      "id": "features",
-      "label": "features",
-      "kind": "module",
-      "signature": "module:features",
-      "source": null,
-      "usedByTemplates": [
-        "us-en"
-      ],
-      "usedByPages": [
-        "us-en"
-      ],
-      "instanceCount": 1,
-      "delivery": {
-        "status": "pending",
-        "edsBlockName": "features",
-        "blockPath": null,
-        "convertedAt": null
-      }
-    },
-    {
-      "id": "teaser-block",
-      "label": "teaser-block",
-      "kind": "module",
-      "signature": "module:teaser-block",
-      "source": null,
-      "usedByTemplates": [
-        "us-en"
-      ],
-      "usedByPages": [
-        "us-en"
-      ],
-      "instanceCount": 1,
-      "delivery": {
-        "status": "pending",
-        "edsBlockName": "teaser-block",
         "blockPath": null,
         "convertedAt": null
       }

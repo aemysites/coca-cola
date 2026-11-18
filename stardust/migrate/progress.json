@@ -7,17 +7,9 @@
         "landing"
       ],
       "pages": 2,
-      "startedAt": "2026-11-16T07:12:27Z",
-      "endedAt": "2026-11-16T07:13:18Z",
-      "verdict": "rendered 1, unchanged 0, refused 0, passthrough 0 (archetype us-en → us/en/index.html; modules feature-xf, teaser-block, carousel, features, brands); index (duplicateOf us-en) pending as unit landing",
-      "archetypes": {
-        "landing": "us-en"
-      },
-      "pageMap": {
-        "us-en": "us/en.html",
-        "index": "index.html"
-      },
-      "notes": "Archetype rendered via branch A with --canon-css stardust/prototypes/css/canon.css. index = captured duplicate row of us-en: rides the sibling tier, renders only after C-archetype (us-en live + gated on the published origin). Root decision in stardust/direction.md (D-root)."
+      "startedAt": "2026-11-18T07:49:43Z",
+      "endedAt": "2026-11-18T07:49:59Z",
+      "verdict": "2 in scope: A us-en, A' index (after C-archetype); preconditions pass"
     },
     "landing": {
       "status": "done",
@@ -26,14 +18,31 @@
         "landing"
       ],
       "pages": 1,
-      "slugs": [
-        "index"
+      "startedAt": "2026-11-18T07:50:19Z",
+      "endedAt": "2026-11-18T07:51:39Z",
+      "verdict": "rendered 1, unchanged 0, refused 0, passthrough 0 (us-en archetype; index pending after C-archetype)"
+    },
+    "landing-siblings": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "landing"
       ],
-      "blockedBy": "rollout C-archetype unit landing (us-en live + gated)",
-      "command": "node stardust/scripts/migrate/migrate.mjs render index --archetype index=us-en --canon-css stardust/prototypes/css/canon.css",
-      "startedAt": "2026-11-16T08:00:47.389Z",
-      "endedAt": "2026-11-16T08:01:04.841Z",
-      "verdict": "rendered 1, unchanged 0, refused 0, passthrough 0 (index ← us-en verbatim, duplicateOf; 5 modules; 31 out-of-scope links same as archetype)"
+      "pages": 1,
+      "startedAt": "2026-11-18T08:42:26Z",
+      "endedAt": "2026-11-18T08:42:26Z",
+      "verdict": "index rendered (A′ from gated us-en; duplicate of archetype — source / 302 → /us/en), modules carousel/campaign-card/brands-list, state → migrated"
+    },
+    "assets": {
+      "status": "done",
+      "kind": "assets",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-18T07:52:01Z",
+      "endedAt": "2026-11-18T07:52:48Z",
+      "verdict": "logo.svg added (42 bundled); fonts: substitute + icomoon present, TCCC licensed not rehosted; robots.txt + sitemap.xml (1 url); portability audits 6/6 pass"
     },
     "report": {
       "status": "done",
@@ -41,10 +50,10 @@
       "templates": [
         "landing"
       ],
-      "pages": 2,
-      "startedAt": "2026-11-16T08:40:48.764Z",
-      "endedAt": "2026-11-16T08:40:48.764Z",
-      "verdict": "2 pages migrated (us-en archetype → us/en.html leaf, index ← us-en duplicateOf → index.html); both deployed + verified; driver summary still computes us/en/index.html (trailing-slash default) — delivered leaf /us/en is the record"
+      "pages": 1,
+      "startedAt": "2026-11-18T07:53:09Z",
+      "endedAt": "2026-11-18T07:53:21Z",
+      "verdict": "1 migrated (us-en), 0 failed, 1 deferred (index → after C-archetype); 42 assets; 0 broken, 0 missing"
     }
   }
 }

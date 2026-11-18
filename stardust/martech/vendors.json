@@ -2,14 +2,6 @@
  "pages": 1,
  "vendors": [
   {
-   "host": "www.googletagmanager.com",
-   "pages": 1,
-   "firstParty": false,
-   "role": "tag manager: Google Tag Manager",
-   "class": "T",
-   "inCsp": false
-  },
-  {
    "host": "rum.hlx.page",
    "pages": 1,
    "firstParty": false,

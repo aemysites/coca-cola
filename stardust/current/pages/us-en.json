@@ -1,15 +1,15 @@
 {
   "_provenance": {
     "renderedBy": "playwright",
-    "fetchedAt": "2026-11-16T06:32:22.438Z",
-    "waitMode": "slow",
-    "waitMs": 5000,
+    "fetchedAt": "2026-11-18T06:58:06.792Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
     "httpStatus": 200
   },
   "slug": "us-en",
   "url": "https://www.coca-cola.com/us/en",
   "renderedBy": "playwright",
-  "fetchedAt": "2026-11-16T06:32:22.438Z",
+  "fetchedAt": "2026-11-18T06:58:06.792Z",
   "finalUrl": "https://www.coca-cola.com/us/en",
   "title": "Explore the Coca‑Cola® Official Site | Coca-Cola US",
   "description": "Experience the official Coca‑Cola® site to find your favorite drink and discover new products, promos & offers, and more. Shop all Coca-Cola sodas here.",
@@ -26,7 +26,7 @@
     },
     {
       "tag": "h2",
-      "text": "YOU COULD WIN BIG THIS SEASON"
+      "text": "Your Shot at Alaska Starts Now"
     },
     {
       "tag": "h2",
@@ -46,11 +46,11 @@
     },
     {
       "tag": "h3",
-      "text": "Refresh Your Fandom All Year Long"
+      "text": "Mix Up the Holiday Spirit"
     },
     {
       "tag": "h3",
-      "text": "Mix Up the Holiday Spirit"
+      "text": "Refresh Your Fandom All Year Long"
     },
     {
       "tag": "h2",
@@ -86,13 +86,13 @@
     }
   ],
   "body": [
-    "Enter every Friday for your chance to win tickets, Fanatics digital gift cards, and more football prizes for fans.",
+    "Spin the Coca‑Cola Holiday Wheel and play for your chance to win an instant prize - plus enter for a chance to win an Alaska trip for two.",
     "Whether you're a lifelong fan or experiencing the magic for the first time, the Caravan is where holiday traditions come to life.",
     "Find Your Stop",
     "Enter today for a chance to win 24 (or equivalent) of your favorite Coca‑Cola drinks a month for an entire year. From vitaminwater to Sprite, and so much more, a year supply could be yours.",
     "Enter Now",
-    "Soccer Central is your always-on home for the beautiful game. Whether you're into MLS, U.S. Soccer, or English Premier League, we keep soccer fans fueled with exclusive content, prizes, and experiences.",
     "Make the season merry with easy holiday recipes made with Simply®, from cranberry meatballs and glazed ham to festive sangria and warm winter drinks.",
+    "Soccer Central is your always-on home for the beautiful game. Whether you're into MLS, U.S. Soccer, or English Premier League, we keep soccer fans fueled with exclusive content, prizes, and experiences.",
     "Have you downloaded yet? The +one app brings the universe of Coca‑Cola® into the palm of your hand. Start earning rewards today!",
     "Download Now",
     "We’ve devised a quick, fun way to discover your ideal flavor pairings. Simply stick out your tongue and let us do the mapping. It's not science, but the results might surprise you.",
@@ -127,8 +127,8 @@
       "href": null
     },
     {
-      "label": "Get Started",
-      "href": "/us/en/offerings/coca-cola/football"
+      "label": "Play and Enter",
+      "href": "/us/en/offerings/holiday"
     },
     {
       "label": "Don't Miss the Coca‑Cola Holiday Caravan Whether you're a lifelong fan or experiencing the magic for the first time, the Caravan is where holiday traditions come to life. Find Your Stop",
@@ -143,12 +143,12 @@
       "href": "/us/en/offerings"
     },
     {
-      "label": "Explore for More",
-      "href": "/us/en/offerings/hubs/soccer"
+      "label": "View Holiday Recipes",
+      "href": "/us/en/brands/simply/recipes/holiday"
     },
     {
-      "label": "View Holiday Recipes",
-      "href": "/us/en/brands/simply"
+      "label": "Explore for More",
+      "href": "/us/en/offerings/hubs/soccer"
     },
     {
       "label": "you plus +one Have you downloaded yet? The +one app brings the universe of Coca‑Cola® into the palm of your hand. Start earning rewards today! Download Now",
@@ -300,13 +300,13 @@
     "https://www.coca-cola.com/us/en/offerings/shop-now",
     "https://www.coca-colastore.com/",
     "https://www.coca-cola.com/us/en/offerings",
+    "https://www.coca-cola.com/us/en/offerings/coca-cola/football",
     "https://www.coca-cola.com/us/en/offerings/coca-cola/hockey",
     "https://www.coca-cola.com/us/en/offerings/holiday",
-    "https://www.coca-cola.com/us/en/offerings/coca-cola/football",
     "https://www.coca-cola.com/us/en/offerings/holiday-caravan",
     "https://www.coca-cola.com/us/en/offerings/portfolio/evergreen-promotion",
+    "https://www.coca-cola.com/us/en/brands/simply/recipes/holiday",
     "https://www.coca-cola.com/us/en/offerings/hubs/soccer",
-    "https://www.coca-cola.com/us/en/brands/simply",
     "https://www.coca-cola.com/us/en/offerings/vending",
     "https://plusone.coca-cola.com/wvrE/1n83zcqs?af_xp=custom&_gl=1*1y8jds8*_gcl_au*NzQwNTUzMTg2LjE3ODA0MjEyOTU.*_ga*MTk3NDE0NjE2NC4xNzUzNzI4MTYz*_ga_64WQLHS3QK*czE3ODEyODk5OTEkbzg2JGcxJHQxNzgxMjkwMDIxJGozMCRsMCRoMA..&source_caller=ui&pid=OneXP&is_retargeting=true&af_click_lookback=7d&shortlink=1n83zcqs&af_reengagement_window=30d&af_inactivity_window=7d&c=plus_one_landing_page",
     "https://www.coca-cola.com/us/en/offerings/tastebud-map",
@@ -357,18 +357,6 @@
         "h": 20
       },
       {
-        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/hero-banners/coca-cola-fall-hockey-big-wins-banner-dt.png/width1960.png",
-        "alt": "Big Wins promo banner with a hockey puck, LG TV, Fanatics card, and a Coca-Cola branded projector and blanket.",
-        "w": 1439,
-        "h": 679
-      },
-      {
-        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/hero-banners/kotm-holidays-26-us-banner-dt.png/width1960.png",
-        "alt": "White Coca-Cola holiday gift box revealing a Welcome to Alaska postcard with the Northern Lights on a solid red background.",
-        "w": 1439,
-        "h": 679
-      },
-      {
         "src": "https://www.coca-cola.com/content/dam/onexp/us/en/homepage/fall-football-banner-dt.png/width1960.png",
         "alt": "Coca-Cola Big Wins fall football promo banner displaying prizes like tickets, a Fanatics gift card, jacket, and LG TV.",
         "w": 1439,
@@ -399,6 +387,18 @@
         "h": 679
       },
       {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/hero-banners/kotm-holidays-26-us-banner-dt.png/width1960.png",
+        "alt": "White Coca-Cola holiday gift box revealing a Welcome to Alaska postcard with the Northern Lights on a solid red background.",
+        "w": 1439,
+        "h": 679
+      },
+      {
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/homepage/fall-football-banner-dt.png/width1960.png",
+        "alt": "Coca-Cola Big Wins fall football promo banner displaying prizes like tickets, a Fanatics gift card, jacket, and LG TV.",
+        "w": 1439,
+        "h": 679
+      },
+      {
         "src": "https://www.coca-cola.com/content/dam/onexp/us/en/offerings/holiday/onexp-hpg-caravan-teaser-allbreakpoints.png/width1960.png",
         "alt": "A red Coca-Cola semi-truck outlined in glowing holiday lights, with a trailer decorated in Coca-Cola logos, stripes and white ribbon bows, set against a solid red background.",
         "w": 1439,
@@ -459,13 +459,13 @@
         "h": 599
       },
       {
-        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/campaign-cards/soccer-always-on-campaign-dt.png/width1960.png",
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/campaign-cards/simply-holidays-us-campaign-dt.png/width1960.png",
         "alt": "Coca-Cola soccer campaign banner featuring a woman drinking from a glass bottle amidst a cheering stadium crowd.",
         "w": 1102,
         "h": 950
       },
       {
-        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/campaign-cards/simply-holidays-us-campaign-dt.png/width1960.png",
+        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/campaign-cards/soccer-always-on-campaign-dt.png/width1960.png",
         "alt": "Coca-Cola soccer campaign banner featuring a woman drinking from a glass bottle amidst a cheering stadium crowd.",
         "w": 1102,
         "h": 950
@@ -1240,7 +1240,7 @@
   "_signals": {
     "filteredInterstitials": 0,
     "distinctHeadings": 16,
-    "mainTextLen": 7001,
+    "mainTextLen": 7018,
     "realImageCount": 43,
     "trackingOnlyMedia": false,
     "spaShellSuspect": false,
@@ -1294,6 +1294,19 @@
       {
         "method": "GET",
         "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202604.2.0/assets/otFloatingRoundedCorner.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2719,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202604.2.0/assets/otFloatingRoundedCorner.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
         "path": "/scripttemplates/202604.2.0/assets/v2/otPcCenter.json",
         "query": [],
         "resourceType": "fetch",
@@ -1333,19 +1346,6 @@
       {
         "method": "GET",
         "host": "cdn.cookielaw.org",
-        "path": "/scripttemplates/202604.2.0/assets/otFloatingRoundedCorner.json",
-        "query": [],
-        "resourceType": "fetch",
-        "contentType": "application/json",
-        "status": 200,
-        "bytes": 2719,
-        "hits": 1,
-        "example": "https://cdn.cookielaw.org/scripttemplates/202604.2.0/assets/otFloatingRoundedCorner.json",
-        "sameSite": false
-      },
-      {
-        "method": "GET",
-        "host": "cdn.cookielaw.org",
         "path": "/logos/static/ot_guard_logo.svg",
         "query": [],
         "resourceType": "fetch",
@@ -1367,6 +1367,10 @@
         "count": 2
       },
       {
+        "host": "cdn.global.gcds.coke.com",
+        "count": 1
+      },
+      {
         "host": "rum.hlx.page",
         "count": 1
       }
@@ -1386,7 +1390,7 @@
     "summary": {
       "sameSiteEndpoints": 0,
       "thirdPartyEndpoints": 8,
-      "thirdPartyScriptHosts": 3,
+      "thirdPartyScriptHosts": 4,
       "inlineDataBlobs": 0,
       "forms": 0,
       "searchForms": 0,
@@ -1395,48 +1399,13 @@
   },
   "screenshot": "assets/screenshots/us-en.png",
   "renderedHtml": "pages/us-en.html",
+  "type": "landing",
   "slots": {
-    "pageType": "landing",
-    "page-headline": {
-      "selector": "main .cmp-text h1",
-      "text": "The Coca‑Cola® Official Site for Drinks & Experiences"
-    },
-    "hero-carousel": {
-      "selector": ".carousel.carousel--hero",
-      "items": ".teaser.hero (image, h2 title, description, cta)",
-      "firstSlideTitle": "YOU COULD WIN BIG THIS SEASON"
-    },
-    "promo-cards": {
-      "selector": ".title + .carousel (Promos & Offers)",
-      "heading": "Promos & Offers",
-      "cards": [
-        "Don't Miss the Coca‑Cola Holiday Caravan",
-        "A Full Year of Favorites Could Be Yours"
-      ],
-      "cta": "View all Offerings"
-    },
-    "feature-band": {
-      "selector": ".teaser.campaign-card",
-      "heading": "Features",
-      "items": [
-        "Refresh Your Fandom All Year Long",
-        "Mix Up the Holiday Spirit"
-      ]
-    },
-    "card-carousel": {
-      "selector": ".carousel.carousel--card-secondary",
-      "heading": "More from Coca‑Cola®",
-      "cards": [
-        "you plus +one",
-        "Discover Your Tastebud Map",
-        "World of Coca‑Cola Annual Pass"
-      ]
-    },
-    "brands-grid": {
-      "selector": ".container.brands-list",
-      "heading": "Explore Our Brands",
-      "cta": "View All"
-    },
-    "rotating": "hero slides and promo cards vary per load"
+    "page-headline": "h1",
+    "hero": ".carousel--hero",
+    "promos": ".container__content .carousel:first",
+    "features": ".teaser.campaign-card",
+    "more-from": ".carousel--card-secondary",
+    "brands": ".brands-list"
   }
 }

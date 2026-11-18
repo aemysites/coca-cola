@@ -4,53 +4,57 @@
   "renderBranch": "A",
   "template": null,
   "modules": [
-    "feature-xf",
-    "teaser-block",
     "carousel",
-    "features",
-    "brands"
+    "campaign-card",
+    "brands-list"
   ],
   "widgets": [],
   "slotsFilled": [
-    "page-title",
-    "feature-xf",
-    "teaser-block",
-    "promos",
-    "features",
-    "more",
-    "brands"
+    "page__title",
+    "carousel",
+    "section-title",
+    "carousel",
+    "btn",
+    "section-title",
+    "campaign-card",
+    "campaign-card",
+    "section-title",
+    "carousel",
+    "section-title",
+    "brands-list",
+    "btn"
   ],
   "canonShas": {
-    "header": "7759f98f5037",
-    "footer": "4c7041a5254e",
-    "css": "06f52e7ebad7"
+    "header": "40d1051b192f",
+    "footer": "9fc8a212f1be",
+    "css": "2fa4ee803bb8"
   },
   "deviations": [],
   "migrationDecisions": [
     {
       "kind": "duplicate-of-archetype",
-      "archetype": "us-en",
-      "reason": "source root redirects to /us/en; captured content identical; delivered as root index document (D-root)"
+      "of": "us-en",
+      "why": "source / answers 302 → /us/en; same content, rendered from the gated archetype"
     }
   ],
   "metadata": {
-    "title": "Explore the Coca‑Cola® Official Site | Coca‑Cola®",
-    "description": "Experience the official Coca‑Cola® site. Explore our drinks, discover new flavors, and find exciting promos, offers and experiences from Coca‑Cola.",
+    "title": "Explore the Coca‑Cola® Official Site | Coca-Cola US",
+    "description": "Experience the official Coca‑Cola® site to find your favorite drink and discover new products, promos &amp; offers, and more. Shop all Coca-Cola sodas here.",
     "canonical": null,
     "lang": "en-US"
   },
   "jsonLd": {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Explore the Coca‑Cola® Official Site | Coca‑Cola®",
-    "description": "Experience the official Coca‑Cola® site. Explore our drinks, discover new flavors, and find exciting promos, offers and experiences from Coca‑Cola.",
+    "name": "Explore the Coca‑Cola® Official Site | Coca-Cola US",
+    "description": "Experience the official Coca‑Cola® site to find your favorite drink and discover new products, promos &amp; offers, and more. Shop all Coca-Cola sodas here.",
     "url": "https://www.coca-cola.com/"
   },
-  "migratedAt": "2026-11-16T08:00:54Z",
-  "designMdSha": "6d822b6250a2",
-  "designJsonSha": "6e363b6a6812",
-  "sourceCurrentSha": "043164f01f1e",
-  "sourceProposedSha": "5254b4136033",
+  "migratedAt": "2026-11-18T08:42:12Z",
+  "designMdSha": "771d50dff172",
+  "designJsonSha": "e779de3e1641",
+  "sourceCurrentSha": "264c83236c87",
+  "sourceProposedSha": "9259fa3c54cb",
   "fidelityTier": "archetype",
   "archetypeSource": null,
   "archetypeSha": null,
@@ -58,7 +62,7 @@
   "gatesPassed": [],
   "gateEvidence": {},
   "contentDeviations": [],
-  "assetsBundled": 8,
+  "assetsBundled": 41,
   "missingAssets": [],
   "brokenInternalLinks": [
     {
@@ -98,10 +102,6 @@
       "reason": "not-in-inventory"
     },
     {
-      "href": "/us/en/offerings",
-      "reason": "not-in-inventory"
-    },
-    {
       "href": "/us/en/offerings/holiday-caravan",
       "reason": "not-in-inventory"
     },
@@ -114,11 +114,11 @@
       "reason": "not-in-inventory"
     },
     {
-      "href": "/us/en/offerings/hubs/soccer",
+      "href": "/us/en/brands/simply/recipes/holiday",
       "reason": "not-in-inventory"
     },
     {
-      "href": "/us/en/brands/simply",
+      "href": "/us/en/offerings/hubs/soccer",
       "reason": "not-in-inventory"
     },
     {

@@ -3,89 +3,79 @@
   "b": "stardust/replica/gates/all-360/us-en/eds.png",
   "compared": {
     "width": 360,
-    "height": 6313,
+    "height": 5194,
     "mode": "overlap"
   },
   "heightDelta": 0,
-  "differingPixels": 68173,
-  "pct": 3,
+  "differingPixels": 112776,
+  "pct": 6.03,
   "threshold": 10,
   "pass": true,
   "diff": "stardust/replica/gates/all-360/us-en/diff.png",
   "masks": [],
   "maskedRows": 0,
-  "textPct": 5.38,
-  "textBoxes": 104,
-  "textPixels": 346560,
+  "textPct": 23.37,
+  "textBoxes": 89,
+  "textPixels": 285528,
   "bands": [
     {
       "y0": 0,
       "y1": 500,
-      "pct": 21.7
+      "pct": 21.9
     },
     {
       "y0": 500,
       "y1": 1000,
-      "pct": 4.5
+      "pct": 17.1
     },
     {
       "y0": 1000,
       "y1": 1500,
-      "pct": 0.4
+      "pct": 4.1
     },
     {
       "y0": 1500,
       "y1": 2000,
-      "pct": 0.4
+      "pct": 2.6
     },
     {
       "y0": 2000,
       "y1": 2500,
-      "pct": 2.7
+      "pct": 5.3
     },
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 0.2
+      "pct": 5.7
     },
     {
       "y0": 3000,
       "y1": 3500,
-      "pct": 0
+      "pct": 0.9
     },
     {
       "y0": 3500,
       "y1": 4000,
-      "pct": 2.3
+      "pct": 3.4
     },
     {
       "y0": 4000,
       "y1": 4500,
-      "pct": 3.6
+      "pct": 0.3
     },
     {
       "y0": 4500,
       "y1": 5000,
-      "pct": 0.9
+      "pct": 0.7
     },
     {
       "y0": 5000,
-      "y1": 5500,
-      "pct": 0.8
-    },
-    {
-      "y0": 5500,
-      "y1": 6000,
-      "pct": 0.2
-    },
-    {
-      "y0": 6000,
-      "y1": 6313,
-      "pct": 0.4
+      "y1": 5194,
+      "pct": 1.9
     }
   ],
   "capturesDropped": {
     "masks": [],
-    "edsUrl": "https://main--e4399cea--aemcoder.aem.live/us/en"
+    "edsUrl": "https://main--43eb1ed9--aemcoder.aem.live/us/en"
   }
 }

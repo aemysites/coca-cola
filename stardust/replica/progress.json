@@ -1,199 +1,166 @@
 {
   "_provenance": {
-    "writtenBy": "stardust:replica phase 3-4 (hands-off agent)",
-    "writtenAt": "2026-11-16T07:10:31Z"
+    "writtenBy": "stardust:replica (Phase 3-4, us-en)",
+    "writtenAt": "2026-11-18T07:44:21Z"
   },
   "types": {
     "landing": {
       "pageType": "landing",
       "archetype": "us-en",
-      "breakpoints": {
-        "1440": {
-          "iterations": 3,
-          "rounds": [
-            "iter1 --full (map)",
-            "iter2 pixel",
-            "iter3 --full (confirmation)",
-            "final --full re-confirm after motion layer (not a fix iteration)"
-          ],
-          "result": {
-            "structuralRed": 0,
-            "nothingLostYellow": 0,
-            "visualFlags": "10 advisory, justified",
-            "pixelPct": 1.08,
-            "heightDelta": 1,
-            "chromeParity": "quiet",
-            "chromeCrops": {
-              "header": "100.00%",
-              "footer": "99.71%"
-            },
-            "clipProbe": "Clipped: 0",
-            "overflow": "scrollWidth = viewport",
-            "pass": true
-          },
-          "evidence": "stardust/replica/gates/us-en-1440/verdict-final.json",
-          "justified": [
-            {
-              "probe": "visual",
-              "flag": "HEADING FACE xN: Noto-regional -> Liberation Sans",
-              "why": "advisory reads the first family of the stack; live stack is 'Noto-regional, Noto-latin, TCCC-UnityText' and neither Noto face is declared or loaded on live — both sides render TCCC-UnityText (gate: every declared face loaded on both captures); R-01"
-            },
-            {
-              "probe": "visual",
-              "flag": "FLUSH-LEFT TEXT on carousel clone slides (left < 0)",
-              "why": "Splide loop clones parked off-screen inside the overflow:hidden track, mirrored per granularity parity; same geometry as live"
-            },
-            {
-              "probe": "visual",
-              "flag": "CONTENT GAP: 12 vs 7 content-boxes, main height",
-              "why": "box count reflects AEM wrapper divs vs clean sections; main height delta is the build main measuring from h1 margin (page height delta 0-1 px)"
-            }
-          ],
-          "residuals": [
-            {
-              "band": "all",
-              "pct": 1.08,
-              "cause": "glyph antialiasing + image resampling (hotlinked live renditions, Chrome-scaled) — no hot band",
-              "flaggedFor": "user"
-            }
-          ],
-          "captureState": [
-            {
-              "what": "Adobe Target featured-experience slot frozen at the captured state (Holiday Wheel 'Your Shot at Alaska Starts Now' + football/hockey 'YOU COULD WIN BIG THIS SEASON' cards + 'View All Promos & Offers'); the extract-time DOM showed a 3-slide hero carousel instead",
-              "where": "main > first section after h1",
-              "restoreAtDelivery": "personalised/rotating slot on live (Adobe Target homepage-xfs); delivery wires the authored variants or Target — permanent residual if live rotates between captures"
-            },
-            {
-              "what": "carousels held on slide 1 (Splide loop, clones mirrored per viewport)",
-              "where": "Promos & Offers, More from Coca-Cola",
-              "restoreAtDelivery": null
-            },
-            {
-              "what": "images hotlinked from www.coca-cola.com/content/dam renditions (browser loads them; curl 403s)",
-              "where": "all main imagery, logos, app badges",
-              "restoreAtDelivery": "rehost via DA media at deploy"
-            },
-            {
-              "what": "'Just One Question' third-party poll popup (fixed, z 2000) dismissed for capture via its X control",
-              "where": "viewport overlay on scroll",
-              "restoreAtDelivery": "GTM-injected (dynamic-features A-3); not part of page code"
-            },
-            {
-              "what": "header Sign Up in disabled colours (login-unavailable-flow), Account buttons hidden",
-              "where": "header",
-              "restoreAtDelivery": "auth flow (dynamic-features A-1)"
-            }
-          ]
-        },
-        "360": {
-          "iterations": 3,
-          "rounds": [
-            "iter1 --full (map)",
-            "iter2 pixel",
-            "iter3 --full (confirmation)",
-            "final --full re-confirm after motion layer (not a fix iteration)"
-          ],
-          "result": {
-            "structuralRed": 0,
-            "nothingLostYellow": 0,
-            "visualFlags": "9 advisory, justified",
-            "pixelPct": 1.09,
-            "heightDelta": 0,
-            "chromeParity": "quiet",
-            "chromeCrops": {
-              "header": "100.00%",
-              "footer": "99.63%"
-            },
-            "clipProbe": "Clipped: 0",
-            "overflow": "scrollWidth = viewport",
-            "pass": true
-          },
-          "evidence": "stardust/replica/gates/us-en-360/verdict-final.json",
-          "justified": [
-            {
-              "probe": "visual",
-              "flag": "HEADING FACE xN: Noto-regional -> Liberation Sans",
-              "why": "advisory reads the first family of the stack; live stack is 'Noto-regional, Noto-latin, TCCC-UnityText' and neither Noto face is declared or loaded on live — both sides render TCCC-UnityText (gate: every declared face loaded on both captures); R-01"
-            },
-            {
-              "probe": "visual",
-              "flag": "FLUSH-LEFT TEXT on carousel clone slides (left < 0)",
-              "why": "Splide loop clones parked off-screen inside the overflow:hidden track, mirrored per granularity parity; same geometry as live"
-            },
-            {
-              "probe": "visual",
-              "flag": "CONTENT GAP: 12 vs 7 content-boxes, main height",
-              "why": "box count reflects AEM wrapper divs vs clean sections; main height delta is the build main measuring from h1 margin (page height delta 0-1 px)"
-            }
-          ],
-          "residuals": [
-            {
-              "band": "all",
-              "pct": 1.09,
-              "cause": "glyph antialiasing + image resampling (hotlinked live renditions, Chrome-scaled) — no hot band",
-              "flaggedFor": "user"
-            }
-          ],
-          "captureState": [
-            {
-              "what": "Adobe Target featured-experience slot frozen at the captured state (Holiday Wheel 'Your Shot at Alaska Starts Now' + football/hockey 'YOU COULD WIN BIG THIS SEASON' cards + 'View All Promos & Offers'); the extract-time DOM showed a 3-slide hero carousel instead",
-              "where": "main > first section after h1",
-              "restoreAtDelivery": "personalised/rotating slot on live (Adobe Target homepage-xfs); delivery wires the authored variants or Target — permanent residual if live rotates between captures"
-            },
-            {
-              "what": "carousels held on slide 1 (Splide loop, clones mirrored per viewport)",
-              "where": "Promos & Offers, More from Coca-Cola",
-              "restoreAtDelivery": null
-            },
-            {
-              "what": "images hotlinked from www.coca-cola.com/content/dam renditions (browser loads them; curl 403s)",
-              "where": "all main imagery, logos, app badges",
-              "restoreAtDelivery": "rehost via DA media at deploy"
-            },
-            {
-              "what": "'Just One Question' third-party poll popup (fixed, z 2000) dismissed for capture via its X control",
-              "where": "viewport overlay on scroll",
-              "restoreAtDelivery": "GTM-injected (dynamic-features A-3); not part of page code"
-            },
-            {
-              "what": "header Sign Up in disabled colours (login-unavailable-flow), Account buttons hidden",
-              "where": "header",
-              "restoreAtDelivery": "auth flow (dynamic-features A-1)"
-            }
-          ],
-          "notes": [
-            "iter1 live.png captured the poll popup over the hero; re-taken in iter3 with --dismiss on the popup's X (old capture kept as live-iter1-popup.png)"
-          ]
-        }
+      "prototype": "stardust/prototypes/us-en-proposed.html",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/us-en.css"
+      ],
+      "js": "stardust/prototypes/us-en.js",
+      "server": {
+        "url": "http://localhost:8791/",
+        "pidFile": "stardust/.work/proto-server.pid"
       },
-      "capProbe": {
-        "result": "PASS at 2560 — 0 of 5 rows failed",
-        "evidence": "stardust/replica/gates/us-en-2560/cap-iter.json"
+      "gateFlags": "--main main --consent '#onetrust-accept-btn-handler' --dismiss '[aria-label=\"Close survey\"],.flag-container .close-button'",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "iterationNotes": "iter1 = first --full measurement; iter2, iter3 = fix rounds (iter2: carousel offsets, footer line-height/legal, header bar geometry, font switch Encode→Anek; iter3: hero scrim lifted from .hero.content-on-* .cmp-teaser__image:after); iter4 = --full confirmation; 'motioncheck' = pixel re-run after interaction parity (numbers unchanged). | iter5 (main agent, 3rd fix iteration): .section-title padding-inline 6px — font-metric compensation so the substitute keeps the live wrap of \"More from Coca‑Cola®\" at 360 (live 317.6px > 300px column); confirmed --full at both widths.",
+      "gates": {
+        "360": {
+          "pixel": 3.61,
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (50 accepted 🟢 loop clones; 3 advisory)",
+          "visualDiff": "2 advisory, justified (as 1440)",
+          "clip": 0,
+          "overflow": "ok (scrollWidth 360 = viewport)",
+          "chromeParity": "quiet (footer OFFSET -36 = page above)",
+          "chromeCrop": {
+            "header": 1.15,
+            "footer": 1.15
+          },
+          "verdict": "PASS",
+          "evidence": "stardust/replica/gates/us-en-360/ (iter5)"
+        },
+        "1440": {
+          "pixel": 1.36,
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (100 accepted 🟢: Splide loop-clone texts, stardust/replica/accepted.json; 3 advisory)",
+          "visualDiff": "2 advisory, justified (CONTENT GAP = live loop clones; HEADING FACE ×17 = licensed-font substitution)",
+          "clip": 0,
+          "overflow": "ok (scrollWidth 1440 = viewport)",
+          "chromeParity": "quiet (font-only PAIR deltas + region-bg probe depth accepted)",
+          "chromeCrop": {
+            "header": 1.34,
+            "footer": 0.97
+          },
+          "verdict": "PASS",
+          "evidence": "stardust/replica/gates/us-en-1440/ (iter5)"
+        }
       },
       "prototypeTable": {
-        "1440": "1.08% Δh 1 PASS",
-        "360": "1.09% Δh 0 PASS"
+        "360": "stardust/replica/gates/prototypes-360/summary.md — us-en 3.61% Δh 0 PASS",
+        "1440": "stardust/replica/gates/prototypes-1440/summary.md — us-en 1.35% Δh 0 PASS",
+        "stateUsed": "stardust/state.json"
+      },
+      "capProbe": "PASS (2560, 0 of 5 rows failed; stardust/replica/gates/us-en-2560/cap-iter.json)",
+      "residuals": [
+        {
+          "breakpoint": "360",
+          "band": "y 3097–5194 (from 'More from Coca‑Cola®' down)",
+          "pct": 10.48,
+          "heightDelta": -36,
+          "cause": "font metric: the section title 'More from Coca‑Cola®' (28px/700, -1.5px, 312px column) is 317.6px in TCCC-UnityText (wraps to 2 lines) and 310.1px in Anek Latin Expanded (1 line) — TCCC's ® glyph is wider; everything below is offset by 36px (offset contamination, bands 3000–3500 37.5%, 4000–4500 21.3%). Not fixable without calibrating the substitute (forbidden) or fabricating a line break; vanishes with the licensed face (TCCC-UnityText is first in the stack).",
+          "flaggedFor": "user",
+          "status": "resolved iter5 (font-metric compensation)"
+        },
+        {
+          "breakpoint": "360",
+          "band": "y 312–828 (hero slide 1)",
+          "pct": null,
+          "cause": "font metric: hero copy wraps 6 lines vs live 5 at 265px; inside the absolute hero overlay, no height effect",
+          "flaggedFor": "user",
+          "status": "resolved iter5 (font-metric compensation)"
+        },
+        {
+          "breakpoint": "both",
+          "region": "all text",
+          "cause": "glyph shapes of the OFL substitute differ from TCCC-UnityText (licensed) — permanent justified font fork (content-diff 🟠, visual-diff HEADING FACE)",
+          "permanent": true,
+          "flaggedFor": "user",
+          "status": "open"
+        }
+      ],
+      "justified": [
+        {
+          "probe": "content",
+          "flag": "MISSING HEADING/CTA/BODY/ARIA-LABEL/TITLE on Splide clone slides",
+          "why": "loop clones are presentational (recreation-procedure § Carousels); accepted.json entries"
+        },
+        {
+          "probe": "chrome-parity",
+          "flag": "PAIR fontFamily noto-regional → tccc-unitytext (+≤4px advance)",
+          "why": "licensed font substitution",
+          "permanent": true
+        },
+        {
+          "probe": "chrome-parity",
+          "flag": "REGION STYLE backgroundColor header/footer",
+          "why": "same painted colour; live paints it on a nested wrapper the region probe does not read"
+        },
+        {
+          "probe": "visual",
+          "flag": "CONTENT GAP / HEADING FACE",
+          "why": "loop clones / font substitution"
+        }
+      ],
+      "font": {
+        "substitute": "Anek Latin Expanded (OFL, self-hosted latin 400/700)",
+        "stack": "TCCC-UnityText, \"Anek Latin Expanded\", sans-serif",
+        "evidence": "Licensed TCCC-UnityText (live computed stack 'Noto-regional, Noto-latin, TCCC-UnityText, sans-serif') never rehosted. Candidates measured against live ink widths (canvas measureText vs stitched live.png: hero copy lines 532/530px@16/400, copyright 338px@12/400, heading 514px@38/700, nav/footer link advances@14/700): Noto Sans REG 0.874/BOLD 0.884, Inter 0.885/0.871, Liberation Sans 0.821/0.859, Montserrat 0.920/0.931, Encode Sans Expanded 0.935/0.968, Hubot Sans Expanded 0.953/1.036, Anek Latin Expanded 1.034/1.010 (long lines 1.016/1.027/1.007). Wrap test of 28 live text blocks at their live widths (stardust/.work/tools/wraptest.mjs): Encode Sans Expanded 8 mismatches (-230px), Hubot 4 (-96px), Saira Expanded 4 (-116px), Anek Latin Expanded 2 (hero copy @265px +1 line inside an absolute overlay — no height effect; 'More from Coca‑Cola®' @312px/28px 1 line vs live 2). Chosen: Anek Latin Expanded (OFL, Google Fonts static wdth-125 instances, latin subset, self-hosted at stardust/prototypes/fonts/ with OFL.txt). Stack: TCCC-UnityText, \"Anek Latin Expanded\", sans-serif. Icons: the source's own icomoon.woff (site icon font, not the licensed text face) self-hosted."
       },
       "motion": {
-        "observed": "stardust/replica/motion/us-en.json (1440; 3 widget pokes, 6 hover probes, full scroll)",
+        "observedFile": "stardust/replica/motion/us-en.json",
+        "buildFile": "stardust/replica/motion/us-en-build.json",
+        "observed": [
+          "hero carousel dot click: track transform .4s, active dot width 8→32px .2s, Splide is-active/is-prev/is-next/is-visible",
+          "header submenu: hover opens panel, click toggles li.sublist-is-open (chevron rotate), outside click closes",
+          "pill hover rings: black buttons inset 0 0 0 4px #6c6c6c, outline buttons inset 0 0 0 2px #000 (white hero button #a5a5a5 per census)",
+          "lazy image reveal: picture.loaded.visible > img opacity .4s on viewport entry",
+          "mobile drawer (header contract @390): Menu toggles full-height panel + scroll lock, accordion submenus, Sign Up / Log In"
+        ],
         "implemented": [
-          "image fade-in opacity .4s ease on loaded+visible (IntersectionObserver)",
-          "carousel dot pagination: track transform .4s, dot width .2s, is-active/is-prev/is-next/is-visible state",
-          "desktop nav submenu toggle on click (sublist-is-open, caret rotate 90deg)",
-          "button hover inset box-shadow (primary 4px #6c6c6c, secondary 2px #000)",
-          "mobile Menu drawer + footer accordions (header-contract, 390 Menu click)"
+          "dot navigation on all three carousels (same transform/width transitions, Splide state classes)",
+          "desktop submenus (CSS :hover + click toggle + outside close)",
+          "hover rings (instant, as live)",
+          "image reveal via IntersectionObserver (.reveal.loaded.visible)",
+          "mobile drawer + drawer submenus + mobile footer accordions"
         ],
         "dead": [
-          "header scroll-morph (static on live)",
-          "carousel autoplay (no idle class mutations, no media)",
-          "hover on content cards, brand tiles, nav links, footer links (no measured diff)"
+          "carousel autoplay (no idle mutations on live)",
+          "content-card hover (no measured diff)",
+          "header scroll-morph (header static on live)"
         ],
-        "compare": "motion-compare: 12 parity, 2 missing (scale 0ms on brands-list cmp-container — zero-duration, no rendered effect; class 'loaded' on picture — build sets it on img), 0 extra",
-        "pixelAfterMotion": {
-          "1440": 1.08,
-          "360": 1.09
+        "compare": "motion-compare: 14 parity, 0 missing, 0 extra, 3 advisory (build-only is-animating helper class; incidental transitions)"
+      },
+      "captureState": [
+        {
+          "what": "Adobe Target 'Just One Question' survey flag (.flag-container, appears ~2s after consent) closed via its X before every live capture/probe",
+          "where": "fixed overlay, right edge",
+          "restoreAtDelivery": null,
+          "note": "martech/personalization widget, not page content; not replicated (martech contract off)"
+        },
+        {
+          "what": "OneTrust consent accepted before capture",
+          "where": "overlay",
+          "restoreAtDelivery": null
         }
+      ],
+      "registerEntries": [
+        "R-01 (deferred): Simply campaign image carries the soccer card's alt text — replicated verbatim"
+      ],
+      "approved": {
+        "by": "hands-off",
+        "at": "2026-11-18T07:48:12.506Z"
       }
     }
-  }
+  },
+  "siblings": {}
 }

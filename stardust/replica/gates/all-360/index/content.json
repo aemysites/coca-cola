@@ -1,17 +1,17 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-16T08:38:53.189Z",
+  "at": "2026-11-18T10:19:01.160Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://www.coca-cola.com/",
-  "at": "2026-11-16T08:38:32.149Z",
+  "at": "2026-11-18T10:18:41.853Z",
   "status": 200,
   "settlePasses": 2,
-  "docH": 6313,
+  "docH": 5194,
   "root": "main.container.responsivegrid",
   "items": [
    {
@@ -34,7 +34,7 @@
     "variable": false,
     "inRoot": false,
     "inChrome": true,
-    "path": "a.cmp-image__link > picture.loaded.visible > img.cmp-image__image",
+    "path": "a.cmp-image__link > picture > img.cmp-image__image",
     "x": 24,
     "y": 26,
     "w": 125,
@@ -74,7 +74,7 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.text > div#text-4bc5392e0c > h1",
+    "path": "div.text > div#text-cb6304c678 > h1",
     "x": 24,
     "y": 112,
     "w": 312,
@@ -84,16 +84,16 @@
    },
    {
     "kind": "image",
-    "state": "visible",
+    "state": "hidden",
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div#adaptiveImage-23f87cfb20 > picture.loaded.visible > img.cmp-image__image",
-    "x": 24,
-    "y": 328,
-    "w": 312,
-    "h": 208,
-    "text": "a white coca-cola gift box with a red-and-white striped ribb",
+    "path": "div#teaser-12c9a60192-image > picture.loaded.visible > img.cmp-image__image",
+    "x": -306,
+    "y": 312,
+    "w": 313,
+    "h": 516,
+    "text": "big wins promo banner with a hockey puck, lg tv, fanatics ca",
     "file": "width380"
    },
    {
@@ -102,11 +102,11 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.text > div#text-17c2f3bbb6 > h2",
-    "x": 24,
-    "y": 576,
-    "w": 312,
-    "h": 72,
+    "path": "div#teaser-1c70bec459 > div.cmp-teaser__content > h2.cmp-teaser__title",
+    "x": 47,
+    "y": 336,
+    "w": 265,
+    "h": 64,
     "level": 2,
     "text": "your shot at alaska starts now"
    },
@@ -116,10 +116,10 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.text > div#text-84794e19de > p",
-    "x": 24,
-    "y": 664,
-    "w": 312,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__description > p",
+    "x": 47,
+    "y": 408,
+    "w": 265,
     "h": 120,
     "text": "Spin the Coca‑Cola Holiday Wheel and play for your chance to win an instant priz"
    },
@@ -129,111 +129,80 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div#container-5c9a64b67e > div.button > a#button-9f10517645",
-    "x": 24,
-    "y": 816,
-    "w": 312,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__action-container > a#teaser-1c70bec459-cta-ce79161922",
+    "x": 47,
+    "y": 560,
+    "w": 265,
     "h": 40,
-    "text": "play now",
+    "text": "play and enter",
     "href": "/us/en/offerings/holiday"
    },
    {
-    "kind": "link",
-    "state": "visible",
-    "variable": false,
-    "inRoot": true,
-    "inChrome": false,
-    "path": "div#container-80730566ea > div.teaser.content-card > a#teaser-a66e4846c9-cta-22a314dd5c",
-    "x": 24,
-    "y": 896,
-    "w": 312,
-    "h": 498,
-    "text": "you could win big this season enter every friday for your chance to win tickets,",
-    "href": "/us/en/offerings/coca-cola/football"
-   },
-   {
-    "kind": "heading",
-    "state": "visible",
-    "variable": false,
-    "inRoot": true,
-    "inChrome": false,
-    "path": "div#teaser-a66e4846c9 > div.cmp-teaser__content > h3.cmp-teaser__title",
-    "x": 48,
-    "y": 1154,
-    "w": 264,
-    "h": 56,
-    "level": 3,
-    "text": "you could win big this season"
-   },
-   {
     "kind": "image",
     "state": "visible",
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div#teaser-a66e4846c9-image > picture.loaded.visible > img.cmp-image__image",
-    "x": 24,
-    "y": 896,
-    "w": 312,
-    "h": 234,
-    "text": "a red banner with large white text reading “big wins,” surro",
+    "path": "div#teaser-1c70bec459-image > picture.loaded.visible > img.cmp-image__image",
+    "x": 23,
+    "y": 312,
+    "w": 313,
+    "h": 516,
+    "text": "white coca-cola holiday gift box revealing a welcome to alas",
     "file": "width380"
-   },
-   {
-    "kind": "link",
-    "state": "visible",
-    "variable": false,
-    "inRoot": true,
-    "inChrome": false,
-    "path": "div#container-80730566ea > div.teaser.content-card > a#teaser-bc02972500-cta-22db96e952",
-    "x": 24,
-    "y": 1410,
-    "w": 312,
-    "h": 498,
-    "text": "you could win big this season enter every friday for your chance to win prizes† ",
-    "href": "/us/en/offerings/coca-cola/hockey"
-   },
-   {
-    "kind": "heading",
-    "state": "visible",
-    "variable": false,
-    "inRoot": true,
-    "inChrome": false,
-    "path": "div#teaser-bc02972500 > div.cmp-teaser__content > h3.cmp-teaser__title",
-    "x": 48,
-    "y": 1668,
-    "w": 264,
-    "h": 56,
-    "level": 3,
-    "text": "you could win big this season"
    },
    {
     "kind": "image",
-    "state": "visible",
+    "state": "hidden",
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div#teaser-bc02972500-image > picture#cdq_element_2 > img#cdq_element_1",
-    "x": 24,
-    "y": 1410,
-    "w": 312,
-    "h": 234,
-    "text": "a red banner with large white text reading “big wins,” surro",
+    "path": "div#teaser-e34f623a68-image > picture.loaded.visible > img.cmp-image__image",
+    "x": 353,
+    "y": 312,
+    "w": 313,
+    "h": 516,
+    "text": "coca-cola big wins fall football promo banner displaying pri",
     "file": "width380"
    },
    {
-    "kind": "link",
+    "kind": "button",
     "state": "visible",
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div#container-ec87edacce > div.button > a#button-159c318d66",
-    "x": 24,
-    "y": 1940,
-    "w": 312,
-    "h": 40,
-    "text": "view all promos & offers",
-    "href": "/us/en/offerings"
+    "path": "ul.splide__pagination.splide__pagination--ltr > li > button.splide__pagination__page.is-active",
+    "x": 148,
+    "y": 852,
+    "w": 32,
+    "h": 8,
+    "text": "go to slide 1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.splide__pagination.splide__pagination--ltr > li > button.splide__pagination__page",
+    "x": 188,
+    "y": 852,
+    "w": 8,
+    "h": 8,
+    "text": "go to slide 2"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.splide__pagination.splide__pagination--ltr > li > button.splide__pagination__page",
+    "x": 204,
+    "y": 852,
+    "w": 8,
+    "h": 8,
+    "text": "go to slide 3"
    },
    {
     "kind": "heading",
@@ -243,7 +212,7 @@
     "inChrome": false,
     "path": "div.title > div#title-eaaffc3eca > h2.cmp-title__text",
     "x": 24,
-    "y": 2020,
+    "y": 900,
     "w": 312,
     "h": 36,
     "level": 2,
@@ -257,7 +226,7 @@
     "inChrome": false,
     "path": "div#splide02-clone02 > div.teaser.content-card > a#teaser-3aa339ea1e-cta-5519b315fe",
     "x": -243,
-    "y": 2088,
+    "y": 968,
     "w": 271,
     "h": 587,
     "text": "a full year of favorites could be yours enter today for a chance to win 24 (or e",
@@ -271,7 +240,7 @@
     "inChrome": false,
     "path": "div#teaser-3aa339ea1e > div.cmp-teaser__content > h3.cmp-teaser__title",
     "x": -219,
-    "y": 2315,
+    "y": 1196,
     "w": 223,
     "h": 56,
     "level": 3,
@@ -285,7 +254,7 @@
     "inChrome": false,
     "path": "div#teaser-3aa339ea1e-image > picture.loaded.visible > img.cmp-image__image",
     "x": -243,
-    "y": 2088,
+    "y": 968,
     "w": 271,
     "h": 203,
     "text": "assorted coca-cola products on an autumn park table promotin",
@@ -299,7 +268,7 @@
     "inChrome": false,
     "path": "div#splide02-slide01 > div.teaser.content-card > a#teaser-5bb129b0dc-cta-f0d8e307f5",
     "x": 44,
-    "y": 2088,
+    "y": 968,
     "w": 271,
     "h": 587,
     "text": "don't miss the coca‑cola holiday caravan whether you're a lifelong fan or experi",
@@ -313,7 +282,7 @@
     "inChrome": false,
     "path": "div#teaser-5bb129b0dc > div.cmp-teaser__content > h3.cmp-teaser__title",
     "x": 68,
-    "y": 2315,
+    "y": 1196,
     "w": 223,
     "h": 84,
     "level": 3,
@@ -327,7 +296,7 @@
     "inChrome": false,
     "path": "div#teaser-5bb129b0dc-image > picture.loaded.visible > img.cmp-image__image",
     "x": 44,
-    "y": 2088,
+    "y": 968,
     "w": 271,
     "h": 203,
     "text": "a red coca-cola semi-truck outlined in glowing holiday light",
@@ -341,7 +310,7 @@
     "inChrome": false,
     "path": "div#splide02-slide02 > div.teaser.content-card > a#teaser-3aa339ea1e-cta-5519b315fe",
     "x": 332,
-    "y": 2088,
+    "y": 968,
     "w": 271,
     "h": 587,
     "text": "a full year of favorites could be yours enter today for a chance to win 24 (or e",
@@ -355,7 +324,7 @@
     "inChrome": false,
     "path": "div#teaser-3aa339ea1e > div.cmp-teaser__content > h3.cmp-teaser__title",
     "x": 356,
-    "y": 2315,
+    "y": 1196,
     "w": 223,
     "h": 56,
     "level": 3,
@@ -369,7 +338,7 @@
     "inChrome": false,
     "path": "div#teaser-3aa339ea1e-image > picture.loaded.visible > img.cmp-image__image",
     "x": 332,
-    "y": 2088,
+    "y": 968,
     "w": 271,
     "h": 203,
     "text": "assorted coca-cola products on an autumn park table promotin",
@@ -383,7 +352,7 @@
     "inChrome": false,
     "path": "ul.splide__pagination.splide__pagination--ltr > li > button.splide__pagination__page.is-active",
     "x": 156,
-    "y": 2699,
+    "y": 1580,
     "w": 32,
     "h": 8,
     "text": "go to slide 1"
@@ -396,7 +365,7 @@
     "inChrome": false,
     "path": "ul.splide__pagination.splide__pagination--ltr > li > button.splide__pagination__page",
     "x": 196,
-    "y": 2699,
+    "y": 1580,
     "w": 8,
     "h": 8,
     "text": "go to slide 2"
@@ -409,7 +378,7 @@
     "inChrome": false,
     "path": "div#container-313593d7fc > div.button > a#button-eb2f81a211",
     "x": 24,
-    "y": 2739,
+    "y": 1620,
     "w": 312,
     "h": 40,
     "text": "view all offerings",
@@ -423,7 +392,7 @@
     "inChrome": false,
     "path": "div.title > div#title-de57f77d4e > h2.cmp-title__text",
     "x": 24,
-    "y": 2819,
+    "y": 1700,
     "w": 312,
     "h": 36,
     "level": 2,
@@ -435,64 +404,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div#teaser-c8e377d167 > div.cmp-teaser__content > h3.cmp-teaser__title",
-    "x": 48,
-    "y": 3142,
-    "w": 264,
-    "h": 108,
-    "level": 3,
-    "text": "refresh your fandom all year long"
-   },
-   {
-    "kind": "text",
-    "state": "visible",
-    "variable": false,
-    "inRoot": true,
-    "inChrome": false,
-    "path": "div.cmp-teaser__content > div.cmp-teaser__description > p",
-    "x": 48,
-    "y": 3258,
-    "w": 264,
-    "h": 192,
-    "text": "Soccer Central is your always-on home for the beautiful game. Whether you're int"
-   },
-   {
-    "kind": "link",
-    "state": "visible",
-    "variable": false,
-    "inRoot": true,
-    "inChrome": false,
-    "path": "div.cmp-teaser__content > div.cmp-teaser__action-container > a#teaser-c8e377d167-cta-50051be2bc",
-    "x": 48,
-    "y": 3482,
-    "w": 264,
-    "h": 40,
-    "text": "explore for more",
-    "href": "/us/en/offerings/hubs/soccer"
-   },
-   {
-    "kind": "image",
-    "state": "visible",
-    "variable": false,
-    "inRoot": true,
-    "inChrome": false,
-    "path": "div#teaser-c8e377d167-image > picture.loaded.visible > img.cmp-image__image",
-    "x": 0,
-    "y": 2887,
-    "w": 360,
-    "h": 311,
-    "text": "coca-cola soccer campaign banner featuring a woman drinking ",
-    "file": "width380"
-   },
-   {
-    "kind": "heading",
-    "state": "visible",
-    "variable": false,
-    "inRoot": true,
-    "inChrome": false,
     "path": "div#teaser-e01df91d42 > div.cmp-teaser__content > h3.cmp-teaser__title",
     "x": 48,
-    "y": 3857,
+    "y": 2022,
     "w": 264,
     "h": 72,
     "level": 3,
@@ -506,7 +420,7 @@
     "inChrome": false,
     "path": "div.cmp-teaser__content > div.cmp-teaser__description > p",
     "x": 48,
-    "y": 3937,
+    "y": 2102,
     "w": 264,
     "h": 144,
     "text": "Make the season merry with easy holiday recipes made with Simply®, from cranberr"
@@ -519,11 +433,11 @@
     "inChrome": false,
     "path": "div.cmp-teaser__content > div.cmp-teaser__action-container > a#teaser-e01df91d42-cta-917f183fa2",
     "x": 48,
-    "y": 4113,
+    "y": 2278,
     "w": 264,
     "h": 40,
     "text": "view holiday recipes",
-    "href": "/us/en/brands/simply"
+    "href": "/us/en/brands/simply/recipes/holiday"
    },
    {
     "kind": "image",
@@ -533,7 +447,62 @@
     "inChrome": false,
     "path": "div#teaser-e01df91d42-image > picture.loaded.visible > img.cmp-image__image",
     "x": 0,
-    "y": 3602,
+    "y": 1768,
+    "w": 360,
+    "h": 311,
+    "text": "coca-cola soccer campaign banner featuring a woman drinking ",
+    "file": "width380"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#teaser-c8e377d167 > div.cmp-teaser__content > h3.cmp-teaser__title",
+    "x": 48,
+    "y": 2653,
+    "w": 264,
+    "h": 108,
+    "level": 3,
+    "text": "refresh your fandom all year long"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__description > p",
+    "x": 48,
+    "y": 2769,
+    "w": 264,
+    "h": 192,
+    "text": "Soccer Central is your always-on home for the beautiful game. Whether you're int"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cmp-teaser__content > div.cmp-teaser__action-container > a#teaser-c8e377d167-cta-50051be2bc",
+    "x": 48,
+    "y": 2993,
+    "w": 264,
+    "h": 40,
+    "text": "explore for more",
+    "href": "/us/en/offerings/hubs/soccer"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#teaser-c8e377d167-image > picture.loaded.visible > img.cmp-image__image",
+    "x": 0,
+    "y": 2398,
     "w": 360,
     "h": 311,
     "text": "coca-cola soccer campaign banner featuring a woman drinking ",
@@ -547,7 +516,7 @@
     "inChrome": false,
     "path": "div.title > div#title-ecd64db34a > h2.cmp-title__text",
     "x": 24,
-    "y": 4217,
+    "y": 3097,
     "w": 312,
     "h": 72,
     "level": 2,
@@ -561,7 +530,7 @@
     "inChrome": false,
     "path": "div#splide03-clone02 > div.teaser.content-card > a#teaser-d27c5b2a12-cta-5b0fffede1",
     "x": -306,
-    "y": 4321,
+    "y": 3201,
     "w": 313,
     "h": 571,
     "text": "drinking coca-cola in car",
@@ -575,7 +544,7 @@
     "inChrome": false,
     "path": "div#teaser-d27c5b2a12-image > picture.loaded.visible > img.cmp-image__image",
     "x": -306,
-    "y": 4321,
+    "y": 3201,
     "w": 313,
     "h": 235,
     "text": "drinking coca-cola in car",
@@ -589,7 +558,7 @@
     "inChrome": false,
     "path": "div#splide03-slide01 > div.teaser.content-card > a#teaser-64dd282e78-cta-278f96fa93",
     "x": 23,
-    "y": 4321,
+    "y": 3201,
     "w": 313,
     "h": 571,
     "text": "you plus +one have you downloaded yet? the +one app brings the universe of coca‑",
@@ -603,7 +572,7 @@
     "inChrome": false,
     "path": "div#teaser-64dd282e78 > div.cmp-teaser__content > h3.cmp-teaser__title",
     "x": 47,
-    "y": 4579,
+    "y": 3460,
     "w": 265,
     "h": 28,
     "level": 3,
@@ -617,7 +586,7 @@
     "inChrome": false,
     "path": "div#teaser-64dd282e78-image > picture.loaded.visible > img.cmp-image__image",
     "x": 23,
-    "y": 4321,
+    "y": 3201,
     "w": 313,
     "h": 235,
     "text": "download the coca-cola +one app",
@@ -631,7 +600,7 @@
     "inChrome": false,
     "path": "div#splide03-slide02 > div.teaser.content-card > a#teaser-5b2eef934c-cta-414a3719f1",
     "x": 353,
-    "y": 4321,
+    "y": 3201,
     "w": 313,
     "h": 571,
     "text": "discover your tastebud map",
@@ -645,7 +614,7 @@
     "inChrome": false,
     "path": "div#teaser-5b2eef934c-image > picture.loaded.visible > img.cmp-image__image",
     "x": 353,
-    "y": 4321,
+    "y": 3201,
     "w": 313,
     "h": 235,
     "text": "discover your tastebud map",
@@ -659,7 +628,7 @@
     "inChrome": false,
     "path": "ul.splide__pagination.splide__pagination--ltr > li > button.splide__pagination__page.is-active",
     "x": 132,
-    "y": 4915,
+    "y": 3796,
     "w": 32,
     "h": 8,
     "text": "go to slide 1"
@@ -672,7 +641,7 @@
     "inChrome": false,
     "path": "ul.splide__pagination.splide__pagination--ltr > li > button.splide__pagination__page",
     "x": 172,
-    "y": 4915,
+    "y": 3796,
     "w": 8,
     "h": 8,
     "text": "go to slide 2"
@@ -685,7 +654,7 @@
     "inChrome": false,
     "path": "ul.splide__pagination.splide__pagination--ltr > li > button.splide__pagination__page",
     "x": 188,
-    "y": 4915,
+    "y": 3796,
     "w": 8,
     "h": 8,
     "text": "go to slide 3"
@@ -698,7 +667,7 @@
     "inChrome": false,
     "path": "ul.splide__pagination.splide__pagination--ltr > li > button.splide__pagination__page",
     "x": 204,
-    "y": 4915,
+    "y": 3796,
     "w": 8,
     "h": 8,
     "text": "go to slide 4"
@@ -711,7 +680,7 @@
     "inChrome": false,
     "path": "ul.splide__pagination.splide__pagination--ltr > li > button.splide__pagination__page",
     "x": 220,
-    "y": 4915,
+    "y": 3796,
     "w": 8,
     "h": 8,
     "text": "go to slide 5"
@@ -724,7 +693,7 @@
     "inChrome": false,
     "path": "div.title > div#title-2462330387 > h2.cmp-title__text",
     "x": 24,
-    "y": 4963,
+    "y": 3844,
     "w": 312,
     "h": 36,
     "level": 2,
@@ -738,7 +707,7 @@
     "inChrome": false,
     "path": "div.adaptiveImage.image > div#adaptiveImage-882587fb56 > a.cmp-image__link",
     "x": 24,
-    "y": 5031,
+    "y": 3912,
     "w": 148,
     "h": 148,
     "text": "coca-cola logo",
@@ -752,7 +721,7 @@
     "inChrome": false,
     "path": "a.cmp-image__link > picture > img.cmp-image__image",
     "x": 48,
-    "y": 5090,
+    "y": 3970,
     "w": 100,
     "h": 31,
     "text": "coca-cola logo",
@@ -766,7 +735,7 @@
     "inChrome": false,
     "path": "div.adaptiveImage.image > div#adaptiveImage-faf125f544 > a.cmp-image__link",
     "x": 188,
-    "y": 5031,
+    "y": 3912,
     "w": 148,
     "h": 148,
     "text": "diet coke logo",
@@ -780,7 +749,7 @@
     "inChrome": false,
     "path": "a.cmp-image__link > picture > img.cmp-image__image",
     "x": 212,
-    "y": 5086,
+    "y": 3967,
     "w": 100,
     "h": 38,
     "text": "diet coke logo",
@@ -794,7 +763,7 @@
     "inChrome": false,
     "path": "div.adaptiveImage.image > div#adaptiveImage-e9d6442618 > a.cmp-image__link",
     "x": 24,
-    "y": 5195,
+    "y": 4076,
     "w": 148,
     "h": 148,
     "text": "sprite logo",
@@ -808,7 +777,7 @@
     "inChrome": false,
     "path": "a.cmp-image__link > picture > img.cmp-image__image",
     "x": 48,
-    "y": 5251,
+    "y": 4131,
     "w": 100,
     "h": 38,
     "text": "sprite logo",
@@ -822,7 +791,7 @@
     "inChrome": false,
     "path": "div.adaptiveImage.image > div#adaptiveImage-a5f0c82c4a > a.cmp-image__link",
     "x": 188,
-    "y": 5195,
+    "y": 4076,
     "w": 148,
     "h": 148,
     "text": "fanta logo",
@@ -836,7 +805,7 @@
     "inChrome": false,
     "path": "a.cmp-image__link > picture > img.cmp-image__image",
     "x": 212,
-    "y": 5241,
+    "y": 4122,
     "w": 100,
     "h": 56,
     "text": "fanta logo",
@@ -850,7 +819,7 @@
     "inChrome": false,
     "path": "div.adaptiveImage.image > div#adaptiveImage-3b388e00fa > a.cmp-image__link",
     "x": 24,
-    "y": 5359,
+    "y": 4240,
     "w": 148,
     "h": 148,
     "text": "smartwater",
@@ -864,7 +833,7 @@
     "inChrome": false,
     "path": "a.cmp-image__link > picture > img.cmp-image__image",
     "x": 48,
-    "y": 5415,
+    "y": 4296,
     "w": 100,
     "h": 36,
     "text": "smartwater",
@@ -878,7 +847,7 @@
     "inChrome": false,
     "path": "div.adaptiveImage.image > div#adaptiveImage-9860dba61c > a.cmp-image__link",
     "x": 188,
-    "y": 5359,
+    "y": 4240,
     "w": 148,
     "h": 148,
     "text": "minute maid logo",
@@ -892,7 +861,7 @@
     "inChrome": false,
     "path": "a.cmp-image__link > picture > img.cmp-image__image",
     "x": 212,
-    "y": 5383,
+    "y": 4264,
     "w": 100,
     "h": 100,
     "text": "minute maid logo",
@@ -906,7 +875,7 @@
     "inChrome": false,
     "path": "div#container-e841236ce8 > div.button.button--secondary > a#button-e85ba47a41",
     "x": 24,
-    "y": 5539,
+    "y": 4420,
     "w": 312,
     "h": 40,
     "text": "view all",
@@ -920,7 +889,7 @@
     "inChrome": true,
     "path": "div#adaptiveImage-da2154dbcc > picture > img.cmp-image__image",
     "x": 24,
-    "y": 5691,
+    "y": 4572,
     "w": 249,
     "h": 40,
     "text": "the coca cola company logo",
@@ -934,7 +903,7 @@
     "inChrome": true,
     "path": "div.text.footer__mobile-accordion > div#text-cd8a651f3e > h4",
     "x": 24,
-    "y": 5812,
+    "y": 4693,
     "w": 312,
     "h": 32,
     "level": 4,
@@ -948,7 +917,7 @@
     "inChrome": true,
     "path": "div.text.footer__mobile-accordion > div#text-d3008f5379 > h4",
     "x": 24,
-    "y": 5884,
+    "y": 4765,
     "w": 312,
     "h": 32,
     "level": 4,
@@ -962,7 +931,7 @@
     "inChrome": true,
     "path": "div.text.footer__mobile-accordion > div#text-b9a46e3835 > h4",
     "x": 24,
-    "y": 5956,
+    "y": 4837,
     "w": 312,
     "h": 32,
     "level": 4,
@@ -976,7 +945,7 @@
     "inChrome": true,
     "path": "div#container-ec34f28b60 > div.button.footer__button--social-media > a#button-06fb0efc72",
     "x": 24,
-    "y": 6069,
+    "y": 4950,
     "w": 32,
     "h": 32,
     "text": "x",
@@ -990,7 +959,7 @@
     "inChrome": true,
     "path": "div#container-ec34f28b60 > div.button.footer__button--social-media > a#button-663c28e16e",
     "x": 72,
-    "y": 6069,
+    "y": 4950,
     "w": 32,
     "h": 32,
     "text": "instagram",
@@ -1004,7 +973,7 @@
     "inChrome": true,
     "path": "div#container-ec34f28b60 > div.button.footer__button--social-media > a#button-b5228de1f3",
     "x": 120,
-    "y": 6069,
+    "y": 4950,
     "w": 32,
     "h": 32,
     "text": "youtube",
@@ -1018,7 +987,7 @@
     "inChrome": true,
     "path": "div#container-ec34f28b60 > div.button.footer__button--social-media > a#button-3deb64f5fa",
     "x": 168,
-    "y": 6069,
+    "y": 4950,
     "w": 32,
     "h": 32,
     "text": "facebook",
@@ -1032,7 +1001,7 @@
     "inChrome": true,
     "path": "div.adaptiveImage.image > div#adaptiveImage-4f60f928bb > a.cmp-image__link",
     "x": 24,
-    "y": 6141,
+    "y": 5022,
     "w": 134,
     "h": 40,
     "text": "available on the app store",
@@ -1046,7 +1015,7 @@
     "inChrome": true,
     "path": "a.cmp-image__link > picture > img.cmp-image__image",
     "x": 24,
-    "y": 6141,
+    "y": 5022,
     "w": 134,
     "h": 40,
     "text": "available on the app store",
@@ -1060,7 +1029,7 @@
     "inChrome": true,
     "path": "div.adaptiveImage.image > div#adaptiveImage-84a226bdd2 > a.cmp-image__link",
     "x": 166,
-    "y": 6141,
+    "y": 5022,
     "w": 131,
     "h": 40,
     "text": "get it on google play",
@@ -1074,7 +1043,7 @@
     "inChrome": true,
     "path": "a.cmp-image__link > picture > img.cmp-image__image",
     "x": 166,
-    "y": 6141,
+    "y": 5022,
     "w": 131,
     "h": 40,
     "text": "get it on google play",
@@ -1088,7 +1057,7 @@
     "inChrome": true,
     "path": "div.text.footer__bottom--privacy > div#text-9f71a1ba9a > p",
     "x": 24,
-    "y": 6221,
+    "y": 5102,
     "w": 312,
     "h": 36,
     "text": "© 2026 . All rights reserved."
@@ -1101,7 +1070,7 @@
     "inChrome": true,
     "path": "div#text-9f71a1ba9a > p > a",
     "x": 77,
-    "y": 6223,
+    "y": 5104,
     "w": 158,
     "h": 14,
     "text": "the coca‑cola company",
@@ -1152,38 +1121,12 @@
     "variable": false,
     "inRoot": false,
     "inChrome": false,
-    "path": "div.options-container > div.button.survey-answer-button > button#answer-baseball",
+    "path": "div.options-container > div.button.survey-answer-button > button#answer-basketball",
     "x": 7,
     "y": 439,
     "w": 115,
     "h": 38,
-    "text": "baseball"
-   },
-   {
-    "kind": "button",
-    "state": "visible",
-    "variable": false,
-    "inRoot": false,
-    "inChrome": false,
-    "path": "div.options-container > div.button.survey-answer-button > button#answer-soccer",
-    "x": 126,
-    "y": 439,
-    "w": 115,
-    "h": 38,
-    "text": "soccer"
-   },
-   {
-    "kind": "button",
-    "state": "visible",
-    "variable": false,
-    "inRoot": false,
-    "inChrome": false,
-    "path": "div.options-container > div.button.survey-answer-button > button#answer-golf",
-    "x": 7,
-    "y": 483,
-    "w": 115,
-    "h": 38,
-    "text": "golf"
+    "text": "basketball"
    },
    {
     "kind": "button",
@@ -1193,7 +1136,7 @@
     "inChrome": false,
     "path": "div.options-container > div.button.survey-answer-button > button#answer-hockey",
     "x": 126,
-    "y": 483,
+    "y": 439,
     "w": 115,
     "h": 38,
     "text": "hockey"
@@ -1204,12 +1147,38 @@
     "variable": false,
     "inRoot": false,
     "inChrome": false,
-    "path": "div.options-container > div.button.survey-answer-button > button#answer-basketball",
+    "path": "div.options-container > div.button.survey-answer-button > button#answer-soccer",
+    "x": 7,
+    "y": 483,
+    "w": 115,
+    "h": 38,
+    "text": "soccer"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.options-container > div.button.survey-answer-button > button#answer-baseball",
+    "x": 126,
+    "y": 483,
+    "w": 115,
+    "h": 38,
+    "text": "baseball"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.options-container > div.button.survey-answer-button > button#answer-golf",
     "x": 7,
     "y": 527,
     "w": 115,
     "h": 38,
-    "text": "basketball"
+    "text": "golf"
    },
    {
     "kind": "button",
@@ -1235,9 +1204,9 @@
     "collapsed": 0,
     "scrollHidden": 0,
     "horizontal": 9,
-    "offPage": 43,
-    "textNodes": 84,
-    "controls": 56,
+    "offPage": 67,
+    "textNodes": 95,
+    "controls": 62,
     "total": 0
    },
    "groups": [
@@ -1305,11 +1274,11 @@
   }
  },
  "eds": {
-  "url": "https://main--e4399cea--aemcoder.aem.live/",
-  "at": "2026-11-16T08:38:53.061Z",
+  "url": "https://main--43eb1ed9--aemcoder.aem.live/",
+  "at": "2026-11-18T10:19:01.048Z",
   "status": 200,
   "settlePasses": 2,
-  "docH": 6313,
+  "docH": 5194,
   "root": "main",
   "items": [
    {
@@ -1318,7 +1287,7 @@
     "variable": false,
     "inRoot": false,
     "inChrome": true,
-    "path": "div.site-header-logo > p > a",
+    "path": "div.site-header-bar > div.site-header-logo > a",
     "x": 24,
     "y": 26,
     "w": 125,
@@ -1341,18 +1310,17 @@
     "file": "media_1513d201f2212de61589190767aeb26d23"
    },
    {
-    "kind": "link",
+    "kind": "button",
     "state": "visible",
     "variable": false,
     "inRoot": false,
     "inChrome": true,
-    "path": "div.site-header-signup > p.button-wrapper > a.button.primary",
-    "x": 208,
+    "path": "div.site-header-bar > div.site-header-actions > button.site-header-cta",
+    "x": 209,
     "y": 16,
-    "w": 84,
+    "w": 83,
     "h": 40,
-    "text": "sign up",
-    "href": "/"
+    "text": "sign up"
    },
    {
     "kind": "button",
@@ -1360,7 +1328,7 @@
     "variable": false,
     "inRoot": false,
     "inChrome": true,
-    "path": "div.site-header-inner > div.site-header-actions > button.menu-btn",
+    "path": "div.site-header-bar > div.site-header-actions > button.site-header-menu",
     "x": 312,
     "y": 15,
     "w": 24,
@@ -1373,7 +1341,7 @@
     "variable": false,
     "inRoot": false,
     "inChrome": true,
-    "path": "div.site-header-inner > div.site-header-actions > button.menu-btn",
+    "path": "div.site-header-bar > div.site-header-actions > button.site-header-menu",
     "x": 312,
     "y": 15,
     "w": 24,
@@ -1398,17 +1366,31 @@
    },
    {
     "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-mobile > picture.reveal.visible > img",
+    "x": -306,
+    "y": 312,
+    "w": 313,
+    "h": 516,
+    "text": "",
+    "file": "media_1886bd72a448a813355593285f4d6239a9"
+   },
+   {
+    "kind": "image",
     "state": "visible",
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.media-mobile > picture > img",
-    "x": 24,
-    "y": 328,
-    "w": 312,
-    "h": 208,
+    "path": "div.media-mobile > picture.reveal.visible > img",
+    "x": 23,
+    "y": 312,
+    "w": 313,
+    "h": 516,
     "text": "white coca-cola holiday gift box revealing a welcome to alas",
-    "file": "media_1af022be26f3d7057ff57a60c475e8c738"
+    "file": "media_1aa79f3835eaed40696ae0dbafea19ce05"
    },
    {
     "kind": "heading",
@@ -1416,11 +1398,11 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.feature-xf.block > div.headline > h2#your-shot-at-alaska-starts-now",
-    "x": 24,
-    "y": 576,
-    "w": 312,
-    "h": 72,
+    "path": "div.hero-card-content > div.hero-card-title > h2#your-shot-at-alaska-starts-now",
+    "x": 47,
+    "y": 336,
+    "w": 265,
+    "h": 64,
     "level": 2,
     "text": "your shot at alaska starts now"
    },
@@ -1430,11 +1412,11 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.feature-xf.block > div.lede > p",
-    "x": 24,
-    "y": 664,
-    "w": 312,
-    "h": 120,
+    "path": "div.hero-card-content > div.hero-card-text > p",
+    "x": 47,
+    "y": 408,
+    "w": 265,
+    "h": 144,
     "text": "Spin the Coca‑Cola Holiday Wheel and play for your chance to win an instant priz"
    },
    {
@@ -1443,41 +1425,66 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.actions > p.button-wrapper > a.button.primary",
-    "x": 24,
-    "y": 816,
-    "w": 312,
+    "path": "div.hero-card-cta > p.button-wrapper > a.button.primary",
+    "x": 47,
+    "y": 584,
+    "w": 265,
     "h": 40,
-    "text": "play now",
+    "text": "play and enter",
     "href": "/us/en/offerings/holiday"
    },
    {
-    "kind": "link",
-    "state": "visible",
-    "variable": false,
-    "inRoot": true,
-    "inChrome": false,
-    "path": "div.teaser-block.block > div.teaser-grid > a.content-card",
-    "x": 24,
-    "y": 896,
-    "w": 312,
-    "h": 498,
-    "text": "you could win big this season enter every friday for your chance to win tickets,",
-    "href": "/us/en/offerings/coca-cola/football"
-   },
-   {
     "kind": "image",
-    "state": "visible",
+    "state": "hidden",
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.content-card-media > picture > img",
-    "x": 24,
-    "y": 896,
-    "w": 312,
-    "h": 234,
+    "path": "div.media-mobile > picture.reveal.visible > img",
+    "x": 353,
+    "y": 312,
+    "w": 313,
+    "h": 516,
     "text": "coca-cola big wins fall football promo banner displaying pri",
-    "file": "media_10fbfc7c6b10250e25a55713dc6d9fa87e"
+    "file": "media_1e9aea67a968839238295a3523ba5759f0"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.carousel-dots > li > button.is-active",
+    "x": 148,
+    "y": 852,
+    "w": 32,
+    "h": 8,
+    "text": "go to slide 1"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.carousel-dots > li > button",
+    "x": 188,
+    "y": 852,
+    "w": 8,
+    "h": 8,
+    "text": "go to slide 2"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.carousel-dots > li > button",
+    "x": 204,
+    "y": 852,
+    "w": 8,
+    "h": 8,
+    "text": "go to slide 3"
    },
    {
     "kind": "heading",
@@ -1485,79 +1492,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.content-card-body > div.card-text > h3#you-could-win-big-this-season",
-    "x": 48,
-    "y": 1154,
-    "w": 264,
-    "h": 56,
-    "level": 3,
-    "text": "you could win big this season"
-   },
-   {
-    "kind": "link",
-    "state": "visible",
-    "variable": false,
-    "inRoot": true,
-    "inChrome": false,
-    "path": "div.teaser-block.block > div.teaser-grid > a.content-card",
+    "path": "div.section.carousel-container > div.default-content-wrapper > h2#promos--offers",
     "x": 24,
-    "y": 1410,
-    "w": 312,
-    "h": 498,
-    "text": "you could win big this season enter every friday for your chance to win prizes† ",
-    "href": "/us/en/offerings/coca-cola/hockey"
-   },
-   {
-    "kind": "image",
-    "state": "visible",
-    "variable": false,
-    "inRoot": true,
-    "inChrome": false,
-    "path": "div.content-card-media > picture > img",
-    "x": 24,
-    "y": 1410,
-    "w": 312,
-    "h": 234,
-    "text": "big wins promo banner with a hockey puck, lg tv, fanatics ca",
-    "file": "media_1aa8c27267162aa199ed30045eaff1206d"
-   },
-   {
-    "kind": "heading",
-    "state": "visible",
-    "variable": false,
-    "inRoot": true,
-    "inChrome": false,
-    "path": "div.content-card-body > div.card-text > h3#you-could-win-big-this-season-1",
-    "x": 48,
-    "y": 1668,
-    "w": 264,
-    "h": 56,
-    "level": 3,
-    "text": "you could win big this season"
-   },
-   {
-    "kind": "link",
-    "state": "visible",
-    "variable": false,
-    "inRoot": true,
-    "inChrome": false,
-    "path": "div.default-content-wrapper > p.button-wrapper > a.button.primary",
-    "x": 24,
-    "y": 1940,
-    "w": 312,
-    "h": 40,
-    "text": "view all promos & offers",
-    "href": "/us/en/offerings"
-   },
-   {
-    "kind": "heading",
-    "state": "visible",
-    "variable": false,
-    "inRoot": true,
-    "inChrome": false,
-    "path": "div.section.carousel-container > div.default-content-wrapper > h2#promos--offers-1",
-    "x": 24,
-    "y": 2020,
+    "y": 900,
     "w": 312,
     "h": 36,
     "level": 2,
@@ -1569,11 +1506,11 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.content-card-media > picture > img",
-    "x": -243,
-    "y": 2088,
-    "w": 271,
-    "h": 203,
+    "path": "div.media-all > picture > img",
+    "x": -244,
+    "y": 968,
+    "w": 272,
+    "h": 204,
     "text": "",
     "file": "media_1384387e54e30556e177af12fb565873e3"
    },
@@ -1583,11 +1520,11 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.carousel-list > div.carousel-slide.is-active > a.content-card",
+    "path": "div.carousel-track > div.carousel-slide.is-active > a.content-card",
     "x": 44,
-    "y": 2088,
-    "w": 271,
-    "h": 587,
+    "y": 968,
+    "w": 272,
+    "h": 588,
     "text": "don't miss the coca‑cola holiday caravan whether you're a lifelong fan or experi",
     "href": "/us/en/offerings/holiday-caravan"
    },
@@ -1597,11 +1534,11 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.content-card-media > picture > img",
+    "path": "div.media-all > picture > img",
     "x": 44,
-    "y": 2088,
-    "w": 271,
-    "h": 203,
+    "y": 968,
+    "w": 272,
+    "h": 204,
     "text": "a red coca-cola semi-truck outlined in glowing holiday light",
     "file": "media_1767172124404cd06cd8ee0f2f3fc418f0"
    },
@@ -1611,10 +1548,10 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.content-card-body > div.card-text > h3#dont-miss-the-cocacola-holiday-caravan",
+    "path": "div.content-card-body > div.content-card-title > h3#dont-miss-the-cocacola-holiday-caravan",
     "x": 68,
-    "y": 2315,
-    "w": 223,
+    "y": 1196,
+    "w": 224,
     "h": 84,
     "level": 3,
     "text": "don't miss the coca‑cola holiday caravan"
@@ -1625,11 +1562,11 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.carousel-list > div.carousel-slide > a.content-card",
-    "x": 331,
-    "y": 2088,
-    "w": 271,
-    "h": 587,
+    "path": "div.carousel-track > div.carousel-slide > a.content-card",
+    "x": 332,
+    "y": 968,
+    "w": 272,
+    "h": 588,
     "text": "a full year of favorites could be yours enter today for a chance to win 24 (or e",
     "href": "/us/en/offerings/portfolio/evergreen-promotion"
    },
@@ -1639,11 +1576,11 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.content-card-media > picture > img",
-    "x": 331,
-    "y": 2088,
-    "w": 271,
-    "h": 203,
+    "path": "div.media-all > picture > img",
+    "x": 332,
+    "y": 968,
+    "w": 272,
+    "h": 204,
     "text": "assorted coca-cola products on an autumn park table promotin",
     "file": "media_1384387e54e30556e177af12fb565873e3"
    },
@@ -1653,10 +1590,10 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.content-card-body > div.card-text > h3#a-full-year-of-favorites-could-be-yours",
-    "x": 355,
-    "y": 2315,
-    "w": 223,
+    "path": "div.content-card-body > div.content-card-title > h3#a-full-year-of-favorites-could-be-yours",
+    "x": 356,
+    "y": 1196,
+    "w": 224,
     "h": 56,
     "level": 3,
     "text": "a full year of favorites could be yours"
@@ -1667,9 +1604,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "ul.carousel-dots > li > button.carousel-dot.is-active",
+    "path": "ul.carousel-dots > li > button.is-active",
     "x": 156,
-    "y": 2699,
+    "y": 1580,
     "w": 32,
     "h": 8,
     "text": "go to slide 1"
@@ -1680,9 +1617,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "ul.carousel-dots > li > button.carousel-dot",
+    "path": "ul.carousel-dots > li > button",
     "x": 196,
-    "y": 2699,
+    "y": 1580,
     "w": 8,
     "h": 8,
     "text": "go to slide 2"
@@ -1695,7 +1632,7 @@
     "inChrome": false,
     "path": "div.default-content-wrapper > p.button-wrapper > a.button.primary",
     "x": 24,
-    "y": 2739,
+    "y": 1620,
     "w": 312,
     "h": 40,
     "text": "view all offerings",
@@ -1707,54 +1644,13 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.section.features-container > div.default-content-wrapper > h2#features",
+    "path": "div.section.campaign-card-container > div.default-content-wrapper > h2#features",
     "x": 24,
-    "y": 2819,
+    "y": 1700,
     "w": 312,
     "h": 36,
     "level": 2,
     "text": "features"
-   },
-   {
-    "kind": "heading",
-    "state": "visible",
-    "variable": false,
-    "inRoot": true,
-    "inChrome": false,
-    "path": "div.campaign-card-content > div.headline > h3#refresh-your-fandom-all-year-long",
-    "x": 48,
-    "y": 3142,
-    "w": 264,
-    "h": 108,
-    "level": 3,
-    "text": "refresh your fandom all year long"
-   },
-   {
-    "kind": "text",
-    "state": "visible",
-    "variable": false,
-    "inRoot": true,
-    "inChrome": false,
-    "path": "div.campaign-card-content > div.lede > p",
-    "x": 48,
-    "y": 3258,
-    "w": 264,
-    "h": 192,
-    "text": "Soccer Central is your always-on home for the beautiful game. Whether you're int"
-   },
-   {
-    "kind": "link",
-    "state": "visible",
-    "variable": false,
-    "inRoot": true,
-    "inChrome": false,
-    "path": "div.actions > p.button-wrapper > a.button.secondary",
-    "x": 48,
-    "y": 3482,
-    "w": 264,
-    "h": 40,
-    "text": "explore for more",
-    "href": "/us/en/offerings/hubs/soccer"
    },
    {
     "kind": "image",
@@ -1764,11 +1660,11 @@
     "inChrome": false,
     "path": "div.media-mobile > picture > img",
     "x": 0,
-    "y": 2887,
+    "y": 1768,
     "w": 360,
     "h": 311,
     "text": "coca-cola soccer campaign banner featuring a woman drinking ",
-    "file": "media_160c7f5509225d3fc68bda5b92cb8ea72b"
+    "file": "media_1f48ade6e04ebe4c2db39d6f4536a9a5c3"
    },
    {
     "kind": "heading",
@@ -1776,9 +1672,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.campaign-card-content > div.headline > h3#mix-up-the-holiday-spirit",
+    "path": "div.campaign-card-content > div.campaign-card-title > h3#mix-up-the-holiday-spirit",
     "x": 48,
-    "y": 3856,
+    "y": 2023,
     "w": 264,
     "h": 72,
     "level": 3,
@@ -1790,9 +1686,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.campaign-card-content > div.lede > p",
+    "path": "div.campaign-card-content > div.campaign-card-text > p",
     "x": 48,
-    "y": 3936,
+    "y": 2103,
     "w": 264,
     "h": 144,
     "text": "Make the season merry with easy holiday recipes made with Simply®, from cranberr"
@@ -1803,13 +1699,13 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.actions > p.button-wrapper > a.button.secondary",
+    "path": "div.campaign-card-cta > p.button-wrapper > a.button.secondary",
     "x": 48,
-    "y": 4112,
+    "y": 2279,
     "w": 264,
     "h": 40,
     "text": "view holiday recipes",
-    "href": "/us/en/brands/simply"
+    "href": "/us/en/brands/simply/recipes/holiday"
    },
    {
     "kind": "image",
@@ -1819,11 +1715,52 @@
     "inChrome": false,
     "path": "div.media-mobile > picture > img",
     "x": 0,
-    "y": 3602,
+    "y": 2399,
     "w": 360,
     "h": 311,
     "text": "coca-cola soccer campaign banner featuring a woman drinking ",
-    "file": "media_1189571cec4c4ff9327c76218ddff6ad8e"
+    "file": "media_1139213c3b40cc51791b9b967542d0ae4e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.campaign-card-content > div.campaign-card-title > h3#refresh-your-fandom-all-year-long",
+    "x": 48,
+    "y": 2653,
+    "w": 264,
+    "h": 108,
+    "level": 3,
+    "text": "refresh your fandom all year long"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.campaign-card-content > div.campaign-card-text > p",
+    "x": 48,
+    "y": 2769,
+    "w": 264,
+    "h": 192,
+    "text": "Soccer Central is your always-on home for the beautiful game. Whether you're int"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.campaign-card-cta > p.button-wrapper > a.button.secondary",
+    "x": 48,
+    "y": 2993,
+    "w": 264,
+    "h": 40,
+    "text": "explore for more",
+    "href": "/us/en/offerings/hubs/soccer"
    },
    {
     "kind": "heading",
@@ -1833,7 +1770,7 @@
     "inChrome": false,
     "path": "div.section.carousel-container > div.default-content-wrapper > h2#more-from-cocacola",
     "x": 24,
-    "y": 4216,
+    "y": 3097,
     "w": 312,
     "h": 72,
     "level": 2,
@@ -1845,13 +1782,13 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.content-card-media > picture > img",
+    "path": "div.media-mobile > picture > img",
     "x": -306,
-    "y": 4320,
+    "y": 3201,
     "w": 313,
     "h": 235,
     "text": "",
-    "file": "media_1b2f5016fe8fb7f02ef20e73367965a0d9"
+    "file": "media_16ee7eae38630dfe9242d9f53cd16c3097"
    },
    {
     "kind": "link",
@@ -1859,9 +1796,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.carousel-list > div.carousel-slide.is-active > a.content-card",
+    "path": "div.carousel-track > div.carousel-slide.is-active > a.content-card",
     "x": 23,
-    "y": 4320,
+    "y": 3201,
     "w": 313,
     "h": 571,
     "text": "you plus +one have you downloaded yet? the +one app brings the universe of coca‑",
@@ -1873,9 +1810,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.content-card-media > picture > img",
+    "path": "div.media-all > picture > img",
     "x": 23,
-    "y": 4320,
+    "y": 3201,
     "w": 313,
     "h": 235,
     "text": "download the coca-cola +one app",
@@ -1887,9 +1824,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.content-card-body > div.card-text > h3#you-plus-one",
+    "path": "div.content-card-body > div.content-card-title > h3#you-plus-one",
     "x": 47,
-    "y": 4579,
+    "y": 3460,
     "w": 265,
     "h": 28,
     "level": 3,
@@ -1901,9 +1838,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.carousel-list > div.carousel-slide > a.content-card",
-    "x": 352,
-    "y": 4320,
+    "path": "div.carousel-track > div.carousel-slide > a.content-card",
+    "x": 353,
+    "y": 3201,
     "w": 313,
     "h": 571,
     "text": "discover your tastebud map",
@@ -1915,9 +1852,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.content-card-media > picture > img",
-    "x": 352,
-    "y": 4320,
+    "path": "div.media-all > picture > img",
+    "x": 353,
+    "y": 3201,
     "w": 313,
     "h": 235,
     "text": "discover your tastebud map",
@@ -1929,9 +1866,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "ul.carousel-dots > li > button.carousel-dot.is-active",
+    "path": "ul.carousel-dots > li > button.is-active",
     "x": 132,
-    "y": 4915,
+    "y": 3796,
     "w": 32,
     "h": 8,
     "text": "go to slide 1"
@@ -1942,9 +1879,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "ul.carousel-dots > li > button.carousel-dot",
+    "path": "ul.carousel-dots > li > button",
     "x": 172,
-    "y": 4915,
+    "y": 3796,
     "w": 8,
     "h": 8,
     "text": "go to slide 2"
@@ -1955,9 +1892,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "ul.carousel-dots > li > button.carousel-dot",
+    "path": "ul.carousel-dots > li > button",
     "x": 188,
-    "y": 4915,
+    "y": 3796,
     "w": 8,
     "h": 8,
     "text": "go to slide 3"
@@ -1968,9 +1905,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "ul.carousel-dots > li > button.carousel-dot",
+    "path": "ul.carousel-dots > li > button",
     "x": 204,
-    "y": 4915,
+    "y": 3796,
     "w": 8,
     "h": 8,
     "text": "go to slide 4"
@@ -1981,9 +1918,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "ul.carousel-dots > li > button.carousel-dot",
+    "path": "ul.carousel-dots > li > button",
     "x": 220,
-    "y": 4915,
+    "y": 3796,
     "w": 8,
     "h": 8,
     "text": "go to slide 5"
@@ -1994,9 +1931,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.section.brands-container > div.default-content-wrapper > h2#explore-our-brands",
+    "path": "div.section.brands-list-container > div.default-content-wrapper > h2#explore-our-brands",
     "x": 24,
-    "y": 4963,
+    "y": 3844,
     "w": 312,
     "h": 36,
     "level": 2,
@@ -2008,9 +1945,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.brands.block > div.brands-grid > a.brand-tile",
+    "path": "ul > li > a.reveal.loaded",
     "x": 24,
-    "y": 5031,
+    "y": 3912,
     "w": 148,
     "h": 148,
     "text": "coca-cola logo",
@@ -2022,9 +1959,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.brand-logo > picture > img",
+    "path": "a.reveal.loaded > picture > img",
     "x": 48,
-    "y": 5089,
+    "y": 3971,
     "w": 100,
     "h": 31,
     "text": "coca-cola logo",
@@ -2036,9 +1973,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.brands.block > div.brands-grid > a.brand-tile",
+    "path": "ul > li > a.reveal.loaded",
     "x": 188,
-    "y": 5031,
+    "y": 3912,
     "w": 148,
     "h": 148,
     "text": "diet coke logo",
@@ -2050,9 +1987,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.brand-logo > picture > img",
+    "path": "a.reveal.loaded > picture > img",
     "x": 212,
-    "y": 5086,
+    "y": 3967,
     "w": 100,
     "h": 38,
     "text": "diet coke logo",
@@ -2064,9 +2001,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.brands.block > div.brands-grid > a.brand-tile",
+    "path": "ul > li > a.reveal.loaded",
     "x": 24,
-    "y": 5195,
+    "y": 4076,
     "w": 148,
     "h": 148,
     "text": "sprite logo",
@@ -2078,9 +2015,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.brand-logo > picture > img",
+    "path": "a.reveal.loaded > picture > img",
     "x": 48,
-    "y": 5250,
+    "y": 4131,
     "w": 100,
     "h": 38,
     "text": "sprite logo",
@@ -2092,9 +2029,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.brands.block > div.brands-grid > a.brand-tile",
+    "path": "ul > li > a.reveal.loaded",
     "x": 188,
-    "y": 5195,
+    "y": 4076,
     "w": 148,
     "h": 148,
     "text": "fanta logo",
@@ -2106,9 +2043,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.brand-logo > picture > img",
+    "path": "a.reveal.loaded > picture > img",
     "x": 212,
-    "y": 5241,
+    "y": 4122,
     "w": 100,
     "h": 56,
     "text": "fanta logo",
@@ -2120,9 +2057,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.brands.block > div.brands-grid > a.brand-tile",
+    "path": "ul > li > a.reveal.loaded",
     "x": 24,
-    "y": 5359,
+    "y": 4240,
     "w": 148,
     "h": 148,
     "text": "smartwater",
@@ -2134,9 +2071,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.brand-logo > picture > img",
+    "path": "a.reveal.loaded > picture > img",
     "x": 48,
-    "y": 5415,
+    "y": 4296,
     "w": 100,
     "h": 36,
     "text": "smartwater",
@@ -2148,9 +2085,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.brands.block > div.brands-grid > a.brand-tile",
+    "path": "ul > li > a.reveal.loaded",
     "x": 188,
-    "y": 5359,
+    "y": 4240,
     "w": 148,
     "h": 148,
     "text": "minute maid logo",
@@ -2162,9 +2099,9 @@
     "variable": false,
     "inRoot": true,
     "inChrome": false,
-    "path": "div.brand-logo > picture > img",
+    "path": "a.reveal.loaded > picture > img",
     "x": 212,
-    "y": 5383,
+    "y": 4264,
     "w": 100,
     "h": 100,
     "text": "minute maid logo",
@@ -2178,7 +2115,7 @@
     "inChrome": false,
     "path": "div.default-content-wrapper > p.button-wrapper > a.button.secondary",
     "x": 24,
-    "y": 5539,
+    "y": 4420,
     "w": 312,
     "h": 40,
     "text": "view all",
@@ -2192,7 +2129,7 @@
     "inChrome": true,
     "path": "div.site-footer-logo > picture > img",
     "x": 24,
-    "y": 5691,
+    "y": 4572,
     "w": 249,
     "h": 40,
     "text": "the coca cola company logo",
@@ -2204,9 +2141,9 @@
     "variable": false,
     "inRoot": false,
     "inChrome": true,
-    "path": "div.footer-col > div.footer-col-head > h4#help",
+    "path": "nav.site-footer-nav > div.footer-col > h4#help",
     "x": 24,
-    "y": 5812,
+    "y": 4693,
     "w": 312,
     "h": 32,
     "level": 4,
@@ -2218,9 +2155,9 @@
     "variable": false,
     "inRoot": false,
     "inChrome": true,
-    "path": "div.footer-col > div.footer-col-head > h4#shop--visit",
+    "path": "nav.site-footer-nav > div.footer-col > h4#shop--visit",
     "x": 24,
-    "y": 5884,
+    "y": 4765,
     "w": 312,
     "h": 32,
     "level": 4,
@@ -2232,9 +2169,9 @@
     "variable": false,
     "inRoot": false,
     "inChrome": true,
-    "path": "div.footer-col > div.footer-col-head > h4#legal",
+    "path": "nav.site-footer-nav > div.footer-col > h4#legal",
     "x": 24,
-    "y": 5956,
+    "y": 4837,
     "w": 312,
     "h": 32,
     "level": 4,
@@ -2246,9 +2183,9 @@
     "variable": false,
     "inRoot": false,
     "inChrome": true,
-    "path": "ul > li > a",
+    "path": "div.site-footer-inner > div.site-footer-social > a.social-btn.social-btn-x",
     "x": 24,
-    "y": 6069,
+    "y": 4950,
     "w": 32,
     "h": 32,
     "text": "x",
@@ -2260,9 +2197,9 @@
     "variable": false,
     "inRoot": false,
     "inChrome": true,
-    "path": "ul > li > a",
+    "path": "div.site-footer-inner > div.site-footer-social > a.social-btn.social-btn-instagram",
     "x": 72,
-    "y": 6069,
+    "y": 4950,
     "w": 32,
     "h": 32,
     "text": "instagram",
@@ -2274,9 +2211,9 @@
     "variable": false,
     "inRoot": false,
     "inChrome": true,
-    "path": "ul > li > a",
+    "path": "div.site-footer-inner > div.site-footer-social > a.social-btn.social-btn-youtube",
     "x": 120,
-    "y": 6069,
+    "y": 4950,
     "w": 32,
     "h": 32,
     "text": "youtube",
@@ -2288,9 +2225,9 @@
     "variable": false,
     "inRoot": false,
     "inChrome": true,
-    "path": "ul > li > a",
+    "path": "div.site-footer-inner > div.site-footer-social > a.social-btn.social-btn-facebook",
     "x": 168,
-    "y": 6069,
+    "y": 4950,
     "w": 32,
     "h": 32,
     "text": "facebook",
@@ -2302,9 +2239,9 @@
     "variable": false,
     "inRoot": false,
     "inChrome": true,
-    "path": "div.footer-apps > p > a",
+    "path": "div.site-footer-inner > div.site-footer-apps > a",
     "x": 24,
-    "y": 6141,
+    "y": 5022,
     "w": 134,
     "h": 40,
     "text": "available on the app store",
@@ -2318,7 +2255,7 @@
     "inChrome": true,
     "path": "a > picture > img",
     "x": 24,
-    "y": 6141,
+    "y": 5022,
     "w": 134,
     "h": 40,
     "text": "available on the app store",
@@ -2330,9 +2267,9 @@
     "variable": false,
     "inRoot": false,
     "inChrome": true,
-    "path": "div.footer-apps > p > a",
+    "path": "div.site-footer-inner > div.site-footer-apps > a",
     "x": 166,
-    "y": 6141,
+    "y": 5022,
     "w": 131,
     "h": 40,
     "text": "get it on google play",
@@ -2346,7 +2283,7 @@
     "inChrome": true,
     "path": "a > picture > img",
     "x": 166,
-    "y": 6141,
+    "y": 5022,
     "w": 131,
     "h": 40,
     "text": "get it on google play",
@@ -2358,9 +2295,9 @@
     "variable": false,
     "inRoot": false,
     "inChrome": true,
-    "path": "div.site-footer-inner > div.footer-legal > p",
+    "path": "div.site-footer-inner > div.site-footer-legal > p",
     "x": 24,
-    "y": 6221,
+    "y": 5102,
     "w": 312,
     "h": 36,
     "text": "© 2026 . All rights reserved."
@@ -2371,11 +2308,11 @@
     "variable": false,
     "inRoot": false,
     "inChrome": true,
-    "path": "div.footer-legal > p > a",
-    "x": 77,
-    "y": 6223,
-    "w": 158,
-    "h": 14,
+    "path": "div.site-footer-legal > p > a",
+    "x": 74,
+    "y": 5104,
+    "w": 161,
+    "h": 13,
     "text": "the coca‑cola company",
     "href": "/"
    }
@@ -2390,9 +2327,9 @@
     "collapsed": 0,
     "scrollHidden": 0,
     "horizontal": 5,
-    "offPage": 15,
-    "textNodes": 57,
-    "controls": 41,
+    "offPage": 23,
+    "textNodes": 50,
+    "controls": 40,
     "total": 0
    },
    "groups": [
@@ -2400,20 +2337,20 @@
      "kind": "CONTROL X-CUT",
      "advisory": true,
      "n": 2,
-     "clipper": "div.carousel-track",
-     "path": "div.carousel-track > div.carousel-list > div.carousel-slide > a.content-card",
+     "clipper": "div.carousel-viewport",
+     "path": "div.carousel-viewport > div.carousel-track > div.carousel-slide > a.content-card",
      "text": "a full year of favorites could be yoursenter today for a cha",
-     "cutMin": 266,
-     "cutMax": 305
+     "cutMin": 268,
+     "cutMax": 306
     },
     {
      "kind": "TEXT X-HIDDEN",
      "advisory": true,
      "n": 2,
      "clipper": "a.content-card",
-     "path": "a.content-card > div.content-card-body > div.card-text > p",
+     "path": "a.content-card > div.content-card-body > div.content-card-text > p",
      "text": "enter today for a chance to win 24 (or equivalent) of your f",
-     "cutMin": 89,
+     "cutMin": 91,
      "cutMax": 218
     },
     {
@@ -2421,59 +2358,59 @@
      "advisory": true,
      "n": 1,
      "clipper": "a.content-card",
-     "path": "a.content-card > div.content-card-body > div.card-text > h3#a-full-year-of-favorites-could-be-yours",
+     "path": "a.content-card > div.content-card-body > div.content-card-title > h3#a-full-year-of-favorites-could-be-yours",
      "text": "a full year of favorites could be yours",
-     "cutMin": 214,
-     "cutMax": 214
+     "cutMin": 219,
+     "cutMax": 219
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 266,
-     "path": "div.carousel-track > div.carousel-list > div.carousel-slide > a.content-card",
+     "cut": 268,
+     "path": "div.carousel-viewport > div.carousel-track > div.carousel-slide > a.content-card",
      "text": "a full year of favorites could be yoursenter today for a cha",
-     "clipper": "div.carousel-track",
+     "clipper": "div.carousel-viewport",
      "rect": {
-      "l": 331,
-      "t": 2088,
-      "r": 602,
-      "b": 2675,
-      "w": 271,
-      "h": 587
+      "l": 332,
+      "t": 968,
+      "r": 604,
+      "b": 1556,
+      "w": 272,
+      "h": 588
      },
      "clip": {
       "l": 24,
-      "t": 2080,
+      "t": 968,
       "r": 336,
-      "b": 2691,
+      "b": 1556,
       "w": 312,
-      "h": 611
+      "h": 588
      }
     },
     {
      "kind": "TEXT X-HIDDEN",
      "advisory": true,
-     "cut": 214,
-     "path": "a.content-card > div.content-card-body > div.card-text > h3#a-full-year-of-favorites-could-be-yours",
+     "cut": 219,
+     "path": "a.content-card > div.content-card-body > div.content-card-title > h3#a-full-year-of-favorites-could-be-yours",
      "text": "a full year of favorites could be yours",
      "clipper": "a.content-card",
      "rect": {
-      "l": 355,
-      "t": 2317,
-      "r": 574,
-      "b": 2341,
-      "w": 219,
-      "h": 24
+      "l": 356,
+      "t": 1199,
+      "r": 579,
+      "b": 1221,
+      "w": 223,
+      "h": 22
      },
      "clip": {
-      "l": 331,
-      "t": 2088,
-      "r": 602,
-      "b": 2675,
-      "w": 271,
-      "h": 587
+      "l": 332,
+      "t": 968,
+      "r": 604,
+      "b": 1556,
+      "w": 272,
+      "h": 588
      },
      "lines": 2
     },
@@ -2481,74 +2418,74 @@
      "kind": "TEXT X-HIDDEN",
      "advisory": true,
      "cut": 218,
-     "path": "a.content-card > div.content-card-body > div.card-text > p",
+     "path": "a.content-card > div.content-card-body > div.content-card-text > p",
      "text": "enter today for a chance to win 24 (or equivalent) of your f",
      "clipper": "a.content-card",
      "rect": {
-      "l": 355,
-      "t": 2381,
-      "r": 566,
-      "b": 2400,
-      "w": 211,
-      "h": 19
+      "l": 356,
+      "t": 1263,
+      "r": 577,
+      "b": 1280,
+      "w": 221,
+      "h": 17
      },
      "clip": {
-      "l": 331,
-      "t": 2088,
-      "r": 602,
-      "b": 2675,
-      "w": 271,
-      "h": 587
+      "l": 332,
+      "t": 968,
+      "r": 604,
+      "b": 1556,
+      "w": 272,
+      "h": 588
      },
      "lines": 9
     },
     {
      "kind": "TEXT X-HIDDEN",
      "advisory": true,
-     "cut": 89,
-     "path": "a.content-card > div.content-card-body > div.has-arrow > p",
+     "cut": 91,
+     "path": "a.content-card > div.content-card-body > div.content-card-cta > p",
      "text": "enter now",
      "clipper": "a.content-card",
      "rect": {
-      "l": 355,
-      "t": 2629,
-      "r": 449,
-      "b": 2648,
-      "w": 94,
-      "h": 19
+      "l": 356,
+      "t": 1511,
+      "r": 451,
+      "b": 1528,
+      "w": 95,
+      "h": 17
      },
      "clip": {
-      "l": 331,
-      "t": 2088,
-      "r": 602,
-      "b": 2675,
-      "w": 271,
-      "h": 587
+      "l": 332,
+      "t": 968,
+      "r": 604,
+      "b": 1556,
+      "w": 272,
+      "h": 588
      },
      "lines": 1
     },
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 305,
-     "path": "div.carousel-track > div.carousel-list > div.carousel-slide > a.content-card",
+     "cut": 306,
+     "path": "div.carousel-viewport > div.carousel-track > div.carousel-slide > a.content-card",
      "text": "discover your tastebud mapwe’ve devised a quick, fun way to ",
-     "clipper": "div.carousel-track",
+     "clipper": "div.carousel-viewport",
      "rect": {
-      "l": 352,
-      "t": 4320,
-      "r": 665,
-      "b": 4891,
+      "l": 353,
+      "t": 3201,
+      "r": 666,
+      "b": 3772,
       "w": 313,
       "h": 571
      },
      "clip": {
       "l": 0,
-      "t": 4312,
+      "t": 3201,
       "r": 360,
-      "b": 4907,
+      "b": 3772,
       "w": 360,
-      "h": 595
+      "h": 571
      }
     }
    ]
@@ -2595,7 +2532,7 @@
     "text": 0,
     "textHidden": 0,
     "image": 1,
-    "imageHidden": 0
+    "imageHidden": 2
    },
    "findings": []
   },
@@ -2604,61 +2541,17 @@
    "heading": "your shot at alaska starts now",
    "variable": false,
    "origin": {
-    "link": 2,
-    "button": 0,
+    "link": 1,
+    "button": 3,
     "text": 1,
-    "image": 1
-   },
-   "eds": {
-    "link": 2,
-    "linkHidden": 0,
-    "button": 0,
-    "buttonHidden": 0,
-    "text": 1,
-    "textHidden": 0,
-    "image": 1,
-    "imageHidden": 0
-   },
-   "findings": []
-  },
-  {
-   "index": 3,
-   "heading": "you could win big this season",
-   "variable": false,
-   "origin": {
-    "link": 1,
-    "button": 0,
-    "text": 0,
-    "image": 1
-   },
-   "eds": {
-    "link": 1,
-    "linkHidden": 0,
-    "button": 0,
-    "buttonHidden": 0,
-    "text": 0,
-    "textHidden": 0,
-    "image": 1,
-    "imageHidden": 0
-   },
-   "findings": []
-  },
-  {
-   "index": 4,
-   "heading": "you could win big this season",
-   "variable": false,
-   "origin": {
-    "link": 1,
-    "button": 0,
-    "text": 0,
     "image": 0
    },
    "eds": {
     "link": 1,
     "linkHidden": 0,
-    "button": 0,
+    "button": 3,
     "buttonHidden": 0,
-    "text": 0,
+    "text": 1,
     "textHidden": 0,
     "image": 0,
     "imageHidden": 0
@@ -2666,7 +2559,7 @@
    "findings": []
   },
   {
-   "index": 5,
+   "index": 3,
    "heading": "promos & offers",
    "variable": false,
    "origin": {
@@ -2688,7 +2581,7 @@
    "findings": []
   },
   {
-   "index": 6,
+   "index": 4,
    "heading": "don't miss the coca‑cola holiday caravan",
    "variable": false,
    "origin": {
@@ -2710,7 +2603,7 @@
    "findings": []
   },
   {
-   "index": 7,
+   "index": 5,
    "heading": "features",
    "variable": false,
    "origin": {
@@ -2732,8 +2625,8 @@
    "findings": []
   },
   {
-   "index": 8,
-   "heading": "refresh your fandom all year long",
+   "index": 6,
+   "heading": "mix up the holiday spirit",
    "variable": false,
    "origin": {
     "link": 1,
@@ -2754,8 +2647,8 @@
    "findings": []
   },
   {
-   "index": 9,
-   "heading": "mix up the holiday spirit",
+   "index": 7,
+   "heading": "refresh your fandom all year long",
    "variable": false,
    "origin": {
     "link": 1,
@@ -2776,7 +2669,7 @@
    "findings": []
   },
   {
-   "index": 10,
+   "index": 8,
    "heading": "more from coca‑cola®",
    "variable": false,
    "origin": {
@@ -2798,7 +2691,7 @@
    "findings": []
   },
   {
-   "index": 11,
+   "index": 9,
    "heading": "you plus +one",
    "variable": false,
    "origin": {
@@ -2820,7 +2713,7 @@
    "findings": []
   },
   {
-   "index": 12,
+   "index": 10,
    "heading": "explore our brands",
    "variable": false,
    "origin": {
@@ -2893,536 +2786,446 @@
     "h": 39
    },
    {
-    "x": 42,
-    "y": 577,
-    "w": 276,
-    "h": 34
+    "x": 64,
+    "y": 338,
+    "w": 233,
+    "h": 28
    },
    {
-    "x": 99,
-    "y": 613,
-    "w": 161,
-    "h": 34
+    "x": 112,
+    "y": 370,
+    "w": 136,
+    "h": 28
    },
    {
-    "x": 33,
-    "y": 666,
-    "w": 294,
+    "x": 63,
+    "y": 410,
+    "w": 235,
     "h": 19
    },
    {
-    "x": 31,
-    "y": 690,
-    "w": 297,
+    "x": 77,
+    "y": 434,
+    "w": 206,
     "h": 19
    },
    {
-    "x": 52,
-    "y": 714,
-    "w": 256,
+    "x": 50,
+    "y": 458,
+    "w": 260,
     "h": 19
    },
    {
-    "x": 43,
-    "y": 738,
-    "w": 273,
+    "x": 64,
+    "y": 482,
+    "w": 233,
     "h": 19
    },
    {
-    "x": 161,
-    "y": 762,
-    "w": 37,
+    "x": 67,
+    "y": 506,
+    "w": 225,
     "h": 19
    },
    {
-    "x": 138,
-    "y": 826,
-    "w": 83,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 1156,
-    "w": 257,
-    "h": 24
-   },
-   {
-    "x": 48,
-    "y": 1184,
-    "w": 85,
-    "h": 24
-   },
-   {
-    "x": 48,
-    "y": 1220,
-    "w": 228,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 1244,
-    "w": 187,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 1268,
-    "w": 261,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 1292,
-    "w": 249,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 1348,
-    "w": 105,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 1670,
-    "w": 257,
-    "h": 24
-   },
-   {
-    "x": 48,
-    "y": 1698,
-    "w": 85,
-    "h": 24
-   },
-   {
-    "x": 48,
-    "y": 1734,
-    "w": 228,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 1758,
-    "w": 221,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 1782,
-    "w": 246,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 1806,
-    "w": 107,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 1862,
-    "w": 105,
-    "h": 19
-   },
-   {
-    "x": 69,
-    "y": 1950,
-    "w": 222,
+    "x": 115,
+    "y": 570,
+    "w": 130,
     "h": 19
    },
    {
     "x": 63,
-    "y": 2021,
+    "y": 901,
     "w": 234,
     "h": 34
    },
    {
     "x": -219,
-    "y": 2317,
+    "y": 1198,
     "w": 219,
     "h": 24
    },
    {
     "x": -219,
-    "y": 2429,
+    "y": 1310,
     "w": 223,
     "h": 19
    },
    {
     "x": 68,
-    "y": 2317,
+    "y": 1198,
     "w": 139,
     "h": 24
    },
    {
     "x": 68,
-    "y": 2345,
+    "y": 1226,
     "w": 178,
     "h": 24
    },
    {
     "x": 68,
-    "y": 2373,
+    "y": 1254,
     "w": 80,
     "h": 24
    },
    {
     "x": 68,
-    "y": 2409,
+    "y": 1290,
     "w": 217,
     "h": 19
    },
    {
     "x": 68,
-    "y": 2433,
+    "y": 1314,
     "w": 200,
     "h": 19
    },
    {
     "x": 68,
-    "y": 2457,
+    "y": 1338,
     "w": 202,
     "h": 19
    },
    {
     "x": 68,
-    "y": 2481,
+    "y": 1362,
     "w": 182,
     "h": 19
    },
    {
     "x": 68,
-    "y": 2505,
+    "y": 1386,
     "w": 203,
     "h": 19
    },
    {
     "x": 68,
-    "y": 2529,
+    "y": 1410,
     "w": 53,
     "h": 19
    },
    {
     "x": 68,
-    "y": 2629,
+    "y": 1510,
     "w": 130,
     "h": 19
    },
    {
     "x": 356,
-    "y": 2317,
+    "y": 1198,
     "w": 219,
     "h": 24
    },
    {
     "x": 356,
-    "y": 2345,
+    "y": 1226,
     "w": 147,
     "h": 24
    },
    {
     "x": 356,
-    "y": 2381,
+    "y": 1262,
     "w": 211,
     "h": 19
    },
    {
     "x": 356,
-    "y": 2405,
+    "y": 1286,
     "w": 209,
     "h": 19
    },
    {
     "x": 356,
-    "y": 2429,
+    "y": 1310,
     "w": 223,
     "h": 19
    },
    {
     "x": 356,
-    "y": 2453,
+    "y": 1334,
     "w": 186,
     "h": 19
    },
    {
     "x": 356,
-    "y": 2477,
+    "y": 1358,
     "w": 145,
     "h": 19
    },
    {
     "x": 356,
-    "y": 2501,
+    "y": 1382,
     "w": 198,
     "h": 19
    },
    {
     "x": 356,
-    "y": 2525,
+    "y": 1406,
     "w": 182,
     "h": 19
    },
    {
     "x": 356,
-    "y": 2549,
+    "y": 1430,
     "w": 180,
     "h": 19
    },
    {
     "x": 356,
-    "y": 2573,
+    "y": 1454,
     "w": 52,
     "h": 19
    },
    {
     "x": 356,
-    "y": 2629,
+    "y": 1510,
     "w": 94,
     "h": 19
    },
    {
     "x": 101,
-    "y": 2749,
+    "y": 1630,
     "w": 158,
     "h": 19
    },
    {
     "x": 118,
-    "y": 2820,
+    "y": 1701,
     "w": 125,
     "h": 34
    },
    {
     "x": 48,
-    "y": 3143,
-    "w": 181,
-    "h": 34
-   },
-   {
-    "x": 48,
-    "y": 3179,
-    "w": 229,
-    "h": 34
-   },
-   {
-    "x": 48,
-    "y": 3215,
-    "w": 72,
-    "h": 34
-   },
-   {
-    "x": 48,
-    "y": 3260,
-    "w": 259,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 3284,
-    "w": 221,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 3308,
-    "w": 228,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 3332,
-    "w": 238,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 3356,
-    "w": 219,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 3380,
-    "w": 201,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 3404,
-    "w": 254,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 3428,
-    "w": 108,
-    "h": 19
-   },
-   {
-    "x": 105,
-    "y": 3492,
-    "w": 149,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 3858,
+    "y": 2023,
     "w": 152,
     "h": 34
    },
    {
     "x": 48,
-    "y": 3894,
+    "y": 2059,
     "w": 191,
     "h": 34
    },
    {
     "x": 48,
-    "y": 3939,
+    "y": 2104,
     "w": 246,
     "h": 19
    },
    {
     "x": 48,
-    "y": 3963,
+    "y": 2128,
     "w": 230,
     "h": 19
    },
    {
     "x": 48,
-    "y": 3987,
+    "y": 2152,
     "w": 249,
     "h": 19
    },
    {
     "x": 48,
-    "y": 4011,
+    "y": 2176,
     "w": 253,
     "h": 19
    },
    {
     "x": 48,
-    "y": 4035,
+    "y": 2200,
     "w": 219,
     "h": 19
    },
    {
     "x": 48,
-    "y": 4059,
+    "y": 2224,
     "w": 118,
     "h": 19
    },
    {
     "x": 84,
-    "y": 4123,
+    "y": 2288,
     "w": 192,
     "h": 19
    },
    {
+    "x": 48,
+    "y": 2654,
+    "w": 181,
+    "h": 34
+   },
+   {
+    "x": 48,
+    "y": 2690,
+    "w": 229,
+    "h": 34
+   },
+   {
+    "x": 48,
+    "y": 2726,
+    "w": 72,
+    "h": 34
+   },
+   {
+    "x": 48,
+    "y": 2771,
+    "w": 259,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2795,
+    "w": 221,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2819,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2843,
+    "w": 238,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2867,
+    "w": 219,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2891,
+    "w": 201,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2915,
+    "w": 254,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2939,
+    "w": 108,
+    "h": 19
+   },
+   {
     "x": 105,
-    "y": 4218,
+    "y": 3003,
+    "w": 149,
+    "h": 19
+   },
+   {
+    "x": 105,
+    "y": 3098,
     "w": 150,
     "h": 34
    },
    {
     "x": 100,
-    "y": 4254,
+    "y": 3134,
     "w": 160,
     "h": 34
    },
    {
     "x": 47,
-    "y": 4581,
+    "y": 3462,
     "w": 136,
     "h": 24
    },
    {
     "x": 47,
-    "y": 4617,
+    "y": 3498,
     "w": 235,
     "h": 19
    },
    {
     "x": 47,
-    "y": 4641,
+    "y": 3522,
     "w": 212,
     "h": 19
    },
    {
     "x": 47,
-    "y": 4665,
+    "y": 3546,
     "w": 236,
     "h": 19
    },
    {
     "x": 47,
-    "y": 4689,
+    "y": 3570,
     "w": 243,
     "h": 19
    },
    {
     "x": 47,
-    "y": 4713,
+    "y": 3594,
     "w": 200,
     "h": 19
    },
    {
     "x": 47,
-    "y": 4845,
+    "y": 3726,
     "w": 136,
     "h": 19
    },
    {
     "x": 42,
-    "y": 4964,
+    "y": 3845,
     "w": 277,
     "h": 34
    },
    {
     "x": 144,
-    "y": 5549,
+    "y": 4430,
     "w": 72,
     "h": 19
    },
    {
     "x": 24,
-    "y": 5814,
+    "y": 4695,
     "w": 57,
     "h": 28
    },
    {
     "x": 24,
-    "y": 5886,
+    "y": 4767,
     "w": 143,
     "h": 28
    },
    {
     "x": 24,
-    "y": 5958,
+    "y": 4839,
     "w": 67,
     "h": 28
    },
    {
     "x": 24,
-    "y": 6223,
+    "y": 5104,
     "w": 53,
     "h": 14
    },
    {
     "x": 77,
-    "y": 6223,
+    "y": 5104,
     "w": 158,
     "h": 14
    },
    {
     "x": 235,
-    "y": 6223,
+    "y": 5104,
     "w": 65,
     "h": 14
    },
    {
     "x": 24,
-    "y": 6241,
+    "y": 5122,
     "w": 60,
     "h": 14
    },
@@ -3451,33 +3254,33 @@
     "h": 19
    },
    {
-    "x": 33,
+    "x": 26,
     "y": 450,
-    "w": 63,
-    "h": 15
-   },
-   {
-    "x": 159,
-    "y": 450,
-    "w": 49,
-    "h": 15
-   },
-   {
-    "x": 50,
-    "y": 494,
-    "w": 30,
+    "w": 77,
     "h": 15
    },
    {
     "x": 157,
-    "y": 494,
+    "y": 450,
     "w": 54,
     "h": 15
    },
    {
-    "x": 26,
+    "x": 40,
+    "y": 494,
+    "w": 49,
+    "h": 15
+   },
+   {
+    "x": 152,
+    "y": 494,
+    "w": 63,
+    "h": 15
+   },
+   {
+    "x": 50,
     "y": 538,
-    "w": 77,
+    "w": 30,
     "h": 15
    },
    {
@@ -3489,556 +3292,472 @@
   ],
   "eds": [
    {
-    "x": 224,
+    "x": 225,
     "y": 29,
-    "w": 52,
-    "h": 14
+    "w": 51,
+    "h": 13
    },
    {
-    "x": 52,
-    "y": 112,
-    "w": 256,
-    "h": 39
+    "x": 55,
+    "y": 114,
+    "w": 251,
+    "h": 35
    },
    {
     "x": 58,
-    "y": 152,
-    "w": 245,
-    "h": 39
-   },
-   {
-    "x": 111,
-    "y": 192,
-    "w": 138,
-    "h": 39
-   },
-   {
-    "x": 79,
-    "y": 232,
-    "w": 202,
-    "h": 39
-   },
-   {
-    "x": 42,
-    "y": 577,
-    "w": 276,
-    "h": 34
-   },
-   {
-    "x": 99,
-    "y": 613,
-    "w": 161,
-    "h": 34
-   },
-   {
-    "x": 33,
-    "y": 666,
-    "w": 294,
-    "h": 19
-   },
-   {
-    "x": 31,
-    "y": 690,
-    "w": 297,
-    "h": 19
-   },
-   {
-    "x": 52,
-    "y": 714,
-    "w": 256,
-    "h": 19
-   },
-   {
-    "x": 43,
-    "y": 738,
-    "w": 273,
-    "h": 19
-   },
-   {
-    "x": 161,
-    "y": 762,
-    "w": 37,
-    "h": 19
-   },
-   {
-    "x": 138,
-    "y": 826,
-    "w": 83,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 1156,
-    "w": 257,
-    "h": 24
-   },
-   {
-    "x": 48,
-    "y": 1184,
-    "w": 85,
-    "h": 24
-   },
-   {
-    "x": 48,
-    "y": 1220,
-    "w": 228,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 1244,
-    "w": 187,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 1268,
-    "w": 261,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 1292,
-    "w": 249,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 1348,
-    "w": 105,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 1670,
-    "w": 257,
-    "h": 24
-   },
-   {
-    "x": 48,
-    "y": 1698,
-    "w": 85,
-    "h": 24
-   },
-   {
-    "x": 48,
-    "y": 1734,
-    "w": 228,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 1758,
-    "w": 221,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 1782,
-    "w": 246,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 1806,
-    "w": 107,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 1862,
-    "w": 105,
-    "h": 19
-   },
-   {
-    "x": 69,
-    "y": 1950,
-    "w": 222,
-    "h": 19
-   },
-   {
-    "x": 63,
-    "y": 2021,
-    "w": 234,
-    "h": 34
-   },
-   {
-    "x": 68,
-    "y": 2317,
-    "w": 139,
-    "h": 24
-   },
-   {
-    "x": 68,
-    "y": 2345,
-    "w": 178,
-    "h": 24
-   },
-   {
-    "x": 68,
-    "y": 2373,
-    "w": 80,
-    "h": 24
-   },
-   {
-    "x": 68,
-    "y": 2409,
-    "w": 217,
-    "h": 19
-   },
-   {
-    "x": 68,
-    "y": 2433,
-    "w": 200,
-    "h": 19
-   },
-   {
-    "x": 68,
-    "y": 2457,
-    "w": 202,
-    "h": 19
-   },
-   {
-    "x": 68,
-    "y": 2481,
-    "w": 182,
-    "h": 19
-   },
-   {
-    "x": 68,
-    "y": 2505,
-    "w": 203,
-    "h": 19
-   },
-   {
-    "x": 68,
-    "y": 2529,
-    "w": 53,
-    "h": 19
-   },
-   {
-    "x": 68,
-    "y": 2629,
-    "w": 130,
-    "h": 19
-   },
-   {
-    "x": 355,
-    "y": 2317,
-    "w": 219,
-    "h": 24
-   },
-   {
-    "x": 355,
-    "y": 2345,
-    "w": 147,
-    "h": 24
-   },
-   {
-    "x": 355,
-    "y": 2381,
-    "w": 211,
-    "h": 19
-   },
-   {
-    "x": 355,
-    "y": 2405,
-    "w": 209,
-    "h": 19
-   },
-   {
-    "x": 355,
-    "y": 2429,
-    "w": 223,
-    "h": 19
-   },
-   {
-    "x": 355,
-    "y": 2453,
-    "w": 186,
-    "h": 19
-   },
-   {
-    "x": 355,
-    "y": 2477,
-    "w": 145,
-    "h": 19
-   },
-   {
-    "x": 355,
-    "y": 2501,
-    "w": 198,
-    "h": 19
-   },
-   {
-    "x": 355,
-    "y": 2525,
-    "w": 182,
-    "h": 19
-   },
-   {
-    "x": 355,
-    "y": 2549,
-    "w": 180,
-    "h": 19
-   },
-   {
-    "x": 355,
-    "y": 2573,
-    "w": 52,
-    "h": 19
-   },
-   {
-    "x": 355,
-    "y": 2629,
-    "w": 94,
-    "h": 19
-   },
-   {
-    "x": 101,
-    "y": 2749,
-    "w": 158,
-    "h": 19
-   },
-   {
-    "x": 118,
-    "y": 2820,
-    "w": 125,
-    "h": 34
-   },
-   {
-    "x": 48,
-    "y": 3143,
-    "w": 181,
-    "h": 34
-   },
-   {
-    "x": 48,
-    "y": 3179,
-    "w": 229,
-    "h": 34
-   },
-   {
-    "x": 48,
-    "y": 3215,
-    "w": 72,
-    "h": 34
-   },
-   {
-    "x": 48,
-    "y": 3260,
-    "w": 259,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 3284,
-    "w": 221,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 3308,
-    "w": 228,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 3332,
-    "w": 238,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 3356,
-    "w": 219,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 3380,
-    "w": 201,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 3404,
-    "w": 254,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 3428,
-    "w": 108,
-    "h": 19
-   },
-   {
-    "x": 105,
-    "y": 3492,
-    "w": 149,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 3857,
-    "w": 152,
-    "h": 34
-   },
-   {
-    "x": 48,
-    "y": 3893,
-    "w": 191,
-    "h": 34
-   },
-   {
-    "x": 48,
-    "y": 3938,
-    "w": 246,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 3962,
-    "w": 230,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 3986,
-    "w": 249,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 4010,
-    "w": 253,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 4034,
-    "w": 219,
-    "h": 19
-   },
-   {
-    "x": 48,
-    "y": 4058,
-    "w": 118,
-    "h": 19
-   },
-   {
-    "x": 84,
-    "y": 4122,
-    "w": 192,
-    "h": 19
-   },
-   {
-    "x": 105,
-    "y": 4217,
-    "w": 150,
-    "h": 34
-   },
-   {
-    "x": 100,
-    "y": 4253,
-    "w": 160,
-    "h": 34
-   },
-   {
-    "x": 47,
-    "y": 4581,
-    "w": 136,
-    "h": 24
-   },
-   {
-    "x": 47,
-    "y": 4617,
-    "w": 235,
-    "h": 19
-   },
-   {
-    "x": 47,
-    "y": 4641,
-    "w": 212,
-    "h": 19
-   },
-   {
-    "x": 47,
-    "y": 4665,
-    "w": 236,
-    "h": 19
-   },
-   {
-    "x": 47,
-    "y": 4689,
-    "w": 243,
-    "h": 19
-   },
-   {
-    "x": 47,
-    "y": 4713,
-    "w": 200,
-    "h": 19
-   },
-   {
-    "x": 47,
-    "y": 4845,
-    "w": 136,
-    "h": 19
-   },
-   {
-    "x": 42,
-    "y": 4964,
-    "w": 277,
-    "h": 34
-   },
-   {
-    "x": 144,
-    "y": 5549,
-    "w": 72,
-    "h": 19
-   },
-   {
-    "x": 24,
-    "y": 5814,
-    "w": 57,
-    "h": 28
-   },
-   {
-    "x": 24,
-    "y": 5886,
-    "w": 143,
-    "h": 28
-   },
-   {
-    "x": 24,
-    "y": 5958,
-    "w": 67,
-    "h": 28
-   },
-   {
-    "x": 24,
-    "y": 6223,
-    "w": 53,
-    "h": 14
+    "y": 154,
+    "w": 244,
+    "h": 35
+   },
+   {
+    "x": 110,
+    "y": 194,
+    "w": 140,
+    "h": 35
    },
    {
     "x": 77,
-    "y": 6223,
-    "w": 158,
-    "h": 14
+    "y": 234,
+    "w": 205,
+    "h": 35
    },
    {
-    "x": 235,
-    "y": 6223,
-    "w": 65,
-    "h": 14
+    "x": 62,
+    "y": 338,
+    "w": 236,
+    "h": 27
+   },
+   {
+    "x": 111,
+    "y": 370,
+    "w": 139,
+    "h": 27
+   },
+   {
+    "x": 62,
+    "y": 411,
+    "w": 237,
+    "h": 17
+   },
+   {
+    "x": 75,
+    "y": 435,
+    "w": 210,
+    "h": 17
+   },
+   {
+    "x": 71,
+    "y": 459,
+    "w": 218,
+    "h": 17
+   },
+   {
+    "x": 81,
+    "y": 483,
+    "w": 198,
+    "h": 17
+   },
+   {
+    "x": 56,
+    "y": 507,
+    "w": 249,
+    "h": 17
+   },
+   {
+    "x": 145,
+    "y": 531,
+    "w": 70,
+    "h": 17
+   },
+   {
+    "x": 114,
+    "y": 595,
+    "w": 131,
+    "h": 17
+   },
+   {
+    "x": 60,
+    "y": 902,
+    "w": 239,
+    "h": 31
+   },
+   {
+    "x": 68,
+    "y": 1199,
+    "w": 139,
+    "h": 22
+   },
+   {
+    "x": 68,
+    "y": 1227,
+    "w": 176,
+    "h": 22
+   },
+   {
+    "x": 68,
+    "y": 1255,
+    "w": 81,
+    "h": 22
+   },
+   {
+    "x": 68,
+    "y": 1291,
+    "w": 221,
+    "h": 17
+   },
+   {
+    "x": 68,
+    "y": 1315,
+    "w": 207,
+    "h": 17
+   },
+   {
+    "x": 68,
+    "y": 1339,
+    "w": 212,
+    "h": 17
+   },
+   {
+    "x": 68,
+    "y": 1363,
+    "w": 186,
+    "h": 17
+   },
+   {
+    "x": 68,
+    "y": 1387,
+    "w": 209,
+    "h": 17
+   },
+   {
+    "x": 68,
+    "y": 1411,
+    "w": 55,
+    "h": 17
+   },
+   {
+    "x": 68,
+    "y": 1511,
+    "w": 132,
+    "h": 17
+   },
+   {
+    "x": 356,
+    "y": 1199,
+    "w": 223,
+    "h": 22
+   },
+   {
+    "x": 356,
+    "y": 1227,
+    "w": 147,
+    "h": 22
+   },
+   {
+    "x": 356,
+    "y": 1263,
+    "w": 221,
+    "h": 17
+   },
+   {
+    "x": 356,
+    "y": 1287,
+    "w": 214,
+    "h": 17
+   },
+   {
+    "x": 356,
+    "y": 1311,
+    "w": 139,
+    "h": 17
+   },
+   {
+    "x": 356,
+    "y": 1335,
+    "w": 163,
+    "h": 17
+   },
+   {
+    "x": 356,
+    "y": 1359,
+    "w": 222,
+    "h": 17
+   },
+   {
+    "x": 356,
+    "y": 1383,
+    "w": 196,
+    "h": 17
+   },
+   {
+    "x": 356,
+    "y": 1407,
+    "w": 176,
+    "h": 17
+   },
+   {
+    "x": 356,
+    "y": 1431,
+    "w": 173,
+    "h": 17
+   },
+   {
+    "x": 356,
+    "y": 1455,
+    "w": 134,
+    "h": 17
+   },
+   {
+    "x": 356,
+    "y": 1511,
+    "w": 95,
+    "h": 17
+   },
+   {
+    "x": 101,
+    "y": 1631,
+    "w": 157,
+    "h": 17
+   },
+   {
+    "x": 115,
+    "y": 1702,
+    "w": 130,
+    "h": 31
+   },
+   {
+    "x": 48,
+    "y": 2025,
+    "w": 153,
+    "h": 31
+   },
+   {
+    "x": 48,
+    "y": 2061,
+    "w": 192,
+    "h": 31
+   },
+   {
+    "x": 48,
+    "y": 2106,
+    "w": 253,
+    "h": 17
+   },
+   {
+    "x": 48,
+    "y": 2130,
+    "w": 232,
+    "h": 17
+   },
+   {
+    "x": 48,
+    "y": 2154,
+    "w": 258,
+    "h": 17
+   },
+   {
+    "x": 48,
+    "y": 2178,
+    "w": 256,
+    "h": 17
+   },
+   {
+    "x": 48,
+    "y": 2202,
+    "w": 225,
+    "h": 17
+   },
+   {
+    "x": 48,
+    "y": 2226,
+    "w": 122,
+    "h": 17
+   },
+   {
+    "x": 85,
+    "y": 2290,
+    "w": 190,
+    "h": 17
+   },
+   {
+    "x": 48,
+    "y": 2655,
+    "w": 187,
+    "h": 31
+   },
+   {
+    "x": 48,
+    "y": 2691,
+    "w": 232,
+    "h": 31
+   },
+   {
+    "x": 48,
+    "y": 2727,
+    "w": 71,
+    "h": 31
+   },
+   {
+    "x": 48,
+    "y": 2772,
+    "w": 194,
+    "h": 17
+   },
+   {
+    "x": 48,
+    "y": 2796,
+    "w": 213,
+    "h": 17
+   },
+   {
+    "x": 48,
+    "y": 2820,
+    "w": 221,
+    "h": 17
+   },
+   {
+    "x": 48,
+    "y": 2844,
+    "w": 246,
+    "h": 17
+   },
+   {
+    "x": 48,
+    "y": 2868,
+    "w": 235,
+    "h": 17
+   },
+   {
+    "x": 48,
+    "y": 2892,
+    "w": 242,
+    "h": 17
+   },
+   {
+    "x": 48,
+    "y": 2916,
+    "w": 204,
+    "h": 17
+   },
+   {
+    "x": 48,
+    "y": 2940,
+    "w": 212,
+    "h": 17
+   },
+   {
+    "x": 104,
+    "y": 3004,
+    "w": 151,
+    "h": 17
+   },
+   {
+    "x": 104,
+    "y": 3099,
+    "w": 152,
+    "h": 31
+   },
+   {
+    "x": 102,
+    "y": 3135,
+    "w": 155,
+    "h": 31
+   },
+   {
+    "x": 47,
+    "y": 3463,
+    "w": 135,
+    "h": 22
+   },
+   {
+    "x": 47,
+    "y": 3499,
+    "w": 240,
+    "h": 17
+   },
+   {
+    "x": 47,
+    "y": 3523,
+    "w": 216,
+    "h": 17
+   },
+   {
+    "x": 47,
+    "y": 3547,
+    "w": 240,
+    "h": 17
+   },
+   {
+    "x": 47,
+    "y": 3571,
+    "w": 253,
+    "h": 17
+   },
+   {
+    "x": 47,
+    "y": 3595,
+    "w": 206,
+    "h": 17
+   },
+   {
+    "x": 47,
+    "y": 3727,
+    "w": 135,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 3846,
+    "w": 281,
+    "h": 31
+   },
+   {
+    "x": 144,
+    "y": 4431,
+    "w": 71,
+    "h": 17
    },
    {
     "x": 24,
-    "y": 6241,
-    "w": 60,
-    "h": 14
+    "y": 4695,
+    "w": 56,
+    "h": 27
+   },
+   {
+    "x": 24,
+    "y": 4767,
+    "w": 146,
+    "h": 27
+   },
+   {
+    "x": 24,
+    "y": 4839,
+    "w": 64,
+    "h": 27
+   },
+   {
+    "x": 24,
+    "y": 5104,
+    "w": 50,
+    "h": 13
+   },
+   {
+    "x": 74,
+    "y": 5104,
+    "w": 161,
+    "h": 13
+   },
+   {
+    "x": 235,
+    "y": 5104,
+    "w": 65,
+    "h": 13
+   },
+   {
+    "x": 24,
+    "y": 5122,
+    "w": 63,
+    "h": 13
    }
   ]
  }

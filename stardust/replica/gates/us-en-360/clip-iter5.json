@@ -1,0 +1,661 @@
+{
+ "url": "http://localhost:8791/us-en-proposed.html",
+ "at": "2026-11-18T07:45:35.742Z",
+ "width": 360,
+ "status": 200,
+ "settlePasses": 2,
+ "docH": 5194,
+ "pageW": 360,
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 5,
+  "offPage": 23,
+  "textNodes": 50,
+  "controls": 40,
+  "total": 0
+ },
+ "findings": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "cut": 268,
+   "path": "div.carousel__viewport > div.carousel__track > div.carousel__slide > a.content-card",
+   "text": "a full year of favorites could be yours enter today for a ch",
+   "clipper": "div.carousel__viewport",
+   "rect": {
+    "l": 332,
+    "t": 968,
+    "r": 604,
+    "b": 1556,
+    "w": 272,
+    "h": 588
+   },
+   "clip": {
+    "l": 24,
+    "t": 968,
+    "r": 336,
+    "b": 1556,
+    "w": 312,
+    "h": 588
+   }
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 219,
+   "path": "div.carousel__slide > a.content-card > div.content-card__body > h3.content-card__title.h-card",
+   "text": "a full year of favorites could be yours",
+   "clipper": "a.content-card",
+   "rect": {
+    "l": 356,
+    "t": 1199,
+    "r": 579,
+    "b": 1221,
+    "w": 223,
+    "h": 22
+   },
+   "clip": {
+    "l": 332,
+    "t": 968,
+    "r": 604,
+    "b": 1556,
+    "w": 272,
+    "h": 588
+   },
+   "lines": 2
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 218,
+   "path": "div.carousel__slide > a.content-card > div.content-card__body > p.content-card__text",
+   "text": "enter today for a chance to win 24 (or equivalent) of your f",
+   "clipper": "a.content-card",
+   "rect": {
+    "l": 356,
+    "t": 1263,
+    "r": 577,
+    "b": 1280,
+    "w": 221,
+    "h": 17
+   },
+   "clip": {
+    "l": 332,
+    "t": 968,
+    "r": 604,
+    "b": 1556,
+    "w": 272,
+    "h": 588
+   },
+   "lines": 9
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 91,
+   "path": "div.carousel__slide > a.content-card > div.content-card__body > p.content-card__cta",
+   "text": "enter now",
+   "clipper": "a.content-card",
+   "rect": {
+    "l": 356,
+    "t": 1511,
+    "r": 451,
+    "b": 1528,
+    "w": 95,
+    "h": 17
+   },
+   "clip": {
+    "l": 332,
+    "t": 968,
+    "r": 604,
+    "b": 1556,
+    "w": 272,
+    "h": 588
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "cut": 306,
+   "path": "div.carousel__viewport > div.carousel__track > div.carousel__slide > a.content-card",
+   "text": "discover your tastebud map we’ve devised a quick, fun way to",
+   "clipper": "div.carousel__viewport",
+   "rect": {
+    "l": 353,
+    "t": 3201,
+    "r": 666,
+    "b": 3772,
+    "w": 313,
+    "h": 571
+   },
+   "clip": {
+    "l": 0,
+    "t": 3201,
+    "r": 360,
+    "b": 3772,
+    "w": 360,
+    "h": 571
+   }
+  }
+ ],
+ "textBoxes": [
+  {
+   "x": 225,
+   "y": 29,
+   "w": 51,
+   "h": 13
+  },
+  {
+   "x": 57,
+   "y": 114,
+   "w": 247,
+   "h": 35
+  },
+  {
+   "x": 58,
+   "y": 154,
+   "w": 244,
+   "h": 35
+  },
+  {
+   "x": 110,
+   "y": 194,
+   "w": 140,
+   "h": 35
+  },
+  {
+   "x": 77,
+   "y": 234,
+   "w": 205,
+   "h": 35
+  },
+  {
+   "x": 62,
+   "y": 338,
+   "w": 236,
+   "h": 27
+  },
+  {
+   "x": 111,
+   "y": 370,
+   "w": 139,
+   "h": 27
+  },
+  {
+   "x": 63,
+   "y": 411,
+   "w": 235,
+   "h": 17
+  },
+  {
+   "x": 75,
+   "y": 435,
+   "w": 210,
+   "h": 17
+  },
+  {
+   "x": 71,
+   "y": 459,
+   "w": 218,
+   "h": 17
+  },
+  {
+   "x": 81,
+   "y": 483,
+   "w": 198,
+   "h": 17
+  },
+  {
+   "x": 56,
+   "y": 507,
+   "w": 249,
+   "h": 17
+  },
+  {
+   "x": 145,
+   "y": 531,
+   "w": 70,
+   "h": 17
+  },
+  {
+   "x": 114,
+   "y": 595,
+   "w": 131,
+   "h": 17
+  },
+  {
+   "x": 60,
+   "y": 902,
+   "w": 239,
+   "h": 31
+  },
+  {
+   "x": 68,
+   "y": 1199,
+   "w": 139,
+   "h": 22
+  },
+  {
+   "x": 68,
+   "y": 1227,
+   "w": 173,
+   "h": 22
+  },
+  {
+   "x": 68,
+   "y": 1255,
+   "w": 81,
+   "h": 22
+  },
+  {
+   "x": 68,
+   "y": 1291,
+   "w": 221,
+   "h": 17
+  },
+  {
+   "x": 68,
+   "y": 1315,
+   "w": 207,
+   "h": 17
+  },
+  {
+   "x": 68,
+   "y": 1339,
+   "w": 212,
+   "h": 17
+  },
+  {
+   "x": 68,
+   "y": 1363,
+   "w": 186,
+   "h": 17
+  },
+  {
+   "x": 68,
+   "y": 1387,
+   "w": 209,
+   "h": 17
+  },
+  {
+   "x": 68,
+   "y": 1411,
+   "w": 55,
+   "h": 17
+  },
+  {
+   "x": 68,
+   "y": 1511,
+   "w": 132,
+   "h": 17
+  },
+  {
+   "x": 356,
+   "y": 1199,
+   "w": 223,
+   "h": 22
+  },
+  {
+   "x": 356,
+   "y": 1227,
+   "w": 147,
+   "h": 22
+  },
+  {
+   "x": 356,
+   "y": 1263,
+   "w": 221,
+   "h": 17
+  },
+  {
+   "x": 356,
+   "y": 1287,
+   "w": 214,
+   "h": 17
+  },
+  {
+   "x": 356,
+   "y": 1311,
+   "w": 139,
+   "h": 17
+  },
+  {
+   "x": 356,
+   "y": 1335,
+   "w": 161,
+   "h": 17
+  },
+  {
+   "x": 356,
+   "y": 1359,
+   "w": 222,
+   "h": 17
+  },
+  {
+   "x": 356,
+   "y": 1383,
+   "w": 196,
+   "h": 17
+  },
+  {
+   "x": 356,
+   "y": 1407,
+   "w": 176,
+   "h": 17
+  },
+  {
+   "x": 356,
+   "y": 1431,
+   "w": 173,
+   "h": 17
+  },
+  {
+   "x": 356,
+   "y": 1455,
+   "w": 134,
+   "h": 17
+  },
+  {
+   "x": 356,
+   "y": 1511,
+   "w": 95,
+   "h": 17
+  },
+  {
+   "x": 101,
+   "y": 1631,
+   "w": 157,
+   "h": 17
+  },
+  {
+   "x": 115,
+   "y": 1702,
+   "w": 130,
+   "h": 31
+  },
+  {
+   "x": 48,
+   "y": 2025,
+   "w": 153,
+   "h": 31
+  },
+  {
+   "x": 48,
+   "y": 2061,
+   "w": 192,
+   "h": 31
+  },
+  {
+   "x": 48,
+   "y": 2106,
+   "w": 253,
+   "h": 17
+  },
+  {
+   "x": 48,
+   "y": 2130,
+   "w": 232,
+   "h": 17
+  },
+  {
+   "x": 48,
+   "y": 2154,
+   "w": 258,
+   "h": 17
+  },
+  {
+   "x": 48,
+   "y": 2178,
+   "w": 256,
+   "h": 17
+  },
+  {
+   "x": 48,
+   "y": 2202,
+   "w": 225,
+   "h": 17
+  },
+  {
+   "x": 48,
+   "y": 2226,
+   "w": 122,
+   "h": 17
+  },
+  {
+   "x": 85,
+   "y": 2290,
+   "w": 190,
+   "h": 17
+  },
+  {
+   "x": 48,
+   "y": 2655,
+   "w": 187,
+   "h": 31
+  },
+  {
+   "x": 48,
+   "y": 2691,
+   "w": 232,
+   "h": 31
+  },
+  {
+   "x": 48,
+   "y": 2727,
+   "w": 71,
+   "h": 31
+  },
+  {
+   "x": 48,
+   "y": 2772,
+   "w": 194,
+   "h": 17
+  },
+  {
+   "x": 48,
+   "y": 2796,
+   "w": 213,
+   "h": 17
+  },
+  {
+   "x": 48,
+   "y": 2820,
+   "w": 221,
+   "h": 17
+  },
+  {
+   "x": 48,
+   "y": 2844,
+   "w": 246,
+   "h": 17
+  },
+  {
+   "x": 48,
+   "y": 2868,
+   "w": 235,
+   "h": 17
+  },
+  {
+   "x": 48,
+   "y": 2892,
+   "w": 242,
+   "h": 17
+  },
+  {
+   "x": 48,
+   "y": 2916,
+   "w": 204,
+   "h": 17
+  },
+  {
+   "x": 48,
+   "y": 2940,
+   "w": 212,
+   "h": 17
+  },
+  {
+   "x": 104,
+   "y": 3004,
+   "w": 151,
+   "h": 17
+  },
+  {
+   "x": 104,
+   "y": 3099,
+   "w": 152,
+   "h": 31
+  },
+  {
+   "x": 104,
+   "y": 3135,
+   "w": 152,
+   "h": 31
+  },
+  {
+   "x": 47,
+   "y": 3463,
+   "w": 135,
+   "h": 22
+  },
+  {
+   "x": 47,
+   "y": 3499,
+   "w": 240,
+   "h": 17
+  },
+  {
+   "x": 47,
+   "y": 3523,
+   "w": 216,
+   "h": 17
+  },
+  {
+   "x": 47,
+   "y": 3547,
+   "w": 238,
+   "h": 17
+  },
+  {
+   "x": 47,
+   "y": 3571,
+   "w": 253,
+   "h": 17
+  },
+  {
+   "x": 47,
+   "y": 3595,
+   "w": 206,
+   "h": 17
+  },
+  {
+   "x": 47,
+   "y": 3727,
+   "w": 135,
+   "h": 17
+  },
+  {
+   "x": 40,
+   "y": 3846,
+   "w": 281,
+   "h": 31
+  },
+  {
+   "x": 144,
+   "y": 4431,
+   "w": 71,
+   "h": 17
+  },
+  {
+   "x": 24,
+   "y": 4695,
+   "w": 56,
+   "h": 27
+  },
+  {
+   "x": 24,
+   "y": 4767,
+   "w": 146,
+   "h": 27
+  },
+  {
+   "x": 24,
+   "y": 4839,
+   "w": 64,
+   "h": 27
+  },
+  {
+   "x": 24,
+   "y": 5104,
+   "w": 50,
+   "h": 13
+  },
+  {
+   "x": 74,
+   "y": 5104,
+   "w": 159,
+   "h": 13
+  },
+  {
+   "x": 233,
+   "y": 5104,
+   "w": 65,
+   "h": 13
+  },
+  {
+   "x": 24,
+   "y": 5122,
+   "w": 63,
+   "h": 13
+  }
+ ],
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.carousel__viewport",
+   "path": "div.carousel__viewport > div.carousel__track > div.carousel__slide > a.content-card",
+   "text": "a full year of favorites could be yours enter today for a ch",
+   "cutMin": 268,
+   "cutMax": 306
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "a.content-card",
+   "path": "div.carousel__slide > a.content-card > div.content-card__body > h3.content-card__title.h-card",
+   "text": "a full year of favorites could be yours",
+   "cutMin": 219,
+   "cutMax": 219
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "a.content-card",
+   "path": "div.carousel__slide > a.content-card > div.content-card__body > p.content-card__text",
+   "text": "enter today for a chance to win 24 (or equivalent) of your f",
+   "cutMin": 218,
+   "cutMax": 218
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "a.content-card",
+   "path": "div.carousel__slide > a.content-card > div.content-card__body > p.content-card__cta",
+   "text": "enter now",
+   "cutMin": 91,
+   "cutMax": 91
+  }
+ ],
+ "tier": "chrome"
+}

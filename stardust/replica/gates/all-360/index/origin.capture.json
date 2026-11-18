@@ -3,8 +3,8 @@
   "url": "https://www.coca-cola.com/",
   "width": 360,
   "vh": 900,
-  "height": 6313,
-  "chunks": 8,
+  "height": 5194,
+  "chunks": 6,
   "denialCheck": "ok",
   "fontsFailed": [],
   "fixedLayers": {
@@ -12,5 +12,5 @@
     "count": 6,
     "late": 0
   },
-  "at": "2026-11-16T08:37:26.742Z"
+  "at": "2026-11-18T10:18:19.145Z"
 }

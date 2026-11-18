@@ -1,28 +1,29 @@
 /*
- * Brand faces, loaded late by loadFonts() (scripts/scripts.js).
- * FONT LICENSING REQUIRED BEFORE GOING LIVE: TCCC-UnityText and the icomoon icon font are
- * proprietary (The Coca-Cola Company). See fonts/LICENSING.md and register R-01.
+ * Brand faces, loaded after first paint by loadFonts() (scripts/scripts.js).
+ * TCCC-UnityText is a licensed Coca-Cola face and is NEVER rehosted here: it stays first in the
+ * --font-brand stack so a licensed drop-in wins. Anek Latin Expanded (SIL OFL 1.1, latin subset,
+ * fonts/OFL.txt) is the metric-closest open substitute; icomoon is the source site's icon font.
  */
 @font-face {
-  font-family: TCCC-UnityText;
-  src: url('../fonts/tccc-unitytext-regular.woff2') format('woff2');
-  font-weight: 400;
+  font-family: "Anek Latin Expanded";
   font-style: normal;
+  font-weight: 400;
   font-display: swap;
+  src: url("../fonts/anek-latin-expanded-400-latin.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: TCCC-UnityText;
-  src: url('../fonts/tccc-unitytext-bold.woff2') format('woff2');
-  font-weight: 700;
+  font-family: "Anek Latin Expanded";
   font-style: normal;
+  font-weight: 700;
   font-display: swap;
+  src: url("../fonts/anek-latin-expanded-700-latin.woff2") format("woff2");
 }
 
 @font-face {
   font-family: icomoon;
-  src: url('../fonts/icomoon.woff') format('woff');
-  font-weight: 400;
   font-style: normal;
+  font-weight: 400;
   font-display: block;
+  src: url("../fonts/icomoon.woff") format("woff");
 }

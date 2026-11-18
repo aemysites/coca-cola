@@ -15,7 +15,7 @@
       "evidence": "stardust/replica/gates/us-en-1440/visual-diff-pub1.txt"
     },
     "chrome-parity": {
-      "rc": 2,
+      "rc": 0,
       "evidence": "stardust/replica/gates/us-en-1440/chrome-parity-pub1.txt"
     },
     "clip-probe": {
@@ -27,7 +27,7 @@
       "evidence": "stardust/replica/gates/us-en-1440/content-presence-pub1.txt"
     }
   },
-  "structural": 24,
-  "nothingLost": 31,
-  "at": "2026-11-16T07:45:55.115Z"
+  "structural": 4,
+  "nothingLost": 4,
+  "at": "2026-11-18T08:16:53.824Z"
 }

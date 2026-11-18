@@ -1,0 +1,17 @@
+{
+  "note": "Delivered-page roster for gate-all (core state.json keeps the pipeline status; this file lists the pages deployed on EDS).",
+  "pages": [
+    {
+      "slug": "us-en",
+      "url": "https://www.coca-cola.com/us/en",
+      "status": "deployed",
+      "liveUrl": "https://main--43eb1ed9--aemcoder.aem.live/us/en"
+    },
+    {
+      "slug": "index",
+      "url": "https://www.coca-cola.com/",
+      "status": "deployed",
+      "liveUrl": "https://main--43eb1ed9--aemcoder.aem.live/"
+    }
+  ]
+}

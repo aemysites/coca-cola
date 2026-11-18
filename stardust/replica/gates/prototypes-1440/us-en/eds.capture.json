@@ -3,8 +3,8 @@
   "url": "http://localhost:8791/us-en-proposed.html",
   "width": 1440,
   "vh": 900,
-  "height": 6706,
-  "chunks": 8,
+  "height": 5785,
+  "chunks": 7,
   "denialCheck": "ok",
   "fontsFailed": [],
   "fixedLayers": {
@@ -12,5 +12,5 @@
     "count": 0,
     "late": 0
   },
-  "at": "2026-11-16T07:09:01.348Z"
+  "at": "2026-11-18T07:47:36.123Z"
 }

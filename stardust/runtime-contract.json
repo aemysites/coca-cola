@@ -1,24 +1,13 @@
 {
   "runtime": "vanilla-eds",
-  "detectedAt": "2026-11-16",
-  "detectedFrom": ["scripts/scripts.js", "scripts/aem.js", "blocks/fragment/fragment.js"],
+  "probedFrom": ["scripts/scripts.js", "scripts/aem.js"],
   "blockWrapperClass": "block",
-  "blockDom": "div.<name>-wrapper > div.<name>.block[data-block-name][data-block-status]; section gains .<name>-container",
-  "cellNormalization": "wrapTextNodes: a cell not led by P/PRE/UL/OL/PICTURE/TABLE/BLOCKQUOTE/H1-H6, or led by PICTURE followed by anything, is folded into ONE <p>",
   "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
   "buttonization": "formatted-only",
-  "buttonRule": "<strong><a> = primary, <em><a> = secondary, both = accent; the link must be alone in its <p>; links wrapping an <img> and URL-text links are skipped",
   "fragmentScriptPolicy": "inert-innerHTML",
-  "fragmentDecoration": "loadFragment runs decorateMain (icons, auto-blocks, sections, blocks, buttons) + loadSections on the fetched .plain.html",
-  "chrome": "loadHeader/loadFooter build header/footer blocks in loadLazy; header reads /nav, footer reads /footer (nav/footer metadata overrides)",
-  "fontsLoading": "loadFonts() loads styles/fonts.css eagerly at innerWidth >= 900 or with the fonts-loaded session flag, always in loadLazy",
-  "bodyGate": "body { display: none } until loadEager adds body.appear",
   "emptySectionCollapse": true,
-  "trustedTypes": "scripts.js installs a default trusted-types policy; head.html CSP requires trusted types for script",
-  "martech": "scripts/martech.js (generated, every contract part disabled) loaded from loadEager (loadConsent) and consented.js (loadTags); consent-check.js loaded from loadDelayed",
-  "breakpoints": {
-    "source": [768, 1200],
-    "desktop": "(width >= 1200px)",
-    "mobileFirst": true
-  }
+  "trustedTypes": "require-trusted-types-for 'script' (head.html CSP) with a permissive default policy in scripts.js",
+  "fontsLoad": "styles/fonts.css via loadFonts() (eager at >= 900px or repeat view, else loadLazy)",
+  "breakpoints": [600, 1200],
+  "navHeight": {"base": "72px", "1200": "80px"}
 }

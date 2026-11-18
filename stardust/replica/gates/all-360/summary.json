@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "gate-all.mjs",
-    "writtenAt": "2026-11-16T08:38:53.914Z",
+    "writtenAt": "2026-11-18T10:19:03.121Z",
     "stage": "published",
     "breakpoint": 360,
     "threshold": 10,
@@ -16,7 +16,7 @@
     },
     "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
     "origin": "https://www.coca-cola.com",
-    "eds": "https://main--e4399cea--aemcoder.aem.live",
+    "eds": "https://main--43eb1ed9--aemcoder.aem.live",
     "edsHostOverride": null,
     "only": null
   },
@@ -46,11 +46,11 @@
       "origin": "stitch-live",
       "originAsymmetric": false,
       "eds": "stitch-live",
-      "pct": 3,
-      "textPct": 5.38,
+      "pct": 6.03,
+      "textPct": 23.37,
       "heightDelta": 0,
-      "originH": 6313,
-      "edsH": 6313,
+      "originH": 5194,
+      "edsH": 5194,
       "pixelPass": true,
       "heightPass": true,
       "clipped": 0,
@@ -61,6 +61,8 @@
       "unitPass": null,
       "pixelOnlyPass": true,
       "pass": true,
+      "failing": [],
+      "unwaived": [],
       "passWithOverride": true,
       "fontsNotLoaded": [],
       "fontChecksSkipped": [],
@@ -85,7 +87,8 @@
       "maskedRows": 0,
       "maskReason": null,
       "hotBands": [
-        "0-500:21.7%"
+        "0-500:21.9%",
+        "500-1000:17.1%"
       ],
       "error": null
     },
@@ -95,11 +98,11 @@
       "origin": "stitch-live",
       "originAsymmetric": false,
       "eds": "stitch-live",
-      "pct": 2.99,
-      "textPct": 5.29,
+      "pct": 6.03,
+      "textPct": 23.32,
       "heightDelta": 0,
-      "originH": 6313,
-      "edsH": 6313,
+      "originH": 5194,
+      "edsH": 5194,
       "pixelPass": true,
       "heightPass": true,
       "clipped": 0,
@@ -110,6 +113,8 @@
       "unitPass": null,
       "pixelOnlyPass": true,
       "pass": true,
+      "failing": [],
+      "unwaived": [],
       "passWithOverride": true,
       "fontsNotLoaded": [],
       "fontChecksSkipped": [],
@@ -134,7 +139,8 @@
       "maskedRows": 0,
       "maskReason": null,
       "hotBands": [
-        "0-500:21.6%"
+        "0-500:21.9%",
+        "500-1000:17.2%"
       ],
       "error": null
     }

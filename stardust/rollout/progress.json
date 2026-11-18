@@ -4,89 +4,173 @@
       "status": "done",
       "kind": "foundation",
       "templates": [
-        "landing"
+        "us-en"
       ],
-      "startedAt": "2026-11-16T07:15:41.747Z",
-      "endedAt": "2026-11-16T07:29:45.492Z",
-      "pages": 0,
-      "blocks": 2,
+      "pages": 2,
+      "blocks": 5,
       "gates": {
-        "chrome": "header/footer behaviour verified on preview (1440, 390); pixel + crop + parity gate runs on the first deployed page (archetype-landing) per the foundation-first rule"
+        "360": {
+          "pixel": "3.71%",
+          "heightDelta": 0,
+          "content": "0🔴/0 nothing-lost🟡",
+          "clip": 0,
+          "round": "pub3"
+        },
+        "1440": {
+          "pixel": "1.33%",
+          "heightDelta": 0,
+          "content": "0🔴/0 nothing-lost🟡",
+          "clip": 0,
+          "round": "pub3",
+          "url": "https://main--43eb1ed9--aemcoder.aem.page/us/en"
+        },
+        "local": {
+          "lint": "npm run lint pass (eslint airbnb-base, stylelint standard, breakpoint-lint clean)",
+          "roundtrip": "block-roundtrip --ew us-en 1440+360, index 1440: 0 structural 🔴, EW 41/44 editable, 0 dead, 0 dup, 3 exempt (hero position words)",
+          "ewProbe": "ew-editability-probe --simulate-editor: 0 drift, block Δh 0",
+          "qaGate": "qa-gate harness PASS 26 ok / 1 warn (hero full-bleed viewport by design)",
+          "deliveryLint": "us/en, index, nav, footer: 0 P0 / 0 P1 / 0 P2",
+          "davidsModel": "0 🔴, 2 🟡 (pure-vector SVG logos, 14 KB)",
+          "harnessGeometry": "landmark tops/heights = prototype at 1440 and 390 (structural check, not a pixel verdict)"
+        },
+        "crop": {
+          "360": {
+            "header": "98.71%",
+            "footer": "98.70%"
+          },
+          "1440": {
+            "header": "98.66%",
+            "footer": "98.74%"
+          }
+        },
+        "chrome": {
+          "parity1440": "✓",
+          "parity360": "✓ (3 footer ICON media-rename accepted)",
+          "headerContract": "behaviour/links/keyboard match; 7 panel-visual findings proposed for owner decision (font substitute, survey-contaminated source crops) — stardust/chrome/header-decisions-proposed.md"
+        }
       },
-      "verdict": "foundation: files 17, nav/footer live, lint ok, pushed 332a12c (code at f784349)"
+      "startedAt": "2026-11-18T07:55:50Z",
+      "endedAt": "2026-11-18T08:36:47Z",
+      "verdict": "foundation live (nav, footer, media 29/29 published); shell gate PASS at 1440/360 on preview; header contract: 7 visual findings await owner decision",
+      "files": [
+        "styles/styles.css",
+        "styles/fonts.css",
+        "fonts/*",
+        "favicon.png",
+        "head.html",
+        "blocks/header/*",
+        "blocks/footer/*",
+        "scripts/martech.js",
+        "scripts/scripts.js",
+        "scripts/consent-check.js",
+        "scripts/consented.js",
+        "content/nav.html",
+        "content/footer.html",
+        "stardust/runtime-contract.json"
+      ],
+      "alsoAuthored": [
+        "blocks/carousel/*",
+        "blocks/campaign-card/*",
+        "blocks/brands-list/*",
+        "content/us/en.html",
+        "content/index.html"
+      ],
+      "awaiting": [
+        "DA_TOKEN: da-media-upload --manifest stardust/deploy/media-manifest-us-en.json (29 files, scope us-en)",
+        "PUT+preview+publish nav, footer, us/en, index",
+        "published-origin gates: pixel 1440/360, crop-compare header/footer, chrome parity"
+      ]
     },
     "archetype-landing": {
       "status": "done",
       "kind": "archetype",
-      "templates": [
-        "landing"
+      "template": "landing",
+      "archetype": "us-en",
+      "pages": [
+        "/us/en"
       ],
-      "startedAt": "2026-11-16T07:29:54.537Z",
-      "endedAt": "2026-11-16T07:59:55.504Z",
-      "pages": 1,
-      "blocks": 5,
+      "startedAt": "2026-11-18T08:37:00Z",
+      "endedAt": "2026-11-18T08:41:55Z",
       "gates": {
         "360": {
-          "archetype": "gate.sh pub1 0.95% Δh0; gate-all row PASS 2.87% Δh0"
+          "pixel": "6.03%",
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": "MISSING 0 / HIDDEN 0",
+          "verdict": "PASS"
         },
         "1440": {
-          "archetype": "gate.sh pub2 1.08% Δh1; gate-all row PASS 1.08% Δh1"
+          "pixel": "2.64%",
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": "MISSING 0 / HIDDEN 0",
+          "verdict": "PASS"
         },
-        "crop": "header/footer 0.00/0.27% (1440), 0.00/0.37% (360)",
-        "chrome": "45 deltas 1440 / 13 at 360 (noto-regional stack, header bg, Sign Up tag) → foundation-requests",
-        "contentDiff": "main: carousel-clone heading repeats (clones text-less for AI-readability); chrome 4🔴/11🟡 → foundation-requests"
+        "host": "https://main--43eb1ed9--aemcoder.aem.page",
+        "fixRounds": 1,
+        "fix": "anek-fallback local() resolved (foundation request applied, re-frozen)"
       },
-      "verdict": "archetype-landing: us-en live, blocks 5, gate 1440 1.08% / 360 2.87%, crop h/f 0.00/0.27% (1440) and 0.00/0.37% (360), clipped 0, missing 0, requests 3"
+      "verdict": "landing: us-en live, gate-all 1440 2.64% / 360 6.03% PASS (Δh 0, clip 0, content 0 missing)"
     },
     "cluster-landing": {
       "status": "done",
       "kind": "cluster",
-      "templates": [
-        "landing"
+      "template": "landing",
+      "pages": [
+        "/"
       ],
-      "startedAt": "2026-11-16T08:03:13.580Z",
-      "endedAt": "2026-11-16T08:07:17.512Z",
-      "pages": 1,
-      "blocks": 5,
+      "startedAt": "2026-11-18T08:42:35Z",
+      "endedAt": "2026-11-18T08:44:24Z",
       "gates": {
         "360": {
-          "sibling": "gate-all index PASS 2.87% Δh0 clip0 MISSING/HIDDEN 0"
+          "pixel": "6.03%",
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": "MISSING 0 / HIDDEN 0",
+          "verdict": "PASS"
         },
         "1440": {
-          "sibling": "gate-all index PASS 1.08% Δh1 clip0 MISSING/HIDDEN 0"
+          "pixel": "2.64%",
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": "MISSING 0 / HIDDEN 0",
+          "verdict": "PASS"
         }
       },
-      "verdict": "landing: pages 1/1 live (/ root index ← us-en duplicateOf), blocks 5 reused, gate 1440 1.08% / 360 2.87%, requests 0"
+      "verdict": "landing: pages 1/1 live, blocks 3, gate 1440 2.64% / 360 6.03%, requests 0"
     },
     "gate-all": {
       "status": "done",
       "kind": "final",
-      "templates": [
-        "landing"
+      "pages": [
+        "/us/en",
+        "/"
       ],
-      "startedAt": "2026-11-16T08:07:25.720Z",
-      "endedAt": "2026-11-16T08:11:57.825Z",
-      "pages": 2,
+      "startedAt": "2026-11-18T08:45:24Z",
+      "endedAt": "2026-11-18T10:19:11Z",
       "gates": {
-        "360": "2 PASS / 0 FAIL (us-en 2.87% Δh0, / 2.87% Δh0; clip 0; MISSING/HIDDEN 0)",
-        "1440": "2 PASS / 0 FAIL (us-en 1.08% Δh1, / 1.08% Δh1; clip 0; MISSING/HIDDEN 0)"
+        "360": {
+          "/us/en": "6.03% Δh0 clip0 content0 — PASS",
+          "/": "6.03% Δh0 clip0 content0 — PASS"
+        },
+        "1440": {
+          "/us/en": "2.64% Δh0 clip0 content0 — PASS",
+          "/": "2.64% Δh0 clip0 content0 — PASS"
+        },
+        "firstRunAt": "2026-11-18T08:47Z"
       },
-      "verdict": "gate-all: 2/2 PASS at 1440 and 360 on the published origin; coverage updated"
+      "verdict": "gate-all: 2/2 PASS on aem.live — 1440 2.64% / 360 6.03%, Δh 0, clip 0, content 0 missing, fonts all loaded"
     },
     "final": {
       "status": "done",
       "kind": "final",
-      "templates": [
-        "landing"
-      ],
-      "startedAt": "2026-11-16T08:12:10.475Z",
-      "endedAt": "2026-11-16T08:29:07.376Z",
-      "pages": 2,
+      "startedAt": "2026-11-18T10:19:30Z",
+      "endedAt": "2026-11-18T10:19:30Z",
       "gates": {
-        "360": "preview re-gate after requests: us-en 2.86% / index 2.99%, 2 PASS",
-        "1440": "preview re-gate after requests: us-en 1.08% / index 1.08%, 2 PASS"
+        "freeze": "foundation unchanged (17 files)",
+        "requests": "1 queued, applied in archetype-landing (anek-fallback local Liberation Sans)"
       },
-      "verdict": "final: 3 foundation requests applied once (fallback face sources in styles.css + scoped overrides removed; /favicon.ico; header/footer aria-label + role=button CTAs + hidden Account button), lint clean, re-frozen; 2/2 PASS on preview at 1440/360"
+      "verdict": "final: freeze check pass, 1 request applied, roster gate 2/2 PASS, coverage updated from both tables"
     }
   }
 }

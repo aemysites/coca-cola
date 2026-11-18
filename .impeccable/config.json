@@ -4,10 +4,22 @@
     "ignoreFiles": [],
     "ignoreValues": [
       {
-        "rule": "design-system-font",
-        "value": "icomoon",
-        "createdAt": "2026-11-16T06:50:22.702Z",
-        "reason": "replica: icomoon is the live site's own icon font, captured verbatim in stardust/current/assets/fonts (glyph codepoints lifted from theme.css)"
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          "stardust/prototypes/us-en-proposed.html"
+        ],
+        "createdAt": "2026-11-18T07:49:27.051Z",
+        "reason": "replica fidelity: the prototype reproduces the live coca-cola.com/us/en design verbatim (gated 1.36%/3.61%); changes need an inconsistency-register entry"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "stardust/prototypes/us-en-proposed.html"
+        ],
+        "createdAt": "2026-11-18T07:49:27.060Z",
+        "reason": "replica fidelity: the prototype reproduces the live coca-cola.com/us/en design verbatim (gated 1.36%/3.61%); changes need an inconsistency-register entry"
       }
     ]
   }

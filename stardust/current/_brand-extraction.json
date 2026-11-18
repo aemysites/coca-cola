@@ -1,22 +1,11 @@
 {
   "_provenance": {
     "writtenBy": "stardust:extract",
-    "writtenAt": "2026-11-16T06:35:48.319Z",
-    "readArtifacts": [
-      "https://www.coca-cola.com/us/en",
-      "stardust/current/pages/us-en.json",
-      "stardust/current/pages/index.json",
-      "stardust/current/_computed-styles.json",
-      "stardust/current/assets/_harvest.json"
-    ],
-    "synthesizedInputs": [],
-    "stardustVersion": "0.39.3",
-    "notes": "index (https://www.coca-cola.com/) redirects to /us/en and is a byte-level duplicate (duplicateOf us-en); aggregation is effectively single-page. Hero carousel + promo cards rotate/personalise per load."
-  },
-  "site": {
-    "name": "Coca-Cola US",
-    "tagline": "The Coca‑Cola® Official Site for Drinks & Experiences",
-    "originUrl": "https://www.coca-cola.com"
+    "writtenAt": "2026-11-18T07:04:58Z",
+    "sources": [
+      "_computed-styles.json",
+      "assets/css/theme.css"
+    ]
   },
   "origins": [
     {
@@ -25,320 +14,70 @@
       "pages": [
         "us-en",
         "index"
-      ],
-      "contributes": [
-        "palette",
-        "type",
-        "motifs",
-        "voice",
-        "logo",
-        "systemComponents"
       ]
     }
   ],
   "logo": {
-    "source": "img-logo-identifier",
-    "url": "https://www.coca-cola.com/content/dam/onexp/global/icons/Coke-company-logo-black.svg",
-    "alt": "Coca Cola Company Logo",
-    "selector": "header .cmp-image a > picture > img",
-    "localPath": "stardust/current/assets/logo.svg",
-    "note": "Header logo is \"The Coca-Cola Company\" black wordmark SVG (125x20); footer uses a white variant."
+    "path": "stardust/current/assets/logo.svg",
+    "source": "img",
+    "selector": "header .cmp-image__image",
+    "url": "https://www.coca-cola.com/content/dam/onexp/global/icons/Coke-company-logo-black.svg"
   },
   "favicon": {
-    "url": "https://www.coca-cola.com/onexp-theme/18b0fb116e5f38df6fa41bcb6d3a6e980c6fe693e0daee40c5e8d5f19c429e4d/resources/favicons/favicon-32x32.png",
-    "localPath": "stardust/current/assets/favicon.png"
+    "path": "stardust/current/assets/favicon.png",
+    "url": "https://www.coca-cola.com/onexp-theme/de5b75d8aeda675eef9c85e81adf9d05ec939b9fa71d7d019e166a182f77aa4f/resources/favicons/favicon-32x32.png"
   },
   "palette": [
     {
       "hex": "#000000",
-      "role": "text",
       "roles": [
         "text",
-        "primary",
+        "secondary",
         "heading"
       ],
-      "weight": 166,
-      "bgArea": 1892779,
-      "by": {
-        "text": 80,
-        "background": 16,
-        "link": 11,
-        "button-text": 12,
-        "border": 8,
-        "button-background": 6,
-        "button-border": 6,
-        "heading": 27
-      },
-      "sources": [
-        {
-          "url": "https://www.coca-cola.com/us/en",
-          "selector": "div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > ul > li:nth-of-type(1) > a",
-          "prop": "text"
-        },
-        {
-          "url": "https://www.coca-cola.com/us/en",
-          "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > h1",
-          "prop": "text"
-        },
-        {
-          "url": "https://www.coca-cola.com/us/en",
-          "selector": "#container-5c9a64b67e > div:nth-of-type(4) > a",
-          "prop": "background"
-        }
-      ]
+      "weight": 142
     },
     {
       "hex": "#ffffff",
-      "role": "surface",
       "roles": [
         "surface",
-        "secondary",
+        "primary",
         "border"
       ],
-      "weight": 107,
-      "bgArea": 3105281,
-      "by": {
-        "text": 44,
-        "background": 38,
-        "border": 10,
-        "button-background": 6,
-        "button-text": 6,
-        "heading": 3
-      },
-      "sources": [
-        {
-          "url": "https://www.coca-cola.com/us/en",
-          "selector": "#container-5c9a64b67e > div:nth-of-type(4) > a > span",
-          "prop": "text"
-        },
-        {
-          "url": "https://www.coca-cola.com/us/en",
-          "selector": "header > div > div > div > div:nth-of-type(1)",
-          "prop": "background"
-        },
-        {
-          "url": "https://www.coca-cola.com/us/en",
-          "selector": "#button-06fb0efc72",
-          "prop": "border"
-        }
-      ]
+      "weight": 105
     },
     {
       "hex": "#eeeeee",
-      "role": "background",
       "roles": [
         "background"
       ],
-      "weight": 2,
-      "bgArea": 11930293,
-      "by": {
-        "background": 2
-      },
-      "sources": [
-        {
-          "url": "https://www.coca-cola.com/us/en",
-          "selector": "body",
-          "prop": "background"
-        }
-      ]
+      "weight": 2
     },
     {
       "hex": "#6c6c6c",
-      "role": "muted",
       "roles": [],
-      "weight": 14,
-      "bgArea": 640,
-      "by": {
-        "background": 10,
-        "button-text": 2,
-        "text": 2
-      },
-      "sources": [
-        {
-          "url": "https://www.coca-cola.com/us/en",
-          "selector": "#splide02 > ul > li:nth-of-type(2) > button",
-          "prop": "background"
-        },
-        {
-          "url": "https://www.coca-cola.com/us/en",
-          "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
-          "prop": "button-text"
-        },
-        {
-          "url": "https://www.coca-cola.com/us/en",
-          "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
-          "prop": "text"
-        }
-      ]
+      "weight": 14
     },
     {
       "hex": "#d5d5d5",
-      "role": "border-subtle",
       "roles": [],
-      "weight": 6,
-      "bgArea": 0,
-      "by": {
-        "text": 3,
-        "heading": 3
-      },
-      "sources": [
-        {
-          "url": "https://www.coca-cola.com/us/en",
-          "selector": "div > div > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > h4",
-          "prop": "text"
-        },
-        {
-          "url": "https://www.coca-cola.com/us/en",
-          "selector": "div > div > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > h4",
-          "prop": "heading"
-        },
-        {
-          "url": "https://www.coca-cola.com/us/en",
-          "selector": "div > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > div > h4",
-          "prop": "heading"
-        }
-      ]
-    },
-    {
-      "hex": "#bdbdbd",
-      "role": "disabled",
-      "roles": [],
-      "weight": 4,
-      "bgArea": 6688,
-      "by": {
-        "background": 2,
-        "button-background": 2
-      },
-      "sources": [
-        {
-          "url": "https://www.coca-cola.com/us/en",
-          "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
-          "prop": "background"
-        },
-        {
-          "url": "https://www.coca-cola.com/us/en",
-          "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
-          "prop": "button-background"
-        }
-      ]
-    },
-    {
-      "hex": "#ea0000",
-      "role": "primary",
-      "roles": [
-        "brand-accent"
-      ],
-      "weight": 0,
-      "bgArea": 0,
-      "by": {
-        "customProp": 1
-      },
-      "note": "Brand red exists only as a design token (and inside imagery/logo artwork); no rendered UI surface on the home page computes to it.",
-      "sources": [
-        {
-          "url": "https://www.coca-cola.com/us/en",
-          "selector": ":root",
-          "prop": "--color-accent-regular"
-        },
-        {
-          "url": "https://www.coca-cola.com/us/en",
-          "selector": ":root",
-          "prop": "--color-icon-brand-primary-regular"
-        }
-      ]
-    },
-    {
-      "hex": "#353535",
-      "role": "overlay-only",
-      "roles": [
-        "survey-popup-hover"
-      ],
-      "note": "measured on #answer-* buttons of the Just One Question survey overlay, not site UI",
-      "weight": 0,
-      "bgArea": 0,
-      "by": {
-        "hover": 1
-      },
-      "sources": [
-        {
-          "url": "https://www.coca-cola.com/us/en",
-          "selector": "#answer-baseball",
-          "prop": "background-color:hover"
-        }
-      ]
+      "weight": 6
     }
   ],
   "type": {
-    "headingFamily": "TCCC-UnityText",
-    "bodyFamily": "TCCC-UnityText",
-    "declaredStack": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
-    "renderedFace": "TCCC-UnityText (Noto-regional/Noto-latin are declared ahead of it but never load for en-US)",
-    "weights": [
+    "families": [
       {
-        "weight": "700",
-        "count": 53
-      },
-      {
-        "weight": "400",
-        "count": 17
-      }
-    ],
-    "sizes": [
-      {
-        "px": 38,
-        "count": 1,
-        "headings": 1,
-        "text": 0,
-        "buttons": 0
-      },
-      {
-        "px": 32,
-        "count": 8,
-        "headings": 8,
-        "text": 0,
-        "buttons": 0
-      },
-      {
-        "px": 28,
-        "count": 7,
-        "headings": 7,
-        "text": 0,
-        "buttons": 0
-      },
-      {
-        "px": 24,
-        "count": 10,
-        "headings": 10,
-        "text": 0,
-        "buttons": 0
-      },
-      {
-        "px": 20,
-        "count": 4,
-        "headings": 4,
-        "text": 0,
-        "buttons": 0
-      },
-      {
-        "px": 16,
-        "count": 35,
-        "headings": 0,
-        "text": 17,
-        "buttons": 18
-      },
-      {
-        "px": 12,
-        "count": 2,
-        "headings": 0,
-        "text": 0,
-        "buttons": 2
-      },
-      {
-        "px": 10,
-        "count": 3,
-        "headings": 3,
-        "text": 0,
-        "buttons": 0
+        "family": "TCCC-UnityText",
+        "declaredAs": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+        "weights": [
+          400,
+          700
+        ],
+        "license": "licensed-commercial",
+        "files": [
+          "assets/fonts/tccc-unitytext-regular.woff2",
+          "assets/fonts/tccc-unitytext-bold.woff2"
+        ]
       }
     ],
     "levels": {
@@ -351,14 +90,14 @@
       "h2": {
         "fontSize": 32,
         "fontWeight": "700",
-        "count": 5,
-        "score": 125.22
+        "count": 4,
+        "score": 112
       },
       "h3": {
         "fontSize": 24,
         "fontWeight": "700",
-        "count": 7,
-        "score": 111.12
+        "count": 5,
+        "score": 93.91
       },
       "h4": {
         "fontSize": 24,
@@ -367,136 +106,31 @@
         "score": 72.75
       }
     },
-    "levelsByWidth": {
-      "360": {
-        "h1": {
-          "fontSize": "32px",
-          "lineHeight": "40px",
-          "letterSpacing": "-1.5px"
-        },
-        "h2": {
-          "fontSize": "28px",
-          "lineHeight": "36px",
-          "letterSpacing": "-1.5px"
-        },
-        "h3": {
-          "fontSize": "20px",
-          "lineHeight": "28px",
-          "letterSpacing": "-1.5px"
-        },
-        "h4": {
-          "fontSize": "24px",
-          "lineHeight": "32px",
-          "letterSpacing": "-1.5px"
-        }
-      },
-      "1440": {
-        "h1": {
-          "fontSize": "38px",
-          "lineHeight": "48px",
-          "letterSpacing": "-1.5px"
-        },
-        "h2": {
-          "fontSize": "32px",
-          "lineHeight": "40px",
-          "letterSpacing": "-1.5px"
-        },
-        "h3": {
-          "fontSize": "24px",
-          "lineHeight": "32px",
-          "letterSpacing": "-1.5px"
-        },
-        "h4": {
-          "fontSize": "10px",
-          "lineHeight": "18px",
-          "letterSpacing": "normal"
-        }
-      }
-    },
-    "letterSpacingHeading": "-1.5px",
     "scaleAudit": {
       "kind": "ad-hoc",
-      "basis": "heading steps 38/32/24/20 px @1440 and 32/28/20 @360 have no constant ratio (1.19, 1.33, 1.2)"
-    },
-    "files": [
-      {
-        "url": "https://www.coca-cola.com/onexp-theme/18b0fb116e5f38df6fa41bcb6d3a6e980c6fe693e0daee40c5e8d5f19c429e4d/icomoon.woff",
-        "family": "icomoon",
-        "weight": 400,
-        "style": "normal",
-        "unicodeRange": null,
-        "localPath": "stardust/current/assets/fonts/icomoon.woff",
-        "sourceCssRule": "@font-face{font-family:icomoon} in assets/css/35a217-theme.css",
-        "licensingFlag": "private brand asset — verify rights before deploy"
-      },
-      {
-        "url": "https://www.coca-cola.com/onexp-theme/18b0fb116e5f38df6fa41bcb6d3a6e980c6fe693e0daee40c5e8d5f19c429e4d/tccc-unitytext-regular.woff2",
-        "family": "TCCC-UnityText",
-        "weight": 400,
-        "style": "normal",
-        "unicodeRange": null,
-        "localPath": "stardust/current/assets/fonts/tccc-unitytext-regular.woff2",
-        "sourceCssRule": "@font-face{font-family:TCCC-UnityText} in assets/css/35a217-theme.css",
-        "licensingFlag": "private brand asset — verify rights before deploy"
-      },
-      {
-        "url": "https://www.coca-cola.com/onexp-theme/18b0fb116e5f38df6fa41bcb6d3a6e980c6fe693e0daee40c5e8d5f19c429e4d/tccc-unitytext-bold.woff2",
-        "family": "TCCC-UnityText",
-        "weight": 700,
-        "style": "normal",
-        "unicodeRange": null,
-        "localPath": "stardust/current/assets/fonts/tccc-unitytext-bold.woff2",
-        "sourceCssRule": "@font-face{font-family:TCCC-UnityText} in assets/css/35a217-theme.css",
-        "licensingFlag": "private brand asset — verify rights before deploy"
-      },
-      {
-        "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
-        "family": "Roboto",
-        "weight": 400,
-        "style": "normal",
-        "unicodeRange": null,
-        "localPath": "stardust/current/assets/fonts/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
-        "sourceCssRule": "fonts.googleapis.com (reCAPTCHA / OneTrust widget, not page UI)",
-        "licensingFlag": "open (Google Fonts)"
-      }
-    ],
-    "tokens": {
-      "--typography-font-family-brand-action": "TCCC-UnityText",
-      "--typography-font-family-brand-body": "TCCC-UnityText",
-      "--typography-font-family-brand-heading": "TCCC-UnityText",
-      "--typography-font-family-universal-action": "TCCC-UnityText",
-      "--typography-font-family-universal-body": "TCCC-UnityText",
-      "--typography-font-family-universal-heading": "TCCC-UnityText",
-      "--typography-font-weight-action-default": "normal",
-      "--typography-font-weight-action-heavy": "bold",
-      "--typography-font-weight-body-default": "normal",
-      "--typography-font-weight-body-heavy": "bold",
-      "--typography-font-weight-heading-default": "bold",
-      "--typography-letter_spacing-action": "0px",
-      "--typography-letter_spacing-body": "0px",
-      "--typography-letter_spacing-heading-primary": "-1.5px",
-      "--typography-letter_spacing-heading-secondary": "0px",
-      "--typography-paragraph_spacing-action-s": "0px",
-      "--typography-paragraph_spacing-body-s": "4px",
-      "--typography-paragraph_spacing-body-m": "8px",
-      "--typography-paragraph_spacing-heading-s": "0px"
+      "sizes": [
+        38,
+        32,
+        24,
+        16,
+        12
+      ]
     }
   },
-  "spacing": {
-    "note": "No spacing tokens on :root; layout rhythm measured by the cap probe (DESIGN.json extensions.breakpoints).",
-    "paragraphSpacing": {
-      "bodyS": "4px",
-      "bodyM": "8px"
-    }
+  "iconFont": {
+    "family": "icomoon",
+    "file": "assets/fonts/icomoon.woff"
   },
   "motifs": {
     "radius": {
       "mode": "16px",
+      "areaMode": "16px",
       "pill": "8000px",
       "values": [
         {
           "value": "8000px",
           "count": 60,
+          "area": 227643,
           "sources": [
             {
               "url": "https://www.coca-cola.com/us/en",
@@ -505,26 +139,44 @@
             {
               "url": "https://www.coca-cola.com/us/en",
               "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(3) > div > button"
+            },
+            {
+              "url": "https://www.coca-cola.com/us/en",
+              "selector": "#splide01-slide01 > div > div > div:nth-of-type(1) > div:nth-of-type(2) > a"
+            },
+            {
+              "url": "https://www.coca-cola.com/us/en",
+              "selector": "#splide01 > ul > li:nth-of-type(1) > button"
             }
           ]
         },
         {
           "value": "16px",
-          "count": 13,
+          "count": 11,
+          "area": 3333644,
           "sources": [
             {
               "url": "https://www.coca-cola.com/us/en",
-              "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div"
+              "selector": "#splide01-slide01 > div"
             },
             {
               "url": "https://www.coca-cola.com/us/en",
-              "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(2) > a > div"
+              "selector": "#splide02-slide01 > div > a > div"
+            },
+            {
+              "url": "https://www.coca-cola.com/us/en",
+              "selector": "#splide03-slide01 > div > a > div"
+            },
+            {
+              "url": "https://www.coca-cola.com/us/en",
+              "selector": "#splide02-slide02 > div > a > div"
             }
           ]
         },
         {
           "value": "0px 0px 24px 24px",
           "count": 2,
+          "area": 122705,
           "sources": [
             {
               "url": "https://www.coca-cola.com/us/en",
@@ -539,6 +191,7 @@
         {
           "value": "30px",
           "count": 2,
+          "area": 26992,
           "sources": [
             {
               "url": "https://www.coca-cola.com/us/en",
@@ -549,6 +202,7 @@
         {
           "value": "8px",
           "count": 2,
+          "area": 10599,
           "sources": [
             {
               "url": "https://www.coca-cola.com/us/en",
@@ -563,6 +217,7 @@
         {
           "value": "0px 0px 0px 30px",
           "count": 1,
+          "area": 111907,
           "sources": [
             {
               "url": "https://www.coca-cola.com/us/en",
@@ -573,6 +228,7 @@
         {
           "value": "30px 0px 0px 30px",
           "count": 1,
+          "area": 129600,
           "sources": [
             {
               "url": "https://www.coca-cola.com/us/en",
@@ -585,15 +241,19 @@
     "shadows": [
       {
         "value": "rgba(0, 0, 0, 0.12) 0px 8px 16px 0px",
-        "count": 11,
+        "count": 7,
         "sources": [
           {
             "url": "https://www.coca-cola.com/us/en",
-            "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div"
+            "selector": "#splide02-slide01 > div > a > div"
           },
           {
             "url": "https://www.coca-cola.com/us/en",
-            "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(2) > a > div"
+            "selector": "#splide03-slide01 > div > a > div"
+          },
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "#splide02-slide02 > div > a > div"
           }
         ]
       },
@@ -610,181 +270,24 @@
     ],
     "gradients": []
   },
-  "componentStyle": {
-    "button": "black pill (radius 8000px) with white text; outlined pill variant white/black border; hover = inset ring (4px #6c6c6c on .button pill, 2px black on a teaser link). (#353535 hover fill measured only on the third-party Just One Question survey popup #answer-*, not site UI)",
-    "card": "white card, 16px radius, shadow 0 8px 16px rgba(0,0,0,.12), image on top, title/text/arrow link below",
-    "hover": [
-      {
-        "kind": "button",
-        "from": {
-          "boxShadow": "none"
-        },
-        "to": {
-          "boxShadow": "rgb(0, 0, 0) 0px 0px 0px 2px inset"
-        },
-        "sources": [
-          {
-            "url": "https://www.coca-cola.com/us/en",
-            "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > div:nth-of-type(2) > a"
-          }
-        ]
-      },
-      {
-        "kind": "button",
-        "from": {
-          "boxShadow": "none"
-        },
-        "to": {
-          "boxShadow": "rgb(108, 108, 108) 0px 0px 0px 4px inset"
-        },
-        "sources": [
-          {
-            "url": "https://www.coca-cola.com/us/en",
-            "selector": "#container-5c9a64b67e > div:nth-of-type(4) > a"
-          }
-        ]
-      },
-      {
-        "kind": "button",
-        "from": {
-          "backgroundColor": "rgb(255, 255, 255)",
-          "color": "rgb(0, 0, 0)",
-          "borderColor": "rgb(0, 0, 0)",
-          "boxShadow": "none"
-        },
-        "to": {
-          "backgroundColor": "rgb(53, 53, 53)",
-          "color": "rgb(255, 255, 255)",
-          "borderColor": "rgb(53, 53, 53)",
-          "boxShadow": "rgb(108, 108, 108) 0px 0px 0px 4px inset"
-        },
-        "sources": [
-          {
-            "url": "https://www.coca-cola.com/us/en",
-            "selector": "#answer-baseball"
-          }
-        ]
-      }
+  "voice": {
+    "heroHeadline": "The Coca‑Cola® Official Site for Drinks & Experiences",
+    "heroImage": "/content/dam/onexp/us/en/hero-banners/kotm-holidays-26-us-banner-dt.png",
+    "heroMedium": null,
+    "ctas": [
+      "Play and Enter",
+      "View all Offerings",
+      "Explore for More"
     ]
   },
   "systemComponents": [
     {
       "id": "site-header",
-      "selector": "header",
-      "evidence": "nav Brands / Discover / Impact / Shop / Promos & Offers + Sign Up on every page; hover mega-menus (has-submenu)",
-      "pages": [
-        "us-en",
-        "index"
-      ]
+      "selector": "header.experiencefragment"
     },
     {
       "id": "site-footer",
-      "selector": "footer",
-      "evidence": "Help / Shop & Visit / Legal columns + social icons (icomoon) + copyright",
-      "pages": [
-        "us-en",
-        "index"
-      ]
-    },
-    {
-      "id": "consent-banner",
-      "selector": "#onetrust-banner-sdk",
-      "evidence": "OneTrust cookie banner (Allow All) + floating cookie settings button; dismissed before capture",
-      "pages": [
-        "us-en",
-        "index"
-      ]
+      "selector": "footer"
     }
-  ],
-  "iconFont": {
-    "family": "icomoon",
-    "localPath": "stardust/current/assets/fonts/icomoon.woff",
-    "sourceCss": "https://www.coca-cola.com/onexp-theme/18b0fb116e5f38df6fa41bcb6d3a6e980c6fe693e0daee40c5e8d5f19c429e4d/theme.css",
-    "glyphs": [
-      {
-        "class": "cmp-button__icon cmp-button__icon--facebook",
-        "codepoint": "U+E922",
-        "pseudo": "::after"
-      },
-      {
-        "class": "cmp-button__icon cmp-button__icon--instagram",
-        "codepoint": "U+E925",
-        "pseudo": "::after"
-      },
-      {
-        "class": "cmp-button__icon cmp-button__icon--menu",
-        "codepoint": "U+E910",
-        "pseudo": "::after"
-      },
-      {
-        "class": "cmp-button__icon cmp-button__icon--profile",
-        "codepoint": "U+E905",
-        "pseudo": "::after"
-      },
-      {
-        "class": "cmp-button__icon cmp-button__icon--x-social",
-        "codepoint": "U+E934",
-        "pseudo": "::after"
-      },
-      {
-        "class": "cmp-button__icon cmp-button__icon--youtube",
-        "codepoint": "U+E926",
-        "pseudo": "::after"
-      },
-      {
-        "class": "cmp-teaser__action-link",
-        "codepoint": "U+E906",
-        "pseudo": "::after"
-      },
-      {
-        "class": "has-submenu",
-        "codepoint": "U+E91A",
-        "pseudo": "::after"
-      },
-      {
-        "class": "ot-close-icon",
-        "codepoint": "U+E909",
-        "pseudo": "::after"
-      },
-      {
-        "class": "ot-link-btn back-btn-handler",
-        "codepoint": "U+E907",
-        "pseudo": "::after"
-      },
-      {
-        "class": "user-avatar__image",
-        "codepoint": "U+E905",
-        "pseudo": "::after"
-      },
-      {
-        "class": "ot-button-order-2",
-        "codepoint": "U+E906",
-        "pseudo": "::after"
-      }
-    ]
-  },
-  "voice": {
-    "heroHeadline": "The Coca‑Cola® Official Site for Drinks & Experiences",
-    "heroLede": "Experience the official Coca‑Cola® site to find your favorite drink and discover new products, promos & offers, and more. Shop all Coca-Cola sodas here.",
-    "firstParagraph": "Enter every Friday for your chance to win tickets, Fanatics digital gift cards, and more football prizes for fans.",
-    "ctaSamples": [
-      "Get Started",
-      "View all Offerings",
-      "Explore for More"
-    ],
-    "linkSamples": [
-      "Brands",
-      "Discover",
-      "Impact",
-      "Shop",
-      "Promos & Offers"
-    ],
-    "heroImage": {
-      "src": "https://www.coca-cola.com/content/dam/onexp/us/en/hero-banners/coca-cola-fall-hockey-big-wins-banner-dt.png/width1960.png",
-      "alt": "Big Wins promo banner with a hockey puck, LG TV, Fanatics card, and a Coca-Cola branded projector and blanket.",
-      "note": "first slide of the rotating hero carousel (splide); slides vary per load"
-    },
-    "heroMedium": null
-  },
-  "register": "brand"
+  ]
 }

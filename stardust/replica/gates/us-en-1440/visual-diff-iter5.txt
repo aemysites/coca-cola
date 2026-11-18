@@ -1,0 +1,1254 @@
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/us-en-1440/vdiff-iter5/
+
+build red flags (advisory): 
+  • CONTENT GAP: source 41 headings / 12 content-boxes / main 4649px vs build 17 / 7 / 4649px. Heading/box/height shortfall vs the source — likely dropped or duplicated content.
+  • HEADING FACE ×17: "Noto-regional" → "Anek Latin Expanded" on every differing heading (source → build). A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 4649,
+  "textLen": 7014,
+  "images": [
+   {
+    "src": "Coke-company-logo-black.svg",
+    "natural": "125x20",
+    "rendered": "125x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "1439x679",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "1439x679",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "1439x679",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "1439x679",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "1439x679",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "1439x679",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "1439x679",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "1439x1079",
+    "rendered": "548x411",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "799x599",
+    "rendered": "548x411",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "1439x1079",
+    "rendered": "548x411",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "799x599",
+    "rendered": "548x411",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "1439x1079",
+    "rendered": "548x411",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "799x599",
+    "rendered": "548x411",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "1439x1079",
+    "rendered": "548x411",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "799x599",
+    "rendered": "548x411",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "1439x1079",
+    "rendered": "548x411",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "799x599",
+    "rendered": "548x411",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "1102x950",
+    "rendered": "640x552",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "1102x950",
+    "rendered": "640x552",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.jpg",
+    "natural": "517x387",
+    "rendered": "357x268",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.jpg",
+    "natural": "799x599",
+    "rendered": "357x268",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "747x561",
+    "rendered": "357x268",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "517x387",
+    "rendered": "357x268",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.jpg",
+    "natural": "517x387",
+    "rendered": "357x268",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.jpg",
+    "natural": "517x387",
+    "rendered": "357x268",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.jpg",
+    "natural": "799x599",
+    "rendered": "357x268",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "747x561",
+    "rendered": "357x268",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "517x387",
+    "rendered": "357x268",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.jpg",
+    "natural": "517x387",
+    "rendered": "357x268",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.jpg",
+    "natural": "517x387",
+    "rendered": "357x268",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.jpg",
+    "natural": "799x599",
+    "rendered": "357x268",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "747x561",
+    "rendered": "357x268",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "517x387",
+    "rendered": "357x268",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.jpg",
+    "natural": "517x387",
+    "rendered": "357x268",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.jpg",
+    "natural": "517x387",
+    "rendered": "357x268",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.jpg",
+    "natural": "799x599",
+    "rendered": "357x268",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "420x132",
+    "rendered": "181x57",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "346x132",
+    "rendered": "181x69",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "350x132",
+    "rendered": "181x68",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "234x132",
+    "rendered": "181x102",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "367x132",
+    "rendered": "181x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "1439x1439",
+    "rendered": "181x181",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo-white-large.svg",
+    "natural": "249x40",
+    "rendered": "249x40",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "badge_apple.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "badge_google.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "coke-cookies-logo-preference-centre.png",
+    "natural": "720x152",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=187146240&tm=gtm002&Ver=2&mid=c016a44c-f06e-44d7-bc2f-6184e1222c9a&bo=1&sid=7a1d8c40e31d11f1af37c5f01d7a6056&vid=7a1db260e31d11f194574761ef0edfe7&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&tl=Explore%20the%20Coca%E2%80%91Cola%C2%AE%20Official%20Site%20%7C%20Coca-Cola%20US&p=https%3A%2F%2Fwww.coca-cola.com%2Fus%2Fen&r=&lt=417&evt=pageLoad&sv=2&cdb=AQER&rn=744143",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "The Coca‑Cola® Official Site for",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "38px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "YOU COULD WIN BIG THIS SEASON",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "YOU COULD WIN BIG THIS SEASON",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Your Shot at Alaska Starts Now",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "YOU COULD WIN BIG THIS SEASON",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "YOU COULD WIN BIG THIS SEASON",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Your Shot at Alaska Starts Now",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "YOU COULD WIN BIG THIS SEASON",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Promos & Offers",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Don't Miss the Coca‑Cola Holiday",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A Full Year of Favorites Could B",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Don't Miss the Coca‑Cola Holiday",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A Full Year of Favorites Could B",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Don't Miss the Coca‑Cola Holiday",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A Full Year of Favorites Could B",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Don't Miss the Coca‑Cola Holiday",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A Full Year of Favorites Could B",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Don't Miss the Coca‑Cola Holiday",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A Full Year of Favorites Could B",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Features",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Mix Up the Holiday Spirit",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Refresh Your Fandom All Year Lon",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "More from Coca‑Cola®",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Coca‑Cola Vending",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "you plus +one",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Discover Your Tastebud Map",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "World of Coca‑Cola Annual Pass",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Coca‑Cola Refreshing Films",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Coca‑Cola Vending",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "you plus +one",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Discover Your Tastebud Map",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "World of Coca‑Cola Annual Pass",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Coca‑Cola Refreshing Films",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Coca‑Cola Vending",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "you plus +one",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Discover Your Tastebud Map",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "World of Coca‑Cola Annual Pass",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Coca‑Cola Refreshing Films",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Coca‑Cola Vending",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "you plus +one",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Explore Our Brands",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [
+   {
+    "tag": "h2",
+    "text": "YOU COULD WIN BIG THIS SEASO",
+    "left": -2378
+   },
+   {
+    "tag": "p",
+    "text": "Enter every Friday for your ",
+    "left": -2378
+   },
+   {
+    "tag": "h2",
+    "text": "YOU COULD WIN BIG THIS SEASO",
+    "left": -1102
+   },
+   {
+    "tag": "p",
+    "text": "Enter every Friday for your ",
+    "left": -1102
+   },
+   {
+    "tag": "h3",
+    "text": "Don't Miss the Coca‑Cola Hol",
+    "left": -2096
+   },
+   {
+    "tag": "p",
+    "text": "Whether you're a lifelong fa",
+    "left": -2096
+   },
+   {
+    "tag": "p",
+    "text": "Find Your Stop",
+    "left": -2096
+   },
+   {
+    "tag": "h3",
+    "text": "A Full Year of Favorites Cou",
+    "left": -1524
+   }
+  ],
+  "contentBoxes": [
+   {
+    "sel": "cmp-text",
+    "width": 1120,
+    "left": 160
+   },
+   {
+    "sel": "cmp-teaser__content",
+    "width": 1252,
+    "left": -2458
+   },
+   {
+    "sel": "cmp-teaser__content",
+    "width": 1252,
+    "left": -1182
+   },
+   {
+    "sel": "cmp-teaser__content",
+    "width": 1252,
+    "left": 94
+   },
+   {
+    "sel": "cmp-teaser__content",
+    "width": 1252,
+    "left": 1370
+   },
+   {
+    "sel": "cmp-teaser__content",
+    "width": 1252,
+    "left": 2646
+   },
+   {
+    "sel": "cmp-teaser__content",
+    "width": 1252,
+    "left": 3922
+   },
+   {
+    "sel": "cmp-teaser__content",
+    "width": 1252,
+    "left": 5199
+   },
+   {
+    "sel": "cmp-title",
+    "width": 1120,
+    "left": 160
+   },
+   {
+    "sel": "cmp-carousel__content",
+    "width": 1120,
+    "left": -2128
+   },
+   {
+    "sel": "cmp-title",
+    "width": 1120,
+    "left": 160
+   },
+   {
+    "sel": "cmp-teaser",
+    "width": 1152,
+    "left": 144
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 4649,
+  "textLen": 2443,
+  "images": [
+   {
+    "src": "Coke-company-logo-black.svg",
+    "natural": "125x20",
+    "rendered": "125x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "coca-cola-fall-hockey-big-wins-banner-dt.png",
+    "natural": "1960x925",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "kotm-holidays-26-us-banner-dt.png",
+    "natural": "1960x925",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fall-football-banner-dt.png",
+    "natural": "1960x925",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "coca-cola-fall-hockey-big-wins-banner-dt.png",
+    "natural": "1960x925",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "kotm-holidays-26-us-banner-dt.png",
+    "natural": "1960x925",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "product-for-a-year-us-tile-hq.png",
+    "natural": "1088x816",
+    "rendered": "548x411",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "onexp-hpg-caravan-teaser-allbreakpoints.png",
+    "natural": "1960x1470",
+    "rendered": "548x411",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "product-for-a-year-us-tile-hq.png",
+    "natural": "1088x816",
+    "rendered": "548x411",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "onexp-hpg-caravan-teaser-allbreakpoints.png",
+    "natural": "1960x1470",
+    "rendered": "548x411",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "simply-holidays-us-campaign-dt.png",
+    "natural": "1500x1294",
+    "rendered": "640x552",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "soccer-always-on-campaign-dt.png",
+    "natural": "1500x1294",
+    "rendered": "640x552",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "coke-offering-vending.jpg",
+    "natural": "704x528",
+    "rendered": "357x268",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "plusone-card.jpg",
+    "natural": "1088x816",
+    "rendered": "357x268",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "snap-camera-kit-onexp-tile-campaign-more-from-cc.png",
+    "natural": "1018x764",
+    "rendered": "357x268",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "world-of-coca-cola-tile.png",
+    "natural": "704x528",
+    "rendered": "357x268",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "coke-offering-refreshing-films.jpg",
+    "natural": "704x528",
+    "rendered": "357x268",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "coke-offering-vending.jpg",
+    "natural": "704x528",
+    "rendered": "357x268",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "plusone-card.jpg",
+    "natural": "1088x816",
+    "rendered": "357x268",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "CocaColalogor.png",
+    "natural": "573x180",
+    "rendered": "181x57",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "en_diet-coke_logo_color_471x180.png",
+    "natural": "471x180",
+    "rendered": "181x69",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "en_sprite_logo_green-text-only_477x180.png",
+    "natural": "477x180",
+    "rendered": "181x68",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "en_fanta_logo_colored_319x180_v1.png",
+    "natural": "319x180",
+    "rendered": "181x102",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "SW_wordmarks_RGB_color_500x180.png",
+    "natural": "500x180",
+    "rendered": "181x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Global-MinuteMaid-Logo.png",
+    "natural": "1960x1960",
+    "rendered": "181x181",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo-white-large.svg",
+    "natural": "249x40",
+    "rendered": "249x40",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "badge_apple.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "badge_google.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "The Coca‑Cola® Official Site for",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "38px",
+    "family": "Anek Latin Expanded",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Your Shot at Alaska Starts Now",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
+    "family": "Anek Latin Expanded",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "YOU COULD WIN BIG THIS SEASON",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
+    "family": "Anek Latin Expanded",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "YOU COULD WIN BIG THIS SEASON",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
+    "family": "Anek Latin Expanded",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Promos & Offers",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Anek Latin Expanded",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Don't Miss the Coca‑Cola Holiday",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Anek Latin Expanded",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "A Full Year of Favorites Could B",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Anek Latin Expanded",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Features",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Anek Latin Expanded",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Mix Up the Holiday Spirit",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Anek Latin Expanded",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Refresh Your Fandom All Year Lon",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Anek Latin Expanded",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "More from Coca‑Cola®",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Anek Latin Expanded",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "you plus +one",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Anek Latin Expanded",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Discover Your Tastebud Map",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Anek Latin Expanded",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "World of Coca‑Cola Annual Pass",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Anek Latin Expanded",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Coca‑Cola Refreshing Films",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Anek Latin Expanded",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Coca‑Cola Vending",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Anek Latin Expanded",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Explore Our Brands",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Anek Latin Expanded",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "hero-card__content",
+    "width": 1252,
+    "left": 94
+   },
+   {
+    "sel": "hero-card__content",
+    "width": 1252,
+    "left": 1370
+   },
+   {
+    "sel": "hero-card__content",
+    "width": 1252,
+    "left": 2646
+   },
+   {
+    "sel": "carousel__track",
+    "width": 1120,
+    "left": -412
+   },
+   {
+    "sel": "campaign-card",
+    "width": 1120,
+    "left": 160
+   },
+   {
+    "sel": "campaign-card",
+    "width": 1120,
+    "left": 160
+   },
+   {
+    "sel": "carousel__track",
+    "width": 1120,
+    "left": -221
+   }
+  ]
+ }
+}

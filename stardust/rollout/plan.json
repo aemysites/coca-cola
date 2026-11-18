@@ -1,28 +1,19 @@
 {
   "_provenance": {
     "writtenBy": "stardust:rollout/plan",
-    "writtenAt": "2026-11-16T07:13:45.007Z",
+    "writtenAt": "2026-11-18T07:54:16.104Z",
     "readArtifacts": [
       "stardust/rollout/coverage"
     ],
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-11-16T07:13:45.007Z",
+  "generatedAt": "2026-11-18T07:54:16.104Z",
   "fragments": [],
   "deliveryOrder": [
-    "index",
-    "us-en"
+    "us-en",
+    "index"
   ],
   "steps": [
-    {
-      "slug": "index",
-      "path": "/",
-      "templateId": "landing",
-      "status": "content-pending",
-      "isRepresentative": false,
-      "convert": [],
-      "reuse": []
-    },
     {
       "slug": "us-en",
       "path": "/us/en",
@@ -31,27 +22,44 @@
       "isRepresentative": true,
       "convert": [
         {
-          "id": "feature-xf",
-          "edsBlockName": "feature-xf"
-        },
-        {
-          "id": "teaser-block",
-          "edsBlockName": "teaser-block"
-        },
-        {
           "id": "carousel",
           "edsBlockName": "carousel"
         },
         {
-          "id": "features",
-          "edsBlockName": "features"
+          "id": "campaign-card",
+          "edsBlockName": "campaign-card"
         },
         {
-          "id": "brands",
-          "edsBlockName": "brands"
+          "id": "brands-list",
+          "edsBlockName": "brands-list"
         }
       ],
       "reuse": []
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "us-en",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "carousel",
+          "edsBlockName": "carousel",
+          "convertedBy": "us-en"
+        },
+        {
+          "id": "campaign-card",
+          "edsBlockName": "campaign-card",
+          "convertedBy": "us-en"
+        },
+        {
+          "id": "brands-list",
+          "edsBlockName": "brands-list",
+          "convertedBy": "us-en"
+        }
+      ]
     }
   ]
 }

@@ -2,208 +2,239 @@ import { getMetadata } from '../../scripts/aem.js';
 import { loadFragment } from '../fragment/fragment.js';
 
 /**
- * Header: template-slotted chrome of the coca-cola.com replica.
- * Authored /nav: brand (logo link), nav list (nested lists = submenus), tools (CTA paragraphs).
- * Behaviour per stardust/chrome/header-contract.json: desktop submenus open on hover, click and
- * Enter/Space (one at a time, Escape / outside click / focus loss close); below 1200px a Menu
- * drawer with scroll lock. The header is static (no scroll state).
- * @ew-exempt the drawer copy of the first tools CTA is a presentational clone (EW4)
+ * header — the coca-cola.com/us/en chrome, template-slotted from the authored /nav document.
+ *
+ * /nav sections (classified by content, not by index):
+ *   brand  — the logo image, linked to the home page (<a><img></a>, or <img> + a link)
+ *   nav    — one <ul>: a link per top-level item; an item with a nested <ul> is a submenu
+ *            (its label is the text before the nested list)
+ *   tools  — the account links: Sign Up (primary, <strong>) then Log In
+ * Behaviour (stardust/chrome/header-contract.json, gated prototype us-en.js):
+ *   desktop (>= 1200px) — submenus open on hover, click toggles, outside click / Escape close;
+ *   below — Menu toggles a full-height drawer with scroll lock, submenus become accordions.
+ * @ew-exempt all — chrome fragment; /nav is edited as its own document
  */
 
-const desktop = window.matchMedia('(width >= 1200px)');
-const INSTRUMENTATION = ['data-prose-index', 'data-image-index', 'data-block-index'];
+const isDesktop = window.matchMedia('(width >= 1200px)');
 
-function stripInstrumentation(root) {
-  [root, ...root.querySelectorAll('*')].forEach((node) => {
-    INSTRUMENTATION.forEach((attr) => node.removeAttribute(attr));
+function stripInstrumentation(el) {
+  el.querySelectorAll('[data-prose-index], [data-image-index]').forEach((n) => {
+    n.removeAttribute('data-prose-index');
+    n.removeAttribute('data-image-index');
   });
-  return root;
+  el.removeAttribute('data-prose-index');
+  return el;
 }
 
-function el(tag, attrs = {}) {
-  const node = document.createElement(tag);
-  Object.entries(attrs).forEach(([name, value]) => node.setAttribute(name, value));
-  return node;
+// decorateButtons() stamps title = text on every paragraph link; keep only authored titles,
+// and expose an authored title that differs from the label as the accessible name.
+function normalizeLink(a) {
+  const label = a.textContent.trim();
+  if (a.title && a.title.trim() === label) a.removeAttribute('title');
+  if (a.title && !a.hasAttribute('aria-label')) a.setAttribute('aria-label', a.title);
 }
 
-/** Sorts the fragment's content wrappers into brand / nav / tools by content, not by index. */
-function classify(fragment) {
-  const wrappers = [...fragment.querySelectorAll('.section > div')];
-  const slots = { brand: null, nav: null, tools: [] };
-  wrappers.forEach((wrapper) => {
-    if (!wrapper.children.length) return;
-    if (!slots.brand && wrapper.querySelector('picture, img') && !wrapper.querySelector('ul')) {
-      slots.brand = wrapper;
-    } else if (!slots.nav && wrapper.querySelector('ul')) {
-      slots.nav = wrapper;
-    } else {
-      slots.tools.push(wrapper);
-    }
-  });
-  return slots;
+// the pipeline wraps a list item's leading content in a <p> on live (#98) — unwrap it
+function unwrapParagraphs(li) {
+  li.querySelectorAll(':scope > p').forEach((p) => p.replaceWith(...p.childNodes));
 }
 
-/** Normalises one top-level item: unwraps the delivered <p>, builds the submenu trigger. */
-function decorateItem(li, index) {
-  [...li.children].forEach((child) => {
-    if (child.tagName === 'P') child.replaceWith(...child.childNodes);
+function closeSubmenus(nav, except) {
+  nav.querySelectorAll('li.has-submenu').forEach((li) => {
+    if (li === except) return;
+    li.classList.remove('sublist-is-open');
+    li.querySelector('.site-nav-trigger')?.setAttribute('aria-expanded', 'false');
   });
-  const sub = li.querySelector('ul');
-  if (!sub) return null;
-  li.classList.add('has-submenu');
-  let trigger = [...li.children].find((child) => child.tagName === 'A');
-  if (!trigger) {
-    trigger = el('a', { href: '#' });
-    const label = [...li.childNodes].filter((node) => node !== sub);
-    trigger.append(...label);
-    li.prepend(trigger);
+}
+
+function buildBrand(section) {
+  const logo = document.createElement('div');
+  logo.className = 'site-header-logo';
+  if (!section) return logo;
+  const media = section.querySelector('picture, img');
+  const link = media ? media.closest('a') : section.querySelector('a');
+  if (link) {
+    if (media && !link.contains(media)) link.prepend(media);
+    logo.append(link);
+  } else if (media) {
+    logo.append(media);
   }
-  sub.id = sub.id || `site-nav-submenu-${index}`;
-  trigger.setAttribute('role', 'button');
-  trigger.setAttribute('aria-expanded', 'false');
-  trigger.setAttribute('aria-controls', sub.id);
-  return li;
+  return logo;
 }
 
+function buildNavList(section) {
+  const list = section ? section.querySelector('ul') : null;
+  if (!list) return document.createElement('ul');
+  list.className = 'site-nav-list';
+  [...list.children].forEach((li) => {
+    unwrapParagraphs(li);
+    const sub = li.querySelector(':scope > ul');
+    if (!sub) return;
+    li.classList.add('has-submenu');
+    sub.className = 'submenu';
+    sub.querySelectorAll(':scope > li').forEach(unwrapParagraphs);
+    // the label: an authored link becomes the trigger; bare text is moved into one
+    let trigger = li.querySelector(':scope > a');
+    if (!trigger) {
+      trigger = document.createElement('a');
+      trigger.href = '#';
+      const lead = [...li.childNodes].filter((n) => n !== sub && !sub.contains(n));
+      trigger.append(...lead);
+      li.prepend(trigger);
+    }
+    trigger.classList.add('site-nav-trigger');
+    trigger.setAttribute('role', 'button');
+    trigger.setAttribute('aria-expanded', 'false');
+  });
+  list.querySelectorAll('a').forEach(normalizeLink);
+  return list;
+}
+
+// account CTAs: the source renders them as labelled buttons (aria-label = the label);
+// the authored link keeps its target, the button follows it on click
+function plainLink(a, className) {
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = className;
+  btn.setAttribute('aria-label', a.getAttribute('aria-label') || a.title || a.textContent.trim());
+  btn.append(...a.childNodes);
+  const href = a.getAttribute('href');
+  if (href) btn.addEventListener('click', () => { window.location.href = href; });
+  return btn;
+}
+
+// the source's account control (shown only to signed-in users)
+function buildAccount() {
+  const account = document.createElement('div');
+  account.className = 'site-header-account';
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.setAttribute('aria-label', 'Account');
+  const icon = document.createElement('span');
+  icon.className = 'icon';
+  icon.setAttribute('aria-hidden', 'true');
+  const label = document.createElement('span');
+  label.className = 'visually-hidden';
+  label.textContent = 'Account';
+  btn.append(icon, label);
+  const menuBtn = document.createElement('button');
+  menuBtn.type = 'button';
+  menuBtn.setAttribute('aria-label', 'Account');
+  menuBtn.hidden = true;
+  account.append(btn, menuBtn);
+  return account;
+}
+
+/**
+ * loads and decorates the header
+ * @param {Element} block The header block element
+ */
 export default async function decorate(block) {
   const navMeta = getMetadata('nav');
   const navPath = navMeta ? new URL(navMeta, window.location).pathname : '/nav';
   const fragment = await loadFragment(navPath);
-  if (!fragment) return;
+  const sections = fragment ? [...fragment.children] : [];
 
-  const { brand, nav: navSource, tools } = classify(fragment);
+  const brandSection = sections.find((s) => s.querySelector('picture, img'));
+  const navSection = sections.find((s) => s !== brandSection && s.querySelector('ul'));
+  const toolsSection = sections.find((s) => s !== brandSection && s !== navSection
+    && s.querySelector('a'));
+  const tools = toolsSection ? [...toolsSection.querySelectorAll('a')] : [];
+  const [signup, login] = tools;
 
-  const root = el('div', { class: 'site-header', id: 'site-header' });
-  const inner = el('div', { class: 'site-header-inner' });
-  const logo = el('div', { class: 'site-header-logo' });
-  const nav = el('nav', { class: 'site-nav', id: 'site-nav', 'aria-label': 'Main' });
-  const drawerActions = el('div', { class: 'site-nav-actions' });
-  const actions = el('div', { class: 'site-header-actions' });
-  const signup = el('div', { class: 'site-header-signup' });
+  const root = document.createElement('div');
+  root.className = 'site-header';
+  const frame = document.createElement('div');
+  frame.className = 'site-header-frame';
+  const wrap = document.createElement('div');
+  wrap.className = 'site-header-wrap';
+  const bar = document.createElement('div');
+  bar.className = 'site-header-bar';
 
-  if (brand) logo.append(...brand.childNodes);
-  logo.querySelectorAll('img').forEach((img) => {
-    img.loading = 'eager';
-  });
+  const nav = document.createElement('nav');
+  nav.className = 'site-nav';
+  nav.id = 'site-nav';
+  nav.append(buildNavList(navSection));
 
-  const list = navSource ? navSource.querySelector('ul') : null;
-  if (list) {
-    const leftovers = [...navSource.childNodes].filter((node) => node !== list);
-    nav.append(list);
-    if (leftovers.some((node) => node.nodeType === 1)) drawerActions.append(...leftovers);
+  const drawerActions = document.createElement('div');
+  drawerActions.className = 'site-nav-mobile-actions';
+  const actions = document.createElement('div');
+  actions.className = 'site-header-actions';
+  if (signup) {
+    const copy = stripInstrumentation(signup.cloneNode(true));
+    drawerActions.append(plainLink(copy, 'drawer-btn drawer-btn-signup'));
+    actions.append(plainLink(signup, 'site-header-cta'));
   }
-  const items = list ? [...list.querySelectorAll(':scope > li')] : [];
-  const subs = items.map(decorateItem).filter(Boolean);
-
-  // tools: the first CTA paragraph sits in the bar; the drawer shows a copy of it, then the rest
-  const ctas = tools.flatMap((wrapper) => [...wrapper.children]);
-  if (ctas.length) {
-    const [first, ...rest] = ctas;
-    signup.append(first);
-    drawerActions.append(stripInstrumentation(first.cloneNode(true)), ...rest);
-  }
+  actions.append(buildAccount());
+  if (login) drawerActions.append(plainLink(login, 'drawer-btn drawer-btn-login'));
+  tools.slice(2).forEach((a) => drawerActions.append(plainLink(a, 'drawer-btn drawer-btn-login')));
   nav.append(drawerActions);
 
-  const menuBtn = el('button', {
-    class: 'menu-btn',
-    type: 'button',
-    'aria-label': 'Menu',
-    'aria-expanded': 'false',
-    'aria-controls': 'site-nav',
-  });
-  const menuIcon = el('span', { class: 'icon', 'aria-hidden': 'true' });
-  const menuText = el('span', { class: 'menu-btn-text' });
-  menuText.textContent = 'Menu';
-  menuBtn.append(menuIcon, menuText);
+  const menu = document.createElement('button');
+  menu.type = 'button';
+  menu.className = 'site-header-menu';
+  menu.setAttribute('aria-label', 'Menu');
+  menu.setAttribute('aria-expanded', 'false');
+  menu.setAttribute('aria-controls', 'site-nav');
+  const glyph = document.createElement('span');
+  glyph.className = 'icon';
+  glyph.setAttribute('aria-hidden', 'true');
+  menu.append(glyph);
+  actions.append(menu);
 
-  // source parity: the account control is present but hidden while signed out
-  const accountBtn = el('button', {
-    class: 'account-btn', type: 'button', 'aria-label': 'Account', hidden: '',
-  });
-  const accountText = el('span', { class: 'sr-only' });
-  accountText.textContent = 'Account';
-  accountBtn.append(el('span', { class: 'icon', 'aria-hidden': 'true' }), accountText);
+  bar.append(buildBrand(brandSection), nav, actions);
+  wrap.append(bar);
+  frame.append(wrap);
+  root.append(frame);
+  block.replaceChildren(root);
 
-  actions.append(signup, accountBtn, menuBtn);
-  inner.append(logo, nav, actions);
-  root.append(inner);
-  // authored link titles name the link (source aria-label); in-page CTAs act as buttons
-  root.querySelectorAll('a[title]:not([aria-label])').forEach((a) => {
-    if (!/^https?:/.test(a.title)) a.setAttribute('aria-label', a.title);
-  });
-  root.querySelectorAll('.site-header-signup a[href^="#"], .site-nav-actions a[href^="#"]').forEach((a) => {
-    a.setAttribute('role', 'button');
-    a.setAttribute('aria-label', a.textContent.trim());
-  });
-
-  block.textContent = '';
-  block.append(root);
-
-  const trig = (li) => li.querySelector(':scope > a');
-  const setSub = (li, open) => {
-    li.classList.toggle('sublist-is-open', open);
-    trig(li).setAttribute('aria-expanded', String(open));
-  };
-  const closeAll = (except) => subs.forEach((li) => {
-    if (li !== except) setSub(li, false);
-  });
-
+  // ---- behaviour ----
   const setDrawer = (open) => {
     root.classList.toggle('is-open', open);
-    menuBtn.setAttribute('aria-expanded', String(open));
-    document.body.style.overflowY = open && !desktop.matches ? 'hidden' : '';
+    document.documentElement.classList.toggle('is-locked', open);
+    menu.setAttribute('aria-expanded', String(open));
   };
+  menu.addEventListener('click', () => setDrawer(!root.classList.contains('is-open')));
+  // the drawer sits before the button in the DOM: Tab from the open button enters it
+  menu.addEventListener('keydown', (e) => {
+    if (e.key !== 'Tab' || e.shiftKey || !root.classList.contains('is-open')) return;
+    const first = nav.querySelector('a[href], button');
+    if (!first) return;
+    e.preventDefault();
+    first.focus();
+  });
 
-  subs.forEach((li) => {
-    const a = trig(li);
-    const toggle = (e) => {
+  nav.querySelectorAll('li.has-submenu').forEach((li) => {
+    const trigger = li.querySelector('.site-nav-trigger');
+    trigger.addEventListener('click', (e) => {
       e.preventDefault();
-      // a pointer click lands after the hover already opened the panel: keep it open
-      const hovered = li.dataset.hoverOpened === 'true';
-      li.dataset.hoverOpened = 'false';
-      const open = hovered || !li.classList.contains('sublist-is-open');
-      closeAll(li);
-      setSub(li, open);
-    };
-    a.addEventListener('click', toggle);
-    a.addEventListener('keydown', (e) => {
-      if (e.key === ' ') toggle(e);
+      const open = !li.classList.contains('sublist-is-open');
+      closeSubmenus(nav, li);
+      li.classList.toggle('sublist-is-open', open);
+      trigger.setAttribute('aria-expanded', String(open));
     });
+  });
+  // desktop menus open on hover (CSS); the trigger reports the open state like the source
+  nav.querySelectorAll('li.has-submenu').forEach((li) => {
+    const trigger = li.querySelector('.site-nav-trigger');
     li.addEventListener('mouseenter', () => {
-      if (!desktop.matches) return;
-      closeAll(li);
-      li.dataset.hoverOpened = String(!li.classList.contains('sublist-is-open'));
-      setSub(li, true);
+      if (isDesktop.matches) trigger.setAttribute('aria-expanded', 'true');
     });
     li.addEventListener('mouseleave', () => {
-      li.dataset.hoverOpened = 'false';
-      if (desktop.matches) setSub(li, false);
+      if (isDesktop.matches && !li.classList.contains('sublist-is-open')) trigger.setAttribute('aria-expanded', 'false');
     });
   });
-
-  menuBtn.addEventListener('click', () => setDrawer(!root.classList.contains('is-open')));
-
   document.addEventListener('click', (e) => {
-    if (!e.target.closest('.site-nav')) closeAll();
+    if (!e.target.closest('.site-nav-list > li.has-submenu')) closeSubmenus(nav);
   });
   document.addEventListener('keydown', (e) => {
-    if (e.key !== 'Escape') return;
-    const open = subs.find((li) => li.classList.contains('sublist-is-open'));
-    if (open) {
-      closeAll();
-      trig(open).focus();
-    } else if (root.classList.contains('is-open')) {
-      setDrawer(false);
-      menuBtn.focus();
-    }
+    if (e.code !== 'Escape') return;
+    const open = nav.querySelector('li.sublist-is-open .site-nav-trigger');
+    closeSubmenus(nav);
+    if (open && isDesktop.matches) open.focus();
   });
-  root.addEventListener('focusout', (e) => {
-    if (root.contains(e.relatedTarget)) return;
-    closeAll();
-    if (e.relatedTarget) setDrawer(false);
-  });
-  desktop.addEventListener('change', () => {
-    closeAll();
+  isDesktop.addEventListener('change', () => {
     setDrawer(false);
+    closeSubmenus(nav);
   });
 }

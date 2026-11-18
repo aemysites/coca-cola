@@ -1,7 +1,7 @@
 {
  "tool": "chrome-explore",
  "url": "https://www.coca-cola.com/us/en",
- "at": "2026-11-16T06:34:21.472Z",
+ "at": "2026-11-18T07:00:00.190Z",
  "shots": "stardust/.work/chrome/header-contract",
  "widths": {
   "390": {
@@ -37,7 +37,10 @@
       40
      ],
      "actions": {
-      "click": null,
+      "click": {
+       "opened": false,
+       "navigates": "https://login.naou.coca-cola.com/a62739e6-ccaa-4a4a-831c-416177dae1ea/b2c_1a_signup_signin_v2_gam/oauth2/v2.0/authorize?client_id=94efbb50-8103-4dbb-a367-3fc58ff61c02&scope=https%3A%2F%2Fccnaprod.onmicrosoft.com%2Fauthorizer-service%2Fread%20openid%20profile%20offline_access&redirect_uri=https%3A%2F%2Fwww.coca-cola.com%2Fus%2Fen%2Fofferings%2Fgam2-phone-email%2Ftoken-exchange&client-request-id=01a1ed75-fcf9-71bf-ab70-8891f39aac8c&response_mode=fragment&response_type=code&x-client-SKU=msal.js.browser&x-client-VER=3.14.0&client_info=1&code_challenge=TmCC9VicNExfVZfc8rLHyOADIxowUkLSqtmJHvuNiFQ&code_challenge_method=S256&nonce=01a1ed75-fcfb-768b-abf7-be97a5c2626c&state=eyJpZCI6IjAxYTFlZDc1LWZjZmEtNzNmNS05NTI2LWIyZDhjYjhiMjczOSIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3D%7CsignUpFlow%3Dgo%26lang%3Den%26country%3DUS%26siteSection%3DHomepage%26region%3Dnaou%26return_to%3Dhttps%253A%252F%252Fwww.coca-cola.com%252Fus%252Fen%26otag%3D%252C1%252C2%252C4%252C3%252C5%252C%26policy%3Db2c_1a_signup_signin_v2_gam&signUpFlow=go&lang=en&country=US&siteSection=Homepage&region=naou&return_to=https%3A%2F%2Fwww.coca-cola.com%2Fus%2Fen&otag=,1,2,4,3,5,"
+      },
       "key": null
      }
     },
@@ -98,7 +101,7 @@
          24,
          80,
          342,
-         724
+         740
         ]
        },
        "expanded": null,
@@ -150,7 +153,7 @@
          24,
          80,
          342,
-         724
+         740
         ]
        },
        "expanded": null,
@@ -559,7 +562,7 @@
        "expanded": null,
        "rect": [
         24,
-        708,
+        724,
         342,
         40
        ],
@@ -577,12 +580,15 @@
        "expanded": null,
        "rect": [
         24,
-        764,
+        780,
         342,
         40
        ],
        "actions": {
-        "click": null,
+        "click": {
+         "opened": false,
+         "navigates": "https://login.naou.coca-cola.com/a62739e6-ccaa-4a4a-831c-416177dae1ea/b2c_1a_signup_signin_v2_gam/oauth2/v2.0/authorize?client_id=94efbb50-8103-4dbb-a367-3fc58ff61c02&scope=https%3A%2F%2Fccnaprod.onmicrosoft.com%2Fauthorizer-service%2Fread%20openid%20profile%20offline_access&redirect_uri=https%3A%2F%2Fwww.coca-cola.com%2Fus%2Fen%2Fofferings%2Fgam2-phone-email%2Ftoken-exchange&client-request-id=01a1ed77-c50c-7ab0-b4d5-8d5133f9fb47&response_mode=fragment&response_type=code&x-client-SKU=msal.js.browser&x-client-VER=3.14.0&client_info=1&code_challenge=zqa5RZHRDVyoBSsY8qsdcOjaedGA9X1oKMATwqNTtR0&code_challenge_method=S256&nonce=01a1ed77-c50c-7ea6-9c80-d0054288d174&state=eyJpZCI6IjAxYTFlZDc3LWM1MGMtN2JiZS05ZDA2LWJjZGE4ODgxY2NkZiIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3D%7Clang%3Den%26country%3DUS%26siteSection%3DHomepage%26region%3Dnaou%26return_to%3Dhttps%253A%252F%252Fwww.coca-cola.com%252Fus%252Fen%26otag%3D%252C1%252C2%252C4%252C3%252C5%252C%26policy%3Db2c_1a_signup_signin_v2_gam&lang=en&country=US&siteSection=Homepage&region=naou&return_to=https%3A%2F%2Fwww.coca-cola.com%2Fus%2Fen&otag=,1,2,4,3,5,"
+        },
         "key": null
        }
       }
@@ -626,7 +632,7 @@
    "states": 8,
    "truncated": null,
    "loads": 1,
-   "requests": 102,
+   "requests": 96,
    "maxRequests": 600,
    "inputsSkipped": 0
   },
@@ -1179,7 +1185,10 @@
      ],
      "actions": {
       "hover": null,
-      "click": null,
+      "click": {
+       "opened": false,
+       "navigates": "https://login.naou.coca-cola.com/a62739e6-ccaa-4a4a-831c-416177dae1ea/b2c_1a_signup_signin_v2_gam/oauth2/v2.0/authorize?client_id=94efbb50-8103-4dbb-a367-3fc58ff61c02&scope=https%3A%2F%2Fccnaprod.onmicrosoft.com%2Fauthorizer-service%2Fread%20openid%20profile%20offline_access&redirect_uri=https%3A%2F%2Fwww.coca-cola.com%2Fus%2Fen%2Fofferings%2Fgam2-phone-email%2Ftoken-exchange&client-request-id=01a1ed75-ac8f-766c-9282-f1d6a6a18dcd&response_mode=fragment&response_type=code&x-client-SKU=msal.js.browser&x-client-VER=3.14.0&client_info=1&code_challenge=QM9qag3rYZTN3p5eH3roeZ_anqyrMl9MrpdFI-1Qo_0&code_challenge_method=S256&nonce=01a1ed75-ac91-7fd7-8180-4a3c5337e079&state=eyJpZCI6IjAxYTFlZDc1LWFjOTAtNzhkMC04OTBiLTdiZWIzMGQwMDRhYiIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3D%7CsignUpFlow%3Dgo%26lang%3Den%26country%3DUS%26siteSection%3DHomepage%26region%3Dnaou%26return_to%3Dhttps%253A%252F%252Fwww.coca-cola.com%252Fus%252Fen%26otag%3D%252C1%252C2%252C4%252C3%252C5%252C%26policy%3Db2c_1a_signup_signin_v2_gam&signUpFlow=go&lang=en&country=US&siteSection=Homepage&region=naou&return_to=https%3A%2F%2Fwww.coca-cola.com%2Fus%2Fen&otag=,1,2,4,3,5,"
+      },
       "key": null
      }
     }
@@ -1221,7 +1230,7 @@
    "states": 9,
    "truncated": null,
    "loads": 1,
-   "requests": 84,
+   "requests": 78,
    "maxRequests": 600,
    "inputsSkipped": 0
   }

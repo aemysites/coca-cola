@@ -1,17 +1,16 @@
 {
   "_provenance": {
     "writtenBy": "stardust:migrate",
-    "writtenAt": "2026-11-16T08:04:06Z",
-    "stardustVersion": "0.39.3"
+    "writtenAt": "2026-11-18T08:42:21Z",
+    "stardustVersion": "0.39.4"
   },
   "site": {
     "originUrl": "https://www.coca-cola.com",
     "deployUrl": null,
-    "extractedAt": "2026-11-16T06:36:52.389Z",
+    "extractedAt": "2026-11-18T07:04:58Z",
     "pageCap": null,
     "totalDiscovered": 2,
     "crawled": 2,
-    "discovery": "given (--pages)",
     "captureGaps": [
       {
         "root": "/us/en",
@@ -26,7 +25,7 @@
           "/us/en/brands/fanta",
           "/us/en/brands/freestyle",
           "/us/en/brands/minute-maid",
-          "/us/en/brands/simply",
+          "/us/en/brands/simply/recipes/holiday",
           "/us/en/brands/smartwater",
           "/us/en/brands/sprite",
           "/us/en/impact/culture",
@@ -52,7 +51,7 @@
   "direction": null,
   "handsOff": true,
   "flow": "replica",
-  "flowChosenAt": "2026-11-16T06:36:52.389Z",
+  "flowChosenAt": "2026-11-18T07:04:58Z",
   "flowSource": "user-phrase",
   "pages": [
     {
@@ -60,50 +59,46 @@
       "url": "https://www.coca-cola.com/us/en",
       "title": "Explore the Coca‑Cola® Official Site | Coca-Cola US",
       "type": "landing",
-      "status": "deployed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
-          "at": "2026-11-16T06:32:22.438Z"
+          "at": "2026-11-18T07:04:58Z"
         },
         {
           "status": "prototyped",
-          "at": "2026-11-16T07:08:39Z"
+          "at": "2026-11-18T07:46:38Z"
         },
         {
           "status": "approved",
-          "at": "2026-11-16T07:10:34Z",
+          "at": "2026-11-18T07:46:38Z",
           "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-18T07:53:09Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/us-en.json",
       "prototypePath": "stardust/prototypes/us-en-proposed.html",
-      "migratedPath": "stardust/migrated/us/en.html",
-      "archetype": true,
-      "liveUrl": "https://main--e4399cea--aemcoder.aem.live/us/en",
-      "edsPath": "/us/en",
-      "deployedAt": "2026-11-16"
+      "migratedPath": "stardust/migrated/us/en/index.html"
     },
     {
       "slug": "index",
       "url": "https://www.coca-cola.com/",
       "title": "Explore the Coca‑Cola® Official Site | Coca-Cola US",
       "type": "landing",
-      "status": "deployed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
-          "at": "2026-11-16T06:32:20.401Z"
+          "at": "2026-11-18T07:04:58Z"
         },
         {
           "status": "migrated",
-          "at": "2026-11-16T08:04:06Z"
-        },
-        {
-          "status": "deployed",
-          "at": "2026-11-16T08:04:06.181Z"
+          "at": "2026-11-18T08:42:21Z"
         }
       ],
       "stale": false,
@@ -111,26 +106,19 @@
       "currentStatePath": "stardust/current/pages/index.json",
       "prototypePath": null,
       "migratedPath": "stardust/migrated/index.html",
-      "finalUrl": "https://www.coca-cola.com/us/en",
-      "redirectsTo": "us-en",
-      "duplicateOf": "us-en",
-      "archetype": false,
-      "liveUrl": "https://main--e4399cea--aemcoder.aem.live/",
-      "edsPath": "/index",
-      "deployedPath": "/",
-      "deployedAt": "2026-11-16"
+      "representative": "us-en"
     }
   ],
   "migrate": {
-    "at": "2026-11-16T08:00:54Z",
+    "at": "2026-11-18T08:42:12Z",
     "outputDir": "stardust/migrated/",
     "selfContained": true,
     "pageMap": [
       {
         "sourceUrl": "/us/en",
-        "outputPath": "us/en.html",
+        "outputPath": "us/en/index.html",
         "slug": "us-en",
-        "outputPathDefault": null
+        "outputPathDefault": "trailing-slash"
       },
       {
         "sourceUrl": "/",
@@ -139,39 +127,78 @@
         "outputPathDefault": null
       }
     ],
-    "totalAssetsBundled": 8,
+    "totalAssetsBundled": 42,
     "bundledAssets": [
-      "css/canon.css",
-      "css/landing.css",
-      "css/motion.css",
+      "CocaColalogor.png",
+      "Coke-company-logo-black.svg",
+      "Global-MinuteMaid-Logo.png",
+      "SW_wordmarks_RGB_color_500x180.png",
+      "badge_apple.png",
+      "badge_google.png",
+      "canon.css",
+      "coca-cola-fall-hockey-big-wins-banner-dt.png",
+      "coca-cola-fall-hockey-big-wins-banner-mo-380.png",
+      "coca-cola-fall-hockey-big-wins-banner-mo-767.png",
+      "coke-offering-refreshing-films-mobile-380.jpg",
+      "coke-offering-refreshing-films.jpg",
+      "coke-offering-vending-mobile-380.jpg",
+      "coke-offering-vending.jpg",
+      "en_diet-coke_logo_color_471x180.png",
+      "en_fanta_logo_colored_319x180_v1.png",
+      "en_sprite_logo_green-text-only_477x180.png",
+      "fall-football-banner-dt.png",
+      "fall-football-banner-mo-380.png",
+      "fall-football-banner-mo-767.png",
+      "favicon.png",
+      "fonts/anek-latin-expanded-400-latin.woff2",
+      "fonts/anek-latin-expanded-700-latin.woff2",
       "fonts/icomoon.woff",
-      "fonts/tccc-unitytext-bold.woff2",
-      "fonts/tccc-unitytext-regular.woff2",
-      "js/landing.js",
-      "js/motion.js"
+      "kotm-holidays-26-us-banner-dt.png",
+      "kotm-holidays-26-us-banner-mo-380.png",
+      "kotm-holidays-26-us-banner-mo-767.png",
+      "logo-white-large.svg",
+      "logo.svg",
+      "onexp-hpg-caravan-teaser-allbreakpoints.png",
+      "plusone-card.jpg",
+      "product-for-a-year-us-tile-hq.png",
+      "simply-holidays-us-campaign-dt.png",
+      "simply-holidays-us-campaign-mo-380.png",
+      "simply-holidays-us-campaign-mo-767.png",
+      "snap-camera-kit-onexp-tile-campaign-more-from-cc.png",
+      "soccer-always-on-campaign-dt.png",
+      "soccer-always-on-campaign-mo-380.png",
+      "soccer-always-on-campaign-mo-767.png",
+      "us-en.css",
+      "us-en.js",
+      "world-of-coca-cola-tile.png"
     ],
     "pages": [
       {
         "slug": "us-en",
-        "file": "stardust/migrated/us/en.html",
-        "assetsBundled": 8
+        "file": "stardust/migrated/us/en/index.html",
+        "assetsBundled": 41
       },
       {
         "slug": "index",
         "file": "stardust/migrated/index.html",
-        "assetsBundled": 8
+        "assetsBundled": 41
       }
     ],
     "missingAssets": [],
     "cleanedAssets": [],
     "lastRun": {
-      "at": "2026-11-16T08:00:54Z",
+      "at": "2026-11-18T08:42:12Z",
       "rendered": [
         "index"
       ],
       "unchanged": [],
       "refused": [],
       "passthrough": []
-    }
+    },
+    "sitewideAssets": [
+      "logo.svg",
+      "robots.txt",
+      "sitemap.xml"
+    ]
   }
 }

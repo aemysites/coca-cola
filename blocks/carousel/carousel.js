@@ -1,17 +1,20 @@
 /**
- * carousel — content-card carousel (Splide-equivalent loop, held on slide 1 at rest; dots move
- * one slide pitch). Reconstructive: one row per slide. Section head and trailing CTA are default
- * content in the section. Schema: stardust/eds-schema/us-en.json, sections promos / more.
+ * carousel — the source's Splide carousels (hero teasers, promo cards, "More from" cards).
+ * Reconstructive decode: one slide per authored row (a single flattened cell is segmented on
+ * its headings). Navigation is dot-only and never autoplays, as on the source.
  *
+ * Variants (block class): hero | promos | secondary.
  * Authoring rows (one per slide):
- *   image | <h3> title, body <p>, link <p> (the link text is the arrow label, its href the card's)
- *
- * @variants block: wide (default none) — wide = full-bleed below 1200px, three per page above
- * Loop clones are presentational: no text, alt="", no href, no editor indices (EW4, #100);
- * they keep the slide role/aria-label and image title the source's clones carry.
+ *   cell 1 — image: the mobile image, then optionally the desktop (>= 1200px) image
+ *   cell 2 — hero:  <h2> title, body <p>, CTA <strong><a>
+ *            cards: <h3> title, body <p>, a link whose label is the card CTA; the whole card
+ *            links to that href (the inner anchor is unwrapped, EW6)
+ *   cell 3 — hero only, optional: where the copy sits on the slide
+ * @variants cell 3: top | bottom (default bottom)
+ * @ew-exempt metadata — the cell 3 position word is never displayed
  */
 
-const desktop = window.matchMedia('(width >= 1200px)');
+const POSITIONS = ['top', 'bottom'];
 
 function wrapNode(node, className) {
   const w = document.createElement('div');
@@ -29,151 +32,275 @@ function stripInstrumentation(el) {
   return el;
 }
 
-// Card-as-link (EW6): read the href, move the label <p>, unwrap the inner anchor.
-function buildCard(row) {
-  const picture = row.querySelector('picture');
-  const linkP = [...row.querySelectorAll('p')].reverse()
-    .find((p) => p.querySelector('a') && !p.querySelector('picture'));
-  const link = linkP ? linkP.querySelector('a') : null;
-  const card = document.createElement(link ? 'a' : 'div');
-  card.className = 'content-card';
-  if (link) card.href = link.getAttribute('href');
+const isHeading = (el) => /^H[1-6]$/.test(el.tagName);
+const mediaOf = (el) => (el.matches('picture, img') ? el : el.querySelector('picture, img'));
 
-  const media = document.createElement('div');
-  media.className = 'content-card-media';
-  if (picture) media.append(picture);
-
-  const body = document.createElement('div');
-  body.className = 'content-card-body';
-  const text = document.createElement('div');
-  text.className = 'card-text';
-  [...row.querySelectorAll(':scope > div > *')].forEach((node) => {
-    if (node === linkP || node === picture) return;
-    if (node.tagName === 'P' && node.querySelector('picture') && !node.textContent.trim()) return;
-    text.append(node);
-  });
-  body.append(text);
-  if (linkP) {
-    const arrow = wrapNode(linkP, 'has-arrow');
-    link.replaceWith(...link.childNodes);
-    body.append(arrow);
+// every authored element of a cell; a media-led cell folded into one <p> by wrapTextNodes
+// (#104) is expanded back into its children
+function cellNodes(cell) {
+  let kids = [...cell.children];
+  if (kids.length === 1 && kids[0].tagName === 'P' && kids[0].querySelector('picture, img')
+    && kids[0].childNodes.length > 1) {
+    kids = [...kids[0].childNodes].map((n) => {
+      if (n.nodeType === 1) return n;
+      // HARNESS-ONLY fallback (EW5): a bare text node; DA cells always carry a <p>
+      if (n.textContent.trim()) {
+        const p = document.createElement('p');
+        p.append(n);
+        return p;
+      }
+      return null;
+    }).filter(Boolean);
   }
-  card.append(media, body);
+  if (!kids.length && cell.textContent.trim()) {
+    // HARNESS-ONLY fallback (EW5): bare text in a cell — move the text nodes into a <p>
+    const p = document.createElement('p');
+    p.append(...cell.childNodes);
+    kids = [p];
+  }
+  return kids;
+}
+
+// group authored nodes into slides: one per row, or heading-segmented for a flattened cell
+function collectSlides(block) {
+  const rows = [...block.children];
+  const perRow = rows.map((row) => [...row.children].flatMap(cellNodes));
+  const headed = perRow.filter((nodes) => nodes.some(isHeading));
+  if (headed.length >= 2 || rows.length > 1) return perRow.filter((nodes) => nodes.length);
+  const slides = [];
+  let current = [];
+  let pending = [];
+  perRow.flat().forEach((el) => {
+    if (isHeading(el)) {
+      if (current.some(isHeading)) slides.push(current);
+      current = [...pending, el];
+      pending = [];
+    } else if (mediaOf(el) && current.some(isHeading) && current.some((n) => n.tagName === 'P')) {
+      pending.push(el);
+    } else {
+      current.push(el);
+    }
+  });
+  if (current.length) slides.push([...current, ...pending]);
+  return slides;
+}
+
+function classify(nodes) {
+  const out = {
+    media: [], heading: null, texts: [], ctas: [], position: null, rest: [],
+  };
+  nodes.forEach((el) => {
+    const media = mediaOf(el);
+    const word = el.textContent.trim().toLowerCase();
+    if (media && !el.querySelector('a') && !el.textContent.trim()) {
+      out.media.push(media);
+    } else if (isHeading(el) && !out.heading) {
+      out.heading = el;
+    } else if (el.tagName === 'P' && !media && POSITIONS.includes(word)) {
+      out.position = el;
+    } else if (el.querySelector('a') || el.tagName === 'A') {
+      out.ctas.push(el);
+    } else if (el.tagName === 'P' && !media) {
+      out.texts.push(el);
+    } else {
+      out.rest.push(el);
+    }
+  });
+  return out;
+}
+
+// mobile image first, desktop (>= 1200px) second; a single image serves both
+function buildMedia(media, className) {
+  const box = document.createElement('div');
+  box.className = className;
+  if (media.length > 1) {
+    box.append(wrapNode(media[0], 'media-mobile'), wrapNode(media[1], 'media-desktop'));
+    media.slice(2).forEach((m) => box.append(wrapNode(m, 'media-extra')));
+  } else if (media.length) {
+    box.append(wrapNode(media[0], 'media-all'));
+  }
+  return box;
+}
+
+function buildHeroSlide(parts) {
+  const position = parts.position && POSITIONS.includes(parts.position.textContent.trim()
+    .toLowerCase()) ? parts.position.textContent.trim().toLowerCase() : 'bottom';
+  if (parts.position) parts.position.remove();
+  const card = document.createElement('div');
+  card.className = `hero-card hero-card-${position}`;
+  card.append(buildMedia(parts.media, 'hero-card-media'));
+  const content = document.createElement('div');
+  content.className = 'hero-card-content';
+  if (parts.heading) content.append(wrapNode(parts.heading, 'hero-card-title'));
+  parts.texts.forEach((p) => content.append(wrapNode(p, 'hero-card-text')));
+  if (parts.ctas.length) {
+    const box = document.createElement('div');
+    box.className = 'hero-card-cta';
+    parts.ctas.forEach((c) => box.append(c.closest('p') || c));
+    content.append(box);
+  }
+  parts.rest.forEach((el) => content.append(el));
+  card.append(content);
   return card;
 }
 
-// Presentational loop clone: same boxes and imagery, no words, no link, no editor indices;
-// the slide's role + aria-label stay (attributes, not rendered words — as the source's clones).
-function makeClone(slide) {
-  const clone = stripInstrumentation(slide.cloneNode(true));
-  clone.classList.add('carousel-slide-clone');
+function buildCardSlide(parts) {
+  const ctaEl = parts.ctas[0];
+  let link = null;
+  if (ctaEl) link = ctaEl.matches('a') ? ctaEl : ctaEl.querySelector('a');
+  const card = document.createElement(link ? 'a' : 'div');
+  card.className = 'content-card';
+  if (link) card.href = link.href;
+  card.append(buildMedia(parts.media, 'content-card-media'));
+  const body = document.createElement('div');
+  body.className = 'content-card-body';
+  if (parts.heading) body.append(wrapNode(parts.heading, 'content-card-title'));
+  parts.texts.forEach((p) => body.append(wrapNode(p, 'content-card-text')));
+  parts.rest.forEach((el) => body.append(el));
+  if (ctaEl) {
+    const box = document.createElement('div');
+    box.className = 'content-card-cta';
+    box.append(ctaEl);
+    // EW6 — no nested anchors: the authored label stays, its link moves to the card
+    ctaEl.querySelectorAll('a').forEach((a) => a.replaceWith(...a.childNodes));
+    if (ctaEl.matches('a')) {
+      const span = document.createElement('span');
+      ctaEl.replaceWith(span);
+      span.append(...ctaEl.childNodes);
+    }
+    ctaEl.classList?.remove('button-wrapper');
+    body.append(box);
+  }
+  parts.ctas.slice(1).forEach((c) => body.append(c));
+  card.append(body);
+  return card;
+}
+
+// presentational loop clone: media only, no text, no link, no editor indices (EW4)
+function buildClone(slide, hero) {
+  const clone = document.createElement('div');
+  clone.className = 'carousel-slide carousel-slide-clone';
   clone.setAttribute('aria-hidden', 'true');
-  clone.querySelectorAll('a').forEach((a) => {
-    a.removeAttribute('href');
-    a.setAttribute('tabindex', '-1');
-  });
-  clone.querySelectorAll('img').forEach((img) => img.setAttribute('alt', ''));
-  clone.querySelectorAll('.card-text, .has-arrow').forEach((n) => {
-    n.querySelectorAll('h1, h2, h3, h4, h5, h6, p, ul, ol').forEach((t) => {
-      t.textContent = '';
+  const source = slide.querySelector('.hero-card, .content-card');
+  const card = document.createElement('div');
+  card.className = hero ? source.className : 'content-card';
+  const media = source.querySelector('.hero-card-media, .content-card-media');
+  if (media) {
+    const copy = stripInstrumentation(media.cloneNode(true));
+    copy.querySelectorAll('img').forEach((img) => {
+      img.alt = '';
+      img.removeAttribute('title');
+      img.loading = 'lazy';
+      img.removeAttribute('fetchpriority');
     });
-  });
+    card.append(copy);
+  }
+  if (!hero) {
+    const body = document.createElement('div');
+    body.className = 'content-card-body';
+    card.append(body);
+  }
+  clone.append(card);
   return clone;
 }
 
-function buildDots(count, label) {
-  const dots = document.createElement('ul');
-  dots.className = 'carousel-dots';
-  dots.setAttribute('role', 'tablist');
-  dots.setAttribute('aria-label', label);
-  for (let i = 0; i < count; i += 1) {
-    const li = document.createElement('li');
-    li.setAttribute('role', 'presentation');
-    const dot = document.createElement('button');
-    dot.type = 'button';
-    dot.className = 'carousel-dot';
-    dot.setAttribute('role', 'tab');
-    dot.setAttribute('aria-selected', String(i === 0));
-    dot.setAttribute('aria-label', `Go to slide ${i + 1}`);
-    li.append(dot);
-    dots.append(li);
-  }
-  return dots;
-}
-
-// The delivery pipeline carries an authored image title as data-title; restore the attribute.
-function restoreTitles(root) {
-  root.querySelectorAll('img[data-title]').forEach((img) => {
-    if (!img.title) img.title = img.dataset.title;
+function observeReveal(block) {
+  if (!('IntersectionObserver' in window)) return;
+  const io = new IntersectionObserver((entries) => entries.forEach((e) => {
+    if (!e.isIntersecting) return;
+    e.target.classList.add('visible');
+    io.unobserve(e.target);
+  }));
+  block.querySelectorAll('.carousel-slide picture, .content-card-media').forEach((el) => {
+    if (el.parentElement.closest('.reveal')) return;
+    el.classList.add('reveal');
+    const img = el.querySelector('img');
+    const mark = () => el.classList.add('loaded');
+    if (img && img.complete) mark();
+    else if (img) img.addEventListener('load', mark, { once: true });
+    io.observe(el);
   });
-}
-
-// Prime the block-scoped fallback face (see the CSS override) so it replaces the dead one.
-function primeFallbackFace() {
-  if (document.fonts && document.fonts.load) {
-    document.fonts.load('16px tccc-unitytext-fallback').catch(() => {});
-  }
 }
 
 export default function decorate(block) {
-  primeFallbackFace();
-  restoreTitles(block);
-  if (block.querySelector(':scope > .carousel-track')) return;
-  const rows = [...block.children];
-  const perPageDesktop = block.classList.contains('wide') ? 3 : 2;
-  block.setAttribute('aria-roledescription', 'carousel');
+  const hero = block.classList.contains('hero');
+  const groups = collectSlides(block);
+  if (!groups.length) return;
 
+  const viewport = document.createElement('div');
+  viewport.className = 'carousel-viewport';
   const track = document.createElement('div');
   track.className = 'carousel-track';
-  const list = document.createElement('div');
-  list.className = 'carousel-list';
-  const real = rows.map((row, i) => {
+  viewport.append(track);
+
+  const slides = groups.map((nodes, i) => {
+    const parts = classify(nodes);
     const slide = document.createElement('div');
-    slide.className = 'carousel-slide';
+    slide.className = `carousel-slide${i === 0 ? ' is-active' : ''}`;
     slide.setAttribute('role', 'group');
     slide.setAttribute('aria-roledescription', 'slide');
-    slide.setAttribute('aria-label', `Slide ${i + 1} of ${rows.length}`);
-    slide.append(buildCard(row));
+    slide.setAttribute('aria-label', `Slide ${i + 1} of ${groups.length}`);
+    slide.append(hero ? buildHeroSlide(parts) : buildCardSlide(parts));
     return slide;
   });
-  list.append(...real);
-  track.append(list);
-  const dotList = buildDots(real.length, 'Choose a slide to display');
-  block.replaceChildren(track, dotList);
-  if (!real.length) return;
+  track.append(buildClone(slides[slides.length - 1], hero), ...slides, buildClone(slides[0], hero));
 
-  const perPage = desktop.matches ? perPageDesktop : 1;
-  const n = 2 * perPage;
-  const before = [];
-  for (let k = 0; k < n; k += 1) {
-    before.unshift(makeClone(real[real.length - 1 - (k % real.length)]));
-  }
-  const after = [];
-  for (let k = 0; k < n; k += 1) after.push(makeClone(real[k % real.length]));
-  list.prepend(...before);
-  list.append(...after);
-
-  const dots = [...dotList.querySelectorAll('.carousel-dot')];
-  let index = 0;
-  const offset = (i) => real[i].offsetLeft - list.firstElementChild.offsetLeft;
-  const go = (i, animate = true) => {
-    index = (i + real.length) % real.length;
-    list.style.transition = animate ? '' : 'none';
-    list.style.transform = `translateX(${-offset(index)}px)`;
-    dots.forEach((d, k) => {
-      d.setAttribute('aria-selected', String(k === index));
-      d.classList.toggle('is-active', k === index);
+  if (hero) {
+    slides[0].querySelectorAll('img').forEach((img) => {
+      img.loading = 'eager';
+      img.setAttribute('fetchpriority', 'high');
     });
-    const all = [...list.children];
-    const at = all.indexOf(real[index]);
-    all.forEach((sl, k) => {
-      sl.classList.toggle('is-active', k === at);
-      sl.classList.toggle('is-visible', k >= at && k < at + perPage);
+  }
+
+  const dots = document.createElement('ul');
+  dots.className = 'carousel-dots';
+  dots.setAttribute('role', 'tablist');
+  dots.setAttribute('aria-label', 'Choose a slide to display');
+  const buttons = slides.map((s, i) => {
+    const li = document.createElement('li');
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.setAttribute('role', 'tab');
+    b.setAttribute('aria-label', `Go to slide ${i + 1}`);
+    if (i === 0) {
+      b.className = 'is-active';
+      b.setAttribute('aria-selected', 'true');
+    } else {
+      b.tabIndex = -1;
+    }
+    li.append(b);
+    dots.append(li);
+    return b;
+  });
+
+  block.setAttribute('aria-roledescription', 'carousel');
+  block.replaceChildren(viewport, dots);
+
+  let index = 0;
+  const go = (i) => {
+    index = (i + slides.length) % slides.length;
+    const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+    const step = slides[0].getBoundingClientRect().width + gap;
+    track.classList.add('is-animating');
+    track.style.transform = `translateX(${-(index + 1) * step}px)`;
+    slides.forEach((s, n) => {
+      s.classList.toggle('is-active', n === index);
+      s.classList.toggle('is-visible', n === index);
+      s.classList.toggle('is-prev', n === (index - 1 + slides.length) % slides.length);
+      s.classList.toggle('is-next', n === (index + 1) % slides.length);
+    });
+    buttons.forEach((b, n) => {
+      b.classList.toggle('is-active', n === index);
+      b.setAttribute('aria-selected', n === index ? 'true' : 'false');
+      b.tabIndex = n === index ? 0 : -1;
     });
   };
-  go(0, false);
-  dots.forEach((d, k) => d.addEventListener('click', () => go(k)));
-  window.addEventListener('resize', () => go(index, false));
-  if ('ResizeObserver' in window) new ResizeObserver(() => go(index, false)).observe(track);
-  track.dataset.ready = 'true';
+  buttons.forEach((b, n) => b.addEventListener('click', () => go(n)));
+  window.addEventListener('resize', () => {
+    if (!track.style.transform) return;
+    track.classList.remove('is-animating');
+    go(index);
+  });
+
+  observeReveal(block);
 }

@@ -1,373 +1,317 @@
 {
   "_provenance": {
     "writtenBy": "stardust:extract",
-    "writtenAt": "2026-11-16T06:35:48.364Z",
-    "readArtifacts": [
-      "stardust/current/_brand-extraction.json",
+    "writtenAt": "2026-11-18T07:04:45Z",
+    "mode": "prep",
+    "sources": [
       "stardust/current/_computed-styles.json",
+      "stardust/current/assets/css/theme.css",
       "stardust/current/pages/us-en.json"
-    ],
-    "synthesizedInputs": [],
-    "stardustVersion": "0.39.3"
+    ]
   },
-  "schemaVersion": 2,
-  "generatedAt": "2026-11-16T06:35:48.364Z",
-  "title": "Design System: Coca-Cola US (current state)",
+  "name": "Coca-Cola US — current state",
+  "colors": {
+    "background": "#eeeeee",
+    "surface": "#ffffff",
+    "text": "#000000",
+    "heading": "#000000",
+    "primary": "#000000",
+    "on-primary": "#ffffff",
+    "muted": "#6c6c6c",
+    "border": "#d5d5d5",
+    "footer-background": "#000000",
+    "footer-text": "#ffffff"
+  },
+  "typography": {
+    "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+    "renderedFace": "TCCC-UnityText (licensed brand face; Noto-regional / Noto-latin are not loaded on the US locale)",
+    "h1": {
+      "fontSize": "38px",
+      "fontWeight": 700,
+      "lineHeight": "48px",
+      "letterSpacing": "-1.5px"
+    },
+    "h2": {
+      "fontSize": "32px",
+      "fontWeight": 700,
+      "lineHeight": "40px",
+      "letterSpacing": "-1.5px"
+    },
+    "hero-title": {
+      "fontSize": "38px",
+      "fontWeight": 700,
+      "lineHeight": "48px",
+      "letterSpacing": "-1.5px"
+    },
+    "h3": {
+      "fontSize": "24px",
+      "fontWeight": 700,
+      "lineHeight": "32px",
+      "letterSpacing": "-1.5px"
+    },
+    "body": {
+      "fontSize": "16px",
+      "fontWeight": 400
+    },
+    "button": {
+      "fontSize": "16px",
+      "fontWeight": 700
+    },
+    "button-small": {
+      "fontSize": "12px",
+      "fontWeight": 700
+    }
+  },
+  "rounded": {
+    "card": "16px",
+    "pill": "8000px"
+  },
+  "spacing": {},
+  "components": {
+    "button-primary": {
+      "background": "#000000",
+      "color": "#ffffff",
+      "radius": "8000px",
+      "padding": "4px 16px",
+      "hover": "box-shadow: inset 0 0 0 4px #6c6c6c"
+    },
+    "button-inverse": {
+      "background": "#ffffff",
+      "color": "#000000",
+      "radius": "8000px",
+      "padding": "4px 16px",
+      "hover": "box-shadow: inset 0 0 0 4px #a5a5a5"
+    },
+    "card": {
+      "background": "#ffffff",
+      "radius": "16px",
+      "shadow": "0 8px 16px rgba(0,0,0,.12)"
+    }
+  },
   "extensions": {
-    "colorMeta": {
-      "ink": {
-        "role": "text",
-        "displayName": "Ink Black",
-        "canonical": "#000000"
-      },
-      "white": {
-        "role": "surface",
-        "displayName": "Card White",
-        "canonical": "#ffffff"
-      },
-      "page-grey": {
-        "role": "background",
-        "displayName": "Page Grey",
-        "canonical": "#eeeeee"
-      },
-      "coke-red": {
-        "role": "primary",
-        "displayName": "Coca-Cola Red (token only)",
-        "canonical": "#ea0000"
-      },
-      "hover-graphite": {
-        "role": "overlay-only",
-        "displayName": "Graphite (survey popup hover only)",
-        "canonical": "#353535"
-      },
-      "muted-grey": {
-        "role": "muted",
-        "displayName": "Muted Grey",
-        "canonical": "#6c6c6c"
-      },
-      "disabled-grey": {
-        "role": "disabled",
-        "displayName": "Disabled Grey",
-        "canonical": "#bdbdbd"
-      }
-    },
-    "typographyMeta": {
-      "display": {
-        "displayName": "H1",
-        "purpose": "Single page title above the hero carousel."
-      },
-      "headline": {
-        "displayName": "H2 section title",
-        "purpose": "Section titles (Promos & Offers, Features...)."
-      },
-      "title": {
-        "displayName": "H3 card title",
-        "purpose": "Teaser/card titles."
-      },
-      "body": {
-        "displayName": "Body",
-        "purpose": "Card descriptions, 16px."
-      }
-    },
-    "shadows": [
-      {
-        "name": "card",
-        "value": "rgba(0, 0, 0, 0.12) 0px 8px 16px 0px",
-        "purpose": "All teaser cards and brand tiles."
-      }
-    ],
-    "motion": [
-      {
-        "name": "fade-in-observed",
-        "value": "IntersectionObserver reveal on carousels/cards",
-        "purpose": "Entry reveal; neutralised under prefers-reduced-motion."
-      }
-    ],
-    "componentStyle": {
-      "button": "black pill (radius 8000px) with white text; outlined pill variant white/black border; hover = inset ring (4px #6c6c6c on .button pill, 2px black on a teaser link). (#353535 hover fill measured only on the third-party Just One Question survey popup #answer-*, not site UI)",
-      "card": "white card, 16px radius, shadow 0 8px 16px rgba(0,0,0,.12), image on top, title/text/arrow link below",
-      "hover": [
-        {
-          "kind": "button",
-          "from": {
-            "boxShadow": "none"
-          },
-          "to": {
-            "boxShadow": "rgb(0, 0, 0) 0px 0px 0px 2px inset"
-          },
-          "sources": [
-            {
-              "url": "https://www.coca-cola.com/us/en",
-              "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > div:nth-of-type(2) > a"
-            }
-          ]
-        },
-        {
-          "kind": "button",
-          "from": {
-            "boxShadow": "none"
-          },
-          "to": {
-            "boxShadow": "rgb(108, 108, 108) 0px 0px 0px 4px inset"
-          },
-          "sources": [
-            {
-              "url": "https://www.coca-cola.com/us/en",
-              "selector": "#container-5c9a64b67e > div:nth-of-type(4) > a"
-            }
-          ]
-        },
-        {
-          "kind": "button",
-          "from": {
-            "backgroundColor": "rgb(255, 255, 255)",
-            "color": "rgb(0, 0, 0)",
-            "borderColor": "rgb(0, 0, 0)",
-            "boxShadow": "none"
-          },
-          "to": {
-            "backgroundColor": "rgb(53, 53, 53)",
-            "color": "rgb(255, 255, 255)",
-            "borderColor": "rgb(53, 53, 53)",
-            "boxShadow": "rgb(108, 108, 108) 0px 0px 0px 4px inset"
-          },
-          "sources": [
-            {
-              "url": "https://www.coca-cola.com/us/en",
-              "selector": "#answer-baseball"
-            }
-          ]
-        }
-      ]
-    },
     "motifs": {
-      "radius": {
-        "mode": "16px",
-        "pill": "8000px",
-        "values": [
-          {
-            "value": "8000px",
-            "count": 60,
-            "sources": [
-              {
-                "url": "https://www.coca-cola.com/us/en",
-                "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button"
-              },
-              {
-                "url": "https://www.coca-cola.com/us/en",
-                "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(3) > div > button"
-              }
-            ]
-          },
-          {
-            "value": "16px",
-            "count": 13,
-            "sources": [
-              {
-                "url": "https://www.coca-cola.com/us/en",
-                "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div"
-              },
-              {
-                "url": "https://www.coca-cola.com/us/en",
-                "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(2) > a > div"
-              }
-            ]
-          },
-          {
-            "value": "0px 0px 24px 24px",
-            "count": 2,
-            "sources": [
-              {
-                "url": "https://www.coca-cola.com/us/en",
-                "selector": "body > div:nth-of-type(2) > div:nth-of-type(2) > div"
-              },
-              {
-                "url": "https://www.coca-cola.com/us/en",
-                "selector": "body > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3)"
-              }
-            ]
-          },
-          {
-            "value": "30px",
-            "count": 2,
-            "sources": [
-              {
-                "url": "https://www.coca-cola.com/us/en",
-                "selector": "body > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1)"
-              }
-            ]
-          },
-          {
-            "value": "8px",
-            "count": 2,
-            "sources": [
-              {
-                "url": "https://www.coca-cola.com/us/en",
-                "selector": "div > div:nth-of-type(7) > div > div:nth-of-type(1) > div > a > picture > img"
-              },
-              {
-                "url": "https://www.coca-cola.com/us/en",
-                "selector": "div > div:nth-of-type(7) > div > div:nth-of-type(2) > div > a > picture > img"
-              }
-            ]
-          },
-          {
-            "value": "0px 0px 0px 30px",
-            "count": 1,
-            "sources": [
-              {
-                "url": "https://www.coca-cola.com/us/en",
-                "selector": "body > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3)"
-              }
-            ]
-          },
-          {
-            "value": "30px 0px 0px 30px",
-            "count": 1,
-            "sources": [
-              {
-                "url": "https://www.coca-cola.com/us/en",
-                "selector": "body > div:nth-of-type(2) > div:nth-of-type(2) > div"
-              }
-            ]
-          }
-        ]
-      },
+      "radius": "16px",
+      "pill": "8000px",
       "shadows": [
-        {
-          "value": "rgba(0, 0, 0, 0.12) 0px 8px 16px 0px",
-          "count": 11,
-          "sources": [
-            {
-              "url": "https://www.coca-cola.com/us/en",
-              "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div"
-            },
-            {
-              "url": "https://www.coca-cola.com/us/en",
-              "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(2) > a > div"
-            }
-          ]
-        },
-        {
-          "value": "rgba(0, 0, 0, 0.1) 0px 4px 8px 0px",
-          "count": 2,
-          "sources": [
-            {
-              "url": "https://www.coca-cola.com/us/en",
-              "selector": "body > div:nth-of-type(2) > div:nth-of-type(2) > div"
-            }
-          ]
-        }
+        "0 8px 16px rgba(0,0,0,.12)",
+        "0 4px 8px rgba(0,0,0,.1)"
       ],
       "gradients": []
     },
+    "componentStyle": [],
     "voice": {
       "heroHeadline": "The Coca‑Cola® Official Site for Drinks & Experiences",
-      "heroLede": "Experience the official Coca‑Cola® site to find your favorite drink and discover new products, promos & offers, and more. Shop all Coca-Cola sodas here.",
-      "firstParagraph": "Enter every Friday for your chance to win tickets, Fanatics digital gift cards, and more football prizes for fans.",
-      "ctaSamples": [
-        "Get Started",
+      "ctas": [
+        "Play and Enter",
         "View all Offerings",
         "Explore for More"
-      ],
-      "linkSamples": [
-        "Brands",
-        "Discover",
-        "Impact",
-        "Shop",
-        "Promos & Offers"
-      ],
-      "heroImage": {
-        "src": "https://www.coca-cola.com/content/dam/onexp/us/en/hero-banners/coca-cola-fall-hockey-big-wins-banner-dt.png/width1960.png",
-        "alt": "Big Wins promo banner with a hockey puck, LG TV, Fanatics card, and a Coca-Cola branded projector and blanket.",
-        "note": "first slide of the rotating hero carousel (splide); slides vary per load"
-      },
-      "heroMedium": null
+      ]
     },
-    "iconFont": {
-      "family": "icomoon",
-      "glyphCount": 12
+    "fonts": {
+      "licensed": [
+        "TCCC-UnityText"
+      ],
+      "files": [
+        "stardust/current/assets/fonts/tccc-unitytext-regular.woff2",
+        "stardust/current/assets/fonts/tccc-unitytext-bold.woff2",
+        "stardust/current/assets/fonts/icomoon.woff"
+      ],
+      "cors": "none — the source origin sends no Access-Control-Allow-Origin"
     },
-    "fonts": [
+    "modules": [
       {
-        "url": "https://www.coca-cola.com/onexp-theme/18b0fb116e5f38df6fa41bcb6d3a6e980c6fe693e0daee40c5e8d5f19c429e4d/icomoon.woff",
-        "family": "icomoon",
-        "weight": 400,
-        "style": "normal",
-        "unicodeRange": null,
-        "localPath": "stardust/current/assets/fonts/icomoon.woff",
-        "sourceCssRule": "@font-face{font-family:icomoon} in assets/css/35a217-theme.css",
-        "licensingFlag": "private brand asset — verify rights before deploy"
+        "id": "hero-carousel",
+        "slots": [
+          {
+            "name": "title",
+            "type": "text"
+          },
+          {
+            "name": "description",
+            "type": "text"
+          },
+          {
+            "name": "cta",
+            "type": "link"
+          },
+          {
+            "name": "image",
+            "type": "image"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "us-en",
+            "selector": ".carousel--hero"
+          },
+          {
+            "slug": "index",
+            "selector": ".carousel--hero"
+          }
+        ],
+        "status": "candidate"
       },
       {
-        "url": "https://www.coca-cola.com/onexp-theme/18b0fb116e5f38df6fa41bcb6d3a6e980c6fe693e0daee40c5e8d5f19c429e4d/tccc-unitytext-regular.woff2",
-        "family": "TCCC-UnityText",
-        "weight": 400,
-        "style": "normal",
-        "unicodeRange": null,
-        "localPath": "stardust/current/assets/fonts/tccc-unitytext-regular.woff2",
-        "sourceCssRule": "@font-face{font-family:TCCC-UnityText} in assets/css/35a217-theme.css",
-        "licensingFlag": "private brand asset — verify rights before deploy"
+        "id": "section-title",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "us-en",
+            "selector": ".title"
+          }
+        ],
+        "status": "candidate"
       },
       {
-        "url": "https://www.coca-cola.com/onexp-theme/18b0fb116e5f38df6fa41bcb6d3a6e980c6fe693e0daee40c5e8d5f19c429e4d/tccc-unitytext-bold.woff2",
-        "family": "TCCC-UnityText",
-        "weight": 700,
-        "style": "normal",
-        "unicodeRange": null,
-        "localPath": "stardust/current/assets/fonts/tccc-unitytext-bold.woff2",
-        "sourceCssRule": "@font-face{font-family:TCCC-UnityText} in assets/css/35a217-theme.css",
-        "licensingFlag": "private brand asset — verify rights before deploy"
+        "id": "card-carousel",
+        "slots": [
+          {
+            "name": "image",
+            "type": "image"
+          },
+          {
+            "name": "title",
+            "type": "text"
+          },
+          {
+            "name": "description",
+            "type": "text"
+          },
+          {
+            "name": "cta",
+            "type": "link"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "us-en",
+            "selector": ".container__content .carousel:not(.carousel--card-secondary)"
+          }
+        ],
+        "status": "candidate"
       },
       {
-        "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
-        "family": "Roboto",
-        "weight": 400,
-        "style": "normal",
-        "unicodeRange": null,
-        "localPath": "stardust/current/assets/fonts/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
-        "sourceCssRule": "fonts.googleapis.com (reCAPTCHA / OneTrust widget, not page UI)",
-        "licensingFlag": "open (Google Fonts)"
-      }
-    ],
-    "systemComponents": [
+        "id": "campaign-card",
+        "slots": [
+          {
+            "name": "image",
+            "type": "image"
+          },
+          {
+            "name": "title",
+            "type": "text"
+          },
+          {
+            "name": "description",
+            "type": "text"
+          },
+          {
+            "name": "cta",
+            "type": "link"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "us-en",
+            "selector": ".teaser.campaign-card"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "card-secondary-carousel",
+        "slots": [
+          {
+            "name": "image",
+            "type": "image"
+          },
+          {
+            "name": "title",
+            "type": "text"
+          },
+          {
+            "name": "description",
+            "type": "text"
+          },
+          {
+            "name": "cta",
+            "type": "link"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "us-en",
+            "selector": ".carousel--card-secondary"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "brands-list",
+        "slots": [
+          {
+            "name": "logo",
+            "type": "image"
+          },
+          {
+            "name": "link",
+            "type": "link"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "us-en",
+            "selector": ".brands-list"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "button",
+        "slots": [
+          {
+            "name": "cta",
+            "type": "link"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "us-en",
+            "selector": "main .button"
+          }
+        ],
+        "status": "candidate"
+      },
       {
         "id": "site-header",
-        "selector": "header",
-        "evidence": "nav Brands / Discover / Impact / Shop / Promos & Offers + Sign Up on every page; hover mega-menus (has-submenu)",
-        "pages": [
-          "us-en",
-          "index"
-        ]
+        "slots": [],
+        "instances": [
+          {
+            "slug": "us-en",
+            "selector": "header"
+          }
+        ],
+        "status": "candidate",
+        "system": true
       },
       {
         "id": "site-footer",
-        "selector": "footer",
-        "evidence": "Help / Shop & Visit / Legal columns + social icons (icomoon) + copyright",
-        "pages": [
-          "us-en",
-          "index"
-        ]
-      },
-      {
-        "id": "consent-banner",
-        "selector": "#onetrust-banner-sdk",
-        "evidence": "OneTrust cookie banner (Allow All) + floating cookie settings button; dismissed before capture",
-        "pages": [
-          "us-en",
-          "index"
-        ]
+        "slots": [],
+        "instances": [
+          {
+            "slug": "us-en",
+            "selector": "footer"
+          }
+        ],
+        "status": "candidate",
+        "system": true
       }
     ],
-    "sourcePlatform": {
-      "cms": "AEM Sites (Core Components: cmp-teaser, cmp-carousel/splide, cmp-container responsivegrid, experience fragments for header/footer)",
-      "mainRoot": "main.container.responsivegrid",
-      "consent": "OneTrust (cdn.cookielaw.org)",
-      "tags": [
-        "googletagmanager (dataLayer)",
-        "rum.hlx.page"
-      ]
-    },
     "breakpoints": {
       "containerMaxWidth": "1120px",
       "probeWidth": 2560,
@@ -395,7 +339,7 @@
           "kind": "module",
           "px": 672,
           "via": "fixed",
-          "selector": "div.cmp-container > div.teaser.campaign-card > div.cmp-teaser > div.cmp-teaser__image",
+          "selector": "#teaser-e01df91d42 > div.cmp-teaser__image",
           "pages": [
             "https://www.coca-cola.com/us/en"
           ]
@@ -404,16 +348,16 @@
           "kind": "module",
           "px": 576,
           "via": "fixed",
-          "selector": "#container-ec87edacce > div.container.responsivegrid > div.cmp-container > div.teaser.content-card",
+          "selector": "#teaser-e01df91d42 > div.cmp-teaser__content",
           "pages": [
             "https://www.coca-cola.com/us/en"
           ]
         },
         {
           "kind": "module",
-          "px": 548,
+          "px": 546,
           "via": "fixed",
-          "selector": "#splide02-clone01",
+          "selector": "div.teaser.hero > div.cmp-teaser > div.cmp-teaser__content > h2.cmp-teaser__title",
           "pages": [
             "https://www.coca-cola.com/us/en"
           ]
@@ -431,7 +375,7 @@
           "kind": "module",
           "px": 327,
           "via": "fixed",
-          "selector": "#container-5c9a64b67e > div.button > a.cmp-button",
+          "selector": "div.cmp-teaser > div.cmp-teaser__content > div.cmp-teaser__action-container > a.cmp-teaser__action-link",
           "pages": [
             "https://www.coca-cola.com/us/en"
           ]
@@ -442,7 +386,7 @@
           "url": "https://www.coca-cola.com/us/en",
           "section": 0,
           "selector": "div.cmp-container > main.container.responsivegrid > div.cmp-container > div.container.responsivegrid",
-          "px": 576
+          "px": 546
         },
         {
           "url": "https://www.coca-cola.com/us/en",
@@ -460,214 +404,12 @@
       "capRegister": [],
       "capProvenance": {
         "writtenBy": "skills/replica/scripts/cap-probe.mjs",
-        "writtenAt": "2026-11-16T06:37:54.598Z",
+        "writtenAt": "2026-11-18T07:05:04.508Z",
         "baseWidth": 1440,
         "urls": [
           "https://www.coca-cola.com/us/en"
         ]
       }
-    },
-    "modules": [
-      {
-        "id": "candidate-hero-carousel",
-        "name": "hero-carousel",
-        "slots": [
-          {
-            "name": "image",
-            "type": "image",
-            "required": true
-          },
-          {
-            "name": "title",
-            "type": "text",
-            "required": true
-          },
-          {
-            "name": "description",
-            "type": "text",
-            "required": false
-          },
-          {
-            "name": "cta",
-            "type": "link",
-            "required": false
-          }
-        ],
-        "instances": [
-          {
-            "slug": "us-en",
-            "selector": ".carousel.carousel--hero",
-            "count": 1
-          }
-        ],
-        "status": "candidate",
-        "confidence": "low",
-        "note": "splide loop carousel of .teaser.hero slides (content-on-bottom/top); slides rotate per load. single unique page (index redirects to us-en): within-page structural repeat only, no cross-page evidence"
-      },
-      {
-        "id": "candidate-content-card",
-        "name": "content-card",
-        "slots": [
-          {
-            "name": "image",
-            "type": "image",
-            "required": true
-          },
-          {
-            "name": "title",
-            "type": "text",
-            "required": true
-          },
-          {
-            "name": "description",
-            "type": "text",
-            "required": false
-          },
-          {
-            "name": "link",
-            "type": "link",
-            "required": true
-          }
-        ],
-        "instances": [
-          {
-            "slug": "us-en",
-            "selector": ".teaser.content-card",
-            "count": 27
-          }
-        ],
-        "status": "candidate",
-        "confidence": "low",
-        "note": "white 16px-radius shadow card; used in Promos & Offers carousel and More from Coca-Cola (card-secondary) carousel. single unique page (index redirects to us-en): within-page structural repeat only, no cross-page evidence"
-      },
-      {
-        "id": "candidate-campaign-card",
-        "name": "campaign-card",
-        "slots": [
-          {
-            "name": "image",
-            "type": "image",
-            "required": true
-          },
-          {
-            "name": "title",
-            "type": "text",
-            "required": true
-          },
-          {
-            "name": "description",
-            "type": "text",
-            "required": false
-          },
-          {
-            "name": "cta",
-            "type": "link",
-            "required": true
-          }
-        ],
-        "instances": [
-          {
-            "slug": "us-en",
-            "selector": ".teaser.campaign-card",
-            "count": 2
-          }
-        ],
-        "status": "candidate",
-        "confidence": "low",
-        "note": "Features split rows; image left/right alternating (content-on-left/right). single unique page (index redirects to us-en): within-page structural repeat only, no cross-page evidence"
-      },
-      {
-        "id": "candidate-brands-list",
-        "name": "brands-list",
-        "slots": [
-          {
-            "name": "logo",
-            "type": "image",
-            "required": true
-          },
-          {
-            "name": "link",
-            "type": "link",
-            "required": true
-          }
-        ],
-        "instances": [
-          {
-            "slug": "us-en",
-            "selector": ".container.brands-list",
-            "count": 1
-          }
-        ],
-        "status": "candidate",
-        "confidence": "low",
-        "note": "3x2 grid of brand logo tiles + \"View All\" outlined pill. single unique page (index redirects to us-en): within-page structural repeat only, no cross-page evidence"
-      },
-      {
-        "id": "candidate-section-title",
-        "name": "section-title",
-        "slots": [
-          {
-            "name": "heading",
-            "type": "text",
-            "required": true
-          }
-        ],
-        "instances": [
-          {
-            "slug": "us-en",
-            "selector": ".title .cmp-title",
-            "count": 4
-          }
-        ],
-        "status": "candidate",
-        "confidence": "low",
-        "note": "centered H2 section heading. single unique page (index redirects to us-en): within-page structural repeat only, no cross-page evidence"
-      }
-    ]
-  },
-  "components": [
-    {
-      "name": "Primary Pill Button",
-      "kind": "button",
-      "refersTo": "button-primary",
-      "description": "Black pill CTA (View all Offerings).",
-      "html": "<a class=\"btn\">View all Offerings</a>",
-      "css": ".btn{background:#000;color:#fff;border-radius:8000px;font:700 16px/24px TCCC-UnityText,sans-serif}.btn:hover{box-shadow:inset 0 0 0 4px #6c6c6c}"
-    },
-    {
-      "name": "Outlined Pill Button",
-      "kind": "button",
-      "refersTo": "button-secondary",
-      "description": "White pill with black border (View All brands).",
-      "html": "<a class=\"btn2\">View All</a>",
-      "css": ".btn2{background:#fff;color:#000;border:1px solid #000;border-radius:8000px}.btn2:hover{box-shadow:inset 0 0 0 2px #000} /* hover not directly measured on this button */"
-    },
-    {
-      "name": "Content Card",
-      "kind": "card",
-      "refersTo": "card",
-      "description": "Image-top white card with title, text and arrow link.",
-      "html": "<div class=\"card\"><img alt=\"\"><h3>Title</h3><p>Text</p><a>Find Your Stop</a></div>",
-      "css": ".card{background:#fff;border-radius:16px;box-shadow:0 8px 16px rgba(0,0,0,.12);overflow:hidden}"
     }
-  ],
-  "narrative": {
-    "northStar": "Red brand in black-and-white chrome",
-    "overview": "A neutral, grey-ground (#eeeeee) AEM portal where colour comes almost entirely from photography and promo art; UI chrome is black type, white cards, black pill buttons. Brand red (#ea0000) is defined as a token but carried by imagery, not UI.",
-    "keyCharacteristics": [
-      "single proprietary family TCCC-UnityText 400/700",
-      "headings bold with -1.5px tracking",
-      "16px-radius white cards with soft 8/16 shadow",
-      "pill buttons (8000px radius)",
-      "splide carousels everywhere"
-    ],
-    "dos": [
-      "Keep UI monochrome; let imagery carry colour",
-      "Use pill buttons and 16px cards"
-    ],
-    "donts": [
-      "Don't paint UI surfaces Coke red",
-      "Don't introduce a second typeface"
-    ]
   }
 }

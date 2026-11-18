@@ -1,25 +1,362 @@
 {
-  "_provenance": { "writtenBy": "stardust:dynamics", "writtenAt": "2026-11-16T08:35:00Z" },
-  "method": "curated rows of stardust/dynamic-features.md replayed against the published origin (aem.live); martech parts carried over, every part disabled (owner decision)",
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-11-18T10:21:03.398Z"
+  },
+  "method": "rows from stardust/dynamic-features.md (25); chrome + carousels rebuilt native and replayed on aem.live; tags carried in the martech contract, every part disabled",
   "features": [
-    { "id": "chrome-menu", "feature": "Header menus: Discover, Impact, Shop", "class": "M", "pages": 2, "disposition": "rebuild-native", "reproducibility": "self", "status": "done",
-      "verifiedBy": "header contract (chrome-compare exit 0 at C0); submenu triggers present on both pages",
-      "checks": [ { "type": "dom-count", "path": "/us/en", "selector": "header .site-nav li.has-submenu", "min": 3 }, { "type": "dom-count", "path": "/", "selector": "header .site-nav li.has-submenu", "min": 3 } ] },
-    { "id": "chrome-drawer", "feature": "Header drawer: Menu (mobile)", "class": "M", "pages": 2, "disposition": "rebuild-native", "reproducibility": "self", "status": "done",
-      "verifiedBy": "header contract 390 drawer; Menu button present",
-      "checks": [ { "type": "dom-count", "path": "/us/en", "selector": "header button.menu-btn[aria-controls]", "min": 1 } ] },
-    { "id": "m-modal-trigger-aria-haspopup-chrome-only-button-content", "feature": "aria-haspopup Filter Icon button (chrome only)", "class": "M", "pages": 1, "disposition": "rebuild-native", "reproducibility": "self", "status": "interim",
-      "verifiedBy": "not rendered on the scoped pages at either gate width (chrome crops 0.00 % header)", "checks": [] },
-    { "id": "x-sign-in-account-links", "feature": "Sign Up / Log In header dialogs", "class": "X", "pages": 2, "disposition": "static-snapshot", "reproducibility": "needs-backend", "status": "interim",
-      "owner": "A-1: authentication on the new host", "verifiedBy": "controls render per the source (role=button, aria-label); no auth backend",
-      "checks": [ { "type": "dom-count", "path": "/us/en", "selector": "header a[role=button][aria-label='Sign Up']", "min": 1 } ] },
-    { "id": "martech", "feature": "OneTrust CMP, GTM, Adobe Web SDK, GA4/Ads, ad pixels, data layers, AWS CloudWatch RUM (rows 5–10, 14)", "class": "T", "pages": 2, "disposition": "embed-passthrough", "reproducibility": "needs-business-decision", "status": "scaffolded-awaiting-owner",
-      "owner": "A-3 / A-5: which containers and the tagging plan run on the new host; every contract part ships disabled",
-      "verifiedBy": "scripts/martech.js ships; gate mode: no vendor request while parts are disabled",
-      "checks": [ { "type": "martech", "path": "/us/en", "mode": "gate" }, { "type": "martech", "path": "/", "mode": "gate" } ] },
-    { "id": "a-cms-app-settings-object-cq", "feature": "AEM Sites CQ runtime object", "class": "A", "pages": 2, "disposition": "static-snapshot", "reproducibility": "self", "status": "interim", "verifiedBy": "no consumer on the migrated pages; nothing ships", "checks": [] },
-    { "id": "f-form-protection-captcha-antibot", "feature": "reCAPTCHA site keys for sign-up/login", "class": "F", "pages": 2, "disposition": "static-snapshot", "reproducibility": "needs-backend", "status": "interim", "owner": "A-1 (tied to auth)", "verifiedBy": "no form on the scoped pages", "checks": [] },
-    { "id": "t-unknown-third-party-host-rum-hlx-page", "feature": "Operational telemetry (RUM)", "class": "T", "pages": 2, "disposition": "rebuild-native", "reproducibility": "self", "status": "done", "verifiedBy": "EDS aem.js emits RUM natively; pages load without uncaught errors",
-      "checks": [ { "type": "no-page-errors", "paths": ["/", "/us/en"] } ] }
+    {
+      "id": "a-cms-app-settings-object-datalayer",
+      "feature": "CMS / app settings object dataLayer",
+      "class": "A",
+      "pages": 2,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "the data layer object is created by the tag stack, which ships disabled in the martech contract",
+      "verifiedBy": "window object absent while the martech contract is off (probe 2026-11-18)",
+      "checks": []
+    },
+    {
+      "id": "a-cms-app-settings-object-adobedatalayer",
+      "feature": "CMS / app settings object adobeDataLayer",
+      "class": "A",
+      "pages": 2,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "the data layer object is created by the tag stack, which ships disabled in the martech contract",
+      "verifiedBy": "window object absent while the martech contract is off (probe 2026-11-18)",
+      "checks": []
+    },
+    {
+      "id": "a-cms-app-settings-object-cq",
+      "feature": "CMS / app settings object CQ",
+      "class": "A",
+      "pages": 2,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "the data layer object is created by the tag stack, which ships disabled in the martech contract",
+      "verifiedBy": "window object absent while the martech contract is off (probe 2026-11-18)",
+      "checks": []
+    },
+    {
+      "id": "f-form-protection-captcha-antibot",
+      "feature": "form protection: captcha / antibot",
+      "class": "F",
+      "pages": 0,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-backend",
+      "status": "interim",
+      "owner": "no form on the in-scope pages; captcha only loads through the tag stack",
+      "checks": []
+    },
+    {
+      "id": "m-modal-trigger-aria-haspopup-chrome-only-button-content",
+      "feature": "modal trigger aria-haspopup (chrome only) → button:content",
+      "class": "M",
+      "pages": 2,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "header contract (chrome-compare exit 0 at foundation); 13 header nav links, 8 menu items on aem.live",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/us/en",
+          "selector": "header nav a",
+          "min": 13
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "header nav a",
+          "min": 13
+        }
+      ]
+    },
+    {
+      "id": "t-consent-onetrust",
+      "feature": "consent: OneTrust",
+      "class": "T",
+      "pages": 2,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "turn the part on in stardust/martech-contract.json (which tags run on the new host, property ids, CMP domain); every part ships disabled",
+      "verifiedBy": "martech gate checks (appended from the contract): no vendor host requested while disabled",
+      "checks": []
+    },
+    {
+      "id": "t-unknown-third-party-host-cdn-global-gcds-coke-com",
+      "feature": "unknown third-party host cdn.global.gcds.coke.com",
+      "class": "T",
+      "pages": 2,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "turn the part on in stardust/martech-contract.json (which tags run on the new host, property ids, CMP domain); every part ships disabled",
+      "verifiedBy": "martech gate checks (appended from the contract): no vendor host requested while disabled",
+      "checks": []
+    },
+    {
+      "id": "t-unknown-third-party-host-rum-hlx-page",
+      "feature": "unknown third-party host rum.hlx.page",
+      "class": "T",
+      "pages": 2,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "turn the part on in stardust/martech-contract.json (which tags run on the new host, property ids, CMP domain); every part ships disabled",
+      "verifiedBy": "martech gate checks (appended from the contract): no vendor host requested while disabled",
+      "checks": []
+    },
+    {
+      "id": "t-tag-manager-google-tag-manager",
+      "feature": "tag manager: Google Tag Manager",
+      "class": "T",
+      "pages": 2,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "turn the part on in stardust/martech-contract.json (which tags run on the new host, property ids, CMP domain); every part ships disabled",
+      "verifiedBy": "martech gate checks (appended from the contract): no vendor host requested while disabled",
+      "checks": []
+    },
+    {
+      "id": "t-marketing-ad-retargeting-pixel",
+      "feature": "marketing: ad / retargeting pixel",
+      "class": "T",
+      "pages": 2,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "turn the part on in stardust/martech-contract.json (which tags run on the new host, property ids, CMP domain); every part ships disabled",
+      "verifiedBy": "martech gate checks (appended from the contract): no vendor host requested while disabled",
+      "checks": []
+    },
+    {
+      "id": "t-analytics-adobe-experience-platform-web-sdk",
+      "feature": "analytics: Adobe Experience Platform Web SDK",
+      "class": "T",
+      "pages": 2,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "turn the part on in stardust/martech-contract.json (which tags run on the new host, property ids, CMP domain); every part ships disabled",
+      "verifiedBy": "martech gate checks (appended from the contract): no vendor host requested while disabled",
+      "checks": []
+    },
+    {
+      "id": "t-analytics-adobe-analytics-experience-cloud-id",
+      "feature": "analytics: Adobe Analytics / Experience Cloud ID",
+      "class": "T",
+      "pages": 2,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "turn the part on in stardust/martech-contract.json (which tags run on the new host, property ids, CMP domain); every part ships disabled",
+      "verifiedBy": "martech gate checks (appended from the contract): no vendor host requested while disabled",
+      "checks": []
+    },
+    {
+      "id": "t-unknown-third-party-host-simage2-pubmatic-com",
+      "feature": "unknown third-party host simage2.pubmatic.com",
+      "class": "T",
+      "pages": 2,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "turn the part on in stardust/martech-contract.json (which tags run on the new host, property ids, CMP domain); every part ships disabled",
+      "verifiedBy": "martech gate checks (appended from the contract): no vendor host requested while disabled",
+      "checks": []
+    },
+    {
+      "id": "t-analytics-google-analytics-ads",
+      "feature": "analytics: Google Analytics / Ads",
+      "class": "T",
+      "pages": 2,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "turn the part on in stardust/martech-contract.json (which tags run on the new host, property ids, CMP domain); every part ships disabled",
+      "verifiedBy": "martech gate checks (appended from the contract): no vendor host requested while disabled",
+      "checks": []
+    },
+    {
+      "id": "t-unknown-third-party-host-x-bidswitch-net",
+      "feature": "unknown third-party host x.bidswitch.net",
+      "class": "T",
+      "pages": 2,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "turn the part on in stardust/martech-contract.json (which tags run on the new host, property ids, CMP domain); every part ships disabled",
+      "verifiedBy": "martech gate checks (appended from the contract): no vendor host requested while disabled",
+      "checks": []
+    },
+    {
+      "id": "t-unknown-third-party-host-login-ds-dotomi-com",
+      "feature": "unknown third-party host login-ds.dotomi.com",
+      "class": "T",
+      "pages": 2,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "turn the part on in stardust/martech-contract.json (which tags run on the new host, property ids, CMP domain); every part ships disabled",
+      "verifiedBy": "martech gate checks (appended from the contract): no vendor host requested while disabled",
+      "checks": []
+    },
+    {
+      "id": "t-analytics-adobe-analytics-experience-cloud-id-first-party-",
+      "feature": "analytics: Adobe Analytics / Experience Cloud ID (first-party subdomain — needs a CNAME on the new host)",
+      "class": "T",
+      "pages": 2,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "turn the part on in stardust/martech-contract.json (which tags run on the new host, property ids, CMP domain); every part ships disabled",
+      "verifiedBy": "martech gate checks (appended from the contract): no vendor host requested while disabled",
+      "checks": []
+    },
+    {
+      "id": "t-unknown-third-party-host-adservice-google-com",
+      "feature": "unknown third-party host adservice.google.com",
+      "class": "T",
+      "pages": 2,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "turn the part on in stardust/martech-contract.json (which tags run on the new host, property ids, CMP domain); every part ships disabled",
+      "verifiedBy": "martech gate checks (appended from the contract): no vendor host requested while disabled",
+      "checks": []
+    },
+    {
+      "id": "t-unknown-third-party-host-aimfar-solution-weborama-fr",
+      "feature": "unknown third-party host aimfar.solution.weborama.fr",
+      "class": "T",
+      "pages": 2,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "turn the part on in stardust/martech-contract.json (which tags run on the new host, property ids, CMP domain); every part ships disabled",
+      "verifiedBy": "martech gate checks (appended from the contract): no vendor host requested while disabled",
+      "checks": []
+    },
+    {
+      "id": "t-unknown-third-party-host-analytics-ipv6-tiktokw-us",
+      "feature": "unknown third-party host analytics-ipv6.tiktokw.us",
+      "class": "T",
+      "pages": 2,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "turn the part on in stardust/martech-contract.json (which tags run on the new host, property ids, CMP domain); every part ships disabled",
+      "verifiedBy": "martech gate checks (appended from the contract): no vendor host requested while disabled",
+      "checks": []
+    },
+    {
+      "id": "t-unknown-third-party-host-www-facebook-com",
+      "feature": "unknown third-party host www.facebook.com",
+      "class": "T",
+      "pages": 2,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "turn the part on in stardust/martech-contract.json (which tags run on the new host, property ids, CMP domain); every part ships disabled",
+      "verifiedBy": "martech gate checks (appended from the contract): no vendor host requested while disabled",
+      "checks": []
+    },
+    {
+      "id": "x-sign-in-account-links",
+      "feature": "sign-in / account links",
+      "class": "X",
+      "pages": 2,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-backend",
+      "status": "interim",
+      "owner": "auth backend on the new host — Sign Up / Log In buttons link to the source account pages",
+      "checks": []
+    },
+    {
+      "id": "chrome-drawer",
+      "feature": "header drawer: Menu (chrome only)",
+      "class": "M",
+      "pages": 2,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "Menu button (aria-expanded) + drawer present on aem.live; header contract is the spec",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/us/en",
+          "selector": "header .site-header-menu[aria-expanded]",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "chrome-menu",
+      "feature": "header menu: Discover, Impact, Shop (chrome only)",
+      "class": "M",
+      "pages": 2,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "header contract (chrome-compare exit 0 at foundation); 13 header nav links, 8 menu items on aem.live",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/us/en",
+          "selector": "header nav a",
+          "min": 13
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "header nav a",
+          "min": 13
+        }
+      ]
+    },
+    {
+      "id": "t-unknown-third-party-host-dsum-sec-casalemedia-com",
+      "feature": "unknown third-party host dsum-sec.casalemedia.com",
+      "class": "T",
+      "pages": 2,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "turn the part on in stardust/martech-contract.json (which tags run on the new host, property ids, CMP domain); every part ships disabled",
+      "verifiedBy": "martech gate checks (appended from the contract): no vendor host requested while disabled",
+      "checks": []
+    },
+    {
+      "id": "carousels-and-errors",
+      "feature": "carousels (hero 8, promos 6, secondary 12 slides) + page errors",
+      "class": "M",
+      "pages": 2,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "motion-compare 14 parity / 0 missing at recreate; 3 carousels on aem.live, 0 uncaught errors",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/us/en",
+          "selector": "main .carousel",
+          "min": 3
+        },
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/",
+            "/us/en"
+          ]
+        }
+      ]
+    }
   ]
 }

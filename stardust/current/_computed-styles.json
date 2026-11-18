@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:extract",
-    "writtenAt": "2026-11-16T06:33:10.649Z",
+    "writtenAt": "2026-11-18T06:58:57.623Z",
     "script": "style-census.mjs",
     "readArtifacts": [
       "https://www.coca-cola.com/us/en"
@@ -23,15 +23,15 @@
           "height": 900
         },
         "elements": {
-          "total": 872,
-          "visible": 283
+          "total": 927,
+          "visible": 256
         },
         "occluders": [],
         "headings": [
           {
             "tag": "h1",
             "text": "The Coca‑Cola® Official Site for Drinks…",
-            "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > h1",
+            "selector": "main > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > h1",
             "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
             "fontSize": "32px",
             "fontWeight": "700",
@@ -43,38 +43,14 @@
           {
             "tag": "h2",
             "text": "Your Shot at Alaska Starts Now",
-            "selector": "#text-17c2f3bbb6 > h2",
+            "selector": "#splide01-slide01 > div > div > div:nth-of-type(1) > h2",
             "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
-            "fontSize": "28px",
+            "fontSize": "24px",
             "fontWeight": "700",
-            "lineHeight": "36px",
+            "lineHeight": "32px",
             "letterSpacing": "-1.5px",
             "textTransform": "none",
-            "color": "rgb(0, 0, 0)"
-          },
-          {
-            "tag": "h3",
-            "text": "YOU COULD WIN BIG THIS SEASON",
-            "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div > div:nth-of-type(1) > h3",
-            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
-            "fontSize": "20px",
-            "fontWeight": "700",
-            "lineHeight": "28px",
-            "letterSpacing": "-1.5px",
-            "textTransform": "none",
-            "color": "rgb(0, 0, 0)"
-          },
-          {
-            "tag": "h3",
-            "text": "YOU COULD WIN BIG THIS SEASON",
-            "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(2) > a > div > div:nth-of-type(1) > h3",
-            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
-            "fontSize": "20px",
-            "fontWeight": "700",
-            "lineHeight": "28px",
-            "letterSpacing": "-1.5px",
-            "textTransform": "none",
-            "color": "rgb(0, 0, 0)"
+            "color": "rgb(255, 255, 255)"
           },
           {
             "tag": "h2",
@@ -114,8 +90,8 @@
           },
           {
             "tag": "h3",
-            "text": "Refresh Your Fandom All Year Long",
-            "selector": "main > div > div:nth-of-type(2) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > h3",
+            "text": "Mix Up the Holiday Spirit",
+            "selector": "#teaser-e01df91d42 > div:nth-of-type(1) > h3",
             "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
             "fontSize": "28px",
             "fontWeight": "700",
@@ -126,8 +102,8 @@
           },
           {
             "tag": "h3",
-            "text": "Mix Up the Holiday Spirit",
-            "selector": "#teaser-e01df91d42 > div:nth-of-type(1) > h3",
+            "text": "Refresh Your Fandom All Year Long",
+            "selector": "main > div > div:nth-of-type(2) > div > div:nth-of-type(6) > div > div:nth-of-type(1) > h3",
             "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
             "fontSize": "28px",
             "fontWeight": "700",
@@ -213,38 +189,14 @@
           {
             "tag": "p",
             "text": "Spin the Coca‑Cola Holiday Wheel and pl…",
-            "selector": "#container-5c9a64b67e > div:nth-of-type(3) > div > p",
+            "selector": "#splide01-slide01 > div > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
             "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
             "fontSize": "16px",
             "fontWeight": "400",
             "lineHeight": "24px",
             "letterSpacing": "normal",
             "textTransform": "none",
-            "color": "rgb(0, 0, 0)"
-          },
-          {
-            "tag": "p",
-            "text": "Enter every Friday for your chance to w…",
-            "selector": "div:nth-of-type(2) > div > div:nth-of-type(1) > a > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
-            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
-            "fontSize": "16px",
-            "fontWeight": "400",
-            "lineHeight": "24px",
-            "letterSpacing": "normal",
-            "textTransform": "none",
-            "color": "rgb(0, 0, 0)"
-          },
-          {
-            "tag": "p",
-            "text": "Enter every Friday for your chance to w…",
-            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > a > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
-            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
-            "fontSize": "16px",
-            "fontWeight": "400",
-            "lineHeight": "24px",
-            "letterSpacing": "normal",
-            "textTransform": "none",
-            "color": "rgb(0, 0, 0)"
+            "color": "rgb(255, 255, 255)"
           },
           {
             "tag": "p",
@@ -260,8 +212,8 @@
           },
           {
             "tag": "p",
-            "text": "Soccer Central is your always-on home f…",
-            "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
+            "text": "Make the season merry with easy holiday…",
+            "selector": "#teaser-e01df91d42 > div:nth-of-type(1) > div:nth-of-type(1) > p",
             "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
             "fontSize": "16px",
             "fontWeight": "400",
@@ -272,8 +224,8 @@
           },
           {
             "tag": "p",
-            "text": "Make the season merry with easy holiday…",
-            "selector": "#teaser-e01df91d42 > div:nth-of-type(1) > div:nth-of-type(1) > p",
+            "text": "Soccer Central is your always-on home f…",
+            "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(6) > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
             "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
             "fontSize": "16px",
             "fontWeight": "400",
@@ -300,24 +252,54 @@
             "text": "Sign Up",
             "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
             "count": 1,
-            "backgroundColor": "rgb(189, 189, 189)",
-            "color": "rgb(108, 108, 108)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
             "borderRadius": "8000px",
             "padding": "0px 16px",
-            "border": "0px none rgb(108, 108, 108)",
-            "borderColor": "rgb(108, 108, 108)",
+            "border": "0px none rgb(255, 255, 255)",
+            "borderColor": "rgb(255, 255, 255)",
             "boxShadow": "none",
             "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
             "fontSize": "12px",
             "fontWeight": "700",
             "textTransform": "none",
             "letterSpacing": "normal",
-            "hover": null
+            "hover": {
+              "backgroundColor": "rgb(0, 0, 0)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(255, 255, 255)",
+              "boxShadow": "rgb(108, 108, 108) 0px 0px 0px 4px inset",
+              "changed": true
+            }
           },
           {
-            "text": "Play Now",
-            "selector": "#container-5c9a64b67e > div:nth-of-type(4) > a",
-            "count": 3,
+            "text": "Play and Enter",
+            "selector": "#splide01-slide01 > div > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
+            "count": 1,
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(0, 0, 0)",
+            "borderRadius": "8000px",
+            "padding": "4px 16px",
+            "border": "0px none rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "boxShadow": "none",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "boxShadow": "rgb(165, 165, 165) 0px 0px 0px 4px inset",
+              "changed": true
+            }
+          },
+          {
+            "text": "View all Offerings",
+            "selector": "main > div > div:nth-of-type(2) > div > div:nth-of-type(3) > a",
+            "count": 1,
             "backgroundColor": "rgb(0, 0, 0)",
             "color": "rgb(255, 255, 255)",
             "borderRadius": "8000px",
@@ -339,8 +321,8 @@
             }
           },
           {
-            "text": "Explore for More",
-            "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
+            "text": "View Holiday Recipes",
+            "selector": "#teaser-e01df91d42 > div:nth-of-type(1) > div:nth-of-type(2) > a",
             "count": 3,
             "backgroundColor": "rgba(0, 0, 0, 0)",
             "color": "rgb(0, 0, 0)",
@@ -365,9 +347,9 @@
         ],
         "links": [
           {
-            "text": "YOU COULD WIN BIG THIS SEASON Enter eve…",
-            "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a",
-            "count": 4,
+            "text": "Don't Miss the Coca‑Cola Holiday Carava…",
+            "selector": "#splide02-slide01 > div > a",
+            "count": 2,
             "color": "rgb(0, 0, 0)",
             "textDecoration": "none",
             "fontWeight": "700",
@@ -407,7 +389,7 @@
               "x": 24,
               "y": 72,
               "w": 312,
-              "h": 5507
+              "h": 4388
             },
             "backgroundColor": "rgba(0, 0, 0, 0)",
             "color": "rgb(0, 0, 0)",
@@ -424,7 +406,7 @@
             "selector": "footer",
             "rect": {
               "x": 0,
-              "y": 5635,
+              "y": 4516,
               "w": 360,
               "h": 678
             },
@@ -445,7 +427,7 @@
               "x": 24,
               "y": 112,
               "w": 312,
-              "h": 5467
+              "h": 4348
             },
             "backgroundColor": "rgba(0, 0, 0, 0)",
             "color": "rgb(0, 0, 0)",
@@ -462,21 +444,21 @@
           {
             "value": "8000px",
             "count": 29,
-            "area": 120325,
+            "area": 100184,
             "sources": [
               "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
               "div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(3) > div > button",
-              "#container-5c9a64b67e > div:nth-of-type(4) > a"
+              "#splide01-slide01 > div > div > div:nth-of-type(1) > div:nth-of-type(2) > a"
             ]
           },
           {
             "value": "16px",
-            "count": 4,
-            "area": 648839,
+            "count": 3,
+            "area": 499632,
             "sources": [
-              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div",
-              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(2) > a > div",
-              "#splide02-slide01 > div > a > div"
+              "#splide01-slide01 > div",
+              "#splide02-slide01 > div > a > div",
+              "#splide03-slide01 > div > a > div"
             ]
           },
           {
@@ -509,11 +491,10 @@
         "shadows": [
           {
             "value": "rgba(0, 0, 0, 0.12) 0px 8px 16px 0px",
-            "count": 4,
+            "count": 2,
             "sources": [
-              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div",
-              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(2) > a > div",
-              "#splide02-slide01 > div > a > div"
+              "#splide02-slide01 > div > a > div",
+              "#splide03-slide01 > div > a > div"
             ]
           },
           {
@@ -528,75 +509,60 @@
         "bgColors": [
           {
             "value": "rgb(255, 255, 255)",
-            "count": 16,
-            "area": 757160,
+            "count": 13,
+            "area": 457011,
             "sources": [
               "header > div > div > div > div:nth-of-type(1)",
-              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div > div:nth-of-type(1)",
-              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div > div:nth-of-type(2)"
+              "#splide01-slide01 > div > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
+              "#splide02-slide01 > div > a > div > div:nth-of-type(1)"
             ]
           },
           {
             "value": "rgb(0, 0, 0)",
             "count": 8,
-            "area": 359027,
+            "area": 337667,
             "sources": [
-              "#container-5c9a64b67e > div:nth-of-type(4) > a",
-              "#container-ec87edacce > div:nth-of-type(3) > a",
+              "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
+              "#splide01 > ul > li:nth-of-type(1) > button",
               "#splide02 > ul > li:nth-of-type(1) > button"
             ]
           },
           {
             "value": "rgb(108, 108, 108)",
-            "count": 5,
-            "area": 320,
+            "count": 7,
+            "area": 448,
             "sources": [
-              "#splide02 > ul > li:nth-of-type(2) > button",
-              "#splide03 > ul > li:nth-of-type(2) > button",
-              "#splide03 > ul > li:nth-of-type(3) > button"
+              "#splide01 > ul > li:nth-of-type(2) > button",
+              "#splide01 > ul > li:nth-of-type(3) > button",
+              "#splide02 > ul > li:nth-of-type(2) > button"
             ]
           },
           {
             "value": "rgb(238, 238, 238)",
             "count": 1,
-            "area": 2272843,
+            "area": 1869750,
             "sources": [
               "body"
-            ]
-          },
-          {
-            "value": "rgb(189, 189, 189)",
-            "count": 1,
-            "area": 3344,
-            "sources": [
-              "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button"
             ]
           }
         ],
         "textColors": [
           {
             "value": "rgb(0, 0, 0)",
-            "count": 33,
+            "count": 26,
             "sources": [
-              "div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > h1",
-              "#text-17c2f3bbb6 > h2",
-              "#container-5c9a64b67e > div:nth-of-type(3) > div > p"
+              "main > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > h1",
+              "#splide01-slide01 > div > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
+              "#title-eaaffc3eca > h2"
             ]
           },
           {
             "value": "rgb(255, 255, 255)",
-            "count": 10,
+            "count": 11,
             "sources": [
-              "#container-5c9a64b67e > div:nth-of-type(4) > a > span",
-              "#container-ec87edacce > div:nth-of-type(3) > a > span",
-              "main > div > div:nth-of-type(2) > div > div:nth-of-type(3) > a > span"
-            ]
-          },
-          {
-            "value": "rgb(108, 108, 108)",
-            "count": 1,
-            "sources": [
-              "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button"
+              "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
+              "#splide01-slide01 > div > div > div:nth-of-type(1) > h2",
+              "#splide01-slide01 > div > div > div:nth-of-type(1) > div:nth-of-type(1) > p"
             ]
           }
         ],
@@ -614,8 +580,8 @@
             "value": "rgb(0, 0, 0)",
             "count": 4,
             "sources": [
-              "div > div:nth-of-type(2) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
               "#teaser-e01df91d42 > div:nth-of-type(1) > div:nth-of-type(2) > a",
+              "div > div:nth-of-type(2) > div > div:nth-of-type(6) > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
               "#button-e85ba47a41"
             ]
           }
@@ -1989,15 +1955,15 @@
           "height": 900
         },
         "elements": {
-          "total": 1077,
-          "visible": 380
+          "total": 1132,
+          "visible": 355
         },
         "occluders": [],
         "headings": [
           {
             "tag": "h1",
             "text": "The Coca‑Cola® Official Site for Drinks…",
-            "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > h1",
+            "selector": "main > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > h1",
             "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
             "fontSize": "38px",
             "fontWeight": "700",
@@ -2009,38 +1975,14 @@
           {
             "tag": "h2",
             "text": "Your Shot at Alaska Starts Now",
-            "selector": "#text-17c2f3bbb6 > h2",
+            "selector": "#splide01-slide01 > div > div > div:nth-of-type(1) > h2",
             "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
-            "fontSize": "32px",
+            "fontSize": "38px",
             "fontWeight": "700",
-            "lineHeight": "40px",
+            "lineHeight": "48px",
             "letterSpacing": "-1.5px",
             "textTransform": "none",
-            "color": "rgb(0, 0, 0)"
-          },
-          {
-            "tag": "h3",
-            "text": "YOU COULD WIN BIG THIS SEASON",
-            "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div > div:nth-of-type(1) > h3",
-            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
-            "fontSize": "24px",
-            "fontWeight": "700",
-            "lineHeight": "32px",
-            "letterSpacing": "-1.5px",
-            "textTransform": "none",
-            "color": "rgb(0, 0, 0)"
-          },
-          {
-            "tag": "h3",
-            "text": "YOU COULD WIN BIG THIS SEASON",
-            "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(2) > a > div > div:nth-of-type(1) > h3",
-            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
-            "fontSize": "24px",
-            "fontWeight": "700",
-            "lineHeight": "32px",
-            "letterSpacing": "-1.5px",
-            "textTransform": "none",
-            "color": "rgb(0, 0, 0)"
+            "color": "rgb(255, 255, 255)"
           },
           {
             "tag": "h2",
@@ -2092,8 +2034,8 @@
           },
           {
             "tag": "h3",
-            "text": "Refresh Your Fandom All Year Long",
-            "selector": "main > div > div:nth-of-type(2) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > h3",
+            "text": "Mix Up the Holiday Spirit",
+            "selector": "#teaser-e01df91d42 > div:nth-of-type(1) > h3",
             "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
             "fontSize": "32px",
             "fontWeight": "700",
@@ -2104,8 +2046,8 @@
           },
           {
             "tag": "h3",
-            "text": "Mix Up the Holiday Spirit",
-            "selector": "#teaser-e01df91d42 > div:nth-of-type(1) > h3",
+            "text": "Refresh Your Fandom All Year Long",
+            "selector": "main > div > div:nth-of-type(2) > div > div:nth-of-type(6) > div > div:nth-of-type(1) > h3",
             "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
             "fontSize": "32px",
             "fontWeight": "700",
@@ -2215,38 +2157,14 @@
           {
             "tag": "p",
             "text": "Spin the Coca‑Cola Holiday Wheel and pl…",
-            "selector": "#container-5c9a64b67e > div:nth-of-type(3) > div > p",
+            "selector": "#splide01-slide01 > div > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
             "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
             "fontSize": "16px",
             "fontWeight": "400",
             "lineHeight": "24px",
             "letterSpacing": "normal",
             "textTransform": "none",
-            "color": "rgb(0, 0, 0)"
-          },
-          {
-            "tag": "p",
-            "text": "Enter every Friday for your chance to w…",
-            "selector": "div:nth-of-type(2) > div > div:nth-of-type(1) > a > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
-            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
-            "fontSize": "16px",
-            "fontWeight": "400",
-            "lineHeight": "24px",
-            "letterSpacing": "normal",
-            "textTransform": "none",
-            "color": "rgb(0, 0, 0)"
-          },
-          {
-            "tag": "p",
-            "text": "Enter every Friday for your chance to w…",
-            "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > a > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
-            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
-            "fontSize": "16px",
-            "fontWeight": "400",
-            "lineHeight": "24px",
-            "letterSpacing": "normal",
-            "textTransform": "none",
-            "color": "rgb(0, 0, 0)"
+            "color": "rgb(255, 255, 255)"
           },
           {
             "tag": "p",
@@ -2274,8 +2192,8 @@
           },
           {
             "tag": "p",
-            "text": "Soccer Central is your always-on home f…",
-            "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
+            "text": "Make the season merry with easy holiday…",
+            "selector": "#teaser-e01df91d42 > div:nth-of-type(1) > div:nth-of-type(1) > p",
             "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
             "fontSize": "16px",
             "fontWeight": "400",
@@ -2286,8 +2204,8 @@
           },
           {
             "tag": "p",
-            "text": "Make the season merry with easy holiday…",
-            "selector": "#teaser-e01df91d42 > div:nth-of-type(1) > div:nth-of-type(1) > p",
+            "text": "Soccer Central is your always-on home f…",
+            "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(6) > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
             "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
             "fontSize": "16px",
             "fontWeight": "400",
@@ -2338,24 +2256,54 @@
             "text": "Sign Up",
             "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
             "count": 1,
-            "backgroundColor": "rgb(189, 189, 189)",
-            "color": "rgb(108, 108, 108)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
             "borderRadius": "8000px",
             "padding": "0px 16px",
-            "border": "0px none rgb(108, 108, 108)",
-            "borderColor": "rgb(108, 108, 108)",
+            "border": "0px none rgb(255, 255, 255)",
+            "borderColor": "rgb(255, 255, 255)",
             "boxShadow": "none",
             "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
             "fontSize": "12px",
             "fontWeight": "700",
             "textTransform": "none",
             "letterSpacing": "normal",
-            "hover": null
+            "hover": {
+              "backgroundColor": "rgb(0, 0, 0)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(255, 255, 255)",
+              "boxShadow": "rgb(108, 108, 108) 0px 0px 0px 4px inset",
+              "changed": true
+            }
           },
           {
-            "text": "Play Now",
-            "selector": "#container-5c9a64b67e > div:nth-of-type(4) > a",
-            "count": 3,
+            "text": "Play and Enter",
+            "selector": "#splide01-slide01 > div > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
+            "count": 7,
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(0, 0, 0)",
+            "borderRadius": "8000px",
+            "padding": "4px 16px",
+            "border": "0px none rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "boxShadow": "none",
+            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "boxShadow": "rgb(165, 165, 165) 0px 0px 0px 4px inset",
+              "changed": true
+            }
+          },
+          {
+            "text": "View all Offerings",
+            "selector": "main > div > div:nth-of-type(2) > div > div:nth-of-type(3) > a",
+            "count": 1,
             "backgroundColor": "rgb(0, 0, 0)",
             "color": "rgb(255, 255, 255)",
             "borderRadius": "8000px",
@@ -2377,8 +2325,8 @@
             }
           },
           {
-            "text": "Explore for More",
-            "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
+            "text": "View Holiday Recipes",
+            "selector": "#teaser-e01df91d42 > div:nth-of-type(1) > div:nth-of-type(2) > a",
             "count": 3,
             "backgroundColor": "rgba(0, 0, 0, 0)",
             "color": "rgb(0, 0, 0)",
@@ -2399,37 +2347,13 @@
               "boxShadow": "rgb(0, 0, 0) 0px 0px 0px 2px inset",
               "changed": true
             }
-          },
-          {
-            "text": "Baseball",
-            "selector": "#answer-baseball",
-            "count": 6,
-            "backgroundColor": "rgb(255, 255, 255)",
-            "color": "rgb(0, 0, 0)",
-            "borderRadius": "8000px",
-            "padding": "4px 16px",
-            "border": "0px none rgb(0, 0, 0)",
-            "borderColor": "rgb(0, 0, 0)",
-            "boxShadow": "none",
-            "fontFamily": "Noto-regional, Noto-latin, TCCC-UnityText, sans-serif",
-            "fontSize": "16px",
-            "fontWeight": "700",
-            "textTransform": "none",
-            "letterSpacing": "normal",
-            "hover": {
-              "backgroundColor": "rgb(53, 53, 53)",
-              "color": "rgb(255, 255, 255)",
-              "borderColor": "rgb(53, 53, 53)",
-              "boxShadow": "rgb(108, 108, 108) 0px 0px 0px 4px inset",
-              "changed": true
-            }
           }
         ],
         "links": [
           {
-            "text": "YOU COULD WIN BIG THIS SEASON Enter eve…",
-            "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a",
-            "count": 7,
+            "text": "Don't Miss the Coca‑Cola Holiday Carava…",
+            "selector": "#splide02-slide01 > div > a",
+            "count": 5,
             "color": "rgb(0, 0, 0)",
             "textDecoration": "none",
             "fontWeight": "700",
@@ -2469,7 +2393,7 @@
               "x": 160,
               "y": 80,
               "w": 1120,
-              "h": 5571
+              "h": 4649
             },
             "backgroundColor": "rgba(0, 0, 0, 0)",
             "color": "rgb(0, 0, 0)",
@@ -2486,7 +2410,7 @@
             "selector": "footer",
             "rect": {
               "x": 0,
-              "y": 5771,
+              "y": 4849,
               "w": 1440,
               "h": 936
             },
@@ -2507,7 +2431,7 @@
               "x": 160,
               "y": 136,
               "w": 1120,
-              "h": 5515
+              "h": 4593
             },
             "backgroundColor": "rgba(0, 0, 0, 0)",
             "color": "rgb(0, 0, 0)",
@@ -2524,21 +2448,21 @@
           {
             "value": "8000px",
             "count": 31,
-            "area": 146323,
+            "area": 127459,
             "sources": [
               "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
-              "#container-5c9a64b67e > div:nth-of-type(4) > a",
-              "div:nth-of-type(2) > div > div:nth-of-type(1) > a > div > div:nth-of-type(1) > div:nth-of-type(2) > p"
+              "#splide01-slide01 > div > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
+              "#splide01 > ul > li:nth-of-type(1) > button"
             ]
           },
           {
             "value": "16px",
-            "count": 9,
-            "area": 2790446,
+            "count": 8,
+            "area": 2834012,
             "sources": [
-              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div",
-              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(2) > a > div",
-              "#splide02-slide01 > div > a > div"
+              "#splide01-slide01 > div",
+              "#splide02-slide01 > div > a > div",
+              "#splide02-slide02 > div > a > div"
             ]
           },
           {
@@ -2569,11 +2493,11 @@
         "shadows": [
           {
             "value": "rgba(0, 0, 0, 0.12) 0px 8px 16px 0px",
-            "count": 7,
+            "count": 5,
             "sources": [
-              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div",
-              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(2) > a > div",
-              "#splide02-slide01 > div > a > div"
+              "#splide02-slide01 > div > a > div",
+              "#splide02-slide02 > div > a > div",
+              "#splide03-slide01 > div > a > div"
             ]
           },
           {
@@ -2588,55 +2512,47 @@
         "bgColors": [
           {
             "value": "rgb(255, 255, 255)",
-            "count": 22,
-            "area": 2348121,
+            "count": 19,
+            "area": 1664881,
             "sources": [
               "header > div > div > div > div:nth-of-type(1)",
-              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div > div:nth-of-type(1)",
-              "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div > div:nth-of-type(2)"
+              "#splide01-slide01 > div > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
+              "#splide02-slide01 > div > a > div > div:nth-of-type(1)"
             ]
           },
           {
             "value": "rgb(0, 0, 0)",
             "count": 8,
-            "area": 1533752,
+            "area": 1511192,
             "sources": [
-              "#container-5c9a64b67e > div:nth-of-type(4) > a",
-              "#container-ec87edacce > div:nth-of-type(3) > a",
+              "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
+              "#splide01 > ul > li:nth-of-type(1) > button",
               "#splide02 > ul > li:nth-of-type(1) > button"
             ]
           },
           {
             "value": "rgb(108, 108, 108)",
-            "count": 5,
-            "area": 320,
+            "count": 7,
+            "area": 448,
             "sources": [
-              "#splide02 > ul > li:nth-of-type(2) > button",
-              "#splide03 > ul > li:nth-of-type(2) > button",
-              "#splide03 > ul > li:nth-of-type(3) > button"
+              "#splide01 > ul > li:nth-of-type(2) > button",
+              "#splide01 > ul > li:nth-of-type(3) > button",
+              "#splide02 > ul > li:nth-of-type(2) > button"
             ]
           },
           {
             "value": "rgb(238, 238, 238)",
             "count": 1,
-            "area": 9657450,
+            "area": 8330220,
             "sources": [
               "body"
-            ]
-          },
-          {
-            "value": "rgb(189, 189, 189)",
-            "count": 1,
-            "area": 3344,
-            "sources": [
-              "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button"
             ]
           }
         ],
         "textColors": [
           {
             "value": "rgb(0, 0, 0)",
-            "count": 47,
+            "count": 40,
             "sources": [
               "div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > ul > li:nth-of-type(1) > a",
               "div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > ul > li:nth-of-type(2) > a",
@@ -2645,11 +2561,11 @@
           },
           {
             "value": "rgb(255, 255, 255)",
-            "count": 34,
+            "count": 35,
             "sources": [
-              "#container-5c9a64b67e > div:nth-of-type(4) > a > span",
-              "#container-ec87edacce > div:nth-of-type(3) > a > span",
-              "main > div > div:nth-of-type(2) > div > div:nth-of-type(3) > a > span"
+              "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
+              "#splide01-slide01 > div > div > div:nth-of-type(1) > h2",
+              "#splide01-slide01 > div > div > div:nth-of-type(1) > div:nth-of-type(1) > p"
             ]
           },
           {
@@ -2660,13 +2576,6 @@
               "div > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > div > h4",
               "div > div > div > div:nth-of-type(3) > div > div:nth-of-type(3) > div > h4"
             ]
-          },
-          {
-            "value": "rgb(108, 108, 108)",
-            "count": 1,
-            "sources": [
-              "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button"
-            ]
           }
         ],
         "borderColors": [
@@ -2674,8 +2583,8 @@
             "value": "rgb(0, 0, 0)",
             "count": 4,
             "sources": [
-              "div > div:nth-of-type(2) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
               "#teaser-e01df91d42 > div:nth-of-type(1) > div:nth-of-type(2) > a",
+              "div > div:nth-of-type(2) > div > div:nth-of-type(6) > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
               "#button-e85ba47a41"
             ]
           },
@@ -4074,21 +3983,21 @@
         "values": [
           "rgb(0, 0, 0)"
         ],
-        "weight": 166,
-        "bgArea": 1892779,
+        "weight": 142,
+        "bgArea": 1848859,
         "by": {
-          "text": 80,
+          "text": 66,
           "background": 16,
-          "link": 11,
-          "button-text": 12,
+          "button-text": 14,
+          "link": 7,
           "border": 8,
-          "button-background": 6,
           "button-border": 6,
-          "heading": 27
+          "button-background": 4,
+          "heading": 21
         },
         "roles": [
           "text",
-          "primary",
+          "secondary",
           "heading"
         ],
         "sources": [
@@ -4099,23 +4008,23 @@
           },
           {
             "url": "https://www.coca-cola.com/us/en",
-            "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > h1",
+            "selector": "main > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > h1",
             "prop": "text"
           },
           {
             "url": "https://www.coca-cola.com/us/en",
-            "selector": "#container-5c9a64b67e > div:nth-of-type(4) > a",
+            "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
             "prop": "background"
           },
           {
             "url": "https://www.coca-cola.com/us/en",
-            "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a",
-            "prop": "link"
+            "selector": "#splide01-slide01 > div > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
+            "prop": "button-text"
           },
           {
             "url": "https://www.coca-cola.com/us/en",
-            "selector": "#answer-baseball",
-            "prop": "button-text"
+            "selector": "#splide02-slide01 > div > a",
+            "prop": "link"
           }
         ]
       },
@@ -4124,25 +4033,25 @@
         "values": [
           "rgb(255, 255, 255)"
         ],
-        "weight": 107,
-        "bgArea": 3105281,
+        "weight": 105,
+        "bgArea": 2121892,
         "by": {
-          "text": 44,
-          "background": 38,
+          "text": 46,
+          "background": 32,
+          "button-background": 8,
           "border": 10,
-          "button-background": 6,
-          "button-text": 6,
-          "heading": 3
+          "button-text": 4,
+          "heading": 5
         },
         "roles": [
           "surface",
-          "secondary",
+          "primary",
           "border"
         ],
         "sources": [
           {
             "url": "https://www.coca-cola.com/us/en",
-            "selector": "#container-5c9a64b67e > div:nth-of-type(4) > a > span",
+            "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
             "prop": "text"
           },
           {
@@ -4152,17 +4061,17 @@
           },
           {
             "url": "https://www.coca-cola.com/us/en",
+            "selector": "#splide01-slide01 > div > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
+            "prop": "button-background"
+          },
+          {
+            "url": "https://www.coca-cola.com/us/en",
             "selector": "#button-06fb0efc72",
             "prop": "border"
           },
           {
             "url": "https://www.coca-cola.com/us/en",
-            "selector": "#answer-baseball",
-            "prop": "button-background"
-          },
-          {
-            "url": "https://www.coca-cola.com/us/en",
-            "selector": "#container-5c9a64b67e > div:nth-of-type(4) > a",
+            "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
             "prop": "button-text"
           }
         ]
@@ -4173,7 +4082,7 @@
           "rgb(238, 238, 238)"
         ],
         "weight": 2,
-        "bgArea": 11930293,
+        "bgArea": 10199970,
         "by": {
           "background": 2
         },
@@ -4194,28 +4103,16 @@
           "rgb(108, 108, 108)"
         ],
         "weight": 14,
-        "bgArea": 640,
+        "bgArea": 896,
         "by": {
-          "background": 10,
-          "button-text": 2,
-          "text": 2
+          "background": 14
         },
         "roles": [],
         "sources": [
           {
             "url": "https://www.coca-cola.com/us/en",
-            "selector": "#splide02 > ul > li:nth-of-type(2) > button",
+            "selector": "#splide01 > ul > li:nth-of-type(2) > button",
             "prop": "background"
-          },
-          {
-            "url": "https://www.coca-cola.com/us/en",
-            "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
-            "prop": "button-text"
-          },
-          {
-            "url": "https://www.coca-cola.com/us/en",
-            "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
-            "prop": "text"
           }
         ]
       },
@@ -4252,41 +4149,16 @@
             "prop": "heading"
           }
         ]
-      },
-      {
-        "hex": "#bdbdbd",
-        "values": [
-          "rgb(189, 189, 189)"
-        ],
-        "weight": 4,
-        "bgArea": 6688,
-        "by": {
-          "background": 2,
-          "button-background": 2
-        },
-        "roles": [],
-        "sources": [
-          {
-            "url": "https://www.coca-cola.com/us/en",
-            "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
-            "prop": "background"
-          },
-          {
-            "url": "https://www.coca-cola.com/us/en",
-            "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
-            "prop": "button-background"
-          }
-        ]
       }
     ],
     "type": {
       "families": [
         {
           "family": "Noto-regional",
-          "count": 70,
-          "headings": 33,
-          "text": 17,
-          "buttons": 20
+          "count": 60,
+          "headings": 29,
+          "text": 13,
+          "buttons": 18
         }
       ],
       "headingFamily": "Noto-regional",
@@ -4294,45 +4166,45 @@
       "sizes": [
         {
           "px": 38,
-          "count": 1,
-          "headings": 1,
+          "count": 2,
+          "headings": 2,
           "text": 0,
           "buttons": 0
         },
         {
           "px": 32,
-          "count": 8,
-          "headings": 8,
-          "text": 0,
-          "buttons": 0
-        },
-        {
-          "px": 28,
           "count": 7,
           "headings": 7,
           "text": 0,
           "buttons": 0
         },
         {
+          "px": 28,
+          "count": 6,
+          "headings": 6,
+          "text": 0,
+          "buttons": 0
+        },
+        {
           "px": 24,
-          "count": 10,
-          "headings": 10,
+          "count": 9,
+          "headings": 9,
           "text": 0,
           "buttons": 0
         },
         {
           "px": 20,
-          "count": 4,
-          "headings": 4,
+          "count": 2,
+          "headings": 2,
           "text": 0,
           "buttons": 0
         },
         {
           "px": 16,
-          "count": 35,
+          "count": 29,
           "headings": 0,
-          "text": 17,
-          "buttons": 18
+          "text": 13,
+          "buttons": 16
         },
         {
           "px": 12,
@@ -4352,16 +4224,16 @@
       "weights": [
         {
           "weight": "700",
-          "count": 53,
-          "headings": 33,
+          "count": 47,
+          "headings": 29,
           "text": 0,
-          "buttons": 20
+          "buttons": 18
         },
         {
           "weight": "400",
-          "count": 17,
+          "count": 13,
           "headings": 0,
-          "text": 17,
+          "text": 13,
           "buttons": 0
         }
       ],
@@ -4375,14 +4247,14 @@
         "h2": {
           "fontSize": 32,
           "fontWeight": "700",
-          "count": 5,
-          "score": 125.22
+          "count": 4,
+          "score": 112
         },
         "h3": {
           "fontSize": 24,
           "fontWeight": "700",
-          "count": 7,
-          "score": 111.12
+          "count": 5,
+          "score": 93.91
         },
         "h4": {
           "fontSize": 24,
@@ -4401,7 +4273,7 @@
           {
             "value": "8000px",
             "count": 60,
-            "area": 266648,
+            "area": 227643,
             "sources": [
               {
                 "url": "https://www.coca-cola.com/us/en",
@@ -4413,30 +4285,34 @@
               },
               {
                 "url": "https://www.coca-cola.com/us/en",
-                "selector": "#container-5c9a64b67e > div:nth-of-type(4) > a"
+                "selector": "#splide01-slide01 > div > div > div:nth-of-type(1) > div:nth-of-type(2) > a"
               },
               {
                 "url": "https://www.coca-cola.com/us/en",
-                "selector": "div:nth-of-type(2) > div > div:nth-of-type(1) > a > div > div:nth-of-type(1) > div:nth-of-type(2) > p"
+                "selector": "#splide01 > ul > li:nth-of-type(1) > button"
               }
             ]
           },
           {
             "value": "16px",
-            "count": 13,
-            "area": 3439285,
+            "count": 11,
+            "area": 3333644,
             "sources": [
               {
                 "url": "https://www.coca-cola.com/us/en",
-                "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div"
-              },
-              {
-                "url": "https://www.coca-cola.com/us/en",
-                "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(2) > a > div"
+                "selector": "#splide01-slide01 > div"
               },
               {
                 "url": "https://www.coca-cola.com/us/en",
                 "selector": "#splide02-slide01 > div > a > div"
+              },
+              {
+                "url": "https://www.coca-cola.com/us/en",
+                "selector": "#splide03-slide01 > div > a > div"
+              },
+              {
+                "url": "https://www.coca-cola.com/us/en",
+                "selector": "#splide02-slide02 > div > a > div"
               }
             ]
           },
@@ -4508,19 +4384,19 @@
       "shadows": [
         {
           "value": "rgba(0, 0, 0, 0.12) 0px 8px 16px 0px",
-          "count": 11,
+          "count": 7,
           "sources": [
             {
               "url": "https://www.coca-cola.com/us/en",
-              "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div"
-            },
-            {
-              "url": "https://www.coca-cola.com/us/en",
-              "selector": "#container-ec87edacce > div:nth-of-type(2) > div > div:nth-of-type(2) > a > div"
-            },
-            {
-              "url": "https://www.coca-cola.com/us/en",
               "selector": "#splide02-slide01 > div > a > div"
+            },
+            {
+              "url": "https://www.coca-cola.com/us/en",
+              "selector": "#splide03-slide01 > div > a > div"
+            },
+            {
+              "url": "https://www.coca-cola.com/us/en",
+              "selector": "#splide02-slide02 > div > a > div"
             }
           ]
         },
@@ -4544,17 +4420,45 @@
           "boxShadow": "none"
         },
         "to": {
+          "boxShadow": "rgb(108, 108, 108) 0px 0px 0px 4px inset"
+        },
+        "count": 4,
+        "sources": [
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button"
+          },
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "main > div > div:nth-of-type(2) > div > div:nth-of-type(3) > a"
+          },
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button"
+          },
+          {
+            "url": "https://www.coca-cola.com/us/en",
+            "selector": "main > div > div:nth-of-type(2) > div > div:nth-of-type(3) > a"
+          }
+        ]
+      },
+      {
+        "kind": "button",
+        "from": {
+          "boxShadow": "none"
+        },
+        "to": {
           "boxShadow": "rgb(0, 0, 0) 0px 0px 0px 2px inset"
         },
         "count": 2,
         "sources": [
           {
             "url": "https://www.coca-cola.com/us/en",
-            "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > div:nth-of-type(2) > a"
+            "selector": "#teaser-e01df91d42 > div:nth-of-type(1) > div:nth-of-type(2) > a"
           },
           {
             "url": "https://www.coca-cola.com/us/en",
-            "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > div:nth-of-type(2) > a"
+            "selector": "#teaser-e01df91d42 > div:nth-of-type(1) > div:nth-of-type(2) > a"
           }
         ]
       },
@@ -4564,39 +4468,17 @@
           "boxShadow": "none"
         },
         "to": {
-          "boxShadow": "rgb(108, 108, 108) 0px 0px 0px 4px inset"
+          "boxShadow": "rgb(165, 165, 165) 0px 0px 0px 4px inset"
         },
         "count": 2,
         "sources": [
           {
             "url": "https://www.coca-cola.com/us/en",
-            "selector": "#container-5c9a64b67e > div:nth-of-type(4) > a"
+            "selector": "#splide01-slide01 > div > div > div:nth-of-type(1) > div:nth-of-type(2) > a"
           },
           {
             "url": "https://www.coca-cola.com/us/en",
-            "selector": "#container-5c9a64b67e > div:nth-of-type(4) > a"
-          }
-        ]
-      },
-      {
-        "kind": "button",
-        "from": {
-          "backgroundColor": "rgb(255, 255, 255)",
-          "color": "rgb(0, 0, 0)",
-          "borderColor": "rgb(0, 0, 0)",
-          "boxShadow": "none"
-        },
-        "to": {
-          "backgroundColor": "rgb(53, 53, 53)",
-          "color": "rgb(255, 255, 255)",
-          "borderColor": "rgb(53, 53, 53)",
-          "boxShadow": "rgb(108, 108, 108) 0px 0px 0px 4px inset"
-        },
-        "count": 1,
-        "sources": [
-          {
-            "url": "https://www.coca-cola.com/us/en",
-            "selector": "#answer-baseball"
+            "selector": "#splide01-slide01 > div > div > div:nth-of-type(1) > div:nth-of-type(2) > a"
           }
         ]
       }

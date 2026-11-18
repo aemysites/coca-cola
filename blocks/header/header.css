@@ -1,272 +1,311 @@
-/* Header chrome (canon.css "Header"): static bar, desktop submenus, mobile drawer. */
-/* stylelint-disable no-descending-specificity -- distinct elements share a cascade order */
-header {
+/* header — chrome lifted from stardust/prototypes/canon.css (.site-header), kebab-cased */
+
+/* stylelint-disable no-descending-specificity -- prototype cascade order kept verbatim */
+.header .site-header-wrap {
   position: relative;
-  z-index: 10;
-  background: var(--white);
+  z-index: 500;
+  background: var(--c-white);
 }
 
-header .site-header-inner {
+.header .site-header-bar {
   display: flex;
   align-items: center;
+  max-width: 1280px;
   height: 72px;
-  margin: 0 var(--gutter);
+  margin: 0 auto;
+  padding: 0 12px;
 }
 
-header .site-header-logo {
+.header .site-header-logo {
   display: block;
   flex: none;
+  padding: 0 12px;
 }
 
-header .site-header-logo a {
+.header .site-header-logo a {
   display: block;
 }
 
-header .site-header-logo img {
+.header .site-header-logo img {
   width: 125px;
-  max-width: 125px;
   height: 20px;
 }
 
-header .site-nav {
-  display: none;
-}
-
-header .site-header-actions {
+.header .site-header-actions {
   display: flex;
   align-items: center;
-  margin-left: auto;
+  margin-inline-start: auto;
 }
 
-/* bar Sign Up (disabled-looking pill, as on the source) */
-header .site-header-signup p {
-  display: block;
-  margin: 0;
-}
-
-header .site-header-signup a:any-link {
+.header .site-header-cta,
+.header .drawer-btn {
   display: flex;
   align-items: center;
-  width: auto;
-  height: 40px;
-  min-height: 0;
-  padding: 0 16px;
-  border: 0;
+  justify-content: center;
   border-radius: var(--radius-pill);
-  background: var(--grey-on-brand-disabled);
-  color: var(--grey-disabled);
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+.header .site-header-cta {
+  height: 40px;
+  margin-inline-end: 8px;
+  padding: 0 16px;
+  background: var(--c-black);
+  color: var(--c-white);
   font-size: 12px;
   line-height: 20px;
-  font-weight: 700;
-  white-space: nowrap;
 }
 
-header .site-header-signup a:any-link:hover {
-  box-shadow: none;
+.header .site-header-cta:hover {
+  box-shadow: inset 0 0 0 4px var(--c-grey-600);
 }
 
-header .menu-btn {
-  display: flex;
-  align-items: center;
-  height: 43px;
-  width: 24px;
-  margin: 0 0 0 20px;
-}
-
-header .menu-btn .icon::after {
-  content: '\e910';
+.header .site-header-menu {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 24px;
-  height: 24px;
+  height: 43px;
+  margin: 0 12px;
+}
+
+.header .site-header-menu .icon::after {
+  content: "\e910";
+  font-family: icomoon, sans-serif;
   font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0;
 }
 
-header .menu-btn[aria-expanded='true'] .icon::after {
-  content: '\e909';
+.header .site-header-menu[aria-expanded="true"] .icon::after {
+  content: "\e909";
 }
 
-header .menu-btn-text {
+/* nav = mobile drawer below 1200 */
+.header .site-nav {
   display: none;
 }
 
-/* mobile drawer: the one nav, shown below the bar when open */
-header .site-nav-actions {
-  display: none;
-}
-
-header .site-header.is-open .site-nav {
-  display: block;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  padding: 8px 24px 32px;
-  background: var(--white);
-}
-
-header .site-header.is-open .site-nav-actions {
+.header .site-header.is-open .site-nav {
+  position: fixed;
+  inset: 72px 0 0;
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  margin-top: 16px;
+  padding: 8px 24px 24px;
+  overflow-y: auto;
+  background: var(--c-white);
 }
 
-header .site-nav-actions p {
-  display: block;
-  margin: 0;
+.header .site-nav-list > li {
+  position: relative;
 }
 
-header .site-nav li a:any-link {
+.header .site-nav-list > li > a {
   display: flex;
-  padding: 16px 0;
-  font-size: 20px;
-  line-height: 28px;
+  align-items: center;
+  min-height: 42px;
+  font-size: 24px;
   font-weight: 700;
-  letter-spacing: var(--ls-heading);
+  line-height: 32px;
+  letter-spacing: -1.5px;
+  text-decoration: none;
 }
 
-header .site-nav li ul {
-  display: none;
-  padding: 0 0 16px 16px;
-}
-
-header .site-nav li.sublist-is-open ul {
-  display: block;
-}
-
-header .site-nav li li a:any-link {
-  display: block;
-  padding: 8px 0;
+.header .site-nav-list > li.has-submenu > a::after {
+  content: "\e91a";
+  margin-inline-start: auto;
+  font-family: icomoon, sans-serif;
   font-size: 16px;
-  line-height: 18px;
   font-weight: 400;
-  letter-spacing: normal;
+  line-height: 1;
+  letter-spacing: 0;
+  transition: rotate 0.3s ease-in-out;
+}
+
+.header .site-nav-list > li.sublist-is-open > a::after {
+  rotate: 90deg;
+}
+
+.header .submenu {
+  display: none;
+  padding: 0 24px 8px;
+}
+
+.header .site-nav-list > li.sublist-is-open > .submenu {
+  display: block;
+}
+
+.header .submenu a {
+  display: block;
+  padding: 9px 0;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.header .site-nav-mobile-actions {
+  display: grid;
+  gap: 16px;
+  margin-top: auto;
+  padding-top: 24px;
+  border-top: 1px solid var(--c-grey-300);
+}
+
+.header .drawer-btn {
+  height: 40px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.header .drawer-btn-signup {
+  background: var(--c-black);
+  color: var(--c-white);
+}
+
+.header .drawer-btn-login {
+  border: 2px solid var(--c-black);
 }
 
 @media (width >= 1200px) {
-  header .site-header-inner {
+  .header .site-header-bar {
     height: 80px;
-    max-width: 1280px;
-    margin: 0 80px;
-  }
-
-  header .site-header-logo {
-    padding: 11.5px 12px;
-  }
-
-  header .site-nav {
-    display: block;
-    align-self: stretch;
-    margin-left: 24px;
-  }
-
-  header .site-nav ul {
-    display: flex;
-    height: 100%;
-  }
-
-  header .site-nav li {
-    position: relative;
-    display: flex;
-    align-items: center;
-    margin: 0 20px;
-    font-size: 14px;
-    line-height: 17px;
-    font-weight: 700;
-  }
-
-  header .site-nav li a:any-link {
-    display: flex;
-    align-items: center;
-    height: 100%;
     padding: 0;
-    font-size: 14px;
-    line-height: 17px;
-    letter-spacing: normal;
   }
 
-  header .site-nav-actions,
-  header .site-header.is-open .site-nav-actions {
+  .header .site-header-menu {
     display: none;
   }
 
-  header .site-nav .has-submenu::after {
-    content: '\e91a';
+  .header .site-header-cta {
+    margin-inline-end: 24px;
+  }
+
+  .header .site-nav,
+  .header .site-header.is-open .site-nav {
+    position: static;
+    display: block;
+    height: 80px;
+    margin-inline-start: 24px;
+    padding: 0;
+    overflow: visible;
+    background: none;
+  }
+
+  .header .site-nav-list {
+    display: flex;
+    align-items: center;
+    height: 80px;
+  }
+
+  .header .site-nav-list > li {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 20px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+  }
+
+  .header .site-nav-list > li > a {
+    position: relative;
+    height: 100%;
+    min-height: 0;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0;
+    cursor: pointer;
+  }
+
+  .header .site-nav-list > li > a::before {
+    content: "";
+    position: absolute;
+    top: calc(100% - 4px);
+    left: 50%;
+    display: none;
+    width: 100%;
+    height: 4px;
+    background: currentcolor;
+    translate: -50% 0;
+  }
+
+  .header .site-nav-list > li:is(:hover, .sublist-is-open) > a::before {
+    display: block;
+  }
+
+  .header .site-nav-list > li.has-submenu > a::after {
+    content: none;
+  }
+
+  .header .site-nav-list > li.has-submenu::after {
+    content: "\e91a";
     display: flex;
     align-items: center;
     justify-content: center;
     width: 24px;
     height: 24px;
     margin-top: 2px;
-    margin-left: 5px;
-    font-family: icomoon, sans-serif !important;
+    margin-inline-start: 5px;
+    font-family: icomoon, sans-serif;
     font-size: 10px;
     font-weight: 400;
     line-height: 1;
     transition: rotate 0.3s ease-in-out;
-    pointer-events: none;
   }
 
-  header .site-nav .has-submenu.sublist-is-open::after,
-  header .site-nav .has-submenu:hover::after {
+  .header .site-nav-list > li.has-submenu:is(:hover, .sublist-is-open)::after {
     rotate: 90deg;
   }
 
-  header .site-nav li ul,
-  header .site-nav li.sublist-is-open ul {
-    display: none;
+  .header .submenu,
+  .header .site-nav-list > li.sublist-is-open > .submenu {
     position: absolute;
     top: 100%;
-    left: -24px;
+    left: -20px;
+    z-index: 400;
+    display: none;
     flex-direction: column;
-    height: auto;
-    min-width: 220px;
-    padding: 24px;
-    background: var(--white);
-    border-radius: 0 0 var(--radius-card) var(--radius-card);
+    align-items: flex-start;
+    width: max-content;
+    padding: 32px;
+    background: var(--c-white);
     box-shadow: var(--shadow-card);
   }
 
-  header .site-nav li.sublist-is-open ul {
+  .header .site-nav-list > li:is(:hover, .sublist-is-open) > .submenu {
     display: flex;
   }
 
-  header .site-nav li li {
-    position: static;
-    display: block;
-    margin: 0 0 24px;
+  .header .submenu li + li {
+    margin-top: 8px;
   }
 
-  header .site-nav li li:last-of-type {
-    margin-bottom: 0;
-  }
-
-  header .site-nav li li a:any-link {
-    display: block;
-    height: auto;
-    font-size: 16px;
-    line-height: 18px;
-    font-weight: 400;
-    white-space: nowrap;
-  }
-
-  header .site-header-actions {
-    margin-right: 24px;
-  }
-
-  header .menu-btn {
-    display: none;
-  }
-
-  header .site-header.is-open .site-nav {
-    position: static;
+  .header .submenu a {
+    height: 18px;
     padding: 0;
-    background: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  .header .submenu a:hover {
+    font-weight: 700;
+  }
+
+  .header .site-nav-mobile-actions {
+    display: none;
   }
 }
 
-.header .account-btn[hidden] {
+.header .site-header-account {
   display: none;
+}
+
+.header .site-header-account .icon::after {
+  content: "\e905";
+  font-family: icomoon, sans-serif;
 }

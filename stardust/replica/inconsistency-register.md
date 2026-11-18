@@ -1,11 +1,12 @@
-# Inconsistency register — www.coca-cola.com replica
+# Inconsistency register — Coca-Cola US
 
-Everything not listed here is frozen; any design delta found by the gate is a defect, not an improvement.
+Empty — pure replica. No audit was requested and no user items were supplied (`--register` absent). Any
+inconsistency found during recreation is appended here (usually `deferred`), never silently fixed.
 
-## R-01 — Proprietary brand face TCCC-UnityText self-hosted from the source
+## R-01 — Features "Mix Up the Holiday Spirit" image carries the soccer card's alt text
 
-- **Evidence:** stardust/current/assets/fonts/tccc-unitytext-{regular,bold}.woff2 — the only text face on the page (stardust/current/_computed-styles.json); intercepted from the live site's own font requests.
-- **Finding:** TCCC-UnityText is a private brand typeface; its web licence for the new host is unverified. Not a design inconsistency — a licensing handover item.
-- **Minimal change:** none in this run. The faces ship as-is (fonts policy: brand family first, metric fallback Arimo/Liberation Sans after it); the owner confirms the licence or swaps the files later without a code change.
-- **Status:** deferred
-- **Where:** all page types, all text
+- **Evidence:** captured page `stardust/current/pages/us-en.html` — `.teaser.campaign-card.content-on-right` (Simply holiday card) `<img src="/content/dam/onexp/us/en/campaign-cards/simply-holidays-us-campaign-dt.png" alt="Coca-Cola soccer campaign banner featuring a woman drinking from a glass bottle amidst a cheering stadium crowd.">` — byte-identical to the alt of the following soccer card (`soccer-always-on-campaign-dt.png`); the image shows Simply juice bottles with a holiday bow (`stardust/replica/gates/us-en-1440/live.png`, y≈1978–2530).
+- **Finding:** authoring defect — the alt text describes a different image (copy-paste from the soccer campaign card); screen-reader users hear the wrong content.
+- **Minimal change:** replace that one alt with a description of the Simply holiday image (author-supplied copy); no other change.
+- **Status:** deferred (replicated verbatim in `stardust/prototypes/us-en-proposed.html`)
+- **Where:** landing (us-en) — Features, first campaign card

@@ -1,18 +1,18 @@
 {
   "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
-  "url": "https://main--e4399cea--aemcoder.aem.page/us/en",
+  "url": "https://main--43eb1ed9--aemcoder.aem.page/us/en",
   "width": 360,
   "vh": 900,
-  "height": 6313,
-  "chunks": 8,
+  "height": 5194,
+  "chunks": 6,
   "denialCheck": "ok",
   "fontsFailed": [
-    "tccc-unitytext-fallback"
+    "anek-fallback"
   ],
   "fixedLayers": {
     "capture": "once",
     "count": 0,
     "late": 0
   },
-  "at": "2026-11-16T07:50:25.977Z"
+  "at": "2026-11-18T08:22:52.223Z"
 }

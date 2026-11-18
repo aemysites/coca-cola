@@ -1,5 +1,4 @@
-[live-session] STARDUST_STEALTH=0: automation-signal handling is OFF for this process
-clip-probe https://main--e4399cea--aemcoder.aem.page/us/en @ 1440px — docH 6706, 89 text nodes, 70 controls (HTTP 200, chrome)
+clip-probe https://main--43eb1ed9--aemcoder.aem.live/us/en @ 1440px — docH 5785, 82 text nodes, 69 controls (HTTP 200, chrome)
   (none)
 Clipped: 0 (text clipped 0, text hidden 0, controls hidden 0, controls clipped 0; advisory: clamped 0, collapsed 0, scroll-hidden 0, horizontal 4)
 json → stardust/replica/gates/us-en-1440/clip-pub2.json

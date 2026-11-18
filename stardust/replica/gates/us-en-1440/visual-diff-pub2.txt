@@ -1,18 +1,18 @@
-[live-session] STARDUST_STEALTH=0: automation-signal handling is OFF for this process
-[live-session] waiting to pace live navigations to www.coca-cola.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 760 ms
+[live-session] waiting to pace live navigations to www.coca-cola.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
 
 Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/us-en-1440/vdiff-pub2/
 
 build red flags (advisory): 
-  • BLANK RENDER: the build page is hidden/empty (main height 0px, text 0 chars). NOT a pass. The build render is hidden/empty — a load failure or an unsatisfied visibility gate. Fix before trusting any other result.
+  • CONTENT GAP: source 41 headings / 12 content-boxes / main 4649px vs build 17 / 7 / 4649px. Heading/box/height shortfall vs the source — likely dropped or duplicated content.
+  • HEADING FACE ×17: "Noto-regional" → "Anek Latin Expanded" on every differing heading (source → build). A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
 
 Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
 {
  "source": {
   "viewport": 1440,
   "blankRender": false,
-  "mainHeight": 5571,
-  "textLen": 6388,
+  "mainHeight": 4649,
+  "textLen": 7014,
   "images": [
    {
     "src": "Coke-company-logo-black.svg",
@@ -24,25 +24,57 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
    },
    {
     "src": "width1960.png",
-    "natural": "1439x617",
-    "rendered": "1120x481",
-    "fit": "fill",
+    "natural": "1439x679",
+    "rendered": "1252x591",
+    "fit": "cover",
     "stretched": false,
     "failedToLoad": false
    },
    {
     "src": "width1960.png",
-    "natural": "799x599",
-    "rendered": "544x408",
-    "fit": "fill",
+    "natural": "1439x679",
+    "rendered": "1252x591",
+    "fit": "cover",
     "stretched": false,
     "failedToLoad": false
    },
    {
     "src": "width1960.png",
-    "natural": "799x599",
-    "rendered": "544x408",
-    "fit": "fill",
+    "natural": "1439x679",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "1439x679",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "1439x679",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "1439x679",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "width1960.png",
+    "natural": "1439x679",
+    "rendered": "1252x591",
+    "fit": "cover",
     "stretched": false,
     "failedToLoad": false
    },
@@ -367,7 +399,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "failedToLoad": false
    },
    {
-    "src": "0?ti=187146240&tm=gtm002&Ver=2&mid=5a54a43b-1a42-43df-a9e6-ff86fc4d39ba&bo=1&sid=8999d4f0e18711f1aa9e1d5c8963d796&vid=899a8a10e18711f19f1f3361691639f5&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&nwd=1&tl=Explore%20the%20Coca%E2%80%91Cola%C2%AE%20Official%20Site%20%7C%20Coca-Cola%20US&p=https%3A%2F%2Fwww.coca-cola.com%2Fus%2Fen&r=&lt=345&evt=pageLoad&sv=2&cdb=AQER&rn=345009",
+    "src": "0?ti=187146240&tm=gtm002&Ver=2&mid=7656254e-53a7-49ac-ad33-0dc44a2cfddb&bo=1&sid=7a1d8c40e31d11f1af37c5f01d7a6056&vid=7a1db260e31d11f194574761ef0edfe7&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&tl=Explore%20the%20Coca%E2%80%91Cola%C2%AE%20Official%20Site%20%7C%20Coca-Cola%20US&p=https%3A%2F%2Fwww.coca-cola.com%2Fus%2Fen&r=&lt=2461&evt=pageLoad&sv=2&cdb=AQER&rn=115881",
     "natural": "0x0",
     "rendered": "0x0",
     "fit": "fill",
@@ -386,33 +418,57 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
    },
    {
     "tag": "h2",
-    "text": "Your Shot at Alaska Starts Now",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "32px",
+    "text": "YOU COULD WIN BIG THIS SEASON",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
     "family": "Noto-regional",
     "fontLoaded": true
    },
    {
     "tag": "h2",
-    "text": "Promos & Offers",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "32px",
+    "text": "YOU COULD WIN BIG THIS SEASON",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
     "family": "Noto-regional",
     "fontLoaded": true
    },
    {
-    "tag": "h3",
-    "text": "YOU COULD WIN BIG THIS SEASON",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
+    "tag": "h2",
+    "text": "Your Shot at Alaska Starts Now",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
     "family": "Noto-regional",
     "fontLoaded": true
    },
    {
-    "tag": "h3",
+    "tag": "h2",
     "text": "YOU COULD WIN BIG THIS SEASON",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "YOU COULD WIN BIG THIS SEASON",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Your Shot at Alaska Starts Now",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
+    "family": "Noto-regional",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "YOU COULD WIN BIG THIS SEASON",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
     "family": "Noto-regional",
     "fontLoaded": true
    },
@@ -514,7 +570,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
    },
    {
     "tag": "h3",
-    "text": "Refresh Your Fandom All Year Lon",
+    "text": "Mix Up the Holiday Spirit",
     "color": "rgb(0, 0, 0)",
     "fontSize": "32px",
     "family": "Noto-regional",
@@ -522,7 +578,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
    },
    {
     "tag": "h3",
-    "text": "Mix Up the Holiday Spirit",
+    "text": "Refresh Your Fandom All Year Lon",
     "color": "rgb(0, 0, 0)",
     "fontSize": "32px",
     "family": "Noto-regional",
@@ -684,6 +740,26 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
   "eyebrows": [],
   "flushText": [
    {
+    "tag": "h2",
+    "text": "YOU COULD WIN BIG THIS SEASO",
+    "left": -2378
+   },
+   {
+    "tag": "p",
+    "text": "Enter every Friday for your ",
+    "left": -2378
+   },
+   {
+    "tag": "h2",
+    "text": "YOU COULD WIN BIG THIS SEASO",
+    "left": -1102
+   },
+   {
+    "tag": "p",
+    "text": "Enter every Friday for your ",
+    "left": -1102
+   },
+   {
     "tag": "h3",
     "text": "Don't Miss the Coca‑Cola Hol",
     "left": -2096
@@ -702,26 +778,6 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "tag": "h3",
     "text": "A Full Year of Favorites Cou",
     "left": -1524
-   },
-   {
-    "tag": "p",
-    "text": "Enter today for a chance to ",
-    "left": -1524
-   },
-   {
-    "tag": "p",
-    "text": "Enter Now",
-    "left": -1524
-   },
-   {
-    "tag": "h3",
-    "text": "Don't Miss the Coca‑Cola Hol",
-    "left": -952
-   },
-   {
-    "tag": "p",
-    "text": "Whether you're a lifelong fa",
-    "left": -952
    }
   ],
   "contentBoxes": [
@@ -731,24 +787,39 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "left": 160
    },
    {
-    "sel": "cmp-text",
-    "width": 1120,
-    "left": 160
+    "sel": "cmp-teaser__content",
+    "width": 1252,
+    "left": -2458
    },
    {
-    "sel": "cmp-text",
-    "width": 1120,
-    "left": 160
+    "sel": "cmp-teaser__content",
+    "width": 1252,
+    "left": -1182
    },
    {
-    "sel": "cmp-text",
-    "width": 1120,
-    "left": 160
+    "sel": "cmp-teaser__content",
+    "width": 1252,
+    "left": 94
    },
    {
-    "sel": "cmp-container",
-    "width": 1152,
-    "left": 144
+    "sel": "cmp-teaser__content",
+    "width": 1252,
+    "left": 1370
+   },
+   {
+    "sel": "cmp-teaser__content",
+    "width": 1252,
+    "left": 2646
+   },
+   {
+    "sel": "cmp-teaser__content",
+    "width": 1252,
+    "left": 3922
+   },
+   {
+    "sel": "cmp-teaser__content",
+    "width": 1252,
+    "left": 5199
    },
    {
     "sel": "cmp-title",
@@ -769,29 +840,14 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "sel": "cmp-teaser",
     "width": 1152,
     "left": 144
-   },
-   {
-    "sel": "cmp-teaser",
-    "width": 1152,
-    "left": 144
-   },
-   {
-    "sel": "cmp-title",
-    "width": 1120,
-    "left": 160
-   },
-   {
-    "sel": "cmp-carousel__content",
-    "width": 1120,
-    "left": -2128
    }
   ]
  },
  "build": {
   "viewport": 1440,
-  "blankRender": true,
-  "mainHeight": 0,
-  "textLen": 0,
+  "blankRender": false,
+  "mainHeight": 4649,
+  "textLen": 2450,
   "images": [
    {
     "src": "media_1513d201f2212de61589190767aeb26d236b0d6d6.svg?width=2000&format=webply&optimize=medium",
@@ -802,33 +858,89 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "failedToLoad": false
    },
    {
-    "src": "media_1bda83c772889545ed9065544b28952eb5104958e.png?width=2000&format=webply&optimize=medium",
-    "natural": "1960x841",
-    "rendered": "1120x481",
-    "fit": "fill",
-    "stretched": false,
-    "failedToLoad": false
-   },
-   {
-    "src": "media_1af022be26f3d7057ff57a60c475e8c738bd4e15e.png?width=750&format=png&optimize=medium",
-    "natural": "0x0",
+    "src": "media_1886bd72a448a813355593285f4d6239a93503e28.png?width=2000&format=webply&optimize=medium",
+    "natural": "767x1189",
     "rendered": "0x0",
-    "fit": "fill",
-    "stretched": 0,
-    "failedToLoad": false
-   },
-   {
-    "src": "media_10fbfc7c6b10250e25a55713dc6d9fa87e208de8e.png?width=2000&format=webply&optimize=medium",
-    "natural": "1088x816",
-    "rendered": "544x408",
     "fit": "cover",
     "stretched": false,
     "failedToLoad": false
    },
    {
-    "src": "media_1aa8c27267162aa199ed30045eaff1206d3f92135.png?width=2000&format=webply&optimize=medium",
+    "src": "media_166e3fb91ddccf49183dd9fee35d762e1a0fa05bf.png?width=2000&format=webply&optimize=medium",
+    "natural": "1960x925",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1aa79f3835eaed40696ae0dbafea19ce058aa15aa.png?width=2000&format=webply&optimize=medium",
+    "natural": "767x1189",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_15ff9c1699cea43d39e346f4fdf8f3562c7b8c5b8.png?width=2000&format=webply&optimize=medium",
+    "natural": "1960x925",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1e9aea67a968839238295a3523ba5759f072f6587.png?width=2000&format=webply&optimize=medium",
+    "natural": "767x1189",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1e1c9e471a149616674d1b4ab39464296428e97d2.png?width=2000&format=webply&optimize=medium",
+    "natural": "1960x925",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1886bd72a448a813355593285f4d6239a93503e28.png?width=2000&format=webply&optimize=medium",
+    "natural": "767x1189",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_166e3fb91ddccf49183dd9fee35d762e1a0fa05bf.png?width=2000&format=webply&optimize=medium",
+    "natural": "1960x925",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1aa79f3835eaed40696ae0dbafea19ce058aa15aa.png?width=2000&format=webply&optimize=medium",
+    "natural": "767x1189",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_15ff9c1699cea43d39e346f4fdf8f3562c7b8c5b8.png?width=2000&format=webply&optimize=medium",
+    "natural": "1960x925",
+    "rendered": "1252x591",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1384387e54e30556e177af12fb565873e3929b133.png?width=2000&format=webply&optimize=medium",
     "natural": "1088x816",
-    "rendered": "544x408",
+    "rendered": "548x411",
     "fit": "cover",
     "stretched": false,
     "failedToLoad": false
@@ -858,71 +970,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "failedToLoad": false
    },
    {
-    "src": "media_1384387e54e30556e177af12fb565873e3929b133.png?width=2000&format=webply&optimize=medium",
-    "natural": "1088x816",
-    "rendered": "548x411",
-    "fit": "cover",
-    "stretched": false,
-    "failedToLoad": false
-   },
-   {
-    "src": "media_1767172124404cd06cd8ee0f2f3fc418f075450b5.png?width=2000&format=webply&optimize=medium",
-    "natural": "1960x1470",
-    "rendered": "548x411",
-    "fit": "cover",
-    "stretched": false,
-    "failedToLoad": false
-   },
-   {
-    "src": "media_1384387e54e30556e177af12fb565873e3929b133.png?width=2000&format=webply&optimize=medium",
-    "natural": "1088x816",
-    "rendered": "548x411",
-    "fit": "cover",
-    "stretched": false,
-    "failedToLoad": false
-   },
-   {
-    "src": "media_1767172124404cd06cd8ee0f2f3fc418f075450b5.png?width=2000&format=webply&optimize=medium",
-    "natural": "1960x1470",
-    "rendered": "548x411",
-    "fit": "cover",
-    "stretched": false,
-    "failedToLoad": false
-   },
-   {
-    "src": "media_1384387e54e30556e177af12fb565873e3929b133.png?width=2000&format=webply&optimize=medium",
-    "natural": "1088x816",
-    "rendered": "548x411",
-    "fit": "cover",
-    "stretched": false,
-    "failedToLoad": false
-   },
-   {
-    "src": "media_1767172124404cd06cd8ee0f2f3fc418f075450b5.png?width=2000&format=webply&optimize=medium",
-    "natural": "1960x1470",
-    "rendered": "548x411",
-    "fit": "cover",
-    "stretched": false,
-    "failedToLoad": false
-   },
-   {
-    "src": "media_1384387e54e30556e177af12fb565873e3929b133.png?width=2000&format=webply&optimize=medium",
-    "natural": "1088x816",
-    "rendered": "548x411",
-    "fit": "cover",
-    "stretched": false,
-    "failedToLoad": false
-   },
-   {
-    "src": "media_12f6dde149b5920c39149065cfc7dac97846b26bf.png?width=2000&format=webply&optimize=medium",
-    "natural": "1500x1294",
-    "rendered": "640x552",
-    "fit": "cover",
-    "stretched": false,
-    "failedToLoad": false
-   },
-   {
-    "src": "media_160c7f5509225d3fc68bda5b92cb8ea72b3dd2bee.png?width=750&format=png&optimize=medium",
+    "src": "media_1f48ade6e04ebe4c2db39d6f4536a9a5c38e2beca.png?width=750&format=png&optimize=medium",
     "natural": "0x0",
     "rendered": "0x0",
     "fit": "cover",
@@ -938,7 +986,23 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "failedToLoad": false
    },
    {
-    "src": "media_1189571cec4c4ff9327c76218ddff6ad8e35feac7.png?width=750&format=png&optimize=medium",
+    "src": "media_1139213c3b40cc51791b9b967542d0ae4e0edbf7d.png?width=750&format=png&optimize=medium",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12f6dde149b5920c39149065cfc7dac97846b26bf.png?width=2000&format=webply&optimize=medium",
+    "natural": "1500x1294",
+    "rendered": "640x552",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_16ee7eae38630dfe9242d9f53cd16c30977baeec9.jpg?width=750&format=jpg&optimize=medium",
     "natural": "0x0",
     "rendered": "0x0",
     "fit": "cover",
@@ -978,41 +1042,9 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "failedToLoad": false
    },
    {
-    "src": "media_192b5620bed07c12a21c915f89ca66ee21a3cc207.jpg?width=2000&format=webply&optimize=medium",
-    "natural": "704x528",
-    "rendered": "357x268",
-    "fit": "cover",
-    "stretched": false,
-    "failedToLoad": false
-   },
-   {
-    "src": "media_1b2f5016fe8fb7f02ef20e73367965a0d9ca80e91.jpg?width=2000&format=webply&optimize=medium",
-    "natural": "704x528",
-    "rendered": "357x268",
-    "fit": "cover",
-    "stretched": false,
-    "failedToLoad": false
-   },
-   {
-    "src": "media_1d0fdaf376c4acff0b8bd924f5c999fed142d073e.jpg?width=2000&format=webply&optimize=medium",
-    "natural": "1088x816",
-    "rendered": "357x268",
-    "fit": "cover",
-    "stretched": false,
-    "failedToLoad": false
-   },
-   {
-    "src": "media_17054fc8da726d681ed9a522901cad214bdbfa302.png?width=2000&format=webply&optimize=medium",
-    "natural": "1018x764",
-    "rendered": "357x268",
-    "fit": "cover",
-    "stretched": false,
-    "failedToLoad": false
-   },
-   {
-    "src": "media_10f5833a29792964451f6d92493fa826591d124b4.png?width=2000&format=webply&optimize=medium",
-    "natural": "704x528",
-    "rendered": "357x268",
+    "src": "media_1602cca167095bf15e38cb10e93c69c95670f213f.jpg?width=750&format=jpg&optimize=medium",
+    "natural": "0x0",
+    "rendered": "0x0",
     "fit": "cover",
     "stretched": false,
     "failedToLoad": false
@@ -1026,41 +1058,9 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "failedToLoad": false
    },
    {
-    "src": "media_1b2f5016fe8fb7f02ef20e73367965a0d9ca80e91.jpg?width=2000&format=webply&optimize=medium",
-    "natural": "704x528",
-    "rendered": "357x268",
-    "fit": "cover",
-    "stretched": false,
-    "failedToLoad": false
-   },
-   {
-    "src": "media_1d0fdaf376c4acff0b8bd924f5c999fed142d073e.jpg?width=2000&format=webply&optimize=medium",
-    "natural": "1088x816",
-    "rendered": "357x268",
-    "fit": "cover",
-    "stretched": false,
-    "failedToLoad": false
-   },
-   {
-    "src": "media_17054fc8da726d681ed9a522901cad214bdbfa302.png?width=2000&format=webply&optimize=medium",
-    "natural": "1018x764",
-    "rendered": "357x268",
-    "fit": "cover",
-    "stretched": false,
-    "failedToLoad": false
-   },
-   {
-    "src": "media_10f5833a29792964451f6d92493fa826591d124b4.png?width=2000&format=webply&optimize=medium",
-    "natural": "704x528",
-    "rendered": "357x268",
-    "fit": "cover",
-    "stretched": false,
-    "failedToLoad": false
-   },
-   {
-    "src": "media_192b5620bed07c12a21c915f89ca66ee21a3cc207.jpg?width=2000&format=webply&optimize=medium",
-    "natural": "704x528",
-    "rendered": "357x268",
+    "src": "media_16ee7eae38630dfe9242d9f53cd16c30977baeec9.jpg?width=750&format=jpg&optimize=medium",
+    "natural": "0x0",
+    "rendered": "0x0",
     "fit": "cover",
     "stretched": false,
     "failedToLoad": false
@@ -1160,15 +1160,31 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "The Coca‑Cola® Official Site for",
     "color": "rgb(0, 0, 0)",
     "fontSize": "38px",
-    "family": "Liberation Sans",
+    "family": "Anek Latin Expanded",
     "fontLoaded": true
    },
    {
     "tag": "h2",
     "text": "Your Shot at Alaska Starts Now",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "32px",
-    "family": "Liberation Sans",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
+    "family": "Anek Latin Expanded",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "YOU COULD WIN BIG THIS SEASON",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
+    "family": "Anek Latin Expanded",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "YOU COULD WIN BIG THIS SEASON",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "38px",
+    "family": "Anek Latin Expanded",
     "fontLoaded": true
    },
    {
@@ -1176,63 +1192,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "Promos & Offers",
     "color": "rgb(0, 0, 0)",
     "fontSize": "32px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "YOU COULD WIN BIG THIS SEASON",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "YOU COULD WIN BIG THIS SEASON",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h2",
-    "text": "Promos & Offers",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "32px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
+    "family": "Anek Latin Expanded",
     "fontLoaded": true
    },
    {
@@ -1240,7 +1200,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "Don't Miss the Coca‑Cola Holiday",
     "color": "rgb(0, 0, 0)",
     "fontSize": "24px",
-    "family": "Liberation Sans",
+    "family": "Anek Latin Expanded",
     "fontLoaded": true
    },
    {
@@ -1248,39 +1208,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "A Full Year of Favorites Could B",
     "color": "rgb(0, 0, 0)",
     "fontSize": "24px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
+    "family": "Anek Latin Expanded",
     "fontLoaded": true
    },
    {
@@ -1288,15 +1216,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "Features",
     "color": "rgb(0, 0, 0)",
     "fontSize": "32px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "Refresh Your Fandom All Year Lon",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "32px",
-    "family": "Liberation Sans",
+    "family": "Anek Latin Expanded",
     "fontLoaded": true
    },
    {
@@ -1304,7 +1224,15 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "Mix Up the Holiday Spirit",
     "color": "rgb(0, 0, 0)",
     "fontSize": "32px",
-    "family": "Liberation Sans",
+    "family": "Anek Latin Expanded",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Refresh Your Fandom All Year Lon",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Anek Latin Expanded",
     "fontLoaded": true
    },
    {
@@ -1312,55 +1240,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "More from Coca‑Cola®",
     "color": "rgb(0, 0, 0)",
     "fontSize": "32px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
+    "family": "Anek Latin Expanded",
     "fontLoaded": true
    },
    {
@@ -1368,7 +1248,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "you plus +one",
     "color": "rgb(0, 0, 0)",
     "fontSize": "24px",
-    "family": "Liberation Sans",
+    "family": "Anek Latin Expanded",
     "fontLoaded": true
    },
    {
@@ -1376,7 +1256,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "Discover Your Tastebud Map",
     "color": "rgb(0, 0, 0)",
     "fontSize": "24px",
-    "family": "Liberation Sans",
+    "family": "Anek Latin Expanded",
     "fontLoaded": true
    },
    {
@@ -1384,7 +1264,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "World of Coca‑Cola Annual Pass",
     "color": "rgb(0, 0, 0)",
     "fontSize": "24px",
-    "family": "Liberation Sans",
+    "family": "Anek Latin Expanded",
     "fontLoaded": true
    },
    {
@@ -1392,7 +1272,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "Coca‑Cola Refreshing Films",
     "color": "rgb(0, 0, 0)",
     "fontSize": "24px",
-    "family": "Liberation Sans",
+    "family": "Anek Latin Expanded",
     "fontLoaded": true
    },
    {
@@ -1400,55 +1280,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "Coca‑Cola Vending",
     "color": "rgb(0, 0, 0)",
     "fontSize": "24px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
-    "fontLoaded": true
-   },
-   {
-    "tag": "h3",
-    "text": "",
-    "color": "rgb(0, 0, 0)",
-    "fontSize": "24px",
-    "family": "Liberation Sans",
+    "family": "Anek Latin Expanded",
     "fontLoaded": true
    },
    {
@@ -1456,7 +1288,7 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
     "text": "Explore Our Brands",
     "color": "rgb(0, 0, 0)",
     "fontSize": "32px",
-    "family": "Liberation Sans",
+    "family": "Anek Latin Expanded",
     "fontLoaded": true
    }
   ],
@@ -1464,49 +1296,39 @@ Full metrics JSON (compare source vs build: heading colors, eyebrow colors, imag
   "flushText": [],
   "contentBoxes": [
    {
-    "sel": "headline",
-    "width": 1120,
-    "left": 160
+    "sel": "hero-card-cta",
+    "width": 1092,
+    "left": 174
    },
    {
-    "sel": "lede",
-    "width": 1120,
-    "left": 160
+    "sel": "hero-card-cta",
+    "width": 1092,
+    "left": 1450
    },
    {
-    "sel": "actions",
-    "width": 1120,
-    "left": 160
+    "sel": "hero-card-cta",
+    "width": 1092,
+    "left": 2726
    },
    {
-    "sel": "teaser-grid",
+    "sel": "carousel-track",
     "width": 1120,
-    "left": 160
-   },
-   {
-    "sel": "carousel-list",
-    "width": 1120,
-    "left": -2128
+    "left": -412
    },
    {
     "sel": "campaign-card",
-    "width": 1152,
-    "left": 144
+    "width": 1120,
+    "left": 160
    },
    {
     "sel": "campaign-card",
-    "width": 1152,
-    "left": 144
-   },
-   {
-    "sel": "carousel-list",
-    "width": 1120,
-    "left": -2128
-   },
-   {
-    "sel": "brands",
     "width": 1120,
     "left": 160
+   },
+   {
+    "sel": "carousel-track",
+    "width": 1120,
+    "left": -221
    }
   ]
  }

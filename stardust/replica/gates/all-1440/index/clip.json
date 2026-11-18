@@ -1,6 +1,6 @@
 {
- "url": "https://main--e4399cea--aemcoder.aem.live/",
- "at": "2026-11-16T08:36:06.123Z",
+ "url": "https://main--43eb1ed9--aemcoder.aem.live/",
+ "at": "2026-11-18T10:17:40.460Z",
  "source": "content-presence",
  "counts": {
   "textClipped": 0,
@@ -11,9 +11,9 @@
   "collapsed": 0,
   "scrollHidden": 0,
   "horizontal": 4,
-  "offPage": 4,
-  "textNodes": 89,
-  "controls": 70,
+  "offPage": 12,
+  "textNodes": 82,
+  "controls": 69,
   "total": 0
  },
  "groups": [
@@ -22,17 +22,17 @@
    "advisory": true,
    "n": 2,
    "clipper": "a.content-card",
-   "path": "a.content-card > div.content-card-body > div.card-text > p",
+   "path": "a.content-card > div.content-card-body > div.content-card-text > p",
    "text": "coca‑cola® refreshing films provides students the opportunit",
    "cutMin": 7,
-   "cutMax": 181
+   "cutMax": 167
   },
   {
    "kind": "CONTROL X-HIDDEN",
    "advisory": true,
    "n": 1,
-   "clipper": "div.carousel-track",
-   "path": "div.carousel-track > div.carousel-list > div.carousel-slide > a.content-card",
+   "clipper": "div.carousel-viewport",
+   "path": "div.carousel-viewport > div.carousel-track > div.carousel-slide > a.content-card",
    "text": "coca‑cola refreshing filmscoca‑cola® refreshing films provid",
    "cutMin": null,
    "cutMax": null
@@ -42,7 +42,7 @@
    "advisory": true,
    "n": 1,
    "clipper": "a.content-card",
-   "path": "a.content-card > div.content-card-body > div.card-text > h3#cocacola-refreshing-films",
+   "path": "a.content-card > div.content-card-body > div.content-card-title > h3#cocacola-refreshing-films",
    "text": "coca‑cola refreshing films",
    "cutMin": 154,
    "cutMax": 154
@@ -58,9 +58,9 @@
    "collapsed": 0,
    "scrollHidden": 0,
    "horizontal": 14,
-   "offPage": 74,
-   "textNodes": 152,
-   "controls": 94,
+   "offPage": 98,
+   "textNodes": 163,
+   "controls": 100,
    "total": 0
   }
  }

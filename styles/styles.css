@@ -1,60 +1,57 @@
 /*
- * FONT LICENSING REQUIRED BEFORE GOING LIVE
- * TCCC-UnityText (400, 700) and the icomoon icon font are proprietary faces of
- * The Coca-Cola Company, self-hosted from the source theme for fidelity. Do not treat
- * aem.live as production until the webfont/embedding license is confirmed.
- * See fonts/LICENSING.md (register R-01).
- *
- * coca-cola.com replica foundation: canon tokens lifted from the gated prototype
- * (stardust/prototypes/css/canon.css). Mobile-first; source steps 768 / 1200.
+ * Coca-Cola US — foundation (same-design replica of www.coca-cola.com/us/en).
+ * Tokens, reset, type ramp and buttons lifted from stardust/prototypes/canon.css (the gated
+ * prototype); layout steps are the source's own 600px / 1200px, mobile-first.
+ * The structural layer of the boilerplate is kept: the body gate, the header reservation
+ * (--nav-height = the real bar height per step) and the main > .section scaffold.
  */
 
-:root {
-  /* colors */
-  --black: #000;
-  --white: #fff;
-  --surface-subtle: #eee;
-  --grey-disabled: #6c6c6c;
-  --grey-on-brand-disabled: #bdbdbd;
-  --footer-text: #d5d5d5;
-  --rule: #808080;
-  --background-color: var(--white);
-  --text-color: var(--black);
+/* stylelint-disable no-descending-specificity -- prototype cascade order kept verbatim */
 
-  /* type */
-  --font: tccc-unitytext, tccc-unitytext-fallback, arimo, 'Liberation Sans', sans-serif;
-  --body-font-family: var(--font);
-  --heading-font-family: var(--font);
-  --ls-heading: -1.5px;
+:root {
+  /* fonts: TCCC-UnityText is licensed and never rehosted (styles/fonts.css) */
+  --font-brand: tccc-unitytext, "Anek Latin Expanded", anek-fallback, sans-serif;
+
+  /* colours */
+  --c-black: #000;
+  --c-white: #fff;
+  --c-canvas: #eee;
+  --c-grey-300: #d5d5d5;
+  --c-grey-400: #a5a5a5;
+  --c-grey-600: #6c6c6c;
 
   /* shape */
   --radius-card: 16px;
   --radius-pill: 8000px;
   --shadow-card: 0 8px 16px 0 rgb(0 0 0 / 12%);
 
-  /* layout */
-  --max-width: 1120px;
-  --gutter: 24px;
+  /* module rhythm (mobile → desktop) */
+  --module-gap: 40px;
+  --text-gap: 32px;
+  --page-gutter: 24px;
+  --page-max: 1120px;
+
+  /* header reservation = the bar height */
   --nav-height: 72px;
 }
 
-/* metric-matched fallback for TCCC-UnityText (measured on a latin sample vs Liberation Sans) */
+/* metric-matched fallback for the substitute face (fontTools, Arial reference) */
 @font-face {
-  font-family: tccc-unitytext-fallback;
-  src: local('Arial'), local('Liberation Sans'), local('Arimo');
-  size-adjust: 121.09%;
-  ascent-override: 84.23%;
-  descent-override: 14.86%;
-  line-gap-override: 16.43%;
+  font-family: anek-fallback;
+  size-adjust: 138.19%;
+  ascent-override: 65.13%;
+  descent-override: 14.47%;
+  line-gap-override: 0%;
+  src: local("Arial"), local("ArialMT"), local("Liberation Sans"), local("LiberationSans");
 }
 
 @media (width >= 1200px) {
   :root {
+    --module-gap: 56px;
     --nav-height: 80px;
   }
 }
 
-/* reset */
 *,
 *::before,
 *::after {
@@ -62,31 +59,32 @@
 }
 
 html {
-  line-height: 1.15;
   text-size-adjust: 100%;
 }
 
 body {
   display: none;
   margin: 0;
-  background: var(--surface-subtle);
-  color: var(--black);
-  font-family: var(--body-font-family);
+  background: var(--c-canvas);
+  color: var(--c-black);
+  font-family: var(--font-brand);
   font-size: 16px;
-  line-height: 24px;
   font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-  overflow-wrap: break-word;
+  line-height: 24px;
 }
 
 body.appear {
   display: block;
 }
 
-/* chrome reservation (header is static, not sticky) */
+html.is-locked,
+html.is-locked body {
+  overflow: hidden;
+}
+
 header {
   height: var(--nav-height);
-  background: var(--white);
+  background: var(--c-white);
 }
 
 header .header,
@@ -94,9 +92,19 @@ footer .footer {
   visibility: hidden;
 }
 
-header .header[data-block-status='loaded'],
-footer .footer[data-block-status='loaded'] {
+header .header[data-block-status="loaded"],
+footer .footer[data-block-status="loaded"] {
   visibility: visible;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
 }
 
 h1,
@@ -106,17 +114,9 @@ h4,
 h5,
 h6,
 p,
-dl,
-ol,
 ul,
-pre,
-blockquote {
+ol {
   margin: 0;
-}
-
-ul {
-  padding: 0;
-  list-style: none;
 }
 
 h1,
@@ -125,55 +125,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--heading-font-family);
   font-weight: 700;
-  letter-spacing: var(--ls-heading);
-  scroll-margin: 40px;
+  letter-spacing: -1.5px;
 }
 
-h1 {
-  font-size: 32px;
-  line-height: 40px;
-}
-
-h2 {
-  font-size: 28px;
-  line-height: 36px;
-}
-
-h3 {
-  font-size: 20px;
-  line-height: 28px;
-}
-
-h4,
-h5,
-h6 {
-  font-size: 16px;
-  line-height: 24px;
-}
-
-@media (width >= 1200px) {
-  h2 {
-    font-size: 32px;
-    line-height: 40px;
-  }
-
-  h3 {
-    font-size: 24px;
-    line-height: 32px;
-  }
-}
-
-a:any-link {
-  color: inherit;
-  text-decoration: none;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+ul,
+ol {
+  padding: 0;
+  list-style: none;
 }
 
 input,
@@ -184,22 +143,14 @@ button {
 }
 
 button {
-  color: inherit;
-  background: none;
-  border: 0;
   padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
   cursor: pointer;
 }
 
-pre {
-  padding: 16px;
-  border-radius: 8px;
-  background-color: var(--white);
-  overflow-x: auto;
-  white-space: pre;
-}
-
-.sr-only {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -208,189 +159,146 @@ pre {
   white-space: nowrap;
 }
 
-/* icomoon glyph host (theme icon font); boilerplate SVG icons keep their own box */
-.icon::after,
-.has-arrow::after {
-  font-family: icomoon, sans-serif !important;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: 0;
-  -webkit-font-smoothing: antialiased;
-}
-
-.icon[class*='icon-'] {
+.icon {
   display: inline-block;
-  height: 24px;
-  width: 24px;
 }
 
-.icon img {
-  height: 100%;
-  width: 100%;
-}
-
-/* arrow text link (content-card action) */
-.has-arrow {
-  position: relative;
-  display: inline-flex;
-  align-self: flex-start;
-  padding-right: 24px;
-  font-weight: 700;
-}
-
-.has-arrow::after {
-  content: '\e906';
-  position: absolute;
-  top: 50%;
-  right: 0;
-  translate: 0 -50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 16px;
-  height: 16px;
-  font-size: 16px;
-}
-
-/* buttons (cmp-button: primary filled / secondary outlined) */
+/* ---------- buttons (pill; hover = inset ring, as observed on the source) ---------- */
 p.button-wrapper {
   display: flex;
-  justify-content: center;
-  margin-top: 32px;
+  margin: 0;
 }
 
 a.button:any-link,
-button.button,
-.btn {
+button.button {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 100%;
+  max-width: 327px;
   min-height: 40px;
-  margin: 0;
+  margin-inline: auto;
   padding: 4px 16px;
-  border: 0;
   border-radius: var(--radius-pill);
   font-size: 16px;
-  line-height: 24px;
   font-weight: 700;
+  line-height: 24px;
   text-align: center;
   text-decoration: none;
-  cursor: pointer;
 }
 
 a.button.primary,
-button.button.primary,
-.btn-primary {
-  background: var(--black);
-  color: var(--white);
+button.button.primary {
+  background: var(--c-black);
+  color: var(--c-white);
+}
+
+a.button.primary:hover,
+button.button.primary:hover {
+  box-shadow: inset 0 0 0 4px var(--c-grey-600);
 }
 
 a.button.secondary,
-button.button.secondary,
-.btn-secondary {
-  border: 2px solid var(--black);
+button.button.secondary {
+  border: 2px solid var(--c-black);
   background: transparent;
-  color: var(--black);
+  color: var(--c-black);
+}
+
+a.button.secondary:hover,
+button.button.secondary:hover {
+  box-shadow: inset 0 0 0 2px var(--c-black);
 }
 
 a.button.accent,
 button.button.accent {
-  background: var(--black);
-  color: var(--white);
+  background: var(--c-white);
+  color: var(--c-black);
 }
 
-a.button.primary:hover,
 a.button.accent:hover,
-button.button.primary:hover,
-.btn-primary:hover {
-  box-shadow: inset 0 0 0 4px var(--grey-disabled);
+button.button.accent:hover {
+  box-shadow: inset 0 0 0 4px var(--c-grey-400);
 }
 
-a.button.secondary:hover,
-button.button.secondary:hover,
-.btn-secondary:hover {
-  box-shadow: inset 0 0 0 2px var(--black);
-}
-
-a.button[aria-disabled='true'],
-button.button:disabled {
-  cursor: not-allowed;
-  pointer-events: none;
-}
-
-@media (width >= 1200px) {
-  p.button-wrapper a.button {
-    width: 327px;
-  }
-}
-
-/* page shell: the source caps main at 1120px (shell cap) with 24px gutters below 1200 */
+/* ---------- page scaffold (prototype .page) ---------- */
 main {
-  display: flow-root;
-  margin: 0 var(--gutter);
+  padding-top: 40px;
 }
 
 main > .section {
-  margin: 0;
+  margin: 0 var(--page-gutter);
 }
 
-main > .section > div {
-  max-width: none;
-  margin: 0;
-  padding: 0;
-}
-
-main > .section:empty {
+main .section:empty {
   display: none;
 }
 
-@media (width >= 1200px) {
-  main {
-    max-width: var(--max-width);
-    margin: 0 auto;
-  }
-}
-
-/* default-content heads: page title (h1) and section titles (h2) */
+/* default content: page title, section titles, section CTAs */
 main .default-content-wrapper h1 {
-  margin-top: 40px;
+  font-size: 32px;
+  line-height: 40px;
   text-align: center;
 }
 
 main .default-content-wrapper h2 {
-  margin-top: 40px;
+  margin-top: var(--module-gap);
+
+  /* font-metric compensation: the substitute sets narrower than TCCC-UnityText */
+  padding-inline: 6px;
+  font-size: 28px;
+  line-height: 36px;
   text-align: center;
 }
 
+main .default-content-wrapper p.button-wrapper {
+  margin-top: 32px;
+}
+
 @media (width >= 1200px) {
+  main {
+    padding-top: 56px;
+  }
+
+  main > .section {
+    max-width: var(--page-max);
+    margin: 0 auto;
+  }
+
   main .default-content-wrapper h1 {
-    margin-top: 56px;
     font-size: 38px;
     line-height: 48px;
   }
 
   main .default-content-wrapper h2 {
-    margin-top: 56px;
+    font-size: 32px;
+    line-height: 40px;
   }
 }
 
-/* Experience Workspace edit mode: repaint CTAs from their authored marks */
-/* stylelint-disable no-descending-specificity -- edit-mode repaint, ordered by paint */
+/* image reveal (observed on the source: opacity .4s when the picture enters the viewport) */
+main .reveal img {
+  transition: opacity 0.4s;
+}
+
+main .reveal:not(.visible) img {
+  opacity: 0;
+}
+
+/* ---------- Experience Workspace edit mode (EW3 / EW6) — inert on published pages ---------- */
 .prosemirror-editor p > :is(strong, em) > a:any-link,
 .prosemirror-editor p > a:any-link:has(> :is(strong, em):only-child) {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
+  max-width: 327px;
   min-height: 40px;
+  margin-inline: auto;
   padding: 4px 16px;
   border-radius: var(--radius-pill);
   font-weight: 700;
-  text-align: center;
+  text-decoration: none;
 }
 
 .prosemirror-editor p > a:any-link > :is(strong, em) {
@@ -400,15 +308,14 @@ main .default-content-wrapper h2 {
 
 .prosemirror-editor p > strong > a:any-link,
 .prosemirror-editor p > a:any-link:has(> strong:only-child) {
-  background: var(--black);
-  color: var(--white);
+  background: var(--c-black);
+  color: var(--c-white);
 }
 
 .prosemirror-editor p > em > a:any-link,
 .prosemirror-editor p > a:any-link:has(> em:only-child) {
-  border: 2px solid var(--black);
-  background: transparent;
-  color: var(--black);
+  border: 2px solid var(--c-black);
+  color: var(--c-black);
 }
 
 a .prosemirror-editor a:any-link {

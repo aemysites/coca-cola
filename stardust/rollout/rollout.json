@@ -1,18 +1,19 @@
 {
   "_provenance": {
     "writtenBy": "stardust:rollout/inventory",
-    "writtenAt": "2026-11-16T08:32:32.277Z",
+    "writtenAt": "2026-11-18T07:53:54.865Z",
     "stardustVersion": "0.0.0"
   },
   "target": "aem-eds",
   "site": {
-    "sourceUrl": "https://www.coca-cola.com/us/en",
+    "sourceUrl": "https://www.coca-cola.com",
     "da": {
       "org": "aemcoder",
-      "site": "e4399cea",
+      "site": "43eb1ed9",
       "ref": "main"
     },
-    "liveHost": "main--e4399cea--aemcoder.aem.live"
+    "liveHost": "main--43eb1ed9--aemcoder.aem.live",
+    "previewHost": "main--43eb1ed9--aemcoder.aem.page"
   },
   "scope": {
     "pages": 2,
@@ -21,7 +22,7 @@
     "pageCap": null
   },
   "lastRun": {
-    "at": "2026-11-16T08:39:05.711Z",
+    "at": "2026-11-18T10:22:36.129Z",
     "pages": {
       "total": 2,
       "verified": 2,
@@ -32,9 +33,9 @@
       "failed": 0
     },
     "blocks": {
-      "total": 5,
-      "converted": 0,
-      "pending": 5
+      "total": 3,
+      "converted": 3,
+      "pending": 0
     },
     "verifyFailures": 0
   }

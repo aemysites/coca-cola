@@ -1,13 +1,13 @@
 {
   "_provenance": {
     "writtenBy": "stardust:rollout/optimize",
-    "writtenAt": "2026-11-16T08:39:55.409Z",
+    "writtenAt": "2026-11-18T10:30:20.313Z",
     "stardustVersion": "0.0.0"
   },
   "runs": [
     {
       "id": "run-1",
-      "at": "2026-11-16T08:39:55.409Z",
+      "at": "2026-11-18T10:24:03.646Z",
       "scopePages": [
         "index",
         "us-en"
@@ -19,7 +19,23 @@
         "cross-page"
       ],
       "trigger": "deliver",
-      "source": "https://main--e4399cea--aemcoder.aem.live"
+      "source": "https://main--43eb1ed9--aemcoder.aem.live"
+    },
+    {
+      "id": "run-2",
+      "at": "2026-11-18T10:30:20.313Z",
+      "scopePages": [
+        "index",
+        "us-en"
+      ],
+      "layersRun": [
+        "accessibility",
+        "seo",
+        "ai-search",
+        "cross-page"
+      ],
+      "trigger": "deliver",
+      "source": "https://main--43eb1ed9--aemcoder.aem.live"
     }
   ],
   "findings": [
@@ -48,9 +64,13 @@
         "at": null,
         "detail": null
       },
-      "status": "open",
+      "status": "fixed",
       "firstSeenRun": "run-1",
-      "resolvedBy": null
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-18T10:30:20.313Z",
+        "note": "no longer detected on delivered page"
+      }
     },
     {
       "id": "f-dd3122a621",
@@ -77,9 +97,13 @@
         "at": null,
         "detail": null
       },
-      "status": "open",
+      "status": "fixed",
       "firstSeenRun": "run-1",
-      "resolvedBy": null
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-18T10:30:20.313Z",
+        "note": "no longer detected on delivered page"
+      }
     },
     {
       "id": "f-e7272a97c8",
@@ -87,7 +111,7 @@
       "layer": "cross-page",
       "check": "duplicate-title",
       "severity": "P2",
-      "fixability": "design-pass",
+      "fixability": "out-of-scope",
       "scope": {
         "level": "page",
         "ids": [
@@ -95,17 +119,17 @@
           "us-en"
         ]
       },
-      "evidence": "2 pages share <title> \"Explore the Coca‑Cola® Official Site | C\"",
-      "recommendedMove": "Give each page a unique title upstream (migrate metadata).",
+      "evidence": "source parity: 2 pages share <title> \"Explore the Coca‑Cola® Official Site | C\" — the source shares this title across the same pages",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
       "autofix": {
-        "available": true,
+        "available": false,
         "target": "aem-eds",
-        "strategy": "eds-disambiguate-title",
-        "kind": "content-draft",
-        "status": "pending",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
         "appliedBy": null,
         "at": null,
-        "detail": null
+        "detail": "source parity — a faithful migration is not auto-rewritten"
       },
       "status": "open",
       "firstSeenRun": "run-1",

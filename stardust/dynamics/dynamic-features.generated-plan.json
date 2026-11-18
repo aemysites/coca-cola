@@ -1,9 +1,9 @@
 {
  "_provenance": {
   "writtenBy": "stardust:dynamics plan",
-  "writtenAt": "2026-11-16T06:41:39.294Z",
+  "writtenAt": "2026-11-18T07:07:06.796Z",
   "input": "stardust/current/_dynamics.json",
-  "target": "https://main--e4399cea--aemcoder.aem.page",
+  "target": "https://main--43eb1ed9--aemcoder.aem.page",
   "migrated": null,
   "knowledge": null,
   "chrome": "stardust/chrome/header-contract.json"
@@ -134,6 +134,24 @@
    "decision": "CMP domain script reuse on the new host"
   },
   {
+   "id": "t-unknown-third-party-host-cdn-global-gcds-coke-com",
+   "class": "T",
+   "feature": "unknown third-party host cdn.global.gcds.coke.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "cdn.global.gcds.coke.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
    "id": "t-unknown-third-party-host-rum-hlx-page",
    "class": "T",
    "feature": "unknown third-party host rum.hlx.page",
@@ -178,9 +196,9 @@
    "reach": null,
    "evidence": [
     "js.adsrvr.org",
-    "connect.facebook.net",
     "bat.bing.com",
-    "analytics.tiktok.com"
+    "analytics.tiktok.com",
+    "ad.doubleclick.net"
    ],
    "pattern": "consent-gated-tags",
    "disposition": "embed-passthrough",
@@ -199,42 +217,6 @@
    "reach": null,
    "evidence": [
     "cdn1.adoberesources.net"
-   ],
-   "pattern": "consent-gated-tags",
-   "disposition": "embed-passthrough",
-   "target": "embed",
-   "reproducibility": "needs-business-decision",
-   "status": "pending",
-   "phase": "tags",
-   "decision": "which tags run on the new host; property ids"
-  },
-  {
-   "id": "t-unknown-third-party-host-simage2-pubmatic-com",
-   "class": "T",
-   "feature": "unknown third-party host simage2.pubmatic.com",
-   "pages": 1,
-   "probed": 1,
-   "reach": null,
-   "evidence": [
-    "simage2.pubmatic.com"
-   ],
-   "pattern": "consent-gated-tags",
-   "disposition": "embed-passthrough",
-   "target": "embed",
-   "reproducibility": "needs-business-decision",
-   "status": "pending",
-   "phase": "tags",
-   "decision": "which tags run on the new host; property ids"
-  },
-  {
-   "id": "t-unknown-third-party-host-dsum-sec-casalemedia-com",
-   "class": "T",
-   "feature": "unknown third-party host dsum-sec.casalemedia.com",
-   "pages": 1,
-   "probed": 1,
-   "reach": null,
-   "evidence": [
-    "dsum-sec.casalemedia.com"
    ],
    "pattern": "consent-gated-tags",
    "disposition": "embed-passthrough",
@@ -264,6 +246,24 @@
    "decision": "which tags run on the new host; property ids"
   },
   {
+   "id": "t-unknown-third-party-host-simage2-pubmatic-com",
+   "class": "T",
+   "feature": "unknown third-party host simage2.pubmatic.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "simage2.pubmatic.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
    "id": "t-analytics-google-analytics-ads",
    "class": "T",
    "feature": "analytics: Google Analytics / Ads",
@@ -272,6 +272,24 @@
    "reach": null,
    "evidence": [
     "analytics.google.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-x-bidswitch-net",
+   "class": "T",
+   "feature": "unknown third-party host x.bidswitch.net",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "x.bidswitch.net"
    ],
    "pattern": "consent-gated-tags",
    "disposition": "embed-passthrough",
@@ -300,24 +318,6 @@
    "decision": "which tags run on the new host; property ids"
   },
   {
-   "id": "t-unknown-third-party-host-www-facebook-com",
-   "class": "T",
-   "feature": "unknown third-party host www.facebook.com",
-   "pages": 1,
-   "probed": 1,
-   "reach": null,
-   "evidence": [
-    "www.facebook.com"
-   ],
-   "pattern": "consent-gated-tags",
-   "disposition": "embed-passthrough",
-   "target": "embed",
-   "reproducibility": "needs-business-decision",
-   "status": "pending",
-   "phase": "tags",
-   "decision": "which tags run on the new host; property ids"
-  },
-  {
    "id": "t-analytics-adobe-analytics-experience-cloud-id-first-party-",
    "class": "T",
    "feature": "analytics: Adobe Analytics / Experience Cloud ID (first-party subdomain — needs a CNAME on the new host)",
@@ -326,24 +326,6 @@
    "reach": null,
    "evidence": [
     "smetrics.coca-cola.com"
-   ],
-   "pattern": "consent-gated-tags",
-   "disposition": "embed-passthrough",
-   "target": "embed",
-   "reproducibility": "needs-business-decision",
-   "status": "pending",
-   "phase": "tags",
-   "decision": "which tags run on the new host; property ids"
-  },
-  {
-   "id": "t-unknown-third-party-host-aimfar-solution-weborama-fr",
-   "class": "T",
-   "feature": "unknown third-party host aimfar.solution.weborama.fr",
-   "pages": 1,
-   "probed": 1,
-   "reach": null,
-   "evidence": [
-    "aimfar.solution.weborama.fr"
    ],
    "pattern": "consent-gated-tags",
    "disposition": "embed-passthrough",
@@ -372,6 +354,24 @@
    "decision": "which tags run on the new host; property ids"
   },
   {
+   "id": "t-unknown-third-party-host-aimfar-solution-weborama-fr",
+   "class": "T",
+   "feature": "unknown third-party host aimfar.solution.weborama.fr",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "aimfar.solution.weborama.fr"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
    "id": "t-unknown-third-party-host-analytics-ipv6-tiktokw-us",
    "class": "T",
    "feature": "unknown third-party host analytics-ipv6.tiktokw.us",
@@ -380,6 +380,24 @@
    "reach": null,
    "evidence": [
     "analytics-ipv6.tiktokw.us"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-www-facebook-com",
+   "class": "T",
+   "feature": "unknown third-party host www.facebook.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "www.facebook.com"
    ],
    "pattern": "consent-gated-tags",
    "disposition": "embed-passthrough",

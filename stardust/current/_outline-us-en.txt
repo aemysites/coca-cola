@@ -1,0 +1,23 @@
+main.container.responsivegrid
+  div.
+    div.container.responsivegrid.container__content-start
+      div.
+        div.text | H 1:h1:The Coca‑Cola® Official Site for Drinks & Experien | A 0: | IMG 0:
+        div.carousel.panelcontainer.carousel--hero.fade-in-observed | H 7:h2:YOU COULD WIN BIG THIS SEASON ; h2:YOU COULD WIN BIG THIS SEASON ; h2:Your Shot at Alaska Starts Now ; h2:YOU COULD WIN BIG THIS SEASON | A 7:Get Started→/us/en/offerings/coca-cola/football ; Get Started→/us/en/offerings/coca-cola/hockey ; Play and Enter→/us/en/offerings/holiday | IMG 7:fall-football-banner-dt.png,coca-cola-fall-hockey-big-wins-banner-dt.png,kotm-holidays-26-us-banner-dt.png
+    div.container.responsivegrid.container__content
+      div.
+        div.title | H 1:h2:Promos & Offers | A 0: | IMG 0:
+        div.carousel.panelcontainer.fade-in-observed.is-active | H 10:h3:Don't Miss the Coca‑Cola Holiday Caravan ; h3:A Full Year of Favorites Could Be Yours ; h3:Don't Miss the Coca‑Cola Holiday Caravan ; h3:A Full Year of Favorites Could Be Yours | A 10:Don't Miss the Coca‑Cola →/us/en/offerings/holiday-caravan ; A Full Year of Favorites →/us/en/offerings/portfolio/evergreen-promotion ; Don't Miss the Coca‑Cola →/us/en/offerings/holiday-caravan | IMG 10:onexp-hpg-caravan-teaser-allbreakpoints.png,product-for-a-year-us-tile-hq.png,onexp-hpg-caravan-teaser-allbreakpoints.png
+        div.button | H 0: | A 1:View all Offerings→/us/en/offerings | IMG 0:
+        div.title | H 1:h2:Features | A 0: | IMG 0:
+        div.teaser.campaign-card.content-on-bottom.content-on-right | H 1:h3:Mix Up the Holiday Spirit | A 1:View Holiday Recipes→/us/en/brands/simply/recipes/holiday | IMG 1:simply-holidays-us-campaign-dt.png
+        div.teaser.campaign-card.content-on-bottom.content-on-left | H 1:h3:Refresh Your Fandom All Year Long | A 1:Explore for More→/us/en/offerings/hubs/soccer | IMG 1:soccer-always-on-campaign-dt.png
+        div.title | H 1:h2:More from Coca‑Cola® | A 0: | IMG 0:
+        div.carousel.panelcontainer.carousel--card-secondary.fade-in-observed | H 17:h3:Coca‑Cola Vending ; h3:you plus +one ; h3:Discover Your Tastebud Map ; h3:World of Coca‑Cola Annual Pass | A 17:Coca‑Cola Vending Each ti→/us/en/offerings/vending ; you plus +one Have you do→https://plusone.coca-cola.com/wvrE/1n83zcqs?af_xp=custom&_gl=1*1y8jds8*_gcl_au*NzQwNTUzMTg2LjE3ODA0MjEyOTU.*_ga*MTk3NDE0NjE2NC4xNzUzNzI4MTYz*_ga_64WQLHS3QK*czE3ODEyODk5OTEkbzg2JGcxJHQxNzgxMjkwMDIxJGozMCRsMCRoMA..&source_caller=ui&pid=OneXP&is_retargeting=true&af_click_lookback=7d&shortlink=1n83zcqs&af_reengagement_window=30d&af_inactivity_window=7d&c=plus_one_landing_page ; Discover Your Tastebud Ma→/us/en/offerings/tastebud-map | IMG 17:coke-offering-vending.jpg,plusone-card.jpg,snap-camera-kit-onexp-tile-campaign-more-from-cc.p
+    div.container.responsivegrid.container__content-end
+      div.
+        div.title | H 1:h2:Explore Our Brands | A 0: | IMG 0:
+        div.container.responsivegrid.brands-list | H 0: | A 6:→/us/en/brands/coca-cola ; →/us/en/brands/diet-coke ; →/us/en/brands/sprite | IMG 6:CocaColalogor.png,en_diet%20coke_logo_color_471x180.png,en_sprite_logo_green-text-only_477x180.png
+        div.button.button--secondary | H 0: | A 1:View All→/us/en/brands | IMG 0:
+    div.websiteNameSchema | H 0: | A 0: | IMG 0:
+    div.contactInformationSchema | H 0: | A 0: | IMG 0:

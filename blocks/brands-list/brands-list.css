@@ -1,0 +1,39 @@
+/* brands-list — lifted from stardust/prototypes/us-en.css (.brands-list) */
+.brands-list {
+  margin-top: 32px;
+}
+
+.brands-list ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.brands-list a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1;
+  padding: 24px;
+  border-radius: var(--radius-card);
+  background: var(--c-white);
+  box-shadow: var(--shadow-card);
+}
+
+.brands-list picture {
+  display: contents;
+}
+
+.brands-list img {
+  width: 100%;
+  height: auto;
+}
+
+@media (width >= 1200px) {
+  .brands-list ul {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 736px;
+    margin-inline: auto;
+  }
+}

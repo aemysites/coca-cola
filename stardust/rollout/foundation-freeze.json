@@ -1,5 +1,5 @@
 {
-  "frozenAt": "2026-11-16T08:29:07.343Z",
+  "frozenAt": "2026-11-18T10:29:57.536Z",
   "root": ".",
   "paths": [
     "styles/",
@@ -10,22 +10,22 @@
     "scripts/"
   ],
   "files": {
-    "blocks/footer/footer.css": "48a86c1ab8184405ff919bd17638b14196db5fc7986daa4d4939b1d422e3545f",
-    "blocks/footer/footer.js": "8bb894e8bf2b7175b24a5d6902cd85c489979ac9cd0a60369df4db491c5f3edf",
-    "blocks/header/header.css": "6f56cdb20bcecfc864e8cb11b34328b151ddae792efd2a9dd180624418a14432",
-    "blocks/header/header.js": "731c2a04a68467139a29cca83dee5d223acc9fba5a61470ce1f06baee33ab0ce",
-    "fonts/LICENSING.md": "8e984556fc29a276aee31f8c7d114132c271dfd75a0543645d10e3bd431b255a",
+    "blocks/footer/footer.css": "8e0ddbe29e1ded347d171af76a34199c91672f00a565e064429f6c050f30a0ce",
+    "blocks/footer/footer.js": "b584cfdaeba66e730a69027327348a28faf62b5fbf7e12ee9f908ce5ff9f2c4d",
+    "blocks/header/header.css": "bc1e74f8e598b6bd6a58edcfa947eca81f68ac1a6ef3d1225a81ee5b19d718c2",
+    "blocks/header/header.js": "c7a0cee2356eb752ab994d1d4a7bf01b4b3105bd7d92cba372a62fbb53bb5170",
+    "fonts/OFL.txt": "de62be758bba267e653a5f457dfebb4680957e2c343eb3e7de15aff4746bed05",
+    "fonts/anek-latin-expanded-400-latin.woff2": "675f0d25719de9110faa38e41a738524273eed6dda7a62f17ac54069905c9230",
+    "fonts/anek-latin-expanded-700-latin.woff2": "d17d67784830fd15be877ce9e629936ae38c976d94f1291cdd139f20a165e340",
     "fonts/icomoon.woff": "5ed98b2f3e002de64e6f25bd979782b26bd160ff5fc40d89a44b5945ab127b41",
-    "fonts/tccc-unitytext-bold.woff2": "07aa279833d35592ac850c0dcaf3c2b09abf7ff6f8832e00f25afb21a5f48bd6",
-    "fonts/tccc-unitytext-regular.woff2": "ac7bd1104f63e9a4ebe7bc121b326aac3989f83ed0c8db79e736ae0152422657",
-    "head.html": "0f963b6378ffa7c27479f25b3c4ddbe93c448e71e4d35b4e464eed7eb00f57c2",
+    "head.html": "e34a9c59aa70667afb37428dbd6d1fb0e2ef88d6c23daf0d2a96015aa7554bd8",
     "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
     "scripts/consent-check.js": "16eb4ff15d77d64ec96e8054e97beb84ba19f825b2d67b2fd2de1eadb78d26e6",
     "scripts/consented.js": "8a6e80585bf898985ae3fa0012dc370a19f4e366ca6922d92b80b319bcf281aa",
     "scripts/martech.js": "27c4d49537fe98c9c5ab87b2497e2ee45e5474866fd3af589bb99ec2332277e7",
     "scripts/scripts.js": "ef3c564eae66673eb7df3e75764b48011838b1904b0774ebfcf1047590a78c13",
-    "styles/fonts.css": "babd9b536e300ab5a0ce502bf36c9b4aee6a4f3b0f34fecf8ce551644f5854f9",
+    "styles/fonts.css": "85ce9d556a4cd99bbb236abd4593e4726708e12b1ee5ec15ec08172ee4b81c06",
     "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
-    "styles/styles.css": "fc55441fb7e5fa4e5053aa87c64273e9b60cb32406e20d687b1b5a1661d32680"
+    "styles/styles.css": "8e684bb1e52149e922f9067fc0eb1fd3e2380ef1525696c47d72f88d8f3a7032"
   }
 }

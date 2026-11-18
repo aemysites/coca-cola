@@ -1,18 +1,18 @@
 {
   "_provenance": {
     "writtenBy": "stardust:rollout/assemble",
-    "writtenAt": "2026-11-16T08:29:32.032Z",
+    "writtenAt": "2026-11-18T10:20:01.639Z",
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-11-16T08:29:32.032Z",
-  "host": "https://main--e4399cea--aemcoder.aem.live",
+  "generatedAt": "2026-11-18T10:20:01.639Z",
+  "host": "https://main--43eb1ed9--aemcoder.aem.live",
   "sitemap": "stardust/rollout/site/sitemap.xml",
   "robots": "stardust/rollout/site/robots.txt",
   "fragments": [],
   "servedSitemap": {
-    "origin": "https://main--e4399cea--aemcoder.aem.live",
-    "url": "https://main--e4399cea--aemcoder.aem.live/sitemap.xml",
-    "checkedAt": "2026-11-16T08:29:32.031Z",
+    "origin": "https://main--43eb1ed9--aemcoder.aem.live",
+    "url": "https://main--43eb1ed9--aemcoder.aem.live/sitemap.xml",
+    "checkedAt": "2026-11-18T10:20:01.639Z",
     "match": true,
     "error": null,
     "count": 2,

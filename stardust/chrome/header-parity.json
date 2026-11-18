@@ -1,0 +1,98 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-18T08:36:28.550Z",
+ "source": "https://www.coca-cola.com/us/en",
+ "build": "https://main--43eb1ed9--aemcoder.aem.page/us/en",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "counts": {
+  "error": 7,
+  "warn": 2,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "link-missing@390 link",
+   "width": 390,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /us/en not in the build header"
+  },
+  {
+   "key": "link-missing@1440 link",
+   "width": 1440,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /us/en not in the build header"
+  },
+  {
+   "key": "panel-visual@390 Menu [click]",
+   "width": 390,
+   "path": "Menu",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 25.5% (bar 2%; source 342×740, build 390×772; texture 86% thick)"
+  },
+  {
+   "key": "panel-visual@390 Menu > Discover [click]",
+   "width": 390,
+   "path": "Menu > Discover",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 8.9% (bar 2%; source 342×150, build 342×158; texture 33% thick)"
+  },
+  {
+   "key": "panel-visual@390 Menu > Impact [click]",
+   "width": 390,
+   "path": "Menu > Impact",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 22.6% (bar 2%; source 342×150, build 342×134; texture 85% thick)"
+  },
+  {
+   "key": "panel-visual@390 Menu > Shop [click]",
+   "width": 390,
+   "path": "Menu > Shop",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 31.3% (bar 2%; source 342×108, build 342×92; texture 85% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Discover [hover]",
+   "width": 1440,
+   "path": "Discover",
+   "action": "hover",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 9.6% (bar 2%; source 285×134, build 263×134; texture 47% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Impact [hover]",
+   "width": 1440,
+   "path": "Impact",
+   "action": "hover",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 14.1% (bar 2%; source 175×134, build 155×134; texture 35% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Shop [hover]",
+   "width": 1440,
+   "path": "Shop",
+   "action": "hover",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 13.6% (bar 2%; source 191×108, build 169×108; texture 42% thick)"
+  }
+ ]
+}

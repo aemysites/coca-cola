@@ -1,37 +1,43 @@
-{"ts":"2026-11-16T06:28:06Z","skill":"stardust:replica","phase":"extract","event":"start","detail":"extract --prep --dynamics --pages us/en, /"}
-{"ts":"2026-11-16T06:38:32Z","skill":"stardust:extract","phase":"prep","event":"end","detail":"2/2 live (us-en, index→/us/en dup); landing ×2, archetype us-en; uncaptured first-level targets: us/en 27","artifact":"stardust/current/_crawl-log.json"}
-{"ts":"2026-11-16T06:39:09Z","skill":"stardust:replica","phase":"extract","event":"end","detail":"2 pages extracted (us-en archetype, index = redirect duplicate of us-en); type landing"}
-{"ts":"2026-11-16T06:39:20Z","skill":"stardust:replica","phase":"preserve-direction","event":"start","detail":"verbatim promotion + register + dynamics triage + martech"}
-{"ts":"2026-11-16T06:43:14Z","skill":"stardust:replica","phase":"preserve-direction","event":"end","detail":"promoted verbatim; register 1 deferred (font licence); 13 dynamics rows; martech carried, all parts disabled"}
-{"ts":"2026-11-16T06:43:32Z","skill":"stardust:replica","phase":"recreate","event":"start","detail":"archetype us-en (landing) — clean re-authoring from capture + lifted CSS"}
-{"ts":"2026-11-16T06:53:00Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"us-en 1440,360"}
-{"ts":"2026-11-16T07:11:14Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"us-en 1440: 1.08% Δh1 cd 0/0 chrome 100/99.71 clip0 cap PASS; 360: 1.09% Δh0 cd 0/0 chrome 100/99.63 clip0; 3 iters; approved hands-off"}
-{"ts":"2026-11-16T07:11:14Z","skill":"stardust:replica","phase":"recreate","event":"end","detail":"1 archetype (landing/us-en) gated + approved; motion 12 parity, 2 missing (no visible effect)"}
-{"ts":"2026-11-16T07:11:27Z","skill":"stardust:replica","phase":"handoff","event":"start","detail":"migrate → deploy → rollout; publish decision: publish"}
-{"ts":"2026-11-16T07:12:27Z","skill":"stardust:migrate","phase":"plan","event":"start","detail":"units: plan, render landing (archetype us-en; index duplicateOf pending after C-archetype), report"}
-{"ts":"2026-11-16T07:13:18Z","skill":"stardust:migrate","phase":"plan","event":"end","detail":"plan done: us-en rendered → stardust/migrated/us/en/index.html (5 modules); index pending render unit landing after C-archetype; D-root = delivered root index document","artifact":"stardust/migrate/progress.json"}
-{"ts":"2026-11-16T07:13:23Z","skill":"stardust:rollout","phase":"A-inventory","event":"start","detail":"archetypes-only: us-en migrated, index content-pending"}
-{"ts":"2026-11-16T07:13:42Z","skill":"stardust:rollout","phase":"A-inventory","event":"end","detail":"2 pages (us-en pending, index content-pending /); templates 2 (us-en + transient landing for index); site da aemcoder/e4399cea@main","artifact":"stardust/rollout/coverage/pages.json"}
-{"ts":"2026-11-16T07:13:44Z","skill":"stardust:rollout","phase":"B-block","event":"start"}
-{"ts":"2026-11-16T07:13:51Z","skill":"stardust:rollout","phase":"B-block","event":"end","detail":"5 distinct blocks (5 module, 0 chrome, 0 widget); plan: us-en converts 5, index content-pending reuses after render","artifact":"stardust/rollout/plan.json"}
-{"ts":"2026-11-16T07:14:02Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"start","detail":"re-verify 13 curated rows against fresh detect + target probe"}
-{"ts":"2026-11-16T07:15:14Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"end","detail":"14 curated rows verified vs fresh detect (26 findings) + target probe; +1 row (AWS CloudWatch RUM, A-6), bidswitch merged; martech all disabled kept; no listings","artifact":"stardust/dynamic-features.md"}
-{"ts":"2026-11-16T07:15:41Z","skill":"stardust:rollout","phase":"C-deliver","event":"start","detail":"units: foundation, archetype-landing, cluster-landing, gate-all, final"}
-{"ts":"2026-11-16T08:29:07Z","skill":"stardust:rollout","phase":"C-deliver","event":"end","detail":"units foundation, archetype-landing, cluster-landing, gate-all, final done; 2/2 pages live; gate 1440 1.08%/1.08%, 360 2.87%/2.87%; 3 foundation requests applied"}
-{"ts":"2026-11-16T08:29:22Z","skill":"stardust:rollout","phase":"D-site","event":"start","detail":"sitemap/robots/redirects; / root; chrome noindex"}
-{"ts":"2026-11-16T08:29:39Z","skill":"stardust:rollout","phase":"D-site","event":"end","detail":"sitemap served 2 = assembled 2; no redirects needed (1:1); / 200; chrome noindex"}
-{"ts":"2026-11-16T08:29:48Z","skill":"stardust:rollout","phase":"D2-dynamic","event":"start","detail":"parity rows replayed on aem.live; martech scaffold verified"}
-{"ts":"2026-11-16T08:31:29Z","skill":"stardust:rollout","phase":"D2-dynamic","event":"end","detail":"parity 8 rows; dynamics-check preview 8/8, live 7/8 (edge holds pre-final header.js); martech gate PASS, all parts disabled"}
-{"ts":"2026-11-16T08:31:37Z","skill":"stardust:rollout","phase":"E-full-site","event":"start","detail":"verify.mjs on aem.live + gate tables"}
-{"ts":"2026-11-16T08:39:05Z","skill":"stardust:rollout","phase":"E-full-site","event":"end","detail":"2/2 verified on aem.live; gate 1440 1.11%/1.11%, 360 2.99%/3.00% PASS; 27 out-of-scope links repointed to source"}
-{"ts":"2026-11-16T08:39:19Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"start","detail":"every href on /, /us/en, nav, footer GET against aem.live"}
-{"ts":"2026-11-16T08:39:44Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"end","detail":"59 hrefs; internal 1/1 200; 27 out-of-scope targets repointed, 27/27 200 on source; 28 external"}
-{"ts":"2026-11-16T08:39:53Z","skill":"stardust:rollout","phase":"F-optimize","event":"start","detail":"optimize.mjs on aem.live"}
-{"ts":"2026-11-16T08:40:03Z","skill":"stardust:rollout","phase":"F-optimize","event":"end","detail":"health 83; P1 0 · P2 3 · P3 1 (all source-parity: no JSON-LD on source, / ≡ /us/en)"}
-{"ts":"2026-11-16T08:40:11Z","skill":"stardust:rollout","phase":"G-aem","event":"start","detail":"autofix-aem dry-run"}
-{"ts":"2026-11-16T08:40:16Z","skill":"stardust:rollout","phase":"G-aem","event":"end","detail":"3 candidates, 0 applicable, 3 manual (source-parity, kept as captured); no re-deploy"}
-{"ts":"2026-11-16T08:40:25Z","skill":"stardust:rollout","phase":"H-report","event":"start","detail":"summary + learnings"}
-{"ts":"2026-11-16T08:40:48Z","skill":"stardust:rollout","phase":"H-report","event":"end","detail":"2/2 verified; templates 1; blocks 5 + chrome; gate ≤1.11% (1440) / ≤3.00% (360); health 83, P1 0; to deliver 0"}
-{"ts":"2026-11-16T08:40:57Z","skill":"stardust:rollout","phase":"I-dashboard","event":"start","detail":"dashboard.mjs"}
-{"ts":"2026-11-16T08:41:00Z","skill":"stardust:rollout","phase":"I-dashboard","event":"end","detail":"dashboard: 2 identified · 2 prototyped · 2 deployed"}
-{"ts":"2026-11-16T08:41:08Z","skill":"stardust:replica","phase":"handoff","event":"end","detail":"2/2 pages live + verified on aem.live; gate 1440 1.11% / 360 ≤3.00% PASS; rollout A–I ended; done-check complete"}
+{"ts":"2026-11-18T06:56:16Z","skill":"stardust:replica","phase":"extract","event":"start","detail":"extract --prep --dynamics --pages us/en + root (2 pages)"}
+{"ts":"2026-11-18T07:05:50Z","skill":"stardust:replica","phase":"extract","event":"end","detail":"2/2 live (index = redirect dup of us-en); 1 type: landing; consent OneTrust; font TCCC-UnityText licensed; uncaptured first-level targets: us/en 27 (out of plan scope)"}
+{"ts":"2026-11-18T07:06:06Z","skill":"stardust:replica","phase":"preserve-direction","event":"start","detail":"promote current spec verbatim; empty register; dynamics triage + martech"}
+{"ts":"2026-11-18T07:08:09Z","skill":"stardust:replica","phase":"preserve-direction","event":"end","detail":"verbatim promotion; register empty (pure replica); dynamics 24 rows all dispositioned (6 self, owner batch: martech off, sign-in interim); martech contract all disabled"}
+{"ts":"2026-11-18T07:08:21Z","skill":"stardust:replica","phase":"recreate","event":"start","detail":"archetype us-en (landing) — prototype + source-fidelity gate 1440/360"}
+{"ts":"2026-11-18T07:48:12Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"us-en 1440 + 360 (gate rounds ran inside recreate)"}
+{"ts":"2026-11-18T07:48:12Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"us-en 1440: 1.36% Δh0 PASS; 360: 3.61% Δh0 PASS; content 0🔴; clip 0; cap-probe PASS; approved hands-off"}
+{"ts":"2026-11-18T07:48:12Z","skill":"stardust:replica","phase":"recreate","event":"end","detail":"1/1 archetypes gated + approved (landing/us-en); motion 14/14; font substitute Anek Latin Expanded (licensed TCCC-UnityText kept first)"}
+{"ts":"2026-11-18T07:48:29Z","skill":"stardust:replica","phase":"handoff","event":"start","detail":"migrate → deploy → rollout; publish decided: publish"}
+{"ts":"2026-11-18T07:49:43Z","skill":"stardust:migrate","phase":"plan","event":"start","detail":"plan: 2 pages in scope (us-en archetype path A; index sibling of landing, later)"}
+{"ts":"2026-11-18T07:49:59Z","skill":"stardust:migrate","phase":"plan","event":"end","detail":"2 in scope: A us-en, A' index (after C-archetype); 0 B","artifact":"stardust/migrate/plan.md"}
+{"ts":"2026-11-18T07:50:19Z","skill":"stardust:migrate","phase":"render","event":"start","detail":"render unit landing: us-en (Path A archetype); index deferred to after C-archetype"}
+{"ts":"2026-11-18T07:51:40Z","skill":"stardust:migrate","phase":"render","event":"end","detail":"rendered 1 (us-en A, 41 assets, 30 out-of-scope links → source); content-count 0🔴/0🟡; index pending C-archetype","artifact":"stardust/migrated/us/en/index.html"}
+{"ts":"2026-11-18T07:52:01Z","skill":"stardust:migrate","phase":"assets","event":"start","detail":"sitewide assets: logo, favicon/fonts check, robots+sitemap, portability audits"}
+{"ts":"2026-11-18T07:52:49Z","skill":"stardust:migrate","phase":"assets","event":"end","detail":"logo added; robots+sitemap; 6/6 portability audits pass (font preloads dropped for file://)","artifact":"stardust/migrated/sitemap.xml"}
+{"ts":"2026-11-18T07:53:09Z","skill":"stardust:migrate","phase":"state-and-report","event":"start","detail":"advance us-en → migrated; migrate block; run summary"}
+{"ts":"2026-11-18T07:53:21Z","skill":"stardust:migrate","phase":"state-and-report","event":"end","detail":"1 migrated (us-en), 0 failed, index deferred to after C-archetype; 42 assets","artifact":"stardust/migrate/report.md"}
+{"ts":"2026-11-18T07:53:39Z","skill":"stardust:rollout","phase":"A-inventory","event":"start","detail":"inventory stardust/migrated (us-en migrated; index pending sibling)"}
+{"ts":"2026-11-18T07:54:01Z","skill":"stardust:rollout","phase":"A-inventory","event":"end","detail":"2 pages (us-en pending, index content-pending), 1 template us-en","artifact":"stardust/rollout/coverage/pages.json"}
+{"ts":"2026-11-18T07:54:15Z","skill":"stardust:rollout","phase":"B-block","event":"start","detail":"block dedup (blocks.mjs) + conversion plan (plan.mjs)"}
+{"ts":"2026-11-18T07:54:29Z","skill":"stardust:rollout","phase":"B-block","event":"end","detail":"3 distinct blocks (carousel, campaign-card, brands-list); 6 instances → 3 conversions on us-en; index reuses","artifact":"stardust/rollout/plan.json"}
+{"ts":"2026-11-18T07:54:45Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"start","detail":"verify dynamic-features.md against fresh evidence (detect + plan)"}
+{"ts":"2026-11-18T07:55:30Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"end","detail":"fresh detect 25 findings: +1 (casalemedia tag host → row 25, interim/off), 0 gone; all 25 rows dispositioned; C unblocked","artifact":"stardust/dynamic-features.md"}
+{"ts":"2026-11-18T07:55:50Z","skill":"stardust:rollout","phase":"C-deliver","event":"start","detail":"C0 foundation (+ landing blocks + us-en/index content, local); DA token check"}
+{"ts":"2026-11-18T08:13:59Z","skill":"stardust:rollout","phase":"C-deliver","event":"blocked","detail":"DA credential missing: no DA_TOKEN in env and no .env; admin.da.live / admin.hlx.page answer 401. Code is on the code bus (blocks/scripts/styles 200 on preview); content PUT/preview/publish of nav, footer, us/en, index and the media upload cannot run","next":"provide the DA token (runner .env), then resume C0: da-media-upload from stardust/deploy/media-manifest-us-en.json, deploy-batch nav/footer/us/en/index with publish, gate on the published origin","owner":"run operator"}
+{"ts":"2026-11-18T10:19:30Z","skill":"stardust:rollout","phase":"C-deliver","event":"end","detail":"foundation, archetype-landing, cluster-landing, gate-all, final done; roster gate on aem.live 2/2 PASS (1440 2.64%, 360 6.03%, Δh0, clip0, content0)"}
+{"ts":"2026-11-18T10:19:42Z","skill":"stardust:rollout","phase":"D-site","event":"start","detail":"sitemap/robots/manifest, redirects sheet, root 200, chrome noindex, verify-origin"}
+{"ts":"2026-11-18T10:20:08Z","skill":"stardust:rollout","phase":"D-site","event":"end","detail":"sitemap served 2 = assembled 2; redirects: none needed (0 moved paths); / 200; nav/footer noindex"}
+{"ts":"2026-11-18T10:20:18Z","skill":"stardust:rollout","phase":"D2-dynamic","event":"start","detail":"dynamics-check parity on aem.live; martech scaffold verify"}
+{"ts":"2026-11-18T10:21:36Z","skill":"stardust:rollout","phase":"D2-dynamic","event":"end","detail":"parity 26 features; dynamics-check aem.live 8/8 PASS (nav, drawer, carousels, no-page-errors, martech gate off); tags scaffolded-awaiting-owner"}
+{"ts":"2026-11-18T10:21:45Z","skill":"stardust:rollout","phase":"E-full-site","event":"start","detail":"verify.mjs on aem.live + gate tables into coverage"}
+{"ts":"2026-11-18T10:22:46Z","skill":"stardust:rollout","phase":"E-full-site","event":"end","detail":"2/2 verified on aem.live; /us/en/ → /us/en redirect published (mirrors source 301); gate tables 0 flips"}
+{"ts":"2026-11-18T10:22:53Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"start","detail":"localize-links --check over content/ + live href GETs"}
+{"ts":"2026-11-18T10:23:51Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"end","detail":"61 hrefs: 3 internal 200 on aem.live, 27 out-of-scope → source (200), 31 external; localize-links check PASS"}
+{"ts":"2026-11-18T10:24:01Z","skill":"stardust:rollout","phase":"F-optimize","event":"start","detail":"optimize.mjs on aem.live → findings + scorecard"}
+{"ts":"2026-11-18T10:24:11Z","skill":"stardust:rollout","phase":"F-optimize","event":"end","detail":"health 88/100; open P1 0, P2 2 (jsonld), P3 1; 1 source-parity; gate PASS"}
+{"ts":"2026-11-18T10:24:20Z","skill":"stardust:rollout","phase":"G-aem","event":"start","detail":"autofix-aem dry-run → apply fixable findings"}
+{"ts":"2026-11-18T10:29:57Z","skill":"stardust:rollout","phase":"G-aem","event":"end","detail":"2 candidates manual (jsonld): source WebSite JSON-LD restored verbatim in head.html; re-verify on aem.live after code sync (H)"}
+{"ts":"2026-11-18T10:30:07Z","skill":"stardust:rollout","phase":"H-report","event":"start","detail":"re-verify jsonld on aem.live; summary + learnings"}
+{"ts":"2026-11-18T10:30:38Z","skill":"stardust:rollout","phase":"H-report","event":"end","detail":"2/2 verified, 1 template, 3 blocks; health 98, open P1 0/P2 0/P3 1; report + learnings","artifact":"stardust/rollout/report.md"}
+{"ts":"2026-11-18T10:30:48Z","skill":"stardust:rollout","phase":"I-dashboard","event":"start","detail":"dashboard.mjs"}
+{"ts":"2026-11-18T10:30:53Z","skill":"stardust:rollout","phase":"I-dashboard","event":"end","detail":"dashboard: 2 pages deployed+verified, 3 blocks, health 98","artifact":"stardust/rollout/dashboard/index.html"}
+{"ts":"2026-11-18T10:31:01Z","skill":"stardust:replica","phase":"handoff","event":"end","detail":"2/2 pages live + verified on aem.live; gate 1440 2.64% / 360 6.03%; health 98; done-check complete"}

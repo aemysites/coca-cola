@@ -1,0 +1,241 @@
+{
+  "slug": "us-en",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "carousel",
+    "campaign-card",
+    "brands-list"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "page__title",
+    "carousel",
+    "section-title",
+    "carousel",
+    "btn",
+    "section-title",
+    "campaign-card",
+    "campaign-card",
+    "section-title",
+    "carousel",
+    "section-title",
+    "brands-list",
+    "btn"
+  ],
+  "canonShas": {
+    "header": "40d1051b192f",
+    "footer": "9fc8a212f1be",
+    "css": "2fa4ee803bb8"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "out-of-scope-links-repointed",
+      "count": 30,
+      "target": "https://www.coca-cola.com/<path>",
+      "reason": "only us-en + index are in scope (site-plan.json); 30 not-in-inventory /us/en/* links point back at the source origin (scope debt), data-broken-link dropped"
+    },
+    {
+      "kind": "font-preload-dropped",
+      "what": "2 <link rel=preload as=font crossorigin> for the Anek Latin Expanded substitute",
+      "why": "crossorigin font preload fails CORS under file:// (opaque origin) — file-protocol-audit 2 findings; @font-face in canon.css still loads both faces, rendering unchanged",
+      "delivery": "EDS head.html owns font loading; re-add preload there if wanted",
+      "rerender": "a forced re-render restores them — repeat this post-step"
+    }
+  ],
+  "metadata": {
+    "title": "Explore the Coca‑Cola® Official Site | Coca-Cola US",
+    "description": "Experience the official Coca‑Cola® site to find your favorite drink and discover new products, promos &amp; offers, and more. Shop all Coca-Cola sodas here.",
+    "canonical": null,
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Explore the Coca‑Cola® Official Site | Coca-Cola US",
+    "description": "Experience the official Coca‑Cola® site to find your favorite drink and discover new products, promos &amp; offers, and more. Shop all Coca-Cola sodas here.",
+    "url": "https://www.coca-cola.com/us/en"
+  },
+  "migratedAt": "2026-11-18T07:50:45Z",
+  "designMdSha": "771d50dff172",
+  "designJsonSha": "e779de3e1641",
+  "sourceCurrentSha": "7367aac653b3",
+  "sourceProposedSha": "9259fa3c54cb",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [
+    "carousel--hero carousel--promos carousel--secondary campaign-card--content-right campaign-card--content-left"
+  ],
+  "gatesPassed": [
+    "content-count",
+    "content-fidelity",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "content-count": "content-diff: 3 (0 structural 🔴) — looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 100 (owner 100, auto 0) · advisory 3 (us-en-1440-iter5.log)",
+    "content-fidelity": "verbatim from gated prototype; only internal-link/asset paths rewritten, 30 out-of-scope links repointed to www.coca-cola.com",
+    "pixel-gate-1440": "1.35%, height delta 0px, clipped 0, content n/a (stardust/replica/gates/prototypes-1440/summary.md) [prototype regime]",
+    "pixel-gate-360": "3.61%, height delta 0px, clipped 0, content n/a (stardust/replica/gates/prototypes-360/summary.md) [prototype regime]",
+    "media-reconcile": "n/a: no delivered content file yet (content/us/en.html) — media-reconcile runs in the delivery chain (row C)",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /us/en)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "dynamic-dependency",
+      "source": "rows 6-21 consent/tag managers/analytics/pixels (T)",
+      "target": "omitted; stardust/martech-contract.json all parts off",
+      "reason": "embed-passthrough interim, needs-business-decision; martech scaffold keeps every part disabled"
+    },
+    {
+      "kind": "dynamic-dependency",
+      "source": "row 22 sign-in / account links",
+      "target": "interim buttons per dynamic-features.md",
+      "reason": "needs-backend (auth) — interim"
+    },
+    {
+      "kind": "dynamic-dependency",
+      "source": "rows 5,23,24 header menus/drawer (chrome)",
+      "target": "rebuilt native in header block per stardust/chrome/header-contract.json",
+      "reason": "rebuild-native, self"
+    },
+    {
+      "kind": "dynamic-dependency",
+      "source": "rows 1-3 dataLayer/adobeDataLayer/CQ settings objects",
+      "target": "not shipped",
+      "reason": "static-snapshot; keys name vendor endpoints only, no visible content"
+    }
+  ],
+  "assetsBundled": 41,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/us/en/brands",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/coca-cola-app",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/brands/freestyle",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/impact/culture",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/shop-now",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/holiday",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/coca-cola/football",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/coca-cola/hockey",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/holiday-caravan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/portfolio/evergreen-promotion",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/brands/simply/recipes/holiday",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/hubs/soccer",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/tastebud-map",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/refreshing-films",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/vending",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/brands/coca-cola",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/brands/diet-coke",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/brands/sprite",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/brands/fanta",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/brands/smartwater",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/brands/minute-maid",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/brands",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/about-us/faq",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/sitemap",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/about-us/contact-us",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/offerings/shop-now",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/legal/coca-cola-rules",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/legal/terms-of-service",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "us/en/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "us/en/_meta.json",
+  "driverVersion": "1"
+}

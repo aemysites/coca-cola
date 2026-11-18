@@ -1,7 +1,7 @@
 {
  "_provenance": {
   "writtenBy": "stardust:dynamics detect",
-  "writtenAt": "2026-11-16T06:40:12.970Z",
+  "writtenAt": "2026-11-18T07:06:38.093Z",
   "settleMs": 5000,
   "width": 1440,
   "urls": [
@@ -64,7 +64,7 @@
     },
     {
      "tag": "iframe",
-     "src": "https://15332696.fls.doubleclick.net/activityi;src=15332696;type=globalcc;cat=globalpv;rcb=12;ord=1;num=8618980946022;npa=0;auiddc=1078289632.1794811215;u1=us;u2=en;u3=Homepage;u4=coca-cola;u5=undefin",
+     "src": "https://15332696.fls.doubleclick.net/activityi;src=15332696;type=globalcc;cat=globalpv;rcb=3;ord=1;num=280891047203;npa=0;auiddc=2111564855.1794985600;u1=us;u2=en;u3=Homepage;u4=coca-cola;u5=undefined",
      "account": null,
      "player": null,
      "videoId": null,
@@ -72,7 +72,7 @@
     },
     {
      "tag": "iframe",
-     "src": "https://11500802.fls.doubleclick.net/activityi;src=11500802;type=globalcc;cat=globalpv;rcb=2;ord=7292438915231;npa=0;auiddc=1078289632.1794811215;u1=us;u2=en;u3=Homepage;u4=coca-cola;u5=undefined;u6=h",
+     "src": "https://11500802.fls.doubleclick.net/activityi;src=11500802;type=globalcc;cat=globalpv;rcb=17;ord=698119150462;npa=0;auiddc=2111564855.1794985600;u1=us;u2=en;u3=Homepage;u4=coca-cola;u5=undefined;u6=h",
      "account": null,
      "player": null,
      "videoId": null,
@@ -107,13 +107,13 @@
      "h": 0
     },
     {
-     "src": "https://15332696.fls.doubleclick.net/activityi;src=15332696;type=globalcc;cat=globalpv;rcb=12;ord=1;num=8618980946022;npa=0;auiddc=1078289632.1794811215;u1=us;u2=en;u3=Homepage;u4=coca-cola;u5=undefined;u6=https%3A%2F%2Fwww.coca-cola.com%2Fus%2Fen;u7=%2Fus%2Fen;u8=en;u9=undefined;u12=;u13=undefined;u14=Allow%20All;u15=onetrust-accept-btn-handler;u16=us%7CAllow%20All%7C%7C%2Fus%2Fen;u18=6a5a86ea-6fce-4122-8aec-12a84bba4fa9;u19=undefined;u30=undefined;u31=undefined;u32=undefined;u33=undefined;u34=undefined;u35=undefined;u36=undefined;u38=;u50=undefined;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KJA;gtm=45fe6bb1v9209561989z877164284za20gzb77164284zd77164284xeaxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385423~120412528~120420416~120469145~120469153~121191155~121246026~121246034;epver=2;dc_random=1794811219_Sw_rXlg6xS8szBB93pQg3mmGg6x4rtuYpQ;_dc_test=1;~oref=https%3A%2F%2Fwww.coca-cola.com%2Fus%2Fen?",
+     "src": "https://15332696.fls.doubleclick.net/activityi;src=15332696;type=globalcc;cat=globalpv;rcb=3;ord=1;num=280891047203;npa=0;auiddc=2111564855.1794985600;u1=us;u2=en;u3=Homepage;u4=coca-cola;u5=undefined;u6=https%3A%2F%2Fwww.coca-cola.com%2Fus%2Fen;u7=%2Fus%2Fen;u8=en;u9=undefined;u12=;u13=undefined;u14=Allow%20All;u15=onetrust-accept-btn-handler;u16=us%7CAllow%20All%7C%7C%2Fus%2Fen;u18=94efbb50-8103-4dbb-a367-3fc58ff61c02;u19=undefined;u30=undefined;u31=undefined;u32=undefined;u33=undefined;u34=undefined;u35=undefined;u36=undefined;u38=;u50=undefined;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KJA;gtm=45fe6bg2v9209561989z877164284za20gzb77164284zd77164284xeaxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115616986~115938465~115938468~118897920~118897930~119860443~120213116~120385422~120412526~120420414~120469145~120469153~121191155~121246026~121246034~123322203~123785234;epver=2;dc_random=1794985600_-RabbYG-F7-qFWeWMh-NJk9ReD0SOcg10g;_dc_test=1;~oref=https%3A%2F%2Fwww.coca-cola.com%2Fus%2Fen?",
      "title": null,
      "w": 0,
      "h": 0
     },
     {
-     "src": "https://11500802.fls.doubleclick.net/activityi;src=11500802;type=globalcc;cat=globalpv;rcb=2;ord=7292438915231;npa=0;auiddc=1078289632.1794811215;u1=us;u2=en;u3=Homepage;u4=coca-cola;u5=undefined;u6=https%3A%2F%2Fwww.coca-cola.com%2Fus%2Fen;u7=%2Fus%2Fen;u8=en;u9=undefined;u12=;u13=undefined;u14=Allow%20All;u15=onetrust-accept-btn-handler;u16=us%7CAllow%20All%7C%7C%2Fus%2Fen;u18=6a5a86ea-6fce-4122-8aec-12a84bba4fa9;u19=undefined;u30=undefined;u31=undefined;u32=undefined;u33=undefined;u34=undefined;u35=undefined;u36=undefined;u38=;u50=undefined;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6bb1v9181803283z877164284za20gzb77164284zd77164284xeaxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=100940091~115616985~115938466~115938469~118897920~118897930~120213116~120385422~120412526~120420416~120469145~120469153~121191155~121246026~121246034;epver=2;dc_random=1794811219_Y3YpFWqdsCThbrVX2v-5QGZmunZF9f6nyg;_dc_test=1;~oref=https%3A%2F%2Fwww.coca-cola.com%2Fus%2Fen?",
+     "src": "https://11500802.fls.doubleclick.net/activityi;src=11500802;type=globalcc;cat=globalpv;rcb=17;ord=698119150462;npa=0;auiddc=2111564855.1794985600;u1=us;u2=en;u3=Homepage;u4=coca-cola;u5=undefined;u6=https%3A%2F%2Fwww.coca-cola.com%2Fus%2Fen;u7=%2Fus%2Fen;u8=en;u9=undefined;u12=;u13=undefined;u14=Allow%20All;u15=onetrust-accept-btn-handler;u16=us%7CAllow%20All%7C%7C%2Fus%2Fen;u18=94efbb50-8103-4dbb-a367-3fc58ff61c02;u19=undefined;u30=undefined;u31=undefined;u32=undefined;u33=undefined;u34=undefined;u35=undefined;u36=undefined;u38=;u50=undefined;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6bg2v9181803283z877164284za20gzb77164284zd77164284xeaxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115616985~115938465~115938468~118897920~118897930~119860443~120213116~120385423~120412528~120420416~120469145~120469153~121191155~121246026~121246034~123322203~123785233;epver=2;dc_random=1794985601_nZ0iw5Qmo_DYh2fgkg8WCZAxoIoKm1yM6w;_dc_test=1;~oref=https%3A%2F%2Fwww.coca-cola.com%2Fus%2Fen?",
      "title": null,
      "w": 0,
      "h": 0
@@ -125,7 +125,7 @@
      "h": 0
     },
     {
-     "src": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6Lfl5kkpAAAAAKpdv65yETYXI-V9sBOxG38rw3JK&co=aHR0cHM6Ly93d3cuY29jYS1jb2xhLmNvbTo0NDM.&hl=en&v=4i3aN5wAweL7i3ADI7BSX4B-&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=mjvh5ajwaamn",
+     "src": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6Lfl5kkpAAAAAKpdv65yETYXI-V9sBOxG38rw3JK&co=aHR0cHM6Ly93d3cuY29jYS1jb2xhLmNvbTo0NDM.&hl=en&v=4i3aN5wAweL7i3ADI7BSX4B-&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=544egu9xyvnw",
      "title": "reCAPTCHA",
      "w": 256,
      "h": 60
@@ -174,7 +174,6 @@
      "19",
      "20",
      "21",
-     "22",
      "push"
     ],
     "adobeDataLayer": [
@@ -222,122 +221,125 @@
    ],
    "clientRendered": [],
    "listingCandidates": [],
-   "inlineScripts": 25,
+   "inlineScripts": 24,
    "inlineFetch": false,
-   "mainText": 6288,
-   "domAddedAfterLoad": 60,
+   "mainText": 6908,
+   "domAddedAfterLoad": 34,
    "hosts": {
-    "www.coca-cola.com": 45,
+    "www.coca-cola.com": 39,
     "cdn.cookielaw.org": 12,
+    "cdn.global.gcds.coke.com": 1,
     "rum.hlx.page": 1,
-    "geolocation.onetrust.com": 1,
     "www.googletagmanager.com": 6,
+    "geolocation.onetrust.com": 1,
     "js.adsrvr.org": 2,
-    "connect.facebook.net": 2,
-    "www.google.com": 11,
     "cdn1.adoberesources.net": 1,
+    "www.google.com": 11,
     "bat.bing.com": 3,
     "analytics.tiktok.com": 16,
     "ad.doubleclick.net": 3,
     "insight.adsrvr.org": 2,
-    "match.adsrvr.org": 4,
-    "simage2.pubmatic.com": 1,
-    "pixel.rubiconproject.com": 1,
-    "dsum-sec.casalemedia.com": 2,
-    "privacyportal.onetrust.com": 1,
+    "match.adsrvr.org": 5,
     "gtm.coca-cola.com": 3,
-    "www.gstatic.com": 5,
+    "privacyportal.onetrust.com": 1,
+    "connect.facebook.net": 2,
     "adobedc.demdex.net": 1,
-    "analytics.google.com": 3,
+    "www.gstatic.com": 5,
+    "simage2.pubmatic.com": 1,
+    "analytics.google.com": 2,
+    "ib.adnxs.com": 2,
+    "x.bidswitch.net": 2,
+    "cms.quantserve.com": 2,
     "cm.g.doubleclick.net": 2,
     "cm.everesttech.net": 1,
     "login-ds.dotomi.com": 1,
     "stats.g.doubleclick.net": 1,
-    "www.facebook.com": 1,
-    "cms.quantserve.com": 2,
     "dpm.demdex.net": 5,
-    "cdn.jsdelivr.net": 1,
-    "smetrics.coca-cola.com": 6,
-    "fonts.gstatic.com": 1,
-    "aimfar.solution.weborama.fr": 2,
+    "smetrics.coca-cola.com": 5,
     "15332696.fls.doubleclick.net": 2,
-    "11500802.fls.doubleclick.net": 2,
+    "fonts.gstatic.com": 1,
     "adservice.google.com": 2,
     "googleads.g.doubleclick.net": 1,
-    "analytics-ipv6.tiktokw.us": 1
+    "11500802.fls.doubleclick.net": 2,
+    "aimfar.solution.weborama.fr": 2,
+    "analytics-ipv6.tiktokw.us": 1,
+    "www.facebook.com": 1,
+    "cdn.jsdelivr.net": 1
    },
    "thirdPartyHosts": [
     "cdn.cookielaw.org",
+    "cdn.global.gcds.coke.com",
     "rum.hlx.page",
-    "geolocation.onetrust.com",
     "www.googletagmanager.com",
+    "geolocation.onetrust.com",
     "js.adsrvr.org",
-    "connect.facebook.net",
-    "www.google.com",
     "cdn1.adoberesources.net",
+    "www.google.com",
     "bat.bing.com",
     "analytics.tiktok.com",
     "ad.doubleclick.net",
     "insight.adsrvr.org",
     "match.adsrvr.org",
-    "simage2.pubmatic.com",
-    "pixel.rubiconproject.com",
-    "dsum-sec.casalemedia.com",
     "privacyportal.onetrust.com",
-    "www.gstatic.com",
+    "connect.facebook.net",
     "adobedc.demdex.net",
+    "www.gstatic.com",
+    "simage2.pubmatic.com",
     "analytics.google.com",
+    "ib.adnxs.com",
+    "x.bidswitch.net",
+    "cms.quantserve.com",
     "cm.g.doubleclick.net",
     "cm.everesttech.net",
     "login-ds.dotomi.com",
     "stats.g.doubleclick.net",
-    "www.facebook.com",
-    "cms.quantserve.com",
     "dpm.demdex.net",
-    "cdn.jsdelivr.net",
-    "fonts.gstatic.com",
-    "aimfar.solution.weborama.fr",
     "15332696.fls.doubleclick.net",
-    "11500802.fls.doubleclick.net",
+    "fonts.gstatic.com",
     "adservice.google.com",
     "googleads.g.doubleclick.net",
-    "analytics-ipv6.tiktokw.us"
+    "11500802.fls.doubleclick.net",
+    "aimfar.solution.weborama.fr",
+    "analytics-ipv6.tiktokw.us",
+    "www.facebook.com",
+    "cdn.jsdelivr.net"
    ],
    "scripts": [
+    "https://www.coca-cola.com/onexp-theme/de5b75d8aeda675eef9c85e81adf9d05ec939b9fa71d7d019e166a182f77aa4f/theme.js",
     "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
     "https://www.coca-cola.com/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.lc-0a6aff292f5cc42142779cde92054524-lc.min.js",
-    "https://www.coca-cola.com/onexp-theme/18b0fb116e5f38df6fa41bcb6d3a6e980c6fe693e0daee40c5e8d5f19c429e4d/theme.js",
+    "https://cdn.global.gcds.coke.com/naou/sdk/latest.js?v6",
     "https://www.coca-cola.com/etc.clientlibs/onexp/clientlibs/clientlib-base.lc-7a24a291d40ac2c0290fc699b9f9a90e-lc.min.js",
-    "https://www.coca-cola.com/etc.clientlibs/core/wcm/components/commons/datalayer/acdl/core.wcm.components.commons.datalayer.acdl.lc-bf921af342fd2c40139671dbf0920a1f-lc.min.js",
     "https://www.coca-cola.com/etc.clientlibs/core/wcm/components/commons/datalayer/v2/clientlibs/core.wcm.components.commons.datalayer.v2.lc-1e0136bad0acfb78be509234578e44f9-lc.min.js",
+    "https://www.coca-cola.com/etc.clientlibs/core/wcm/components/commons/datalayer/acdl/core.wcm.components.commons.datalayer.acdl.lc-bf921af342fd2c40139671dbf0920a1f-lc.min.js",
     "https://www.coca-cola.com/etc.clientlibs/cep/clientlibs/clientlib-cwr.lc-085b194b52d77cc30f6cc60ab771e406-lc.min.js",
     "https://rum.hlx.page/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
     "https://www.googletagmanager.com/gtm.js?id=GTM-NBWPCZW",
     "https://cdn.cookielaw.org/scripttemplates/202604.2.0/otBannerSdk.js",
-    "https://www.coca-cola.com/onexp-theme/18b0fb116e5f38df6fa41bcb6d3a6e980c6fe693e0daee40c5e8d5f19c429e4d/splide.esm.js",
-    "https://www.googletagmanager.com/gtm.js?id=GTM-NCZ3RJJ&gtm=4e6bb1",
+    "https://www.coca-cola.com/onexp-theme/de5b75d8aeda675eef9c85e81adf9d05ec939b9fa71d7d019e166a182f77aa4f/splide.esm.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-NCZ3RJJ&gtm=4e6bg2",
     "https://js.adsrvr.org/up_loader.1.1.0.js",
-    "https://connect.facebook.net/en_US/fbevents.js",
-    "https://www.google.com/recaptcha/enterprise.js?render=6Lfl5kkpAAAAAKpdv65yETYXI-V9sBOxG38rw3JK",
     "https://cdn1.adoberesources.net/alloy/2.35.0/alloy.min.js",
-    "https://www.googletagmanager.com/gtag/js?id=G-64WQLHS3QK&cx=c&gtm=4e6bb1",
+    "https://www.google.com/recaptcha/enterprise.js?render=6Lfl5kkpAAAAAKpdv65yETYXI-V9sBOxG38rw3JK",
+    "https://www.googletagmanager.com/gtag/js?id=G-64WQLHS3QK&cx=c&gtm=4e6bg2",
     "https://bat.bing.com/bat.js",
-    "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CG4ASP3C77U3CJDBJ5P0&lib=ttq",
     "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CSL7QJJC77UDA081RBJG&lib=ttq",
-    "https://connect.facebook.net/signals/config/445517645167225?v=2.9.439&r=stable&domain=www.coca-cola.com&optin_meta_enabled_capi=true&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc77",
+    "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CG4ASP3C77U3CJDBJ5P0&lib=ttq",
+    "https://connect.facebook.net/en_US/fbevents.js",
     "https://js.adsrvr.org/universal_pixel.js",
     "https://www.gstatic.com/recaptcha/releases/4i3aN5wAweL7i3ADI7BSX4B-/recaptcha__en.js",
-    "https://www.googletagmanager.com/gtag/destination?id=DC-15332696&cx=c&gtm=4e6bb1",
-    "https://www.googletagmanager.com/gtag/destination?id=DC-11500802&cx=c&gtm=4e6bb1",
-    "https://www.googletagmanager.com/gtag/destination?id=AW-10818593830&cx=c&gtm=4e6bb1",
-    "https://login-ds.dotomi.com/profile/visit/script/ust/ws?dtm_cid=84662&dtm_fid=9746&dtm_cmagic=98e4ab&dtm_cookie_id=1794811215385903777169506640385&dtmc_loc=https%3A%2F%2Fwww.coca-cola.com%2Fus%2Fen&dt",
+    "https://www.googletagmanager.com/gtag/destination?id=DC-15332696&cx=c&gtm=4e6bg2",
+    "https://www.googletagmanager.com/gtag/destination?id=AW-10818593830&cx=c&gtm=4e6bg2",
+    "https://www.googletagmanager.com/gtag/destination?id=DC-11500802&cx=c&gtm=4e6bg2",
+    "https://login-ds.dotomi.com/profile/visit/script/ust/ws?dtm_cid=84662&dtm_fid=9746&dtm_cmagic=98e4ab&dtm_cookie_id=1794985600210490098193579270312&dtmc_loc=https%3A%2F%2Fwww.coca-cola.com%2Fus%2Fen&dt",
     "https://bat.bing.com/p/action/187146240.js",
-    "https://analytics.tiktok.com/i18n/pixel/static/main.MTAyNjc1NzVmOQ.js",
-    "https://analytics.tiktok.com/i18n/pixel/static/main.MTAyNjc1NzVmMA.js",
-    "https://cdn.jsdelivr.net/npm/meta-capi-param-builder-clientjs/dist/clientParamBuilder.bundle.js",
+    "https://analytics.tiktok.com/i18n/pixel/static/main.MTUyMzg1YjAxOQ.js",
+    "https://analytics.tiktok.com/i18n/pixel/static/main.MTUyMzg1YjAxMA.js",
+    "https://connect.facebook.net/signals/config/445517645167225?v=2.9.441&r=stable&domain=www.coca-cola.com&optin_meta_enabled_capi=true&hme=abf59d235177e3601acac6035d7c2a28fadbda4b0c64009bc203ceed9fa8bb9",
     "https://www.google.com/recaptcha/enterprise/webworker.js?hl=en&v=4i3aN5wAweL7i3ADI7BSX4B-",
-    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10818593830/?random=1794811219175&cv=11&fst=1794811219175&bg=ffffff&guid=ON&async=1&gtm=45be6bb1v894458824z89126909420za20gzb9126909420",
-    "https://analytics.tiktok.com/i18n/pixel/static/identify_7e562ea6.js"
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10818593830/?random=1794985600956&cv=11&fst=1794985600956&bg=ffffff&guid=ON&async=1&gtm=45be6bg2v894458824z89126909420za20gzb9126909420",
+    "https://analytics.tiktok.com/i18n/pixel/static/identify_f7846436.js",
+    "https://cdn.jsdelivr.net/npm/meta-capi-param-builder-clientjs/dist/clientParamBuilder.bundle.js"
    ],
    "firstPartyApi": [
     {
@@ -439,22 +441,22 @@
     "GET cdn.cookielaw.org/consent/0c78f894-f494-492b-8b21-a0bf3c6bfdfd/0c78f894-f494-492b-8b21-a0bf3c6bfd",
     "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
     "GET cdn.cookielaw.org/consent/0c78f894-f494-492b-8b21-a0bf3c6bfdfd/019e1c73-20ac-7d29-bbee-cb2c1dc548",
-    "GET cdn.cookielaw.org/scripttemplates/202604.2.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/scripttemplates/202604.2.0/assets/otCookieSettingsButton.json",
     "GET cdn.cookielaw.org/scripttemplates/202604.2.0/assets/v2/otPcCenter.json",
     "GET cdn.cookielaw.org/scripttemplates/202604.2.0/assets/otFloatingRoundedCorner.json",
-    "GET cdn.cookielaw.org/scripttemplates/202604.2.0/assets/otCookieSettingsButton.json",
+    "GET cdn.cookielaw.org/scripttemplates/202604.2.0/assets/otCommonStyles.css",
     "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
     "POST www.google.com/ccm/collect",
     "POST ad.doubleclick.net/ccm/s/collect",
     "POST privacyportal.onetrust.com/request/v1/consentreceipts/anonymous",
     "POST adobedc.demdex.net/ee/v1/interact",
     "POST analytics.google.com/g/collect",
-    "POST insight.adsrvr.org/track/realtimeconversion",
+    "POST ad.doubleclick.net/activity;src=15332696;type=globalcc;cat=globalpv;rcb=3;ord=1;num=280891047203;n",
+    "GET www.google.com/gmp/conversion/_dc_unique_id=17345754598673688851;_dc_ptd=ChAIgJPw1wYQ7br_jdXd1",
     "POST www.google.com/rmkt/collect/10818593830/",
-    "POST ad.doubleclick.net/activity;src=15332696;type=globalcc;cat=globalpv;rcb=12;ord=1;num=8618980946022",
-    "POST ad.doubleclick.net/activity;src=11500802;type=globalcc;cat=globalpv;rcb=2;ord=7292438915231;npa=0;",
-    "GET www.google.com/gmp/conversion/_dc_unique_id=18331999062404451336;_dc_ptd=ChEIgM3l1wYQrOuh0cjXi",
-    "GET www.google.com/gmp/conversion/_dc_unique_id=6286222428698546001;_dc_ptd=ChEIgM3l1wYQrOuh0cjXir",
+    "POST insight.adsrvr.org/track/realtimeconversion",
+    "POST ad.doubleclick.net/activity;src=11500802;type=globalcc;cat=globalpv;rcb=17;ord=698119150462;npa=0;",
+    "GET www.google.com/gmp/conversion/_dc_unique_id=10774166078383078613;_dc_ptd=ChAIgJPw1wYQ7br_jdXd1",
     "POST www.google.com/recaptcha/enterprise/reload",
     "POST www.google.com/recaptcha/enterprise/clr"
    ],
@@ -464,48 +466,48 @@
      "body": "{\"requestInformation\":\"eyJhbGciOiJSUzUxMiJ9.eyJvdEp3dFZlcnNpb24iOjEsInByb2Nlc3NJZCI6Ijc3MWNhMDJjLTcyODctNGQyNi05OWU1LWRmOTEwMTdhODI3NyIsInByb2Nlc3NWZXJzaW9uIjoxLCJpYXQiOiIyMDI2LTA1LTEyVDE1OjU4OjE0LjcxIiwibW9jIjoiQ09PS0lFIiwicG9saWN5X3VyaSI6ImNvY2EtY29sYS5jb20vdXMvZW4iLCJzdWIiOiJDb29raWUgVW5pcXVlIElkIiwiaXNzIjpudWxsLCJ0ZW5hbnRJZCI6ImUzYWI3YWRmLWJlYjktNDc2OS04NDRlLWMxZWM0ZTZkMTdiYiIsImRlc2NyaXB0aW9u"
     },
     {
-     "url": "https://www.google.com/ccm/collect?rcb=6&frm=0&apvc=1&ae=g&auid=1078289632.1794811215&dt=Explore%20the%20Coca%E2%80%91Cola%C2%AE%20Official%20Site%20%7C%20Coca-Cola%20US&en=page_view&dl=https%3A%2F%2F",
+     "url": "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=1&ae=g&auid=2111564855.1794985600&dt=Explore%20the%20Coca%E2%80%91Cola%C2%AE%20Official%20Site%20%7C%20Coca-Cola%20US&en=page_view&dl=https%3A%2F%2",
      "body": ""
     },
     {
-     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1078289632.1794811215&gtm=45He6bb1v9126909420za20gzb77164284zd77164284xeaxf1&fmt=8",
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=2111564855.1794985600&gtm=45He6bg2v9126909420za20gzb77164284zd77164284xeaxf1&fmt=8",
      "body": ""
     },
     {
-     "url": "https://adobedc.demdex.net/ee/v1/interact?configId=2f98ea35-c6c2-4d6e-8244-3e36d267e7d9&requestId=f4f843e5-036d-4d9c-96a5-966ef5c671de",
-     "body": "{\"events\":[{\"xdm\":{\"web\":{\"webPageDetails\":{\"URL\":\"https://www.coca-cola.com/us/en\"},\"webReferrer\":{\"URL\":\"\"}},\"device\":{\"screenHeight\":900,\"screenWidth\":1440,\"screenOrientation\":\"landscape\"},\"environment\":{\"type\":\"browser\",\"browserDetails\":{\"viewportWidth\":1440,\"viewportHeight\":900}},\"placeContext\":{\"localTimezoneOffset\":0,\"localTime\":\"2026-11-16T06:40:15.220+00:00\",\"ianaTimezone\":\"UTC\"},\"timesta"
+     "url": "https://adobedc.demdex.net/ee/v1/interact?configId=2f98ea35-c6c2-4d6e-8244-3e36d267e7d9&requestId=d743fd04-9833-4feb-aed8-4d035fa9dd61",
+     "body": "{\"events\":[{\"xdm\":{\"web\":{\"webPageDetails\":{\"URL\":\"https://www.coca-cola.com/us/en\"},\"webReferrer\":{\"URL\":\"\"}},\"device\":{\"screenHeight\":900,\"screenWidth\":1440,\"screenOrientation\":\"landscape\"},\"environment\":{\"type\":\"browser\",\"browserDetails\":{\"viewportWidth\":1440,\"viewportHeight\":900}},\"placeContext\":{\"localTimezoneOffset\":0,\"localTime\":\"2026-11-18T07:06:40.062+00:00\",\"ianaTimezone\":\"UTC\"},\"timesta"
     },
     {
-     "url": "https://analytics.google.com/g/collect?v=2&tid=G-64WQLHS3QK&gtm=45je6bb1v9136009227za20ozb77164284zd77164284xf1&_p=1794811213422&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&cid=716089470.17948112",
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-64WQLHS3QK&gtm=45je6bg2v9136009227za20ozb77164284zd77164284xf1&_p=1794985598439&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&cid=519340710.17949856",
      "body": ""
     },
     {
-     "url": "https://smetrics.coca-cola.com/ee/or2/v1/interact?configId=2f98ea35-c6c2-4d6e-8244-3e36d267e7d9&requestId=c4525c7f-0ab0-4530-9c14-233220586666",
-     "body": "{\"events\":[{\"xdm\":{\"eventType\":\"decisioning.propositionFetch\",\"web\":{\"webPageDetails\":{\"URL\":\"https://www.coca-cola.com/us/en\"},\"webReferrer\":{\"URL\":\"\"}},\"device\":{\"screenHeight\":900,\"screenWidth\":1440,\"screenOrientation\":\"landscape\"},\"environment\":{\"type\":\"browser\",\"browserDetails\":{\"viewportWidth\":1440,\"viewportHeight\":900}},\"placeContext\":{\"localTimezoneOffset\":0,\"localTime\":\"2026-11-16T06:40:1"
+     "url": "https://smetrics.coca-cola.com/ee/or2/v1/interact?configId=2f98ea35-c6c2-4d6e-8244-3e36d267e7d9&requestId=439e8fa3-5960-484e-954d-33604378658e",
+     "body": "{\"events\":[{\"xdm\":{\"eventType\":\"decisioning.propositionFetch\",\"web\":{\"webPageDetails\":{\"URL\":\"https://www.coca-cola.com/us/en\"},\"webReferrer\":{\"URL\":\"\"}},\"device\":{\"screenHeight\":900,\"screenWidth\":1440,\"screenOrientation\":\"landscape\"},\"environment\":{\"type\":\"browser\",\"browserDetails\":{\"viewportWidth\":1440,\"viewportHeight\":900}},\"placeContext\":{\"localTimezoneOffset\":0,\"localTime\":\"2026-11-18T07:06:4"
     },
     {
-     "url": "https://smetrics.coca-cola.com/ee/or2/v1/interact?configId=2f98ea35-c6c2-4d6e-8244-3e36d267e7d9&requestId=c9c6531a-8993-4f46-ba9c-5e154cf19c2d",
+     "url": "https://smetrics.coca-cola.com/ee/or2/v1/interact?configId=2f98ea35-c6c2-4d6e-8244-3e36d267e7d9&requestId=74b9cc5a-8c94-41ce-a254-ceadc5a28def",
      "body": "{\"events\":[{\"xdm\":{\"eventType\":\"web.webpagedetails.pageViews\",\"web\":{\"webPageDetails\":{\"URL\":\"https://www.coca-cola.com/us/en\",\"siteSection\":\"Homepage\",\"name\":\"Explore the Coca‑Cola® Official Site | Coca-Cola US\",\"server\":\"www.coca-cola.com\",\"pageViews\":{\"value\":1}},\"webReferrer\":{\"URL\":\"\"}},\"device\":{\"screenHeight\":900,\"screenWidth\":1440,\"screenOrientation\":\"landscape\"},\"environment\":{\"type\":\"bro"
+    },
+    {
+     "url": "https://ad.doubleclick.net/activity;src=15332696;type=globalcc;cat=globalpv;rcb=3;ord=1;num=280891047203;npa=0;auiddc=2111564855.1794985600;u1=us;u2=en;u3=Homepage;u4=coca-cola;u5=undefined;u6=https%3",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/10818593830/?random=1794985600956&cv=11&fst=1794985600956&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6bg2v894458824z89126909420za20gzb9126909420zd77164284xeaxf1&gcd=13",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=0&ae=g&auid=2111564855.1794985600&dt=Explore%20the%20Coca%E2%80%91Cola%C2%AE%20Official%20Site%20%7C%20Coca-Cola%20US&tid=AW-10818593830&dl=https%3A",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/activity;src=11500802;type=globalcc;cat=globalpv;rcb=17;ord=698119150462;npa=0;auiddc=2111564855.1794985600;u1=us;u2=en;u3=Homepage;u4=coca-cola;u5=undefined;u6=https%3A%2F%",
+     "body": ""
     },
     {
      "url": "https://insight.adsrvr.org/track/realtimeconversion",
      "body": "{\"data\":[{\"adv\":\"pw1kuog\",\"pixel_ids\":[\"yuimcxx\"],\"referrer_url\":\"https://www.coca-cola.com/us/en\",\"td4\":\"PageView\",\"td5\":\"Homepage\",\"data_processing_option\":null,\"privacy_settings\":[]}]}"
-    },
-    {
-     "url": "https://ad.doubleclick.net/activity;src=15332696;type=globalcc;cat=globalpv;rcb=12;ord=1;num=8618980946022;npa=0;auiddc=1078289632.1794811215;u1=us;u2=en;u3=Homepage;u4=coca-cola;u5=undefined;u6=https",
-     "body": ""
-    },
-    {
-     "url": "https://ad.doubleclick.net/activity;src=11500802;type=globalcc;cat=globalpv;rcb=2;ord=7292438915231;npa=0;auiddc=1078289632.1794811215;u1=us;u2=en;u3=Homepage;u4=coca-cola;u5=undefined;u6=https%3A%2F%",
-     "body": ""
-    },
-    {
-     "url": "https://www.google.com/rmkt/collect/10818593830/?random=1794811219175&cv=11&fst=1794811219175&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6bb1v894458824z89126909420za20gzb9126909420zd77164284xeaxf1&gcd=13",
-     "body": ""
-    },
-    {
-     "url": "https://www.google.com/ccm/collect?rcb=7&frm=0&apvc=0&ae=g&auid=1078289632.1794811215&dt=Explore%20the%20Coca%E2%80%91Cola%C2%AE%20Official%20Site%20%7C%20Coca-Cola%20US&tid=AW-10818593830&dl=https%3A",
-     "body": ""
     }
    ],
    "textAtLoad": 2412,
@@ -601,6 +603,18 @@
    ]
   },
   {
+   "id": "t-unknown-third-party-host-cdn-global-gcds-coke-com",
+   "class": "T",
+   "feature": "unknown third-party host cdn.global.gcds.coke.com",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.global.gcds.coke.com"
+   ],
+   "pages": [
+    "/us/en"
+   ]
+  },
+  {
    "id": "t-unknown-third-party-host-rum-hlx-page",
    "class": "T",
    "feature": "unknown third-party host rum.hlx.page",
@@ -633,17 +647,17 @@
    "hint": "tags",
    "evidence": [
     "js.adsrvr.org",
-    "connect.facebook.net",
     "bat.bing.com",
     "analytics.tiktok.com",
     "ad.doubleclick.net",
     "insight.adsrvr.org",
     "match.adsrvr.org",
-    "pixel.rubiconproject.com",
+    "connect.facebook.net",
+    "ib.adnxs.com",
+    "cms.quantserve.com",
     "cm.g.doubleclick.net",
     "cm.everesttech.net",
-    "stats.g.doubleclick.net",
-    "cms.quantserve.com"
+    "stats.g.doubleclick.net"
    ],
    "pages": [
     "/us/en"
@@ -657,30 +671,6 @@
    "hint": "tags",
    "evidence": [
     "cdn1.adoberesources.net"
-   ],
-   "pages": [
-    "/us/en"
-   ]
-  },
-  {
-   "id": "t-unknown-third-party-host-simage2-pubmatic-com",
-   "class": "T",
-   "feature": "unknown third-party host simage2.pubmatic.com",
-   "hint": "inspect",
-   "evidence": [
-    "simage2.pubmatic.com"
-   ],
-   "pages": [
-    "/us/en"
-   ]
-  },
-  {
-   "id": "t-unknown-third-party-host-dsum-sec-casalemedia-com",
-   "class": "T",
-   "feature": "unknown third-party host dsum-sec.casalemedia.com",
-   "hint": "inspect",
-   "evidence": [
-    "dsum-sec.casalemedia.com"
    ],
    "pages": [
     "/us/en"
@@ -701,6 +691,18 @@
    ]
   },
   {
+   "id": "t-unknown-third-party-host-simage2-pubmatic-com",
+   "class": "T",
+   "feature": "unknown third-party host simage2.pubmatic.com",
+   "hint": "inspect",
+   "evidence": [
+    "simage2.pubmatic.com"
+   ],
+   "pages": [
+    "/us/en"
+   ]
+  },
+  {
    "id": "t-analytics-google-analytics-ads",
    "class": "T",
    "feature": "analytics: Google Analytics / Ads",
@@ -708,6 +710,18 @@
    "hint": "tags",
    "evidence": [
     "analytics.google.com"
+   ],
+   "pages": [
+    "/us/en"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-x-bidswitch-net",
+   "class": "T",
+   "feature": "unknown third-party host x.bidswitch.net",
+   "hint": "inspect",
+   "evidence": [
+    "x.bidswitch.net"
    ],
    "pages": [
     "/us/en"
@@ -726,36 +740,12 @@
    ]
   },
   {
-   "id": "t-unknown-third-party-host-www-facebook-com",
-   "class": "T",
-   "feature": "unknown third-party host www.facebook.com",
-   "hint": "inspect",
-   "evidence": [
-    "www.facebook.com"
-   ],
-   "pages": [
-    "/us/en"
-   ]
-  },
-  {
    "id": "t-analytics-adobe-analytics-experience-cloud-id-first-party-",
    "class": "T",
    "feature": "analytics: Adobe Analytics / Experience Cloud ID (first-party subdomain — needs a CNAME on the new host)",
    "hint": "tags",
    "evidence": [
     "smetrics.coca-cola.com"
-   ],
-   "pages": [
-    "/us/en"
-   ]
-  },
-  {
-   "id": "t-unknown-third-party-host-aimfar-solution-weborama-fr",
-   "class": "T",
-   "feature": "unknown third-party host aimfar.solution.weborama.fr",
-   "hint": "inspect",
-   "evidence": [
-    "aimfar.solution.weborama.fr"
    ],
    "pages": [
     "/us/en"
@@ -774,12 +764,36 @@
    ]
   },
   {
+   "id": "t-unknown-third-party-host-aimfar-solution-weborama-fr",
+   "class": "T",
+   "feature": "unknown third-party host aimfar.solution.weborama.fr",
+   "hint": "inspect",
+   "evidence": [
+    "aimfar.solution.weborama.fr"
+   ],
+   "pages": [
+    "/us/en"
+   ]
+  },
+  {
    "id": "t-unknown-third-party-host-analytics-ipv6-tiktokw-us",
    "class": "T",
    "feature": "unknown third-party host analytics-ipv6.tiktokw.us",
    "hint": "inspect",
    "evidence": [
     "analytics-ipv6.tiktokw.us"
+   ],
+   "pages": [
+    "/us/en"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-facebook-com",
+   "class": "T",
+   "feature": "unknown third-party host www.facebook.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.facebook.com"
    ],
    "pages": [
     "/us/en"

@@ -2,8 +2,9 @@
   "instrument": "stitch-live",
   "url": "https://www.coca-cola.com/",
   "log": [
-    "stitched stardust/replica/gates/all-1440/index/origin.png: 1440x6707 from 8 chunks"
+    "consent dismissed via #onetrust-accept-btn-handler",
+    "stitched stardust/replica/gates/all-1440/index/origin.png: 1440x5785 from 7 chunks"
   ],
   "fontsFailed": [],
-  "at": "2026-11-16T08:34:34.870Z"
+  "at": "2026-11-18T10:16:57.342Z"
 }
